@@ -1,0 +1,25 @@
+{
+    "name": "AudioTextSynchronizer.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1425af6e6558e4deb97fe57288ab0d70",
+        "GUID:07dcbb6497358493fa23aaaad4b6b054"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.whisper.unity",
+            "expression": "",
+            "define": "WHISPER_UNITY"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: Squirrel
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 2447c90cdcdd1420ab6a7d7f1a66642c, type: 3}
+  Text: A squirrel is a small, usually yellowish-orange or grey rodent with a very
+    fluffy tail and short, thick fur. Squirrels are very quick and easily jump from
+    one tree to another. They eat mostly nuts and berries, which they save up for
+    the winter.
+  Timings:
+  - StartPosition: 0.052380953
+    EndPosition: 0.8324931
+    Name: Timing 1
+    Text: A squirrel
+    Rectangle:
+      serializedVersion: 2
+      x: 35.55333
+      y: 21
+      width: 82.70602
+      height: 353.6
+    Color: {r: 0.875, g: 0.09650734, b: 0.09650734, a: 0.16078432}
+  - StartPosition: 0.873
+    EndPosition: 1.7988838
+    Name: Timing 2
+    Text: is a small,
+    Rectangle:
+      serializedVersion: 2
+      x: 122.55381
+      y: 21
+      width: 98.16044
+      height: 353.6
+    Color: {r: 0.44503346, g: 1, b: 0.05925605, a: 0.16078432}
+  - StartPosition: 2.0600002
+    EndPosition: 3.3168328
+    Name: Timing 3
+    Text: usually yellowish-
+    Rectangle:
+      serializedVersion: 2
+      x: 248.39731
+      y: 21
+      width: 133.24704
+      height: 353.6
+    Color: {r: 1, g: 0.65966177, b: 0.49989188, a: 0.16078432}
+  - StartPosition: 3.3930001
+    EndPosition: 4.9483857
+    Name: Timing 4
+    Text: orange or grey rodent
+    Rectangle:
+      serializedVersion: 2
+      x: 389.71945
+      y: 21
+      width: 164.89902
+      height: 353.6
+    Color: {r: 1, g: 0.060121104, b: 0.43826228, a: 0.16078432}
+  - StartPosition: 5.274397
+    EndPosition: 5.960788
+    Name: Timing 5
+    Text: with a very
+    Rectangle:
+      serializedVersion: 2
+      x: 589.1815
+      y: 21
+      width: 72.7699
+      height: 353.6
+    Color: {r: 0.10741491, g: 0.97794116, b: 0.035953693, a: 0.16078432}
+  - StartPosition: 6.058
+    EndPosition: 6.8237677
+    Name: Timing 13
+    Text: fluffy tail
+    Rectangle:
+      serializedVersion: 2
+      x: 672.2577
+      y: 21
+      width: 81.18524
+      height: 353.6
+    Color: {r: 0.049956735, g: 0.5896373, b: 0.9705882, a: 0.16078432}
+  - StartPosition: 7.096
+    EndPosition: 7.6438007
+    Name: Timing 6
+    Text: and short,
+    Rectangle:
+      serializedVersion: 2
+      x: 782.3045
+      y: 21
+      width: 58.07672
+      height: 353.6
+    Color: {r: 0.6904695, g: 0.8897059, b: 0, a: 0.16078432}
+  - StartPosition: 7.8300004
+    EndPosition: 8.650943
+    Name: Timing 7
+    Text: thick fur.
+    Rectangle:
+      serializedVersion: 2
+      x: 860.12177
+      y: 21
+      width: 87.03479
+      height: 353.6
+    Color: {r: 1, g: 0, b: 0.93103456, a: 0.16078432}
+  - StartPosition: 9.068619
+    EndPosition: 10.379967
+    Name: Timing 8
+    Text: Squirrels are very quick
+    Rectangle:
+      serializedVersion: 2
+      x: 991.43774
+      y: 21
+      width: 139.02673
+      height: 353.6
+    Color: {r: 0.11764706, g: 0.15740353, b: 0.9411765, a: 0.16078432}
+  - StartPosition: 10.781
+    EndPosition: 12.865803
+    Name: Timing 9
+    Text: and easily jump from one tree
+    Rectangle:
+      serializedVersion: 2
+      x: 1172.9812
+      y: 21
+      width: 221.02686
+      height: 353.6
+    Color: {r: 0.5735294, g: 0.55817324, b: 0.016868528, a: 0.16078432}
+  - StartPosition: 12.889001
+    EndPosition: 13.657545
+    Name: Timing 10
+    Text: to another.
+    Rectangle:
+      serializedVersion: 2
+      x: 1396.4674
+      y: 21
+      width: 81.479614
+      height: 353.6
+    Color: {r: 0.14749132, g: 0.9117647, b: 0.6587639, a: 0.16078432}
+  - StartPosition: 14.204
+    EndPosition: 16.440285
+    Name: Timing 11
+    Text: They eat mostly nuts and berries,
+    Rectangle:
+      serializedVersion: 2
+      x: 1535.8812
+      y: 21
+      width: 237.08655
+      height: 353.6
+    Color: {r: 0.3806587, g: 0.02638411, b: 0.89705884, a: 0.16078432}
+  - StartPosition: 16.638
+    EndPosition: 18.582644
+    Name: Timing 12
+    Text: which they save up for the winter.
+    Rectangle:
+      serializedVersion: 2
+      x: 1793.9293
+      y: 21
+      width: 206.16736
+      height: 353.6
+    Color: {r: 0.9705882, g: 0.29974046, b: 0.34137928, a: 0.16078432}

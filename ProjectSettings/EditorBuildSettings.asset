@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0. Pre-Start Animation.unity
+    guid: 8a604700f64b74b39b6b24fbc031bbc8
+  - enabled: 1
+    path: Assets/Scenes/1. Start Menu.unity
+    guid: 893d27f15851c4641a1448a53c285b98
+  - enabled: 1
+    path: Assets/Scenes/2. Ancestor Intro.unity
+    guid: 2712215b02e8f481e98537785b91bca8
+  - enabled: 1
+    path: Assets/Scenes/3. Character Selector.unity
+    guid: b74d75406dc124f83ac0ee971868dc09
+  - enabled: 1
+    path: Assets/Scenes/4.5 NEW Entry Sequence.unity
+    guid: da7eed4b23733476882946fd3938b302
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: Assets/Scenes/MokuDialogueScreen.unity
+    guid: a95f5f2a7912a470abf280ecac8a501f
+  - enabled: 1
+    path: Assets/Scenes/DialogueScreen.unity
+    guid: 795046a0407c643f2b625b4b19798752
+  - enabled: 1
+    path: Assets/Scenes/Quest Results.unity
+    guid: d8299c68f281a458cab5618542c76acd
+  - enabled: 1
+    path: Assets/Scenes/4. Entry Sequence.unity
+    guid: 26b3c2f7907bd43d0a70dfb7bdfe4bc4
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: fbb5538ee37d14a25a8b9b08e95bf21e, type: 2}

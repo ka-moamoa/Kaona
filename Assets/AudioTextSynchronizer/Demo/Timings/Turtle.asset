@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: Turtle
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 4ba54a945409a4df48e78d86fed9f3b5, type: 3}
+  Text: Turtles have horny, toothless jaws, and a bony or leathery shell where it
+    hides its head, limbs, and tail. Turtles like to eat plants, jellyfish, shrimp,
+    and clams. Turtles usually lay their eggs in sand on the seashore.
+  Timings:
+  - StartPosition: 0.067675985
+    EndPosition: 1.4423444
+    Name: Timing 1
+    Text: Turtles have horny,
+    Rectangle:
+      serializedVersion: 2
+      x: 33.59693
+      y: 18
+      width: 73.062675
+      height: 175.2
+    Color: {r: 0.027465424, g: 0.22123848, b: 0.9338235, a: 0.16078432}
+  - StartPosition: 1.5353968
+    EndPosition: 2.795864
+    Name: Timing 2
+    Text: toothless jaws,
+    Rectangle:
+      serializedVersion: 2
+      x: 111.60527
+      y: 18
+      width: 66.992966
+      height: 175.2
+    Color: {r: 0.7205882, g: 0.46787074, b: 0.015895342, a: 0.16078432}
+  - StartPosition: 3.1807709
+    EndPosition: 5.22374
+    Name: Timing 3
+    Text: and a bony or leathery shell
+    Rectangle:
+      serializedVersion: 2
+      x: 199.05576
+      y: 18
+      width: 108.5824
+      height: 175.2
+    Color: {r: 0.9705882, g: 0, b: 0, a: 0.16078432}
+  - StartPosition: 5.4521317
+    EndPosition: 6.7549095
+    Name: Timing 4
+    Text: where it hides its head,
+    Rectangle:
+      serializedVersion: 2
+      x: 319.777
+      y: 18
+      width: 69.24173
+      height: 175.2
+    Color: {r: 0, g: 0.74264705, b: 0, a: 0.16078432}
+  - StartPosition: 7.067891
+    EndPosition: 8.594851
+    Name: Timing 5
+    Text: limbs, and tail.
+    Rectangle:
+      serializedVersion: 2
+      x: 405.6535
+      y: 18
+      width: 81.15683
+      height: 175.2
+    Color: {r: 0.73310095, g: 0.875, b: 0.08363968, a: 0.16078432}
+  - StartPosition: 8.996667
+    EndPosition: 9.9526
+    Name: Timing 6
+    Text: Turtles like to eat
+    Rectangle:
+      serializedVersion: 2
+      x: 508.1666
+      y: 18
+      width: 50.80716
+      height: 175.2
+    Color: {r: 0.8152726, g: 0.044279836, b: 0.8602941, a: 0.16078432}
+  - StartPosition: 10.109093
+    EndPosition: 10.730873
+    Name: Timing 7
+    Text: plants,
+    Rectangle:
+      serializedVersion: 2
+      x: 567.29126
+      y: 18
+      width: 33.04718
+      height: 175.2
+    Color: {r: 0, g: 0.70956916, b: 0.9485294, a: 0.16078432}
+  - StartPosition: 10.946576
+    EndPosition: 11.80946
+    Name: Timing 8
+    Text: jellyfish,
+    Rectangle:
+      serializedVersion: 2
+      x: 611.8029
+      y: 18
+      width: 45.861633
+      height: 175.2
+    Color: {r: 0.89610064, g: 0.99264705, b: 0, a: 0.16078432}
+  - StartPosition: 11.9744
+    EndPosition: 12.511598
+    Name: Timing 9
+    Text: shrimp,
+    Rectangle:
+      serializedVersion: 2
+      x: 666.431
+      y: 18
+      width: 28.551697
+      height: 175.2
+    Color: {r: 0.024005214, g: 0.29170457, b: 0.8161765, a: 0.16078432}
+  - StartPosition: 12.816122
+    EndPosition: 13.83128
+    Name: Timing 10
+    Text: and clams.
+    Rectangle:
+      serializedVersion: 2
+      x: 711.16797
+      y: 18
+      width: 53.954956
+      height: 175.2
+    Color: {r: 0.9558824, g: 0.014057107, b: 0.014057107, a: 0.16078432}
+  - StartPosition: 14.224626
+    EndPosition: 15.8531
+    Name: Timing 11
+    Text: Turtles usually lay their
+    Rectangle:
+      serializedVersion: 2
+      x: 786.02893
+      y: 18
+      width: 86.55231
+      height: 175.2
+    Color: {r: 0.009731843, g: 0.44117647, b: 0.0127073, a: 0.16078432}
+  - StartPosition: 15.878458
+    EndPosition: 16.796333
+    Name: Timing 12
+    Text: eggs in sand
+    Rectangle:
+      serializedVersion: 2
+      x: 873.929
+      y: 18
+      width: 48.784424
+      height: 175.2
+    Color: {r: 0.79381317, g: 0.21323532, b: 1, a: 0.16078432}
+  - StartPosition: 16.81712
+    EndPosition: 17.948366
+    Name: Timing 13
+    Text: on the seashore.
+    Rectangle:
+      serializedVersion: 2
+      x: 923.81824
+      y: 18
+      width: 60.12494
+      height: 175.2
+    Color: {r: 0.86764705, g: 0.55649084, b: 0, a: 0.16078432}

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: Butterfly
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: f4b26c02393114b3083fa67fb669c002, type: 3}
+  Text: A butterfly is a beautiful, bright, and colorful insect. They are very hard
+    to spot, because they can pretend to be a flower. Every butterfly starts out as
+    a caterpillar before it turns into a beautiful butterfly.
+  Timings:
+  - StartPosition: 0.0683163
+    EndPosition: 1.0156357
+    Name: Timing 1
+    Text: A butterfly
+    Rectangle:
+      serializedVersion: 2
+      x: 34.193092
+      y: 18
+      width: 58.144196
+      height: 175.2
+    Color: {r: 0.8602941, g: 0.37321582, b: 0.37321582, a: 0.16078432}
+  - StartPosition: 1.0475056
+    EndPosition: 2.5732474
+    Name: Timing 2
+    Text: is a beautiful, bright,
+    Rectangle:
+      serializedVersion: 2
+      x: 94.29338
+      y: 18
+      width: 93.64638
+      height: 175.2
+    Color: {r: 0.4117647, g: 0.5338745, b: 0.8235294, a: 0.16078432}
+  - StartPosition: 2.6597733
+    EndPosition: 4.31759
+    Name: Timing 3
+    Text: and colorful insect.
+    Rectangle:
+      serializedVersion: 2
+      x: 193.25052
+      y: 18
+      width: 101.75284
+      height: 175.2
+    Color: {r: 0.2968396, g: 0.6985294, b: 0.28249353, a: 0.16078432}
+  - StartPosition: 4.5361905
+    EndPosition: 6.403515
+    Name: Timing 4
+    Text: They are very hard to spot,
+    Rectangle:
+      serializedVersion: 2
+      x: 308.4205
+      y: 18
+      width: 114.61191
+      height: 175.2
+    Color: {r: 0.7615037, g: 0.9044118, b: 0.3591047, a: 0.16078432}
+  - StartPosition: 6.6676645
+    EndPosition: 9.104286
+    Name: Timing 5
+    Text: because they can pretend to be a flower.
+    Rectangle:
+      serializedVersion: 2
+      x: 439.24527
+      y: 18
+      width: 149.55399
+      height: 175.2
+    Color: {r: 0.9044118, g: 0.84754205, b: 0.07980106, a: 0.16078432}
+  - StartPosition: 9.382106
+    EndPosition: 11.1674385
+    Name: Timing 6
+    Text: Every butterfly starts out
+    Rectangle:
+      serializedVersion: 2
+      x: 605.8512
+      y: 18
+      width: 109.57941
+      height: 175.2
+    Color: {r: 0.82338387, g: 0.20280059, b: 0.8897059, a: 0.16078432}
+  - StartPosition: 11.240294
+    EndPosition: 12.324261
+    Name: Timing 7
+    Text: as a caterpillar
+    Rectangle:
+      serializedVersion: 2
+      x: 719.90234
+      y: 18
+      width: 66.53125
+      height: 175.2
+    Color: {r: 0.03703501, g: 1, b: 0.9270507, a: 0.16078432}
+  - StartPosition: 12.547415
+    EndPosition: 13.968407
+    Name: Timing 8
+    Text: before it turns into a
+    Rectangle:
+      serializedVersion: 2
+      x: 800.13025
+      y: 18
+      width: 87.2171
+      height: 175.2
+    Color: {r: 0.055687726, g: 0.35087097, b: 0.75735295, a: 0.16078432}
+  - StartPosition: 13.976735
+    EndPosition: 15.530573
+    Name: Timing 9
+    Text: beautiful butterfly.
+    Rectangle:
+      serializedVersion: 2
+      x: 887.8585
+      y: 18
+      width: 95.37085
+      height: 175.2
+    Color: {r: 1, g: 0.17906573, b: 0.1963547, a: 0.16078432}

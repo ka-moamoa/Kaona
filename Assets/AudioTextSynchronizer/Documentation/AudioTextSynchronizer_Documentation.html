@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Audio-Text Synchronizer Documentation</title>
+    <meta content="From Ukraine with Love" name="description">
+    <link href="style.css?" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon.png">
+</head>
+<body>
+<div class="navbar clear">
+    <div class="row content">
+        <a href="#"><img class="logo" src="media/logo.png" alt="Audio-Text Synchronizer"></a>
+        <a class="right" href="https://assetstore.unity.com/packages/slug/233253" target="_blank"><i class="book"></i>&nbsp;Asset Store</a>
+        <a class="right" href="mailto:unitymedved@gmail.com" target="_blank"><i class="mail"></i>&nbsp;
+            unitymedved@gmail.com</a>
+    </div>
+</div>
+
+<div class="container clear">
+    <div class="row wrapper">
+        <div class="sidepanel">
+            <a class="title" href="#">Introduction</a>
+            <a class="section" href="#requirements">Requirements</a>
+            <a class="section" href="#howtoupgrade">How do I upgrade?</a>
+            <a class="section" href="#quickstart">Quick Start</a>
+            <div class="divider left"></div>
+            <a class="title" href="#timingseditor">Timings Editor</a>
+            <a class="section" href="#timingsmanually">Manual creating timings</a>
+            <a class="section" href="#timingsautomatically">Automatic generating timings</a>
+            <a class="section" href="#timingsvalidation">Timings Validation</a>
+            <div class="divider left"></div>
+            <a class="title" href="#textsynchronizer">TextSynchronizer</a>
+            <a class="section" href="#texteffects">Text Effects</a>
+            <a class="section" href="#textsplitters">Text Splitters</a>
+            <a class="section" href="#texthighlighters">Text Highlighters</a>
+            <div class="divider left"></div>
+            <a class="title" href="#apihelp">API Help</a>
+            <a class="section" href="#timing">Timing</a>
+            <a class="section" href="#phraseasset">PhraseAsset</a>
+            <a class="section" href="#textsynchronizer_class">TextSynchronizer</a>
+            <a class="section" href="#texteffectbase">TextEffectBase</a>
+            <a class="section" href="#meshtexteffect">MeshTextEffect</a>
+            <a class="section" href="#richtexteffect">RichTextEffect</a>
+            <div class="divider left"></div>
+            <a class="title" href="#frequentlyusedmethods">Frequently used methods</a>
+            <div class="divider left"></div>
+            <a class="title" href="#upgrading">Upgrading from version 1.x to 2.x</a>
+            <div class="divider left"></div>
+            <a class="title" href="#contacts">Contacts</a>
+            <div class="space double"></div>
+        </div>
+
+        <div class="right-col">
+
+            <h1>Introduction</h1>
+            <p>&emsp;Create dialogues, subtitles, karaoke, interactive books, or any other text effects synchronized with playing audio using this asset!</p>
+
+            <h2 id="requirements">Requirements</h2>
+            <p>&emsp;For the correct work, «Audio-Text Synchronizer» requires:</p>
+            <ul>
+                <li>Audio file;</li>
+                <li>Text of the audio file (can be optional in case of using <a class="section" href="#timingsautomatically">whisper.unity</a>).</li>
+            </ul>
+
+            <h2 id="howtoupgrade">How do I upgrade?</h2>
+            <p>&emsp;First, back up your project.<br>
+                Next, <a href="https://docs.unity3d.com/Manual/upm-ui-update2.html" target="_blank">update the asset</a> to the latest version from Asset Store using Package Manager (Window -> Package
+                Manager).<br>
+                The asset has a comparison list of APIs with changes. To check it, open the <a href="https://unitymedved.bitbucket.io/ATS/2.0/Docs/v.2.0_API_Changes.pdf" target="_blank"><span class="path">v.2.0_API_Changes.pdf</span></a> file.<br>
+                Also, check out this section: <a href="#upgrading">Upgrading from version 1.x to 2.x</a>.<br>
+                If you have any issues or errors, contact me. I'll be happy to help!
+            </p>
+
+            <h2 id="quickstart">Quick Start</h2>
+            <p>&emsp;«Audio-Text Synchronizer» contains two parts:
+            <ul>
+                <li>Editor Window for creating timings. Timing is a time segment on the audio timeline, which contains the text.
+                    They allow getting high accuracy of synchronization of audio and text. Timings can be generated in 3 ways:
+                    <ul>
+                        <li>Automatically from AudioClip using <a href="https://github.com/Macoron/whisper.unity" target="_blank">whisper.unity</a> package;</li>
+                        <li>From subtitles file in .srt format;</li>
+                        <li>Manually in the TimingsEditor.</li>
+                    </ul>
+                </li>
+                <li>Runtime part: to synchronize text with audio, you need to add one component and set up a few parameters.</li>
+            </ul>
+
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h1 id="timingseditor">Timings Editor</h1>
+            <p>&emsp;For text and audio synchronization, you need to create timings of AudioClip, add the TextSynchronizer component, and setup its parameters.<br>
+            &emsp;To create timings user can open Timings Editor from «Window -> Audio Text Synchronizer -> Timings Editor» or create
+            <mark>PhraseAsset</mark> using menu <span class="path">Assets/Audio Text Synchronizer/Audio Timings</span> and open it using double-click:<br>
+                <img class="center" src="media/newTimings.png" alt="Create Audio Timings" onload="this.width/=2;"><br>
+                <img class="center" src="media/timingsEditor.png" alt="Timings Editor" onload="this.width/=2;"><br>
+                You can choose the AudioClip from the window using the AudioClip field:
+                <img class="center" src="media/timingsEditorAudioClip.png" alt="Audio Clip" onload="this.width/=2;"><br>
+                After that Timeline of the current AudioClip is displayed:
+            <img class="center" src="media/timingsEditorAudioClipSquirrel.png" alt="Audio Clip" onload="this.width/=2;"><br>
+            &emsp;A red vertical line on the left of the timeline is a cursor of the current position of playing audio.
+                By double-clicking on the timeline user can move the cursor. At the bottom of the cursor is the current audio time position.
+                Let's look at the elements of the window:<br>
+            <img class="center" src="media/timingsEditorSections.png" alt="Timings Editor items" onload="this.width/=2;"><br>
+            </p>
+            <ul>
+            <li>Pointer 1 contains buttons - <span class="button">New</span>, <span class="button">Load</span>, <span class="button">Save</span>,
+                <span class="button">Language</span> popup, <span class="button">Generate timings</span> and <span class="button">Validate</span> buttons.
+                <ul>
+                    <li><span class="button">New</span> button creates new timings;</li>
+                    <li><span class="button">Load</span> button loads existing or creates timings from subtitles (.srt) files;</li>
+                    <li><span class="button">Save</span> button save current timings to file;</li>
+                    <li><span class="button">Language</span> popup allows to select AudioClip language to provide more accuracy timings generation;</li>
+                    <li><span class="button">Generate timings</span> button generates timings using <a href="https://github.com/Macoron/whisper.unity" target="_blank">whisper.unity</a> package.</li>
+                    <li><span class="button">Validate</span> button validates timings and print result of the validation to the Console tab.</li>
+                </ul>
+            </li>
+            <li>
+                Pointer 2 contains information about zooming of the timeline and the auto-save feature. You can zoom the timeline using a mouse scroll-wheel or touchpad.
+                For zoom-in, scroll up. For zoom out, scroll down. When checkbox «Auto Save» is on, saved timings data will be saved automatically in case of timings were saved to the file;
+            </li>
+            <li>Pointer 3 contains buttons - <span class="button">Add Timing</span>, <span class="button">Remove Timing</span>, <span class="button">Play/Pause</span> and <span class="button">Play Selected Timing</span>:</li>
+            </ul>
+            <ul>
+                <li><span class="button">Add Timing</span> button adds new timing into the current position of the cursor on the timeline;</li>
+                <li><span class="button">Remove Timing</span> button remove selected timings;</li>
+                <li><span class="button">Play/Pause</span> button plays AudioClip in the current position of the cursor on the timeline;</li>
+                <li><span class="button">Play Selected Timing</span> button plays a segment of audio containing current timing.</li>
+            </ul>
+            <ul>
+                <li>Pointer 4 contains a text field. In this text should be all text of AudioClip;</li>
+                <li>Pointer 5 contains the AudioClip timeline.</li>
+            </ul>
+
+            <h2 id="timingsmanually">Manual creating timings</h2>
+            <p>&emsp;Let’s add timings to the timeline. To add timing, click the <span class="button">Add Timing</span> button or the right mouse button and choose the item «Insert new timing».
+                Timing will be added to the current cursor position on the timeline:<br>
+            <img class="center" src="media/timingsEditorNewTiming.png" alt="New timing" onload="this.width/=2;"><br>
+            &emsp;New timing will be added and selected. At the bottom of the window, you can find information about new timing.
+                This box contains information about «Timing name», «Start» position of timing, «End» position of timing, «Duration» of timing,
+                «Color» of timing, and «Timing Text» - text, which timing contains.<br>
+            &emsp;Now let’s add text to timings and move them to the correct positions. To change the timing duration, drag-n-drop timing left and right borders.</p>
+            <div class="info"><i class="infoIcon"></i>Use mouse scroll to zoom in/out the timeline.</div>
+            <div class="info"><i class="infoIcon"></i>Hold the «Shift» key and drag-n-drop its borders to move timing faster.</div>
+            <div class="info"><i class="infoIcon"></i>Hold the «Alt» key and drag-n-drop its borders to get better precision and move timing slower.</div>
+            <p>For example, let's resize this timing in that way: start position at 0.0052 sec, end position at 0.0842 sec, and add the text «A squirrel»:<br>
+                <video class="center" width="737" height="468" autoplay muted loop>
+                    <source src="media/timingsEditorNewTimingAnimation.mp4" type="video/mp4">
+                    <source src="media/timingsEditorNewTimingAnimation.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video><br>
+            To make sure that it’s correct, press the button «Play Selected Timing» to play the AudioClip segment:<br>
+            <img class="center" src="media/timingsEditorNewTimingPlay.png" alt="Play selected timing" onload="this.width/=2;"><br>
+                In this way, add timings for all AudioClip timeline. It is also possible to choose a Color and Name of timings for convenience. Note that setting up the
+                Color and Name is unnecessary and displays only in Timings Editor. To select many timings and move them, use the selection rectangle by mouse:
+            <img class="center" src="media/timingsEditorFinished.png" alt="Timings added" onload="this.width/=2;"><br>
+                Also, Timings should contain the main text at the bottom of the Window - it is the whole text of AudioClip:
+            <img class="center" src="media/timingsEditorMainText.png" alt="Timings text" onload="this.width/=2;"><br>
+                After finishing work with timings, timings can be saved in the file using the button <span class="button">Save</span>.
+                Timings Editor will ask to choose a filename and path, where the timings asset will be saved:
+            <img class="center" src="media/timingsEditorSave.png" alt="Timings saving" onload="this.width/=2;"><br>
+            &emsp;For loading timings from the file, double-click with the left mouse button on the timings asset (PhraseAsset), or select the timings asset and press <span class="button">Open in Timings Editor</span> button:
+            <img class="center" src="media/phraseAsset.png" alt="PhraseAsset" onload="this.width/=2;"><br>
+                To resize timeline height, you can drag-n-drop slider:
+            <img class="center" src="media/timingsEditorSize.png" alt="Timings Editor size" onload="this.width/=2;"><br>
+                Saved Timings can be displayed in the Inspector Window. You can edit it in Inspector instead of Timings Editor:
+            <img class="center" src="media/phraseAssetInspector.png" alt="PhraseAsset in Inspector Window" onload="this.width/=2;"><br>
+	        &emsp;Timings can be separated by word or characters. User can divide audio on timing as necessary. For better synchronization accuracy,
+                add the appropriate number of timings. It is recommended to add timings to phrases or words, depending on AudioClip.
+            </p>
+
+            <h2 id="timingsautomatically">Automatic generating timings</h2>
+            <p>&emsp;Timings can be generated automatically using <a href="https://github.com/Macoron/whisper.unity" target="_blank">whisper.unity</a> package.
+                It provides high-performance inference of <a href="https://github.com/openai/whisper" target="_blank">OpenAI's Whisper</a> automatic speech recognition
+                (ASR) model running on your local machine (no internet required).<br>
+                &emsp;This works with 90+ <a href="https://github.com/openai/whisper/blob/main/whisper/tokenizer.py" target="_blank">languages</a> and require
+                <a href="https://huggingface.co/ggerganov/whisper.cpp">Whisper model weight</a>. The smallest model means worse quality of automatic speech recognition
+                but works faster compared to other models. The bigger model size means better quality but works slower and
+                <a href="https://github.com/ggerganov/whisper.cpp#memory-usage" target="_blank">uses more memory</a>. Using «whisper.unity», you can generate timings in runtime,
+                and recognize text using microphone record.<br>
+                &emsp;To install «whisper.unity», open «Window -> Audio Text Synchronizer -> Whisper Installer»:
+                <img class="center" src="media/whisperInstaller.png" alt="Whisper Installer" onload="this.width/=2;"><br>
+            &emsp;Press <span class="button">Install</span> button to install «whisper.unity» package. It will download and install the latest compatible version from the
+                <a href="https://github.com/Macoron/whisper.unity" target="_blank">github</a>. The progress of the installation will be displayed in the Console tab.<br>
+                <img class="center" src="media/whisperInstallerModel.png" alt="Whisper Installer" onload="this.width/=2;"><br>
+            <div class="info"><i class="infoIcon"></i>If you're getting a message in Console: <i>No 'git' executable was found. Please install Git on your system and restart Unity.</i>
+                Please install <a href="https://git-scm.com/downloads" target="_blank">git</a> and restart your system.</div>
+            &emsp;You can also install «whisper.unity» manually using Package Manager from <a href="https://github.com/Macoron/whisper.unity" target="_blank">github</a>.
+            I recommend using Whisper Installer as it installs compatible version of «whisper.unity» with «Audio-Text Synchronizer».<br>
+            &emsp;To uninstall «whisper.unity», open Package Manager, select «whisper.unity» package and click on <span class="button">Remove</span> button.<br>
+            &emsp;After installation you need to download at least one Whisper model. Choose the model you want to download and press <span class="button">Download</span> button:
+                <img class="center" src="media/whisperInstallerModel2.png" alt="Whisper Installer" onload="this.width/=2;"><br>
+            &emsp;Downloaded models are located in <span class="path">Assets/StreamingAssets/Whisper/</span> folder. You can choose and download the available models in the <span class="asset">WhisperSettings</span> that is located at: <span class="path">Assets/AudioTextSynchronizer/Resources/WhisperSettings.asset</span>:
+                <img class="center" src="media/whisperSettings.png" alt="Whisper Installer" onload="this.width/=2;"><br>
+            &emsp;After that you can generate timings in TimingsEditor. For that open Timings Editor from «Window -> Audio Text Synchronizer -> Timings Editor», choose
+            the AudioClip, Language (optional) and click on the <span class="button">Generate timings</span> button:
+            <div class="images">
+            <video class="center2" width="736" height="356" autoplay muted loop>
+                <source src="media/timingsGeneration.mp4" type="video/mp4">
+                <source src="media/timingsGeneration.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+            </video>
+            </div>
+            <div class="info"><i class="infoIcon"></i>Please not that AudioClip <a href="https://docs.unity3d.com/Manual/class-AudioClip.html" target="_blank">Load Type</a> should be set as "Decompress On Load".</div>
+            &emsp;That's all! Now you can save the timings using <span class="button">Save</span> button. Please note that speech recognition accuracy may vary with
+            different model weights. To get the best speech recognition result use the biggest model.<br>
+            &emsp;Asset also supports batch processing of the AudioClips. For that, select AudioClips in the Project tab and choose in the menu
+            «Assets -> Create -> Audio Text Synchronizer -> Generate Timings»:
+            <div class="images">
+                <video class="center" width="720" height="483" autoplay muted loop>
+                    <source src="media/batchGeneration.mp4" type="video/mp4">
+                    <source src="media/batchGeneration.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>&emsp;Please note that I added ability to use «whisper.unity» in «Audio-Text Synchronizer», but I cannot guarantee flawless performance and work of
+                «whisper.unity» package. Using the «whisper.unity» package is optional.
+            </p>
+
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h2 id="timingsvalidation">Timings Validation</h2>
+            <p>&emsp;Timings Validation - it’s functional that helps to validate timings text corresponding main text of the audio clip. After validation,
+                it reports if there are problems with timings to the «Console» window. To use it, fill timings with corresponding text and
+                press <span class="button">Validate</span> button in the left top corner of the «Timings Editor» window:
+                <img class="center" src="media/timingsEditorValidation.png" alt="Timings validation" onload="this.width/=2;"><br>
+                <img class="center" src="media/timingProblem.png" alt="Timings validation result" onload="this.width/=2;"><br>
+                From the message, we can see that concatenation of all timings text doesn't match with all timings text and the second timing has less length than
+                expected. Now we can fix the text of the second timing and validate it to be sure that it is correct:
+                <img class="center" src="media/timingsEditorTimingFixed.png" alt="Fixed timing" onload="this.width/=2;"><br>
+            </p>
+
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h1 id="textsynchronizer">TextSynchronizer</h1>
+            <p>&emsp;<mark>TextSynchronizer</mark> is the main runtime script of the asset.
+                <mark>TextSynchronizer</mark> component gets the current position of <mark>AudioSource</mark> playing, finds the appropriate timing, and sends the
+                data (current timing, percent of finish of current timing) to TextEffectBase class. It also requires GameObject with Text component and works using
+                System.Reflection, which allows to use of custom Text components. So, you need to choose a <span class="path">GameObject</span>, <span class="path">Component</span> and <span class="path">Property</span> name from the dropdown list and the <span class="path">Text Effect</span>.
+                To start working, add the component <mark>TextSynchronizer</mark> to some GameObject.
+                <img class="center" src="media/textSyncComponent.png" alt="TextSynchronizer component" onload="this.width/=2;"><br>
+                The next step is to choose a <span class="path">GameObject</span>, <span class="path">Component</span>, or <span class="path">Property</span> of the text component.
+                If your scene doesn't have a text component, create a new GameObject and add <a href="https://docs.unity.cn/Packages/com.unity.ugui@1.0/api/UnityEngine.UI.Text.html" target="_blank">UI.Text</a> or
+                <a href="https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html" target="_blank">TextMesh Pro</a> component:
+                <div class="images">
+                    <img class="center2" src="media/newTextComponent.png" alt="New text component" onload="this.width/=2;">
+                    <img class="center2" src="media/textSyncTextComponent.png" alt="TextSynchronizer component" onload="this.width/=2;">
+                </div><br>
+                <p>Note that if you use RTL (right to the left) text, you need to check "Enable RTL Editor" in the TextMeshPro component parameters.<br>
+                Then set <span class="path">AudioSource</span> with AudioClip, <span class="path">Phrase Asset</span> (timings), and add <span class="path">Text Effect</span>:
+                <img class="center" src="media/textSyncSetup.png" alt="TextSynchronizer setup" onload="this.width/=2;"><br>
+                    <p>That's all, your TextSynchronizer component is ready. Note that AudioSource should play for synchronization.</p>
+
+            <h2 id="texteffects">Text Effects</h2>
+            <p>&emsp;Text Effect - is <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a> that contains the logic for modifying text components during synchronization.<br>
+            Asset has two type of text effects: <u>Rich</u> and <u>Mesh</u> text effect.<br>
+                1. <span class="asset">Rich Effect</span> (<span class="path">Assets/AudioTextSynchronizer/TextEffects/Rich/RichTextEffect.asset</span>)  uses <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html" target="_blank">RichText</a> that markups format for text highlighting.
+            RichText can provide such features as changing text color, bolding text, resizing, etc. Rich Effect parameters:<br>
+            <img class="center" src="media/richTextEffect.png" alt="Rich Effect" onload="this.width/=2;"><br>
+                <ul>
+                    <li>
+                        <span class="path">Text Split Config</span> - reference to <a href="#textsplitters">TextSplitter</a> <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a>;
+                    </li>
+                    <li>
+                        <span class="path">Text Highlight Config</span> - reference to <a href="#texthighlighters">TextHighlighter</a> <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a>;
+                    </li>
+                    <li>
+                        <span class="path">Start Tag</span> - start tag, which is inserted into the text component;<br>
+                    </li>
+                    <li>
+                        <span class="path">End Tag</span> - tag, which closes the StartTag;<br>
+                    </li>
+                    <li>
+                        <span class="path">Highlight Color</span> - the color of highlighting the rich tag;<br>
+                    </li>
+                    <li>
+                        <span class="path">Char Index Offset</span> - highlight position offset in characters count;<br>
+                    </li>
+                    <li>
+                        <span class="path">Effect Finished Action</span> - an action that will be performed after effect finish sync: None, Clear Text, or Set Current Part Text.<br>
+                    </li>
+                </ul>
+
+            <p>2. <span class="asset">Mesh Effect</span> (<span class="path">Assets/AudioTextSynchronizer/TextEffects/Mesh/MeshTextEffect.asset</span>) - the effect that uses text component mesh data - position, UV, color, etc. Mesh Effect parameters:<br>
+            <img class="center" src="media/meshTextEffect.png" alt="Mesh Effect" onload="this.width/=2;"><br>
+            <ul>
+                <li>
+                    <span class="path">Text Split Config</span> - reference to <a href="#textsplitters">TextSplitter</a> <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a>;
+                </li>
+                <li>
+                    <span class="path">Text Highlight Config</span> - reference to <a href="#texthighlighters">TextHighlighter</a> <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a>;
+                </li>
+                <li>
+                    <span class="path">Mesh Animation</span> - a reference to the Mesh Animation config. Mesh Animation config it is a <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a> that contains mesh animation logic of the text component. The asset has the following Mesh Animation configs:
+                </li>
+                    <li>
+                        <span class="asset">AlphaColorMeshAnimation</span> - change vertices color and alpha with specified speed. Parameters:
+                        <ul>
+                            <li>
+                                <span class="path">Speed</span> - speed of animation;
+                            </li>
+                            <li>
+                                <span class="path">Use Alpha</span> - whether to use color alpha;
+                            </li>
+                            <li>
+                                <span class="path">Alpha Curve</span> - <a href="https://docs.unity3d.com/ScriptReference/AnimationCurve.html" target="_blank">AnimationCurve</a> of changing alpha ratio from 0 to 1;
+                            </li>
+                            <li>
+                                <span class="path">Text Color</span> - the color of vertices.
+                            </li>
+                        </ul>
+                        <div class="images">
+                            <img class="center2" src="media/alphaColorMeshAnimation.png" alt="AlphaColorMeshAnimation" onload="this.width/=2;">
+                            <video class="center2" width="480" height="232" autoplay muted loop>
+                                <source src="media/alphaColorMeshAnimation.mp4" type="video/mp4">
+                                <source src="media/alphaColorMeshAnimation.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="asset">AlphaCenterMeshAnimation</span> - change vertices positions and alpha with specified speed. Parameters:
+                        <ul>
+                            <li>
+                                <span class="path">Speed</span> - speed of animation;
+                            </li>
+                            <li>
+                                <span class="path">Scale Ratio</span> - the ratio of vertices positions while scaling;
+                            </li>
+                            <li>
+                                <span class="path">Use Alpha</span> - whether to use color alpha;
+                            </li>
+                            <li>
+                                <span class="path">Alpha Curve</span> - <a href="https://docs.unity3d.com/ScriptReference/AnimationCurve.html" target="_blank">AnimationCurve</a> of changing alpha ratio from 0 to 1.
+                            </li>
+                        </ul>
+                        <div class="images">
+                            <img class="center2" src="media/alphaCenterMeshAnimation.png" alt="AlphaCenterMeshAnimation" onload="this.width/=2;">
+                            <video class="center2" width="480" height="232" autoplay muted loop>
+                                <source src="media/alphaCenterMeshAnimation.mp4" type="video/mp4">
+                                <source src="media/alphaCenterMeshAnimation.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="asset">AlphaCharScaleMeshAnimation</span> - scale vertices positions from mesh center and change alpha with specified speed. Parameters:
+                        <ul>
+                            <li>
+                                <span class="path">Speed</span> - speed of animation;
+                            </li>
+                            <li>
+                                <span class="path">Use Alpha</span> - whether to use color alpha;
+                            </li>
+                            <li>
+                                <span class="path">Alpha Curve</span> - <a href="https://docs.unity3d.com/ScriptReference/AnimationCurve.html" target="_blank">AnimationCurve</a> of changing alpha ratio from 0 to 1;
+                            </li>
+                            <li>
+                                <span class="path">Vertices Curve</span> - <a href="https://docs.unity3d.com/ScriptReference/AnimationCurve.html" target="_blank">AnimationCurve</a> of changing vertices positions ratio from 0 to 1.
+                            </li>
+                        </ul>
+                        <div class="images">
+                            <img class="center2" src="media/alphaCharScaleMeshAnimation.png" alt="AlphaCharScaleMeshAnimation" onload="this.width/=2;">
+                            <video class="center2" width="480" height="232" autoplay muted loop>
+                                <source src="media/alphaCharScaleMeshAnimation.mp4" type="video/mp4">
+                                <source src="media/alphaCharScaleMeshAnimation.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+            <li>
+                <span class="path">Char Index Offset</span> - current highlight position offset in characters count;<br>
+            </li>
+            <li>
+                <span class="path">Animate Text Instantly</span> - whether to animate the text part instantly. If unchecked, the text will be animated according to <a href="#texthighlighters">TextHighlighter</a> config.<br>
+            </li>
+            <li>
+                <span class="path">Text Part Finished Action</span> - an action that will be performed after text part finish: Clear Text or Set Current Part Text.<br>
+            </li>
+            </ul>
+
+            <p>&emsp;To create a custom effect, create a class that inherits from «TextEffectBase» class and create a <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a>.
+            See the «RichTextEffect» and «MeshTextEffect» classes to understand better how it works.</p>
+
+            <h2 id="textsplitters">Text Splitters</h2>
+            <p>&emsp;Text Split Config (Text Splitter) is a <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a> that contains the logic of text splitting by text parts.
+                Using Text Splitter, you can choose how to display text: all timings text, per timing, or separated by strings.<br>
+                Asset has tree type of text splitters: <br>
+                <ul>
+                <li>
+                <span class="asset">DefaultTextSplitter</span> (<span class="path">Assets/AudioTextSynchronizer/TextSplitters/DefaultTextSplitter.asset</span>) - shows all timings text (don't split the text).<br>
+                <div class="images">
+                <video class="center2" width="480" height="232" autoplay muted loop>
+                        <source src="media/defaultTextSplitter.mp4" type="video/mp4">
+                        <source src="media/defaultTextSplitter.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </li>
+            <li>
+                <span class="asset">StringTextSplitter</span> (<span class="path">Assets/AudioTextSynchronizer/TextSplitters/StringTextSplitter.asset</span>) - divides text using string list. Parameters:<br>
+                <ul>
+                    <li>
+                        <span class="path">Split Text By Strings</span> - strings for text splitting. For example, if it contains an element with a dot (".") symbol, the text will be divided into sentences;
+                    </li>
+                    <li>
+                        <span class="path">Trim Characters</span> - the characters that will be used for trimming text parts;
+                    </li>
+                </ul>
+                For example, Using separated by <span class="asset">StringTextSplitter</span>, you can display the text in sentences:
+                <div class="images">
+                    <img class="center2" src="media/stringTextSplitter.png" alt="StringTextSplitter" onload="this.width/=2;">
+                    <video class="center2" width="480" height="232" autoplay muted loop>
+                        <source src="media/stringTextSplitter.mp4" type="video/mp4">
+                        <source src="media/stringTextSplitter.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </li>
+            <li>
+                <span class="asset">TimingsTextSplitter</span> (<span class="path">Assets/AudioTextSynchronizer/TextSplitters/TimingsTextSplitter.asset</span>) - shows current timing text.<br>
+                <div class="images">
+                    <video class="center2" width="480" height="232" autoplay muted loop>
+                        <source src="media/timingsTextSplitter.mp4" type="video/mp4">
+                        <source src="media/timingsTextSplitter.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </li>
+        </ul>
+
+            <h2 id="texthighlighters">Text Highlighters</h2>
+            <p>&emsp;Text Highlight Config (Text Highlighter) is a <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a> that contains the logic of text highlighting.
+                For example, with Text Highlighter, you can choose how to highlight text: per each character, per timing, or separated by strings.</p>
+            <ul>
+            <li>
+                The asset has the following highlight configs:<br>
+                <ul>
+                    <li>
+                        <span class="asset">DefaultHighlightConfig</span> - highlight text per character:<br>
+                        <div class="images">
+                            <img class="center2" src="media/defaultHighlightConfig.png" alt="DefaultHighlightConfig" onload="this.width/=2;">
+                            <video class="center2" width="480" height="232" autoplay muted loop>
+                                <source src="media/defaultHighlightConfig.mp4" type="video/mp4">
+                                <source src="media/defaultHighlightConfig.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="asset">StringHighlightConfig</span> - highlight text part that is divided by indents characters:
+                        <div class="images">
+                            <img class="center2" src="media/stringHighlightConfig.png" alt="StringHighlightConfig" onload="this.width/=2;">
+                            <video class="center2" width="480" height="232" autoplay muted loop>
+                                <source src="media/stringHighlightConfig.mp4" type="video/mp4">
+                                <source src="media/stringHighlightConfig.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="asset">TimingHighlightConfig</span> - highlights text per timing:
+                        <div class="images">
+                            <img class="center2" src="media/timingHighlightConfig.png" alt="TimingHighlightConfig" onload="this.width/=2;">
+                            <video class="center2" width="480" height="232" autoplay muted loop>
+                                <source src="media/timingHighlightConfig.mp4" type="video/mp4">
+                                <source src="media/timingHighlightConfig.mp4" type="video/ogg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h1 id="apihelp">API Help</h1>
+            <h2 id="timing">Timing</h2>
+            <p>&emsp;<mark>Timing</mark> class contains timing data:<br>
+                <code>public float StartPosition</code> - start position on the timeline in seconds;<br>
+                <code>public float EndPosition</code> - end position on the timeline, in seconds;<br>
+                <code>public string Name</code> - the name of timings, used by Timings Editor;<br>
+                <code>public string Text</code> - the text which contains timing;<br>
+                <code>public Rect Rectangle</code> - rectangle, used by Timings Editor;<br>
+                <code>public Color Color</code> - the color of the current rectangle, used by Timings Editor;<br>
+                <code>public float Size</code> - duration of timing in seconds.
+            </p>
+
+            <h2 id="phraseasset">PhraseAsset</h2>
+            <p>&emsp;<mark>PhraseAsset</mark> class – it is <a href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html" target="_blank">ScriptableObject</a> that contains timings data:<br>
+                <code>public AudioClip Clip</code> - AudioClip, which will be used to synchronize timings;<br>
+                <code>public string Text</code> - Text of AudioClip;<br>
+                <code>public List&lt;Timing&gt; Timings</code> - a list of Timings.
+            </p>
+
+            <h2 id="textsynchronizer_class">TextSynchronizer</h2>
+            <p>&emsp;<mark>TextSynchronizer</mark> component synchronizes text effect with AudioSource.
+                <u>Main public fields, properties, and methods:</u><br>
+                <code>public GameObject GameObjectWithTextComponent { ... }</code> - GameObject, for which effect will be applied, should contain text component;<br>
+                <code>public Component TextComponent { ... }</code> - text component, for which effect will be applied;<br>
+                <code>public AudioSource Source { ... }</code> - AudioSource to synchronize text effect with audio playing;<br>
+                <code>public PhraseAsset Timings { ... }</code> - reference to the asset with timings;<br>
+                <code>public TextEffectBase TextEffect { ... }</code> - reference to the TextEffect asset, which be applied to text component;<br>
+                <code>public bool IsRunning { ... }</code> - whether to sync is active;<br>
+                <code>public event Action OnSyncFinished</code> - event that will be invoked after the synchronization is finished;<br>
+                <code>public event Action &lt;string, int&gt; OnWordReached</code> - event that will be invoked when word reached while synchronization, second argument - index (position) of the word in the text;<br>
+                <code>public void Play(bool initializeEffect = false)</code> - run synchronization, optional argument - whether to initialize the effect;<br>
+                <code>public void Pause()</code> - pause synchronization;<br>
+                <code>public void Stop(bool resetCurrentTiming = true)</code> - stop synchronization, optional argument - whether to reset current timing;<br>
+                <code>public void SkipPhrase()</code> - skips current timing/text part;<br>
+                <code>public void SplitWords()</code> - get all words from phrases asset main text;<br>
+                <code>public int GetCharProgress()</code> - return index of text before current timing text;<br>
+                <code>public int GetCharProgress(char[] trim)</code> - return index of text before trimmed current timing text.<br>
+            </p>
+
+            <h2 id="texteffectbase">TextEffectBase</h2>
+            <p>&emsp;<mark>TextEffectBase</mark> base class of the text effect that interacts with text component while AudioSource is playing. Using this base class, you can create new text effects;<br>
+                <u>Main public fields, properties, and methods:</u><br>
+                <code>public event Action&lt;Timing&gt; OnTimingEnter</code> - event, invokes when audio is playing, and TextSynchronizer sets the new timing (previous timing finished);<br>
+                <code>public event Action&lt;Timing&gt; OnTimingStart</code> - event, invokes when audio is playing and TextSynchronizer the new timing starts playing;<br>
+                <code>public event Action&lt;Timing, float&gt; OnTimingProgress</code> - event, invokes when audio is playing, and timing is in sync, second argument - progress of current timing from 0 to 1;<br>
+                <code>public event Action&lt;Timing&gt; OnTimingEnd</code> - event, invokes when audio playing of current timing is finished;<br>
+                <code>protected TextSynchronizer TextSynchronizer</code> - reference to TextSynchronizer component;<br>
+                <code>public virtual void Init(TextSynchronizer textSynchronizer)</code> - initialize the effect, argument - TextSynchronizer instance;<br>
+                <code>public virtual void OnTimingEntered(Timing timing)</code> - invoke when audio is playing, and TextSynchronizer sets the new timing (previous timing finished);<br>
+                <code>public virtual void OnTimingStarted(Timing timing)</code> - invoke, when audio is playing and TextSynchronizer the new timing starts playing;<br>
+                <code>public virtual void OnTimingMoving(Timing timing, float progress)</code> - invoke when audio is playing, and timing is in sync, second argument - progress of current timing from 0 to 1;<br>
+                <code>public virtual void OnTimingFinished(Timing timing)</code> - invoke, when audio playing of current timing is finished;<br>
+                <code>public virtual void OnEffectFinished()</code> - invoked when the effect is finished;<br>
+                <code>protected virtual void SetTextToComponent(string text)</code> - sets text to text component;<br>
+                <code>protected virtual void SkipPart()</code> - skip current timing/text part.
+            </p>
+
+            <h2 id="meshtexteffect">MeshTextEffect</h2>
+            <p>&emsp;<mark>MeshTextEffect</mark> - the effect that uses text component mesh data - position, UV, color, etc. It is used to change the mesh of UI.Text and TextMeshPro components;<br>
+                <u>Main public fields, properties, and methods:</u><br>
+                <code>public MeshAnimationBase MeshAnimation</code> - reference to the MeshAnimation;<br>
+                <code>public int CharIndexOffset</code> - highlight position offset in characters count;<br>
+                <code>public bool AnimateTextInstantly</code> - whether to animate the text part instantly. If unchecked, the text will be animated according to the <a href="#texthighlighters">TextHighlighter</a> config;<br>
+                <code>public OnTextPartAction TextPartFinishedAction</code> - an action that will be performed after text part finish: Clear Text or Set Current Part Text.<br>
+            </p>
+
+            <h2 id="richtexteffect">RichTextEffect</h2>
+            <p>&emsp;<mark>TextRichEffectBase</mark> class sends data for effects while AudioSource is playing. It is used for rich text effects, which are supported by many assets with custom text components;<br>
+                <u>Main public fields, properties, and methods:</u><br>
+                <code>public string StartTag</code> - tag, which inserted to text component;<br>
+                <code>public string EndTag</code> - tag, which closes the StartTag;<br>
+                <code>public Color32 HighlightColor</code> - highlighting color;<br>
+                <code>public int CharIndexOffset</code> - highlight position offset in characters count;<br>
+                <code>public OnTextAction EffectFinishedAction</code> - an action that will be performed after effect finish sync: None, Clear Text, or Set Current Part Text.<br>
+            </p>
+
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h1 id="frequentlyusedmethods">Frequently used methods</h1>
+            <p>Pause synchronization:
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+...
+textSynchronizer.Pause();</span><br>
+                Play/Resume synchronization:<br>
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+...
+textSynchronizer.Play();
+</span><br>
+                Stop synchronization:<br>
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+...
+textSynchronizer.Stop();
+</span><br>
+                Change timings in runtime:<br>
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+[SerializeField] private PhraseAsset timings;    <span class="comment">//assign reference to the PhraseAsset asset in the Inspector</span>
+...
+textSynchronizer.Timings = timings;
+</span><br>
+                Subscribe to the synchronization complete event:<br>
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+...
+textSynchronizer.OnSyncFinished += OnSyncFinished;
+...
+private void OnSyncFinished()
+{
+    Debug.Log("Synchronization finished!");
+    textSynchronizer.OnSyncFinished -= OnSyncFinished;
+}
+</span><br>
+                Subscribe to the synchronization word reached event:<br>
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+...
+textSynchronizer.OnWordReached += OnWordReached;
+...
+private void OnWordReached(string word, int position)
+{
+    Debug.Log($"Reached word: {word} at position {position}");
+    if (word == "SomeWord")
+    {
+        Debug.Log("SomeWord reached!");
+        textSynchronizer.OnWordReached -= OnWordReached;
+    }
+}
+</span><br>
+                Subscribe to the text effect progress event:<br>
+                <span class="codequote">[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+...
+textSynchronizer.TextEffect.OnTimingProgress += OnTimingProgress;
+...
+private void OnTimingProgress(Timing timing, float progress)
+{
+    Debug.Log($"Timing text: {timing.Text}, progress: {progress}");
+}
+</span><br>
+                Generating timings using «whisper.unity» in runtime:<br>
+                <span class="codequote">#if WHISPER_UNITY
+using AudioTextSynchronizer.Whisper;
+using Whisper.Utils;
+#endif
+...
+[SerializeField] private TextSynchronizer textSynchronizer;    <span class="comment">//assign reference to the TextSynchronizer component in the Inspector</span>
+[SerializeField] private AudioClip audioClip;    <span class="comment">//assign reference to the AudioClip component in the Inspector</span>
+#if WHISPER_UNITY
+private WhisperHelper whisper;
+#endif
+...
+private async Init()
+{
+#if WHISPER_UNITY
+    whisper = new WhisperHelper();
+    await whisper.LoadModel();
+#endif
+}
+...
+GenerateFromClip(audioClip);
+...
+private async void GenerateFromClip(AudioClip clip)
+{
+#if WHISPER_UNITY
+    var phraseAsset = await whisper.GenerateTimings(clip);
+    textSynchronizer.Stop();
+    textSynchronizer.Timings = phraseAsset;
+    textSynchronizer.Source.clip = phraseAsset.Clip;
+#endif
+}
+</span>
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h1 id="upgrading">Upgrading from version 1.x to 2.x</h1>
+            <p>
+                &emsp;Starting from version 2.x, Text Effects were rewritten from scratch and isn't compatible with effects from version 1.x.
+                If you update an asset in the project that already has 1.x version, please do the following steps to make the asset work properly:
+            </p>
+            <ul>
+                <li>Make sure that you back up your project;</li>
+                <li>Remove the <span class="path">Assets/Audio-Text Synchronizer/</span> folder from your project;</li>
+                <li>Re-import the latest version from the Asset Store using Package Manager (Window -> Package Manager);</li>
+                <li>
+                    Set up the TextSynchronizer component.
+                    You can refer to the <a href="#textsynchronizer">TextSynchronizer</a> paragraph for a more detailed explanation of how to do that.
+                </li>
+            </ul>
+
+            <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+            <h1 id="contacts">Contacts</h1>
+            Please let me know if you have any questions, ideas, or suggestions.<br>
+            If you're asking for support, please send your invoice number. The more details you give, the better I'll be able to help.<br>
+            E-mail: <a href="mailto:unitymedved@gmail.com">unitymedved@gmail.com</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

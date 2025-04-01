@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: Cat
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: fd2cca786325e456689a539f09591ca8, type: 3}
+  Text: "Cats are very common to have at home. They are very lovable and cute. They
+    are also great at catching mice. That\u2019s why captains would take cats on a
+    ship to protect the food from mice."
+  Timings:
+  - StartPosition: 0.090210676
+    EndPosition: 0.71266437
+    Name: Timing 1
+    Text: Cats
+    Rectangle:
+      serializedVersion: 2
+      x: 36.203182
+      y: 18
+      width: 42.801968
+      height: 175.2
+    Color: {r: 0.8235294, g: 0.12110729, b: 0.12110729, a: 0.16078432}
+  - StartPosition: 0.76678
+    EndPosition: 2.7484188
+    Name: Timing 4
+    Text: are very common to have at home.
+    Rectangle:
+      serializedVersion: 2
+      x: 82.72632
+      y: 18
+      width: 136.264
+      height: 175.2
+    Color: {r: 0.8244318, g: 0.9485294, b: 0.048821356, a: 0.16078432}
+  - StartPosition: 3.1573696
+    EndPosition: 5.3494935
+    Name: Timing 5
+    Text: They are very lovable and cute.
+    Rectangle:
+      serializedVersion: 2
+      x: 247.11113
+      y: 18
+      width: 150.73766
+      height: 175.2
+    Color: {r: 0.06740666, g: 0.035413038, b: 0.9632353, a: 0.16078432}
+  - StartPosition: 5.8366213
+    EndPosition: 6.9432154
+    Name: Timing 6
+    Text: They are also great
+    Rectangle:
+      serializedVersion: 2
+      x: 431.34528
+      y: 18
+      width: 76.09308
+      height: 175.2
+    Color: {r: 0.05071366, g: 0.9852941, b: 0.057158988, a: 0.16078432}
+  - StartPosition: 7.0604763
+    EndPosition: 8.3926
+    Name: Timing 7
+    Text: at catching mice.
+    Rectangle:
+      serializedVersion: 2
+      x: 515.5016
+      y: 18
+      width: 91.6012
+      height: 175.2
+    Color: {r: 0.83823526, g: 0.08628891, b: 0.537457, a: 0.16078432}
+  - StartPosition: 8.786508
+    EndPosition: 10.082547
+    Name: Timing 8
+    Text: "That\u2019s why captains"
+    Rectangle:
+      serializedVersion: 2
+      x: 634.1892
+      y: 18
+      width: 89.119934
+      height: 175.2
+    Color: {r: 0.9411765, g: 0.73833674, b: 0.076124586, a: 0.16078432}
+  - StartPosition: 10.087823
+    EndPosition: 11.42388
+    Name: Timing 9
+    Text: would take cats on a ship
+    Rectangle:
+      serializedVersion: 2
+      x: 723.6719
+      y: 18
+      width: 91.871704
+      height: 175.2
+    Color: {r: 0, g: 0.6286092, b: 0.7941176, a: 0.16078432}
+  - StartPosition: 11.78669
+    EndPosition: 12.852619
+    Name: Timing 10
+    Text: to protect the food
+    Rectangle:
+      serializedVersion: 2
+      x: 840.4916
+      y: 18
+      width: 73.296814
+      height: 175.2
+    Color: {r: 0.7344824, g: 0.125, b: 1, a: 0.16078432}
+  - StartPosition: 12.966485
+    EndPosition: 13.808821
+    Name: Timing 11
+    Text: from mice.
+    Rectangle:
+      serializedVersion: 2
+      x: 921.61816
+      y: 18
+      width: 57.921814
+      height: 175.2
+    Color: {r: 0.028763002, g: 0.97794116, b: 0.6637305, a: 0.16078432}

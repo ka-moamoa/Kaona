@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc20465076d9d448fb9766a6efa32a1a, type: 3}
+  m_Name: RichTextEffect
+  m_EditorClassIdentifier: 
+  TextSplitConfig: {fileID: 11400000, guid: e00cc14acbf2543f686940a08e299e7d, type: 2}
+  TextHighlightConfig: {fileID: 11400000, guid: d0b84a79db58d4f0ab39765912719bc8,
+    type: 2}
+  StartTag: <color=#{0}>
+  EndTag: </color>
+  HighlightColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  CharIndexOffset: 0
+  EffectFinishedAction: 0
