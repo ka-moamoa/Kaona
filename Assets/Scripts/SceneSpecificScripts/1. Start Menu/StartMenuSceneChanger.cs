@@ -54,6 +54,15 @@ public class StartMenuSceneChanger : MonoBehaviour
         anim.Play("Default");
     }
 
+    public void LoadAbout(){
+        anim.Play ("LoadAbout");
+    }
+
+    public void UnLoadAbout(){
+        anim.SetTrigger ("UnloadAbout");
+        anim.Play("Default");
+    }
+
     public void AssignMoku(string mokuID){
         PlayerPrefs.SetString("mokuID", mokuID);
     }
