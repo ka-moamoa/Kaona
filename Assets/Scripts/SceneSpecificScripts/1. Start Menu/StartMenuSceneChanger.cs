@@ -92,7 +92,7 @@ public class StartMenuSceneChanger : MonoBehaviour
     }
 
     public void CloseResetJourneyOverlay(){
-        resetJourneyOverlay.SetActive(true);
+        resetJourneyOverlay.SetActive(false);
     }
 
     public void ResetDataFadeMoveToScene(){
