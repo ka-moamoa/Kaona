@@ -9,17 +9,38 @@ public class StartMenuSceneChanger : MonoBehaviour
 
     public Animator anim;
 
-    public Sprite NewGameSprite;
-    public Sprite ContinueGameSprite;
+    public Sprite MainNewGameSprite;
+    public Sprite MainContinueGameSprite;
 
     public GameObject startButton;
+
+    public GameObject newGameButton;
+
+    public Sprite SmallNewGameSprite;
+    public Sprite SmallUnavailableGameSprite;
+
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        if (newGameButton != null){
+            if (GameDataManager.Instance.gameData.introSequenceDone){
+                // newGameButton.GetComponent<Image>().sprite = SmallNewGameSprite;
+                newGameButton.GetComponent<Button>().interactable = true;
+            }else{
+                // newGameButton.GetComponent<Image>().sprite = SmallUnavailableGameSprite;
+                newGameButton.GetComponent<Button>().interactable = false;
+            }
+        }
+    }
 
     void Start(){
         if (startButton != null){
             if (GameDataManager.Instance.gameData.introSequenceDone){
-                startButton.GetComponent<Image>().sprite = ContinueGameSprite;
+                startButton.GetComponent<Image>().sprite = MainContinueGameSprite;
             }else{
-                startButton.GetComponent<Image>().sprite = NewGameSprite;
+                startButton.GetComponent<Image>().sprite = MainNewGameSprite;
             }
         }
     }
