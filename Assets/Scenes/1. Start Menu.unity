@@ -1063,9 +1063,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &143797062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3802,9 +3805,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &625635958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6253,9 +6259,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &1055277041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6295,7 +6304,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1055277044}
   m_OnClick:
     m_PersistentCalls:
@@ -6340,7 +6349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 758911ff0a9254aca92dcc82eb1e7295, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1ea74fa342804d939e00c1aa2d61b8d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7115,9 +7124,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1760663018}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &1269257037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7973,9 +7985,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1760663018}
-  NewGameSprite: {fileID: 21300000, guid: ea7de993b0a934c06bc39ab725610633, type: 3}
-  ContinueGameSprite: {fileID: 21300000, guid: 878626fb566664dcd87de5a216340534, type: 3}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 1416488431}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &1416488434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8162,9 +8177,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1760663018}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &1422037423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8887,9 +8905,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1760663018}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &1513081800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10013,9 +10034,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1760663018}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
-  startButton: {fileID: 0}
+  MainNewGameSprite: {fileID: 21300000, guid: ea7de993b0a934c06bc39ab725610633, type: 3}
+  MainContinueGameSprite: {fileID: 21300000, guid: 878626fb566664dcd87de5a216340534,
+    type: 3}
+  startButton: {fileID: 1416488431}
+  newGameButton: {fileID: 1055277036}
+  SmallNewGameSprite: {fileID: 21300000, guid: 4d8c15ab9755c4c368d9bfa361539725, type: 3}
+  SmallUnavailableGameSprite: {fileID: 21300000, guid: 758911ff0a9254aca92dcc82eb1e7295,
+    type: 3}
 --- !u!1 &1760998394
 GameObject:
   m_ObjectHideFlags: 0
@@ -10759,9 +10785,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1760663018}
-  NewGameSprite: {fileID: 0}
-  ContinueGameSprite: {fileID: 0}
+  MainNewGameSprite: {fileID: 0}
+  MainContinueGameSprite: {fileID: 0}
   startButton: {fileID: 0}
+  newGameButton: {fileID: 0}
+  SmallNewGameSprite: {fileID: 0}
+  SmallUnavailableGameSprite: {fileID: 0}
 --- !u!114 &1903089096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12802,7 +12831,7 @@ SceneRoots:
   - {fileID: 212493542}
   - {fileID: 1897083522}
   - {fileID: 1036387028}
-  - {fileID: 1760663017}
   - {fileID: 1048350417}
+  - {fileID: 1760663017}
   - {fileID: 1736970662}
   - {fileID: 1531312202}
