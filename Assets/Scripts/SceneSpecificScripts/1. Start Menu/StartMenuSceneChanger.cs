@@ -19,6 +19,9 @@ public class StartMenuSceneChanger : MonoBehaviour
     public Sprite SmallNewGameSprite;
     public Sprite SmallUnavailableGameSprite;
 
+
+    public GameObject resetJourneyOverlay;
+
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
@@ -82,6 +85,19 @@ public class StartMenuSceneChanger : MonoBehaviour
     public void UnLoadAbout(){
         anim.SetTrigger ("UnloadAbout");
         anim.Play("Default");
+    }
+
+    public void OpenResetJourneyOverlay(){
+        resetJourneyOverlay.SetActive(true);
+    }
+
+    public void CloseResetJourneyOverlay(){
+        resetJourneyOverlay.SetActive(true);
+    }
+
+    public void ResetDataFadeMoveToScene(){
+        GameDataManager.Instance.ResetGameData();
+        anim.Play ("Fade Out");
     }
 
     public void AssignMoku(string mokuID){

@@ -15,6 +15,7 @@ public class EntrySequenceSceneChanger : MonoBehaviour
 
     public void FadeMoveToScene(){
         anim.Play ("Fade Out");
+        GameDataManager.Instance.UpdateIntroSequenceDone(true);
     }
 
     public void AssignMoku(string mokuID){

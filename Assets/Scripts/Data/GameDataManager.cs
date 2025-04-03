@@ -47,6 +47,28 @@ public class GameDataManager : MonoBehaviour
         Debug.Log($"Game data saved to {path}");
     }
 
+    //Resetting Game Data for New Journey
+    public void ResetGameData()
+    {
+        string path = Path.Combine(Application.persistentDataPath, FileName);
+
+        // Check if the file exists, and if it does, delete it
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+            Debug.Log($"Game data file deleted at {path}");
+        }
+
+        // Reinitialize the gameData object to default values
+        gameData = new GameData();
+
+        // Save the new empty/default data to a new file
+        SaveGameData();
+
+        Debug.Log("Game data has been reset and saved as new.");
+    }
+
+
     //Updating Classes
     public void UpdateIntroSequenceDone(bool value)
     {
