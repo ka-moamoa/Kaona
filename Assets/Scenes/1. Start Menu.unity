@@ -2995,7 +2995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TBD
+  m_text: Principal Investigator
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fdcc0b2eff0df495a8b1a6a95e95f742, type: 2}
   m_sharedMaterial: {fileID: -8180187133516891896, guid: fdcc0b2eff0df495a8b1a6a95e95f742,
@@ -5075,7 +5075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TBD
+  m_text: Principal Investigator
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fdcc0b2eff0df495a8b1a6a95e95f742, type: 2}
   m_sharedMaterial: {fileID: -8180187133516891896, guid: fdcc0b2eff0df495a8b1a6a95e95f742,
@@ -6363,7 +6363,7 @@ GameObject:
   - component: {fileID: 956437058}
   - component: {fileID: 956437059}
   m_Layer: 5
-  m_Name: Person Card - Chantel (1)
+  m_Name: Person Card - May
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
