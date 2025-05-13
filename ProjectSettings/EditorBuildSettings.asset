@@ -21,17 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/3. Entry Sequence.unity
     guid: da7eed4b23733476882946fd3938b302
   - enabled: 1
-    path: Assets/Scenes/5. Moku Selector.unity
+    path: Assets/Scenes/4. Moku Selector.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   - enabled: 1
-    path: Assets/Scenes/MokuDialogueScreen.unity
-    guid: a95f5f2a7912a470abf280ecac8a501f
-  - enabled: 1
-    path: Assets/Scenes/DialogueScreen.unity
+    path: Assets/Scenes/5. Dialogue Screen.unity
     guid: 795046a0407c643f2b625b4b19798752
   - enabled: 1
-    path: Assets/Scenes/Quest Results.unity
+    path: Assets/Scenes/6. Quest Results.unity
     guid: d8299c68f281a458cab5618542c76acd
+  - enabled: 1
+    path: Assets/Scenes/ARCHIVE/MokuDialogueScreen.unity
+    guid: a95f5f2a7912a470abf280ecac8a501f
   - enabled: 1
     path: Assets/Scenes/ARCHIVE/4. Entry Sequence.unity
     guid: 26b3c2f7907bd43d0a70dfb7bdfe4bc4

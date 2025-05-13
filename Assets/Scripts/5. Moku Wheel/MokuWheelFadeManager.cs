@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class MokuWheelFadeManager : MonoBehaviour
 {
     public AudioSource mokuAudio;
-    public String sceneName;
+    public int sceneNum;
 
     public Boolean changeInvoked = false;
 
@@ -26,11 +26,11 @@ public class MokuWheelFadeManager : MonoBehaviour
     }
 
     public void InvokeChangeAfterDelay(){
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneNum);
     }
 
-    public void ChangeScene(String sceneName){
-        this.sceneName = sceneName;
+    public void ChangeScene(int sceneNum){
+        this.sceneNum = sceneNum;
         fadeAnim.SetTrigger("Fade Out");
         Invoke("InvokeChangeAfterDelay", 1);
         Debug.Log("STOP");

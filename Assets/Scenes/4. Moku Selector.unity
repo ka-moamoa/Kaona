@@ -625,11 +625,11 @@ MonoBehaviour:
       - m_Target: {fileID: 83268852}
         m_TargetAssemblyTypeName: MokuWheelFadeManager, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: DialogueScreen
           m_BoolArgument: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
-  sceneName: 
+  sceneNum: 0
   changeInvoked: 0
   fadeAnim: {fileID: 978522087}
 --- !u!1 &107181859
@@ -14081,7 +14081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
-  sceneName: 
+  sceneNum: 0
   changeInvoked: 0
   fadeAnim: {fileID: 978522087}
 --- !u!114 &1255624432

@@ -8,7 +8,7 @@ public class MokuDialogueSceneChanger : MonoBehaviour
 {
 
     public AudioSource mokuAudio;
-    public String sceneName;
+    public int sceneNum;
 
     public Boolean changeInvoked = false;
 
@@ -32,6 +32,6 @@ public class MokuDialogueSceneChanger : MonoBehaviour
     }
 
     public void InvokeChangeAfterDelay(){
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(sceneNum);
     }
 }
