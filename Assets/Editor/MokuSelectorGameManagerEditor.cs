@@ -12,12 +12,18 @@ public class MokuSelectorGameManagerEditor : Editor
     {
         serializedObject.Update();
 
-        // Draw top-level animator
+        // Top-level animator
         SerializedProperty rulerPanelAnim = serializedObject.FindProperty("RulerPanelAnim");
         EditorGUILayout.PropertyField(rulerPanelAnim, new GUIContent("Ruler Panel Animator"));
 
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Moku Properties", EditorStyles.boldLabel);
+
+        // Get all arrays once
+        SerializedProperty animators = new SerializedObject(target).FindProperty("FFAnimator"); // individual animators
+        SerializedProperty renderers = serializedObject.FindProperty("lokahiWheelRenderers");
+        SerializedProperty materials = serializedObject.FindProperty("lokahiWheelMaterials");
+        SerializedProperty mokus = serializedObject.FindProperty("mokus");
 
         for (int i = 0; i < sectionLabels.Length; i++)
         {
@@ -34,8 +40,7 @@ public class MokuSelectorGameManagerEditor : Editor
                     EditorGUILayout.PropertyField(animatorProp, new GUIContent("Ruler Panel Animator"));
                 }
 
-                // MeshRenderer
-                SerializedProperty renderers = serializedObject.FindProperty("lokahiWheelRenderers");
+                // Renderer
                 if (renderers != null && i < renderers.arraySize)
                 {
                     SerializedProperty renderer = renderers.GetArrayElementAtIndex(i);
@@ -43,7 +48,6 @@ public class MokuSelectorGameManagerEditor : Editor
                 }
 
                 // MaterialSet
-                SerializedProperty materials = serializedObject.FindProperty("lokahiWheelMaterials");
                 if (materials != null && i < materials.arraySize)
                 {
                     SerializedProperty materialSet = materials.GetArrayElementAtIndex(i);
@@ -55,6 +59,21 @@ public class MokuSelectorGameManagerEditor : Editor
                     {
                         EditorGUILayout.PropertyField(materialArray.GetArrayElementAtIndex(j), new GUIContent(materialNames[j]));
                     }
+                    EditorGUI.indentLevel--;
+                }
+
+                // Healed / Unhealed GameObjects from mokus[]
+                if (mokus != null && i < mokus.arraySize)
+                {
+                    SerializedProperty moku = mokus.GetArrayElementAtIndex(i);
+                    SerializedProperty unhealedProp = moku.FindPropertyRelative("unhealed");
+                    SerializedProperty healedProp = moku.FindPropertyRelative("healed");
+
+                    EditorGUILayout.Space();
+                    EditorGUILayout.LabelField("Moku Objects", EditorStyles.miniBoldLabel);
+                    EditorGUI.indentLevel++;
+                    EditorGUILayout.PropertyField(unhealedProp, new GUIContent("Unhealed Tile"));
+                    EditorGUILayout.PropertyField(healedProp, new GUIContent("Healed Tile"));
                     EditorGUI.indentLevel--;
                 }
 

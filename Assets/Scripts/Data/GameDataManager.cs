@@ -253,4 +253,32 @@ public class GameDataManager : MonoBehaviour
     }
 
     // Add more update methods for other data fields as needed
+
+    public void UpdateHealedState(MokuType moku, bool value)
+    {
+        switch (moku)
+        {
+            case MokuType.FF: UpdateFFHealed(value); break;
+            case MokuType.WS: UpdateWSHealed(value); break;
+            case MokuType.FE: UpdateFEHealed(value); break;
+            case MokuType.PB: UpdatePBHealed(value); break;
+            case MokuType.TM: UpdateTMHealed(value); break;
+            case MokuType.SS: UpdateSSHealed(value); break;
+        }
+    }
+
+    public bool GetHealedState(MokuType moku)
+    {
+        return moku switch
+        {
+            MokuType.FF => gameData.FFHealed,
+            MokuType.WS => gameData.WSHealed,
+            MokuType.FE => gameData.FEHealed,
+            MokuType.PB => gameData.PBHealed,
+            MokuType.TM => gameData.TMHealed,
+            MokuType.SS => gameData.SSHealed,
+            _ => false
+        };
+    }
+
 }

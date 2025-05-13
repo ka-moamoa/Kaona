@@ -61,6 +61,16 @@ public class RotateOnDrag : MonoBehaviour
         StartCoroutine(SmoothlyRotateToNearestAngle());
     }
 
+    void OnEnable()
+    {
+        isDragging = false;
+    }
+
+    void OnDisable()
+    {
+        isDragging = false;
+    }
+
     public void disableStartAnimator(){
         startAnim.enabled = false;
     }
