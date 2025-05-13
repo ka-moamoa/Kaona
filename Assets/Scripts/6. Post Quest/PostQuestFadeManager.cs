@@ -18,6 +18,6 @@ public class PostQuestFadeManager : MonoBehaviour
     }
 
     public void FadeOut(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(5);
     }
 }
