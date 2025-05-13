@@ -10628,18 +10628,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903650794}
   m_CullTransparentMesh: 1
---- !u!1 &905744913 stripped
+--- !u!1 &905744913
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e70af5c0e312b4d84885f65509a547f0,
-    type: 3}
-  m_PrefabInstance: {fileID: 2042006761}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &905744916 stripped
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905744916}
+  - component: {fileID: 905744917}
+  - component: {fileID: 905744918}
+  m_Layer: 0
+  m_Name: Lokahi Wheel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &905744916
 Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-    type: 3}
-  m_PrefabInstance: {fileID: 2042006761}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905744913}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6830127, y: -0.18301274, z: -0.6830127, w: 0.18301274}
+  m_LocalPosition: {x: -3.8, y: 1.04, z: -0.05}
+  m_LocalScale: {x: 217.56635, y: 217.56635, z: 211.9726}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1597743734}
+  - {fileID: 875902265}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 90, z: 30}
 --- !u!114 &905744917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23807,125 +23830,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008867954}
   m_CullTransparentMesh: 1
---- !u!1001 &2042006761
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 217.56635
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 217.56635
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 211.9726
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.8
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.04
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.18301274
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.6830127
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.18301274
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.6830127
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 670865a2e11a1496889ccbbcdf45acee, type: 2}
-    - target: {fileID: 919132149155446097, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_Name
-      value: Lokahi Wheel
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 875902265}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1597743734}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 905744917}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e70af5c0e312b4d84885f65509a547f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 905744918}
-  m_SourcePrefab: {fileID: 100100000, guid: e70af5c0e312b4d84885f65509a547f0, type: 3}
 --- !u!1 &2043600517
 GameObject:
   m_ObjectHideFlags: 0
@@ -24641,5 +24545,5 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 1036036160}
-  - {fileID: 2042006761}
+  - {fileID: 905744916}
   - {fileID: 528703549}
