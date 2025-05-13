@@ -1,25 +1,27 @@
 using System.IO;
 using UnityEngine;
 
+using System.IO;
+using UnityEngine;
+
 public class GameDataManager : MonoBehaviour
 {
-    public static GameDataManager Instance { get; private set; } // Singleton instance
+    public static GameDataManager Instance { get; private set; }
     private const string FileName = "gameData.json";
-    public GameData gameData; // Make gameData public for access in other scripts
+    public GameData gameData;
 
     void Awake()
     {
-        // Singleton pattern
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Persist this object between scenes
-            LoadGameData(); // Load data on initialization
+            DontDestroyOnLoad(gameObject);
+            LoadGameData();
             UpdateSSData(5, true);
         }
         else
         {
-            Destroy(gameObject); // Ensure only one instance of GameDataManager exists
+            Destroy(gameObject);
         }
     }
 
@@ -33,9 +35,8 @@ public class GameDataManager : MonoBehaviour
         }
         else
         {
-            // Initialize with default values if the file doesn't exist
             gameData = new GameData();
-            SaveGameData(); // Optionally save the default data
+            SaveGameData();
         }
     }
 
@@ -47,55 +48,58 @@ public class GameDataManager : MonoBehaviour
         Debug.Log($"Game data saved to {path}");
     }
 
-    //Resetting Game Data for New Journey
     public void ResetGameData()
     {
         string path = Path.Combine(Application.persistentDataPath, FileName);
 
-        // Check if the file exists, and if it does, delete it
         if (File.Exists(path))
         {
             File.Delete(path);
             Debug.Log($"Game data file deleted at {path}");
         }
 
-        // Reinitialize the gameData object to default values
         gameData = new GameData();
-
-        // Save the new empty/default data to a new file
         SaveGameData();
 
         Debug.Log("Game data has been reset and saved as new.");
     }
 
+    // === Generic Methods ===
 
-    //Updating Classes
     public void UpdateIntroSequenceDone(bool value)
     {
         gameData.introSequenceDone = value;
         Debug.Log($"Intro Sequence Done set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdateGameComplete(bool value)
     {
         gameData.gameComplete = value;
         Debug.Log($"Game Complete set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
+    // === FF ===
     public void UpdateFFUnlocked(bool value)
     {
         gameData.FFUnlocked = value;
         Debug.Log($"FF Unlocked set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
+    }
+
+    public void UpdateFFTileIntroDone(bool value)
+    {
+        gameData.FFTileIntroDone = value;
+        Debug.Log($"FF TileIntroDone set to {value}");
+        SaveGameData();
     }
 
     public void UpdateFFHealed(bool value)
     {
         gameData.FFHealed = value;
         Debug.Log($"FF Healed set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdateFFData(int index, bool value)
@@ -104,7 +108,7 @@ public class GameDataManager : MonoBehaviour
         {
             gameData.FF[index] = value;
             Debug.Log($"Updated FF[{index}] to {value}");
-            SaveGameData(); // Save after update
+            SaveGameData();
         }
         else
         {
@@ -112,18 +116,26 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
+    // === FE ===
     public void UpdateFEUnlocked(bool value)
     {
         gameData.FEUnlocked = value;
         Debug.Log($"FE Unlocked set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
+    }
+
+    public void UpdateFETileIntroDone(bool value)
+    {
+        gameData.FETileIntroDone = value;
+        Debug.Log($"FE TileIntroDone set to {value}");
+        SaveGameData();
     }
 
     public void UpdateFEHealed(bool value)
     {
         gameData.FEHealed = value;
         Debug.Log($"FE Healed set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdateFEData(int index, bool value)
@@ -132,7 +144,7 @@ public class GameDataManager : MonoBehaviour
         {
             gameData.FE[index] = value;
             Debug.Log($"Updated FE[{index}] to {value}");
-            SaveGameData(); // Save after update
+            SaveGameData();
         }
         else
         {
@@ -140,18 +152,26 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
+    // === WS ===
     public void UpdateWSUnlocked(bool value)
     {
         gameData.WSUnlocked = value;
         Debug.Log($"WS Unlocked set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
+    }
+
+    public void UpdateWSTileIntroDone(bool value)
+    {
+        gameData.WSTileIntroDone = value;
+        Debug.Log($"WS TileIntroDone set to {value}");
+        SaveGameData();
     }
 
     public void UpdateWSHealed(bool value)
     {
         gameData.WSHealed = value;
         Debug.Log($"WS Healed set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdateWSData(int index, bool value)
@@ -160,7 +180,7 @@ public class GameDataManager : MonoBehaviour
         {
             gameData.WS[index] = value;
             Debug.Log($"Updated WS[{index}] to {value}");
-            SaveGameData(); // Save after update
+            SaveGameData();
         }
         else
         {
@@ -168,18 +188,26 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
+    // === PB ===
     public void UpdatePBUnlocked(bool value)
     {
         gameData.PBUnlocked = value;
         Debug.Log($"PB Unlocked set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
+    }
+
+    public void UpdatePBTileIntroDone(bool value)
+    {
+        gameData.PBTileIntroDone = value;
+        Debug.Log($"PB TileIntroDone set to {value}");
+        SaveGameData();
     }
 
     public void UpdatePBHealed(bool value)
     {
         gameData.PBHealed = value;
         Debug.Log($"PB Healed set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdatePBData(int index, bool value)
@@ -188,7 +216,7 @@ public class GameDataManager : MonoBehaviour
         {
             gameData.PB[index] = value;
             Debug.Log($"Updated PB[{index}] to {value}");
-            SaveGameData(); // Save after update
+            SaveGameData();
         }
         else
         {
@@ -196,18 +224,26 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
+    // === TM ===
     public void UpdateTMUnlocked(bool value)
     {
         gameData.TMUnlocked = value;
         Debug.Log($"TM Unlocked set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
+    }
+
+    public void UpdateTMTileIntroDone(bool value)
+    {
+        gameData.TMTileIntroDone = value;
+        Debug.Log($"TM TileIntroDone set to {value}");
+        SaveGameData();
     }
 
     public void UpdateTMHealed(bool value)
     {
         gameData.TMHealed = value;
         Debug.Log($"TM Healed set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdateTMData(int index, bool value)
@@ -216,7 +252,7 @@ public class GameDataManager : MonoBehaviour
         {
             gameData.TM[index] = value;
             Debug.Log($"Updated TM[{index}] to {value}");
-            SaveGameData(); // Save after update
+            SaveGameData();
         }
         else
         {
@@ -224,18 +260,26 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
+    // === SS ===
     public void UpdateSSUnlocked(bool value)
     {
         gameData.SSUnlocked = value;
         Debug.Log($"SS Unlocked set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
+    }
+
+    public void UpdateSSTileIntroDone(bool value)
+    {
+        gameData.SSTileIntroDone = value;
+        Debug.Log($"SS TileIntroDone set to {value}");
+        SaveGameData();
     }
 
     public void UpdateSSHealed(bool value)
     {
         gameData.SSHealed = value;
         Debug.Log($"SS Healed set to {value}");
-        SaveGameData(); // Save after update
+        SaveGameData();
     }
 
     public void UpdateSSData(int index, bool value)
@@ -244,7 +288,7 @@ public class GameDataManager : MonoBehaviour
         {
             gameData.SS[index] = value;
             Debug.Log($"Updated SS[{index}] to {value}");
-            SaveGameData(); // Save after update
+            SaveGameData();
         }
         else
         {
@@ -252,7 +296,36 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
-    // Add more update methods for other data fields as needed
+    // === Generic TileIntroDone Accessors ===
+
+    public void UpdateTileIntroDoneState(MokuType moku, bool value)
+    {
+        switch (moku)
+        {
+            case MokuType.FF: UpdateFFTileIntroDone(value); break;
+            case MokuType.FE: UpdateFETileIntroDone(value); break;
+            case MokuType.WS: UpdateWSTileIntroDone(value); break;
+            case MokuType.PB: UpdatePBTileIntroDone(value); break;
+            case MokuType.TM: UpdateTMTileIntroDone(value); break;
+            case MokuType.SS: UpdateSSTileIntroDone(value); break;
+        }
+    }
+
+    public bool GetTileIntroDoneState(MokuType moku)
+    {
+        return moku switch
+        {
+            MokuType.FF => gameData.FFTileIntroDone,
+            MokuType.FE => gameData.FETileIntroDone,
+            MokuType.WS => gameData.WSTileIntroDone,
+            MokuType.PB => gameData.PBTileIntroDone,
+            MokuType.TM => gameData.TMTileIntroDone,
+            MokuType.SS => gameData.SSTileIntroDone,
+            _ => false
+        };
+    }
+
+    // === Other Shared Accessors ===
 
     public void UpdateHealedState(MokuType moku, bool value)
     {
@@ -281,4 +354,17 @@ public class GameDataManager : MonoBehaviour
         };
     }
 
+    public bool GetUnlockedState(MokuType moku)
+    {
+        return moku switch
+        {
+            MokuType.FF => gameData.FFUnlocked,
+            MokuType.WS => gameData.WSUnlocked,
+            MokuType.FE => gameData.FEUnlocked,
+            MokuType.PB => gameData.PBUnlocked,
+            MokuType.TM => gameData.TMUnlocked,
+            MokuType.SS => gameData.SSUnlocked,
+            _ => false
+        };
+    }
 }

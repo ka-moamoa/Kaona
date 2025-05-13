@@ -66,16 +66,19 @@ public class MokuSelectorGameManagerEditor : Editor
                 if (mokus != null && i < mokus.arraySize)
                 {
                     SerializedProperty moku = mokus.GetArrayElementAtIndex(i);
+                    SerializedProperty activatedProp = moku.FindPropertyRelative("introTileDone");
                     SerializedProperty unhealedProp = moku.FindPropertyRelative("unhealed");
                     SerializedProperty healedProp = moku.FindPropertyRelative("healed");
 
                     EditorGUILayout.Space();
                     EditorGUILayout.LabelField("Moku Objects", EditorStyles.miniBoldLabel);
                     EditorGUI.indentLevel++;
+                    EditorGUILayout.PropertyField(activatedProp, new GUIContent("Tile Intro"));
                     EditorGUILayout.PropertyField(unhealedProp, new GUIContent("Unhealed Tile"));
                     EditorGUILayout.PropertyField(healedProp, new GUIContent("Healed Tile"));
                     EditorGUI.indentLevel--;
                 }
+
 
                 EditorGUILayout.EndVertical();
                 EditorGUILayout.Space();

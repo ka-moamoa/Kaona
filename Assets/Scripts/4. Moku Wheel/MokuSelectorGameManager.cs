@@ -11,6 +11,7 @@ public class MaterialSet
 [System.Serializable]
 public class MokuState
 {
+    public GameObject introTileDone;
     public GameObject unhealed;
     public GameObject healed;
 }
@@ -47,15 +48,34 @@ public class MokuSelectorGameManager : MonoBehaviour
 
         foreach (MokuType moku in System.Enum.GetValues(typeof(MokuType)))
         {
-            bool isHealed = GameDataManager.Instance.GetHealedState(moku);
-            SetMokuVisual(moku, isHealed);
+            int index = (int)moku;
+            if (index >= mokus.Length || mokus[index] == null)
+                continue;
 
-            if (isHealed)
+            bool isUnlocked = GameDataManager.Instance.GetUnlockedState(moku);
+            bool isActivated = GameDataManager.Instance.GetTileIntroDoneState(moku);
+            bool isHealed = GameDataManager.Instance.GetHealedState(moku);
+
+            if (isUnlocked && !isActivated)
             {
-                SetHealedMaterial(moku);
+                if (mokus[index].introTileDone != null)
+                {
+                    mokus[index].introTileDone.SetActive(true);
+                    mokus[index].unhealed?.SetActive(true); // keep unhealed visible
+                    mokus[index].healed?.SetActive(false);
+                }
+            }
+            else
+            {
+                SetMokuVisual(moku, isHealed);
+                if (isHealed)
+                {
+                    SetHealedMaterial(moku);
+                }
             }
         }
     }
+
 
     private void SetMokuVisual(MokuType moku, bool healed)
     {
@@ -167,4 +187,25 @@ public class MokuSelectorGameManager : MonoBehaviour
     public void CloseSSButton() => CloseRuler(MokuType.SS);
     public void HealSSButton() => HealRuler(MokuType.SS);
     public void CloseHealedSSButton() => CloseHealedRuler(MokuType.SS);
+
+    // === Activation Buttons for Inspector ===
+    public void ActivateFFButton() => ActivateMoku(MokuType.FF);
+    public void ActivateWSButton() => ActivateMoku(MokuType.WS);
+    public void ActivateFEButton() => ActivateMoku(MokuType.FE);
+    public void ActivatePBButton() => ActivateMoku(MokuType.PB);
+    public void ActivateTMButton() => ActivateMoku(MokuType.TM);
+    public void ActivateSSButton() => ActivateMoku(MokuType.SS);
+
+    private void ActivateMoku(MokuType moku)
+    {
+        GameDataManager.Instance.UpdateTileIntroDoneState(moku, true);
+
+        int index = (int)moku;
+        if (index < mokus.Length && mokus[index] != null)
+        {
+            mokus[index].introTileDone?.SetActive(false);
+            mokus[index].unhealed?.SetActive(true); // show the unhealed state now
+        }
+    }
+
 }
