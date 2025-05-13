@@ -20,9 +20,8 @@ public class MokuSelectorGameManager : MonoBehaviour
     public Animator TMAnimator;
     public Animator SSAnimator;
 
-
-    public MeshRenderer[] lokahiWheelRenderers = new MeshRenderer[6];
-    public MaterialSet[] lokahiWheelMaterials = new MaterialSet[6];
+    public MeshRenderer[] lokahiWheelRenderers = new MeshRenderer[6]; //1 FF, 2 WS, 3 FE, 4 PB, 5 TM, 6 SS
+    public MaterialSet[] lokahiWheelMaterials = new MaterialSet[6]; //1 FF, 2 WS, 3 FE, 4 PB, 5 TM, 6 SS
 
 
     // Start is called before the first frame update
