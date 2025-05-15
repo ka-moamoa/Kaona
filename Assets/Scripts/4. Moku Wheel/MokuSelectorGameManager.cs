@@ -39,6 +39,9 @@ public class MokuSelectorGameManager : MonoBehaviour
     [Header("Moku Audio")]
     public AudioSource[] MokuStartAudio = new AudioSource[6];
 
+    [Header("Wheel Animator")]
+    public Animator LokahiWheelAnimator;
+
     private RotateOnDrag rotateOnDrag;
 
     void Start()
@@ -47,6 +50,13 @@ public class MokuSelectorGameManager : MonoBehaviour
         if (wheel != null)
         {
             rotateOnDrag = wheel.GetComponent<RotateOnDrag>();
+
+            // Get and disable the LokahiWheelAnimator if FFTileIntroDone is true
+            LokahiWheelAnimator = wheel.GetComponent<Animator>();
+            if (GameDataManager.Instance.GetFirstMokuIntroDone() && LokahiWheelAnimator != null)
+            {
+                LokahiWheelAnimator.enabled = false;
+            }
         }
 
         foreach (MokuType moku in System.Enum.GetValues(typeof(MokuType)))

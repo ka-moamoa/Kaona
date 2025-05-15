@@ -75,17 +75,17 @@ public class RotateOnDrag : MonoBehaviour
         startAnim.enabled = false;
     }
 
-    public void playStartAudio(){
-        startAudio.Play();
-        Debug.Log("PLAY");
+    //public void playStartAudio(){
+    //    startAudio.Play();
+    //    Debug.Log("PLAY");
 
-        startAnimationPlayed = true;
-    }
+    //    startAnimationPlayed = true;
+    //}
 
-    public void tempStopAudio(){
-        Debug.Log("PLAY");
-        startAudio.Stop();
-    }
+    //public void tempStopAudio(){
+    //    Debug.Log("PLAY");
+    //    startAudio.Stop();
+    //}
 
     //Old Rotation Code
 
