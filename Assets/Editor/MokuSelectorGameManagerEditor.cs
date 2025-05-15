@@ -20,10 +20,10 @@ public class MokuSelectorGameManagerEditor : Editor
         EditorGUILayout.LabelField("Moku Properties", EditorStyles.boldLabel);
 
         // Get all arrays once
-        SerializedProperty animators = new SerializedObject(target).FindProperty("FFAnimator"); // individual animators
         SerializedProperty renderers = serializedObject.FindProperty("lokahiWheelRenderers");
         SerializedProperty materials = serializedObject.FindProperty("lokahiWheelMaterials");
         SerializedProperty mokus = serializedObject.FindProperty("mokus");
+        SerializedProperty audioArray = serializedObject.FindProperty("MokuStartAudio");
 
         for (int i = 0; i < sectionLabels.Length; i++)
         {
@@ -62,23 +62,29 @@ public class MokuSelectorGameManagerEditor : Editor
                     EditorGUI.indentLevel--;
                 }
 
-                // Healed / Unhealed GameObjects from mokus[]
+                // Moku state GameObjects
                 if (mokus != null && i < mokus.arraySize)
                 {
                     SerializedProperty moku = mokus.GetArrayElementAtIndex(i);
-                    SerializedProperty activatedProp = moku.FindPropertyRelative("introTileDone");
+                    SerializedProperty introProp = moku.FindPropertyRelative("introTileDone");
                     SerializedProperty unhealedProp = moku.FindPropertyRelative("unhealed");
                     SerializedProperty healedProp = moku.FindPropertyRelative("healed");
 
                     EditorGUILayout.Space();
-                    EditorGUILayout.LabelField("Moku Objects", EditorStyles.miniBoldLabel);
+                    EditorGUILayout.LabelField("Moku State Objects", EditorStyles.miniBoldLabel);
                     EditorGUI.indentLevel++;
-                    EditorGUILayout.PropertyField(activatedProp, new GUIContent("Tile Intro"));
+                    EditorGUILayout.PropertyField(introProp, new GUIContent("Intro Tile"));
                     EditorGUILayout.PropertyField(unhealedProp, new GUIContent("Unhealed Tile"));
                     EditorGUILayout.PropertyField(healedProp, new GUIContent("Healed Tile"));
                     EditorGUI.indentLevel--;
                 }
 
+                // AudioSource
+                if (audioArray != null && i < audioArray.arraySize)
+                {
+                    SerializedProperty audioSource = audioArray.GetArrayElementAtIndex(i);
+                    EditorGUILayout.PropertyField(audioSource, new GUIContent("Start Audio"));
+                }
 
                 EditorGUILayout.EndVertical();
                 EditorGUILayout.Space();

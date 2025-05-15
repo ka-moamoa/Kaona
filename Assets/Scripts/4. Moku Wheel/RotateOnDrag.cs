@@ -40,13 +40,13 @@ public class RotateOnDrag : MonoBehaviour
             HandleRotation();
         }
 
-        if(startAudio.isPlaying == false && startAnimationPlayed == true && done == false){
-            // startAnim.enabled = false;
+        //if(startAudio.isPlaying == false && startAnimationPlayed == true && done == false){
+        //    // startAnim.enabled = false;
             
-            startAnim.Play("Start Animation",0,0.97f);
-            startAnim.speed = 1;
-            done = true;
-        }
+        //    startAnim.Play("Start Animation",0,0.97f);
+        //    startAnim.speed = 1;
+        //    done = true;
+        //}
     }
 
     void StartDragging()
