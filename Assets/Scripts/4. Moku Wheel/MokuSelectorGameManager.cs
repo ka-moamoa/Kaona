@@ -92,7 +92,15 @@ public class MokuSelectorGameManager : MonoBehaviour
                 if (mokuAnimator != null)
                 {
                     mokuAnimator.enabled = true;
-                    mokuAnimator.Play("IntroTileStart");
+
+                    if (moku == MokuType.FF && !GameDataManager.Instance.GetFirstMokuIntroDone())
+                    {
+                        mokuAnimator.Play("IntroTilePlaying");
+                    }
+                    else
+                    {
+                        mokuAnimator.Play("IntroTileStart");
+                    }
                 }
             }
             else
@@ -194,7 +202,7 @@ public class MokuSelectorGameManager : MonoBehaviour
 
         if (rotateOnDrag != null)
         {
-            rotateOnDrag.enabled = false; // Lock rotation
+            rotateOnDrag.enabled = false;
         }
     }
 
@@ -208,12 +216,11 @@ public class MokuSelectorGameManager : MonoBehaviour
 
         if (rotateOnDrag != null)
         {
-            rotateOnDrag.enabled = true; // Unlock rotation
+            rotateOnDrag.enabled = true;
         }
     }
 
-
-    // Button versions for Inspector
+    // === Inspector Button Bindings ===
     public void OpenFFButton() => OpenRuler(MokuType.FF);
     public void CloseFFButton() => CloseRuler(MokuType.FF);
     public void HealFFButton() => HealRuler(MokuType.FF);

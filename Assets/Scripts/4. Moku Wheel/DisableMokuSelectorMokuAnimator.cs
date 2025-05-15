@@ -9,6 +9,9 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
     [Header("Audio Trigger")]
     public AudioSource monitoredAudioSource;
 
+    [Header("Data Tracking")]
+    public bool markFirstIntroDoneInGameData = false;
+
     private bool audioStarted = false;
     private bool hasDisabledAfterAudio = false;
 
@@ -41,7 +44,6 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
             {
                 animator.Play("IntroTileFinished");
             }
-
             hasDisabledAfterAudio = true;
         }
     }
@@ -50,6 +52,14 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
     {
         Animator animator = GetComponent<Animator>();
         if (animator != null) animator.enabled = false;
-        if (rotateOnDrag != null) rotateOnDrag.enabled = true;
+
+        if (rotateOnDrag != null)
+            rotateOnDrag.enabled = true;
+
+        if (markFirstIntroDoneInGameData)
+        {
+            GameDataManager.Instance.UpdateFirstMokuIntroDone(true);
+            GameDataManager.Instance.UpdateFFTileIntroDone(true);
+        }
     }
 }

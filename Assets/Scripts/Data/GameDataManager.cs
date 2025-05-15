@@ -367,4 +367,18 @@ public class GameDataManager : MonoBehaviour
             _ => false
         };
     }
+
+    // === First Moku Intro ===
+    public void UpdateFirstMokuIntroDone(bool value)
+    {
+        gameData.firstMokuIntroDone = value;
+        Debug.Log($"First Moku Intro Done set to {value}");
+        SaveGameData();
+    }
+
+    public bool GetFirstMokuIntroDone()
+    {
+        return gameData.firstMokuIntroDone;
+    }
+
 }

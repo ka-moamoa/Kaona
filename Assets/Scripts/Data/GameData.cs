@@ -9,6 +9,8 @@ public class GameData
     public bool introSequenceDone;
     public bool gameComplete;
 
+    public bool firstMokuIntroDone; // ✅ NEW: First Moku Intro Done flag
+
     public bool FFUnlocked;
     public bool FFTileIntroDone;
     public bool FFHealed;
@@ -39,7 +41,6 @@ public class GameData
     public bool SSHealed;
     public bool[] SS;
 
-    // Constructor to initialize arrays
     public GameData()
     {
         FF = new bool[9];
