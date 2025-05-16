@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Lokahi Wheel
+  - UnstartedSprite
+  - InProgressSprite
+  - CompleteSprite
   layers:
   - Default
   - TransparentFX

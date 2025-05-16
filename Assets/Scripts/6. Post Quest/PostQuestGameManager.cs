@@ -42,16 +42,16 @@ public class PostQuestGameManager : MonoBehaviour
     {
         optionAAudio.Play();
 
-        //CHANGE VALUE
-        if (GameDataManager.Instance.gameData.FF[0]){
-            optionACompleteOverlay.SetActive(true);
-            optionAAudio.enabled = false;
-        }
-        else{
-            optionACompleteOverlay.SetActive(false);
-            optionAAudio.enabled = true;
-            Debug.Log("QUEST COMPLETE");
-        }
+        ////CHANGE VALUE
+        //if (GameDataManager.Instance.gameData.FF[0]){
+        //    optionACompleteOverlay.SetActive(true);
+        //    optionAAudio.enabled = false;
+        //}
+        //else{
+        //    optionACompleteOverlay.SetActive(false);
+        //    optionAAudio.enabled = true;
+        //    Debug.Log("QUEST COMPLETE");
+        //}
     }
 
     // Update is called once per frame
@@ -120,7 +120,7 @@ public class PostQuestGameManager : MonoBehaviour
             optionASuccessAudioPlayed = true;
 
             //CHANGE VALUE
-            GameDataManager.Instance.UpdateFFData(0, true);
+            //GameDataManager.Instance.UpdateFFData(0, true);
         }
 
         public void FadeToMokuWheel(){

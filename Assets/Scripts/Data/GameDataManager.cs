@@ -17,7 +17,7 @@ public class GameDataManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             LoadGameData();
-            UpdateSSData(5, true);
+            
         }
         else
         {
@@ -102,7 +102,7 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
     }
 
-    public void UpdateFFData(int index, bool value)
+    public void UpdateFFData(int index, int value)
     {
         if (index >= 0 && index < gameData.FF.Length)
         {
@@ -138,7 +138,7 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
     }
 
-    public void UpdateFEData(int index, bool value)
+    public void UpdateFEData(int index, int value)
     {
         if (index >= 0 && index < gameData.FE.Length)
         {
@@ -174,7 +174,7 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
     }
 
-    public void UpdateWSData(int index, bool value)
+    public void UpdateWSData(int index, int value)
     {
         if (index >= 0 && index < gameData.WS.Length)
         {
@@ -210,7 +210,7 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
     }
 
-    public void UpdatePBData(int index, bool value)
+    public void UpdatePBData(int index, int value)
     {
         if (index >= 0 && index < gameData.PB.Length)
         {
@@ -246,7 +246,7 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
     }
 
-    public void UpdateTMData(int index, bool value)
+    public void UpdateTMData(int index, int value)
     {
         if (index >= 0 && index < gameData.TM.Length)
         {
@@ -282,7 +282,7 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
     }
 
-    public void UpdateSSData(int index, bool value)
+    public void UpdateSSData(int index, int value)
     {
         if (index >= 0 && index < gameData.SS.Length)
         {
