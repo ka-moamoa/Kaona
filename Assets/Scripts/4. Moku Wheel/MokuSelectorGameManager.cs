@@ -56,7 +56,34 @@ public class MokuSelectorGameManager : MonoBehaviour
             if (GameDataManager.Instance.GetFirstMokuIntroDone() && LokahiWheelAnimator != null)
             {
                 LokahiWheelAnimator.enabled = false;
+
+                Transform wheelTransform = LokahiWheelAnimator.transform;
+
+                if (GameDataManager.Instance.gameData.FFLastOpened)
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 30f);
+                else if (GameDataManager.Instance.gameData.WSLastOpened)
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 330);
+                else if (GameDataManager.Instance.gameData.FELastOpened)
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 270f);
+                else if (GameDataManager.Instance.gameData.PBLastOpened)
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 210f);
+                else if (GameDataManager.Instance.gameData.TMLastOpened)
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 150f);
+                else if (GameDataManager.Instance.gameData.SSLastOpened)
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 90f);
+                else
+                    wheelTransform.rotation = Quaternion.Euler(180f, 90f, 30f); // Default to FF
+
+                // Reset all "last opened" flags
+                GameDataManager.Instance.gameData.FFLastOpened = false;
+                GameDataManager.Instance.gameData.WSLastOpened = false;
+                GameDataManager.Instance.gameData.FELastOpened = false;
+                GameDataManager.Instance.gameData.PBLastOpened = false;
+                GameDataManager.Instance.gameData.TMLastOpened = false;
+                GameDataManager.Instance.gameData.SSLastOpened = false;
+                GameDataManager.Instance.SaveGameData();
             }
+
         }
 
         foreach (MokuType moku in System.Enum.GetValues(typeof(MokuType)))

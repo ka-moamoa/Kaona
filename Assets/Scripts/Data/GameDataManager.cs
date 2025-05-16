@@ -381,4 +381,35 @@ public class GameDataManager : MonoBehaviour
         return gameData.firstMokuIntroDone;
     }
 
+    // === Moku Last Opened Getters/Setters ===
+    public void UpdateLastOpenedState(MokuType moku, bool value)
+    {
+        switch (moku)
+        {
+            case MokuType.FF: gameData.FFLastOpened = value; break;
+            case MokuType.FE: gameData.FELastOpened = value; break;
+            case MokuType.WS: gameData.WSLastOpened = value; break;
+            case MokuType.PB: gameData.PBLastOpened = value; break;
+            case MokuType.TM: gameData.TMLastOpened = value; break;
+            case MokuType.SS: gameData.SSLastOpened = value; break;
+        }
+        Debug.Log($"{moku} LastOpened set to {value}");
+        SaveGameData();
+    }
+
+    public bool GetLastOpenedState(MokuType moku)
+    {
+        return moku switch
+        {
+            MokuType.FF => gameData.FFLastOpened,
+            MokuType.FE => gameData.FELastOpened,
+            MokuType.WS => gameData.WSLastOpened,
+            MokuType.PB => gameData.PBLastOpened,
+            MokuType.TM => gameData.TMLastOpened,
+            MokuType.SS => gameData.SSLastOpened,
+            _ => false
+        };
+    }
+
+
 }

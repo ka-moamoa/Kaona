@@ -1097,8 +1097,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
   sceneNum: 0
-  changeInvoked: 0
   fadeAnim: {fileID: 978522087}
+  changeInvoked: 0
+  FFSelected: 0
+  FESelected: 0
+  WSSelected: 0
+  PBSelected: 0
+  TMSelected: 0
+  SSSelected: 0
 --- !u!114 &68614157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,30 +1393,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 83268851}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: AssignAudioID
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 83268851}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: AssignMoku
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: FF
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 83268852}
         m_TargetAssemblyTypeName: MokuWheelFadeManager, Assembly-CSharp
         m_MethodName: ChangeScene
@@ -1468,7 +1450,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83268846}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7125c195f68a4af5a4b0157bc960712, type: 3}
   m_Name: 
@@ -1495,8 +1477,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
   sceneNum: 0
-  changeInvoked: 0
   fadeAnim: {fileID: 978522087}
+  changeInvoked: 0
+  FFSelected: 1
+  FESelected: 0
+  WSSelected: 0
+  PBSelected: 0
+  TMSelected: 0
+  SSSelected: 0
 --- !u!1 &86458776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3222,8 +3210,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
   sceneNum: 0
-  changeInvoked: 0
   fadeAnim: {fileID: 978522087}
+  changeInvoked: 0
+  FFSelected: 0
+  FESelected: 0
+  WSSelected: 0
+  PBSelected: 0
+  TMSelected: 0
+  SSSelected: 0
 --- !u!114 &215944162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8744,26 +8738,32 @@ MonoBehaviour:
     FFUnlocked: 0
     FFTileIntroDone: 0
     FFHealed: 0
+    FFLastOpened: 0
     FF: 000000000000000000
     FEUnlocked: 0
     FETileIntroDone: 0
     FEHealed: 0
+    FELastOpened: 0
     FE: 000000000000000000
     WSUnlocked: 0
     WSTileIntroDone: 0
     WSHealed: 0
+    WSLastOpened: 0
     WS: 000000000000000000
     PBUnlocked: 0
     PBTileIntroDone: 0
     PBHealed: 0
+    PBLastOpened: 0
     PB: 000000000000000000
     TMUnlocked: 0
     TMTileIntroDone: 0
     TMHealed: 0
+    TMLastOpened: 0
     TM: 000000000000000000
     SSUnlocked: 0
     SSTileIntroDone: 0
     SSHealed: 0
+    SSLastOpened: 0
     SS: 000000000000000000
 --- !u!4 &528703549
 Transform:
@@ -19970,8 +19970,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
   sceneNum: 0
-  changeInvoked: 0
   fadeAnim: {fileID: 978522087}
+  changeInvoked: 0
+  FFSelected: 0
+  FESelected: 0
+  WSSelected: 0
+  PBSelected: 0
+  TMSelected: 0
+  SSSelected: 0
 --- !u!114 &1255624432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26922,8 +26928,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
   sceneNum: 0
-  changeInvoked: 0
   fadeAnim: {fileID: 978522087}
+  changeInvoked: 0
+  FFSelected: 0
+  FESelected: 0
+  WSSelected: 0
+  PBSelected: 0
+  TMSelected: 0
+  SSSelected: 0
 --- !u!114 &1649904403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32042,8 +32054,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
   sceneNum: 0
-  changeInvoked: 0
   fadeAnim: {fileID: 978522087}
+  changeInvoked: 0
+  FFSelected: 0
+  FESelected: 0
+  WSSelected: 0
+  PBSelected: 0
+  TMSelected: 0
+  SSSelected: 0
 --- !u!114 &1943429640
 MonoBehaviour:
   m_ObjectHideFlags: 0
