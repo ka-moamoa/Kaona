@@ -40,6 +40,7 @@ public class MokuWheelFadeManager : MonoBehaviour
     void Start()
     {
         mokuAudio = GetComponent<AudioSource>();
+        fadeAnim = GameObject.FindWithTag("FadeCanvas").GetComponent<Animator>();
 
         // Find sprite state children by tag
         unstartedSprite = FindChildWithTag("UnstartedSprite");

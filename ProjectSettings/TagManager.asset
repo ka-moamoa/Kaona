@@ -8,6 +8,7 @@ TagManager:
   - UnstartedSprite
   - InProgressSprite
   - CompleteSprite
+  - FadeCanvas
   layers:
   - Default
   - TransparentFX
