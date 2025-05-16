@@ -133,6 +133,11 @@ public class MokuSelectorGameManager : MonoBehaviour
                     if (moku == MokuType.FF && !GameDataManager.Instance.GetFirstMokuIntroDone())
                     {
                         mokuAnimator.Play("IntroTilePlaying");
+
+                        if (rotateOnDrag != null)
+                        {
+                            rotateOnDrag.enabled = false;
+                        }
                     }
                     else
                     {
