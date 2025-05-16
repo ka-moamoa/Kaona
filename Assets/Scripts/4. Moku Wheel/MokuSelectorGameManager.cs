@@ -106,6 +106,7 @@ public class MokuSelectorGameManager : MonoBehaviour
 
             if (!isUnlocked)
             {
+                
                 mokuState.introTileDone?.SetActive(false);
                 mokuState.unhealed?.SetActive(false);
                 mokuState.healed?.SetActive(false);
@@ -261,6 +262,7 @@ public class MokuSelectorGameManager : MonoBehaviour
             rotateOnDrag.enabled = true;
         }
     }
+
 
     // === Inspector Button Bindings ===
     public void OpenFFButton() => OpenRuler(MokuType.FF);

@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1093602315023825652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -430,7 +430,7 @@ RectTransform:
   m_GameObject: {fileID: 3805725695008755058}
   m_LocalRotation: {x: -0.6830127, y: 0.18301274, z: 0.6830127, w: 0.18301274}
   m_LocalPosition: {x: 0, y: 0, z: -0.0293}
-  m_LocalScale: {x: 0.000026018532, y: 0.000027967319, z: 0.000027967326}
+  m_LocalScale: {x: 0.00002532852, y: 0.000027225626, z: 0.000027225631}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8034873678835152319}
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monitoredAudioSource: {fileID: 7648264106514059697}
-  markFirstIntroDoneInGameData: 1
+  markFirstIntroDoneInGameData: 0
 --- !u!1 &4262112821358032193
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,8 +985,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7ed3d0ac4848541beb496ae2f89af26b, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 0723a9aa1a43f4325b66c2e693afdde0, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
