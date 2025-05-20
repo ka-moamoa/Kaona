@@ -16769,7 +16769,7 @@ PrefabInstance:
     - target: {fileID: 1159535803941607928, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 1495655686655277463, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
@@ -16809,7 +16809,7 @@ PrefabInstance:
     - target: {fileID: 3541557477588263077, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3594902811677089614, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
@@ -16829,7 +16829,7 @@ PrefabInstance:
     - target: {fileID: 3594902811677089614, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -378.55127
       objectReference: {fileID: 0}
     - target: {fileID: 3903975412211834471, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
@@ -16850,7 +16850,7 @@ PrefabInstance:
     - target: {fileID: 4172820279266913856, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.13716006
       objectReference: {fileID: 0}
     - target: {fileID: 5650444024208977483, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
@@ -16982,7 +16982,7 @@ PrefabInstance:
     - target: {fileID: 6916955858408826284, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -887.8275
       objectReference: {fileID: 0}
     - target: {fileID: 8539397926854616909, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
@@ -16992,7 +16992,7 @@ PrefabInstance:
     - target: {fileID: 8539397926854616909, guid: 7cf791c0709b44c08a5e2e732795028e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21366,7 +21366,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 22f839098b44c4929baba877c82f4ecf,
+      objectReference: {fileID: 21300000, guid: 9c99b705569724fcd948e891ce16fae1,
         type: 3}
     - target: {fileID: 2898605872150335288, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
