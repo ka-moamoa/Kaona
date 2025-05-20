@@ -15,6 +15,8 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
     private bool audioStarted = false;
     private bool hasDisabledAfterAudio = false;
 
+    private PauseManager pauseManager;
+
     void Start()
     {
         GameObject wheel = GameObject.FindWithTag("Lokahi Wheel");
@@ -22,6 +24,8 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
         {
             rotateOnDrag = wheel.GetComponent<RotateOnDrag>();
         }
+
+        pauseManager = GameObject.FindGameObjectWithTag("Pause UI").GetComponent<PauseManager>();
     }
 
     void Update()
@@ -36,7 +40,7 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
             Debug.Log("STARTED");
         }
 
-        if (audioStarted && !monitoredAudioSource.isPlaying)
+        if (audioStarted && !monitoredAudioSource.isPlaying && pauseManager.isPaused && Time.timeScale == 1)
         {
             Debug.Log("DONE");
             Animator animator = GetComponent<Animator>();
