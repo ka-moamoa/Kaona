@@ -112,4 +112,36 @@ public class MokuWheelFadeManager : MonoBehaviour
         Debug.LogWarning($"Child with tag '{tag}' not found on {gameObject.name}.");
         return null;
     }
+
+    public void MarkQuestAsStarted()
+    {
+        int index = mokuQuestNum - 1;
+        if (index < 0 || index > 8)
+        {
+            Debug.LogError("Quest number must be between 1 and 9.");
+            return;
+        }
+
+        int currentState = GetMokuQuestState();
+
+        if (currentState == MokuProgressState.UNSTARTED)
+        {
+            switch (mokuName)
+            {
+                case MokuType.FF: GameDataManager.Instance.UpdateFFData(index, MokuProgressState.IN_PROGRESS); break;
+                case MokuType.FE: GameDataManager.Instance.UpdateFEData(index, MokuProgressState.IN_PROGRESS); break;
+                case MokuType.WS: GameDataManager.Instance.UpdateWSData(index, MokuProgressState.IN_PROGRESS); break;
+                case MokuType.PB: GameDataManager.Instance.UpdatePBData(index, MokuProgressState.IN_PROGRESS); break;
+                case MokuType.TM: GameDataManager.Instance.UpdateTMData(index, MokuProgressState.IN_PROGRESS); break;
+                case MokuType.SS: GameDataManager.Instance.UpdateSSData(index, MokuProgressState.IN_PROGRESS); break;
+            }
+
+            Debug.Log($"Set {mokuName} quest {index + 1} to IN_PROGRESS.");
+        }
+        else
+        {
+            Debug.Log($"{mokuName} quest {index + 1} is already started or completed.");
+        }
+    }
+
 }

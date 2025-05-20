@@ -43,7 +43,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Alpha
-    path: TM
+    path: WS
     classID: 225
     script: {fileID: 0}
     flags: 0
@@ -73,7 +73,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: TM
+    path: WS
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -86,7 +86,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2539894658
+      path: 1178720546
       attribute: 1574349066
       script: {fileID: 0}
       typeID: 225
@@ -95,7 +95,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2539894658
+      path: 1178720546
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -151,7 +151,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Alpha
-    path: TM
+    path: WS
     classID: 225
     script: {fileID: 0}
     flags: 0
@@ -181,7 +181,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: TM
+    path: WS
     classID: 1
     script: {fileID: 0}
     flags: 0
