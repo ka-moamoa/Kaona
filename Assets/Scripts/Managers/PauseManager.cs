@@ -13,6 +13,8 @@ public class PauseManager : MonoBehaviour
 
     public bool isPaused = false;
 
+    public int questSelectSceneNum;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,5 +67,19 @@ public class PauseManager : MonoBehaviour
     public void TogglePause()
     {
         isPaused = !isPaused;
+    }
+
+    public void QuestSelector()
+    {
+        fadeAnim.SetTrigger("Fade Out");
+        Invoke(nameof(InvokeChangeAfterDelayQuest), 1f);
+
+        Time.timeScale = 1;
+        AudioListener.pause = false;
+    }
+
+    private void InvokeChangeAfterDelayQuest()
+    {
+        SceneManager.LoadScene(questSelectSceneNum);
     }
 }

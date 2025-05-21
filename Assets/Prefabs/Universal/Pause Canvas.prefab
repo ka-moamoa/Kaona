@@ -490,6 +490,7 @@ MonoBehaviour:
   fadeAnim: {fileID: 0}
   sceneNum: 1
   isPaused: 0
+  questSelectSceneNum: 5
 --- !u!1 &2415823226666434223
 GameObject:
   m_ObjectHideFlags: 0

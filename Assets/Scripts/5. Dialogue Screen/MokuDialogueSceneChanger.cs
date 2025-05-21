@@ -23,7 +23,7 @@ public class MokuDialogueSceneChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (mokuAudio.isPlaying == false && !changeInvoked){
+        if (mokuAudio.isPlaying == false && !changeInvoked && Time.timeScale == 1){
             fadeAnim.SetTrigger("Fade Out");
             Invoke("InvokeChangeAfterDelay", 1);
             Debug.Log("STOP");
