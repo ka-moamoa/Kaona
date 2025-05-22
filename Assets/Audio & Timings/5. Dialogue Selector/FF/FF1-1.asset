@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
-  m_Name: Test Timing
+  m_Name: FF1-1
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: 35e2dcb0e36114492a5fd4a6ae95b932, type: 3}
   Text: 'You awaken to find yourself trapped in a dimly lit cell. Cold stone walls
@@ -31,15 +31,15 @@ MonoBehaviour:
     form a pattern, solve the pattern and I will grant you temporary relief.'
   Timings:
   - StartPosition: 15.521545
-    EndPosition: 21.126547
+    EndPosition: 21.508844
     Name: You awaken to
     Text: 'You awaken to find yourself trapped in a dimly lit cell. '
     Rectangle:
       serializedVersion: 2
-      x: 325.17062
+      x: 444.94037
       y: 21
-      width: 106.589355
-      height: 144.5
+      width: 160.05957
+      height: 135.40001
     Color: {r: 0.41315776, g: 0.40001363, b: 0.70861673, a: 0.16078432}
   - StartPosition: 21.50018
     EndPosition: 24.294268
@@ -47,120 +47,120 @@ MonoBehaviour:
     Text: Cold stone walls surround you,
     Rectangle:
       serializedVersion: 2
-      x: 438.8653
+      x: 604.7683
       y: 21
-      width: 53.134705
-      height: 144.5
+      width: 74.694885
+      height: 135.40001
     Color: {r: 0.7087736, g: 0.7770854, b: 0.8058872, a: 0.16078432}
   - StartPosition: 24.393583
-    EndPosition: 28.395897
+    EndPosition: 29.102402
     Name: Timing 11
     Text: ' and the air is heavy with a sense of despair.'
     Rectangle:
       serializedVersion: 2
-      x: 493.88867
+      x: 682.1182
       y: 21
-      width: 76.11133
-      height: 144.5
+      width: 125.881714
+      height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 29.11086
-    EndPosition: 32.3454
+    EndPosition: 32.880478
     Name: Timing 9
     Text: Alone, you are connected to a panel.
     Rectangle:
       serializedVersion: 2
-      x: 583.5964
+      x: 808.2261
       y: 21
-      width: 61.51068
-      height: 144.5
+      width: 100.773926
+      height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 32.895714
-    EndPosition: 38.243683
+    EndPosition: 38.52889
     Name: Timing 10
     Text: On its surface are knobs and controls for what purpose
     Rectangle:
       serializedVersion: 2
-      x: 655.57227
+      x: 909.4073
       y: 21
-      width: 101.701416
-      height: 144.5
+      width: 150.59271
+      height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 38.529083
-    EndPosition: 41.383087
+    EndPosition: 42.11993
     Name: I will keep
     Text: I will keep hidden from you.
     Rectangle:
       serializedVersion: 2
-      x: 762.7011
+      x: 1060.0052
       y: 21
-      width: 54.27411
-      height: 144.5
+      width: 95.99475
+      height: 135.40001
     Color: {r: 0.3608451, g: 0.6690642, b: 0.6617589, a: 0.16078432}
   - StartPosition: 42.191723
-    EndPosition: 46.9484
+    EndPosition: 47.73093
     Name: From the panel,
     Text: From the panel are wires that are tethered to your body.
     Rectangle:
       serializedVersion: 2
-      x: 832.3529
+      x: 1157.9192
       y: 21
-      width: 90.45691
-      height: 144.5
+      width: 148.08069
+      height: 135.40001
     Color: {r: 0.52547884, g: 0.83775246, b: 0.4220647, a: 0.16078432}
   - StartPosition: 47.757034
-    EndPosition: 52.479824
+    EndPosition: 52.855648
     Name: The wires are
     Text: The wires are siphoning energy from your body
     Rectangle:
       serializedVersion: 2
-      x: 938.1875
+      x: 1306.6978
       y: 21
-      width: 89.8125
-      height: 144.5
+      width: 136.30225
+      height: 135.40001
     Color: {r: 0.5635736, g: 0.29043755, b: 0.28941166, a: 0.16078432}
   - StartPosition: 52.875965
-    EndPosition: 57.58057
+    EndPosition: 58.541466
     Name: Timing 12
     Text: ' to fuel my magnificence.'
     Rectangle:
       serializedVersion: 2
-      x: 1035.5333
+      x: 1443.5431
       y: 21
-      width: 89.466675
-      height: 144.5
+      width: 151.45691
+      height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 58.507126
-    EndPosition: 64.4054
+    EndPosition: 65.19985
     Name: I am not
     Text: I am not unkind and have given you a means of temporary relief.
     Rectangle:
       serializedVersion: 2
-      x: 1142.6202
+      x: 1594.0819
       y: 21
-      width: 112.166504
-      height: 144.5
+      width: 178.91797
+      height: 135.40001
     Color: {r: 0.31122065, g: 0.44837362, b: 0.1632801, a: 0.16078432}
-  - StartPosition: 65.16647
-    EndPosition: 68.728584
+  - StartPosition: 65.23726
+    EndPosition: 69.05274
     Name: The knobs and
     Text: The knobs and controls form a pattern,
     Rectangle:
       serializedVersion: 2
-      x: 1269.2599
+      x: 1773.9999
       y: 21
-      width: 67.73999
-      height: 144.5
+      width: 102
+      height: 135.40001
     Color: {r: 0.63169795, g: 0.5541022, b: 0.3189407, a: 0.16078432}
   - StartPosition: 69.07284
-    EndPosition: 75.56464
+    EndPosition: 75.74854
     Name: Timing 13
     Text: ' solve the pattern and I will grant you temporary relief.'
     Rectangle:
       serializedVersion: 2
-      x: 1343.5465
+      x: 1876.5371
       y: 21
-      width: 123.45349
-      height: 144.5
+      width: 178.46289
+      height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 75.77498
     EndPosition: 80.06531
@@ -168,8 +168,8 @@ MonoBehaviour:
     Text: 
     Rectangle:
       serializedVersion: 2
-      x: 1471
+      x: 2055.7068
       y: 21
-      width: 81.5885
-      height: 144.5
+      width: 114.69409
+      height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
