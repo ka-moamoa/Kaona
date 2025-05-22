@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e276ae38604e48ea8719fcfc50e0200, type: 3}
   m_Name: AlphaCenterMeshAnimation
   m_EditorClassIdentifier: 
-  Speed: 1
-  ScaleRatio: 0.9
-  UseAlpha: 0
+  Speed: 2
+  ScaleRatio: 0.8
+  UseAlpha: 1
   AlphaCurve:
     serializedVersion: 2
     m_Curve:
@@ -37,7 +37,7 @@ MonoBehaviour:
       inWeight: 0.21933724
       outWeight: 0.027593063
     - serializedVersion: 3
-      time: 0.18565762
+      time: 0.19020474
       value: 0.8161456
       inSlope: 0.8100829
       outSlope: 0.8100829

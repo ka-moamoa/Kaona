@@ -15,7 +15,7 @@ MonoBehaviour:
   TextSplitConfig: {fileID: 11400000, guid: e00cc14acbf2543f686940a08e299e7d, type: 2}
   TextHighlightConfig: {fileID: 11400000, guid: d0b84a79db58d4f0ab39765912719bc8,
     type: 2}
-  MeshAnimation: {fileID: 11400000, guid: 0bd0df38ef6e94c37acda0b3198cdb13, type: 2}
+  MeshAnimation: {fileID: 11400000, guid: ecd40d026a8b14a3096454c8c6f9626c, type: 2}
   CharIndexOffset: 0
   AnimateTextInstantly: 0
   TextPartFinishedAction: 1

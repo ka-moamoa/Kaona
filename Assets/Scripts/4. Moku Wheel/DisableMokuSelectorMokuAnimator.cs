@@ -40,7 +40,7 @@ public class DisableMokuSelectorMokuAnimator : MonoBehaviour
             Debug.Log("STARTED");
         }
 
-        if (audioStarted && !monitoredAudioSource.isPlaying && pauseManager.isPaused && Time.timeScale == 1)
+        if (audioStarted && !monitoredAudioSource.isPlaying && !pauseManager.isPaused && Time.timeScale == 1)
         {
             Debug.Log("DONE");
             Animator animator = GetComponent<Animator>();
