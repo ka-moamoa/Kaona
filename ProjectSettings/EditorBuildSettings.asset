@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/4. Moku Selector.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   - enabled: 1
-    path: Assets/Scenes/5. Dialogue Screen.unity
+    path: Assets/Scenes/5. Dialogue Screen (Template).unity
     guid: 795046a0407c643f2b625b4b19798752
   - enabled: 1
     path: Assets/Scenes/6. Quest Results.unity
