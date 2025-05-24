@@ -14,18 +14,40 @@ public class AutoScrollATS : MonoBehaviour
     private bool isScrolling = false;
     private float scrollStartTime = float.MaxValue;
     private bool hasReset = false;
+    private Image scrollbarBackgroundImage;
+    private Image scrollbarHandleImage;
 
     void Start()
     {
         if (audioSource.clip != null)
         {
             totalDuration = audioSource.clip.length;
+            CacheScrollbarImages();
             StartCoroutine(DelayedEstimateScrollStartTime());
+        }
+    }
+
+    void CacheScrollbarImages()
+    {
+        if (scrollRect.verticalScrollbar != null)
+        {
+            scrollbarBackgroundImage = scrollRect.verticalScrollbar.GetComponent<Image>();
+            if (scrollRect.verticalScrollbar.handleRect != null)
+            {
+                scrollbarHandleImage = scrollRect.verticalScrollbar.handleRect.GetComponent<Image>();
+            }
         }
     }
 
     void Update()
     {
+        // Hide the scrollbar visuals every frame unless it's reset time
+        if (!hasReset)
+        {
+            if (scrollbarBackgroundImage) scrollbarBackgroundImage.enabled = false;
+            if (scrollbarHandleImage) scrollbarHandleImage.enabled = false;
+        }
+
         if (audioSource.isPlaying && totalDuration > 0)
         {
             float time = audioSource.time;
@@ -66,18 +88,24 @@ public class AutoScrollATS : MonoBehaviour
 
         if (contentHeight <= viewportHeight)
         {
-            scrollStartTime = float.MaxValue; // No scrolling needed
+            scrollStartTime = float.MaxValue;
+            scrollRect.enabled = false;
         }
         else
         {
             float visibleRatio = viewportHeight / contentHeight;
             scrollStartTime = totalDuration * Mathf.Clamp01(visibleRatio - scrollStartBuffer);
+            scrollRect.enabled = true;
         }
     }
 
     IEnumerator SmoothScrollToTop()
     {
-        yield return null; // wait for layout
+        yield return null; // Wait for layout
+
+        // Re-enable scrollbar visuals for final scroll-up
+        if (scrollbarBackgroundImage) scrollbarBackgroundImage.enabled = true;
+        if (scrollbarHandleImage) scrollbarHandleImage.enabled = true;
 
         float startPos = scrollRect.verticalNormalizedPosition;
         float elapsed = 0f;
@@ -93,11 +121,8 @@ public class AutoScrollATS : MonoBehaviour
         scrollRect.verticalNormalizedPosition = 1f;
         scrollRect.StopMovement();
 
-        scrollRect.verticalNormalizedPosition = 1f;
-        scrollRect.StopMovement();
-
         Canvas.ForceUpdateCanvases();
-        scrollRect.OnScroll(null); // forces internal scroll update
+        scrollRect.OnScroll(null);
 
         this.enabled = false;
     }

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
-  m_Name: FF1-1A Result TEST
+  m_Name: FF1-1A Result
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: a2569b09673dd4574b5fffe2d9cce7fb, type: 3}
   Text: "You stand with cables long enough to move around. In a dark corner, you
