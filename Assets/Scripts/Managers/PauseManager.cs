@@ -72,6 +72,7 @@ public class PauseManager : MonoBehaviour
     public void QuestSelector()
     {
         fadeAnim.SetTrigger("Fade Out");
+        fadeAnim.SetTrigger("FadeOut");
         Invoke(nameof(InvokeChangeAfterDelayQuest), 1f);
 
         Time.timeScale = 1;
@@ -82,4 +83,21 @@ public class PauseManager : MonoBehaviour
     {
         SceneManager.LoadScene(questSelectSceneNum);
     }
+
+    public void ReloadCurrentScene()
+    {
+        fadeAnim.SetTrigger("Fade Out");
+        fadeAnim.SetTrigger("FadeOut");
+        Invoke(nameof(InvokeReloadCurrentScene), 1f);
+
+        Time.timeScale = 1;
+        AudioListener.pause = false;
+    }
+
+    private void InvokeReloadCurrentScene()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.buildIndex);
+    }
+
 }

@@ -64,7 +64,7 @@ public class PostQuestGameManager : MonoBehaviour
 
     void Update()
     {
-        if (!optionAAudio.isPlaying && !optionBAudio.isPlaying && !optionAAudioPlayed)
+        if (!optionAAudio.isPlaying && !optionBAudio.isPlaying && !optionAAudioPlayed && Time.timeScale == 1f)
         {
             animOptionA.SetTrigger("End Animation");
             animOptionB.SetTrigger("Start Animation");
@@ -72,35 +72,35 @@ public class PostQuestGameManager : MonoBehaviour
             optionAAudioPlayed = true;
         }
 
-        if (!optionBAudio.isPlaying && optionAAudioPlayed && !optionBAudioPlayed)
+        if (!optionBAudio.isPlaying && optionAAudioPlayed && !optionBAudioPlayed && Time.timeScale == 1f)
         {
             animOptionB.SetTrigger("End Animation");
             optionBAudioPlayed = true;
             animOverall.SetTrigger("Show Requirements");
         }
 
-        if (optionAFailAudioPlayed && !optionAFailAudio.isPlaying)
+        if (optionAFailAudioPlayed && !optionAFailAudio.isPlaying && Time.timeScale == 1f)
         {
             optionAFailAudioPlayed = false;
             animOptionAFail.SetTrigger("End Animation");
             animOverall.SetTrigger("Fail Option A - End Audio");
         }
 
-        if (optionASuccessAudioPlayed && !optionASuccessAudio.isPlaying)
+        if (optionASuccessAudioPlayed && !optionASuccessAudio.isPlaying && Time.timeScale == 1f)
         {
             optionASuccessAudioPlayed = false;
             animOptionASuccess.SetTrigger("End Animation");
             animOverall.SetTrigger("Success Option A - End Audio");
         }
 
-        if (optionBFailAudioPlayed && !optionBFailAudio.isPlaying)
+        if (optionBFailAudioPlayed && !optionBFailAudio.isPlaying && Time.timeScale == 1f)
         {
             optionBFailAudioPlayed = false;
             animOptionBFail.SetTrigger("End Animation");
             animOverall.SetTrigger("Fail Option B - End Audio");
         }
 
-        if (optionBSuccessAudioPlayed && !optionBSuccessAudio.isPlaying)
+        if (optionBSuccessAudioPlayed && !optionBSuccessAudio.isPlaying && Time.timeScale == 1f)
         {
             optionBSuccessAudioPlayed = false;
             animOptionASuccess.SetTrigger("End Animation");
@@ -139,12 +139,8 @@ public class PostQuestGameManager : MonoBehaviour
 
     private IEnumerator WaitThenPlay(TextSynchronizer synchronizer, System.Action setFlag)
     {
-        // Wait until the synchronizer's GameObject is active in the hierarchy
         yield return new WaitUntil(() => synchronizer.gameObject.activeInHierarchy);
-
-        // Optional small delay to ensure stability
         yield return new WaitForSeconds(0.1f);
-
         synchronizer.Play(true);
         setFlag?.Invoke();
     }
