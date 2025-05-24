@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d49085a91c7464647876ee4db6eb3aea, type: 3}
   m_Name: MeshTextEffect
   m_EditorClassIdentifier: 
-  TextSplitConfig: {fileID: 11400000, guid: e00cc14acbf2543f686940a08e299e7d, type: 2}
+  TextSplitConfig: {fileID: 11400000, guid: 825f279d72a1a47039c8cbac59ae71a6, type: 2}
   TextHighlightConfig: {fileID: 11400000, guid: d0b84a79db58d4f0ab39765912719bc8,
     type: 2}
   MeshAnimation: {fileID: 11400000, guid: ecd40d026a8b14a3096454c8c6f9626c, type: 2}

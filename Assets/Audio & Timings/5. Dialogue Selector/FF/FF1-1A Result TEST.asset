@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF1-1A Result TEST
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a2569b09673dd4574b5fffe2d9cce7fb, type: 3}
+  Text: "You stand with cables long enough to move around. In a dark corner, you
+    spot a small,  humanoid-like figure, almost like a tiny robot. With a calm and
+    reassuring voice, you ask it to come to you. It responds and moves closer, emitting
+    a crackling static sound from its presence. You gesture for it to come nearer,
+    and it complies.\n\nIt comes to your side and looks at you then, with arms that
+    resemble modified prison bars, the robot begins to solve the puzzle on the panel.
+    \n\nImmediately the wires tethered to your body begin to detach. You are temporarily
+    free and find a new friend who decides to follow you."
+  Timings:
+  - StartPosition: 2.8737507
+    EndPosition: 7.9914722
+    Name: You stand with
+    Text: You stand with cables long enough to move around.
+    Rectangle:
+      serializedVersion: 2
+      x: 61
+      y: 21
+      width: 55.206375
+      height: 135.40001
+    Color: {r: 0.50115937, g: 0.51952904, b: 0.22560522, a: 0.16078432}
+  - StartPosition: 7.9914722
+    EndPosition: 21.86008
+    Name: You spot a
+    Text: In a dark corner, you spot a small,  humanoid-like figure, almost like
+      a tiny robot.
+    Rectangle:
+      serializedVersion: 2
+      x: 116.206375
+      y: 21
+      width: 149.60478
+      height: 135.40001
+    Color: {r: 0.73736084, g: 0.23785141, b: 0.21687552, a: 0.16078432}
+  - StartPosition: 21.86008
+    EndPosition: 30.209915
+    Name: voice. You ask
+    Text: With a calm and reassuring voice, you ask it to come to you.
+    Rectangle:
+      serializedVersion: 2
+      x: 265.81116
+      y: 21
+      width: 90.07214
+      height: 135.40001
+    Color: {r: 0.20738176, g: 0.2992474, b: 0.29099816, a: 0.16078432}
+  - StartPosition: 30.209915
+    EndPosition: 50.099003
+    Name: static sound from
+    Text: It responds and moves closer, emitting a crackling static sound from its
+      presence. You gesture for it to come nearer, and it complies.
+    Rectangle:
+      serializedVersion: 2
+      x: 355.8833
+      y: 21
+      width: 214.54944
+      height: 135.40001
+    Color: {r: 0.849687, g: 0.30077434, b: 0.19333911, a: 0.16078432}
+  - StartPosition: 50.099003
+    EndPosition: 55.080235
+    Name: It comes to
+    Text: It comes to your side and looks at you
+    Rectangle:
+      serializedVersion: 2
+      x: 570.43274
+      y: 21
+      width: 53.73407
+      height: 135.40001
+    Color: {r: 0.22593498, g: 0.36229798, b: 0.5953771, a: 0.16078432}
+  - StartPosition: 55.074898
+    EndPosition: 67.55123
+    Name: Timing 10
+    Text: ' then, with arms that resemble modified prison bars, the robot begins
+      to solve the puzzle on the panel.'
+    Rectangle:
+      serializedVersion: 2
+      x: 624.1092
+      y: 21
+      width: 134.58594
+      height: 135.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.55123
+    EndPosition: 75.363525
+    Name: bars, the robot
+    Text: Immediately the wires tethered to your body begin to detach.
+    Rectangle:
+      serializedVersion: 2
+      x: 758.6951
+      y: 21
+      width: 84.2735
+      height: 135.40001
+    Color: {r: 0.7014314, g: 0.37552992, b: 0.59872293, a: 0.16078432}
+  - StartPosition: 75.363525
+    EndPosition: 84.03588
+    Name: tettle to your
+    Text: You are temporarily free and find a new friend who decides to follow you.
+    Rectangle:
+      serializedVersion: 2
+      x: 842.9686
+      y: 21
+      width: 93.55127
+      height: 135.40001
+    Color: {r: 0.20904359, g: 0.4212833, b: 0.48312014, a: 0.16078432}
+  - StartPosition: 84
+    EndPosition: 86.07347
+    Name: '[BLANK_AUDIO]'
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 936.1329
+      y: 21
+      width: 22.367126
+      height: 135.40001
+    Color: {r: 0.354029, g: 0.54015535, b: 0.49535668, a: 0.16078432}
