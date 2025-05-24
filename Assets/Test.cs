@@ -13,6 +13,8 @@ public class Test : MonoBehaviour
     void Start()
     {
         textSynchronizer.Play(true); // Text sync begins
+
+        Debug.Log("Hello");
     }
 
     // Update is called once per frame

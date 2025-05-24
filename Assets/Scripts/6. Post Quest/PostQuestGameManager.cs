@@ -12,7 +12,6 @@ public class PostQuestGameManager : MonoBehaviour
     [Header("Animators")]
     public Animator animOptionA;
     public Animator animOptionB;
-
     public Animator animOptionAFail;
     public Animator animOptionASuccess;
     public Animator animOptionBFail;
@@ -38,6 +37,12 @@ public class PostQuestGameManager : MonoBehaviour
 
     [Header("Visual Overlays")]
     public GameObject optionACompleteOverlay;
+
+    [Header("Text Synchronizers")]
+    [SerializeField] private TextSynchronizer audioASuccessTextSynchronizer;
+    [SerializeField] private TextSynchronizer audioAFailTextSynchronizer;
+    [SerializeField] private TextSynchronizer audioBSuccessTextSynchronizer;
+    [SerializeField] private TextSynchronizer audioBFailTextSynchronizer;
 
     void Start()
     {
@@ -105,38 +110,43 @@ public class PostQuestGameManager : MonoBehaviour
 
     public void OpenOptionA() => animOverall.SetTrigger("Open Option A");
     public void CloseOptionA() => animOverall.SetTrigger("Close Option A");
-
     public void OpenOptionB() => animOverall.SetTrigger("Open Option B");
     public void CloseOptionB() => animOverall.SetTrigger("Close Option B");
 
     public void FailOptionA()
     {
         animOverall.SetTrigger("Fail Option A");
-        optionAFailAudio.Play();
-        optionAFailAudioPlayed = true;
+        StartCoroutine(WaitThenPlay(audioAFailTextSynchronizer, () => optionAFailAudioPlayed = true));
     }
 
     public void SuccessOptionA()
     {
         animOverall.SetTrigger("Success Option A");
-        optionASuccessAudio.Play();
-        optionASuccessAudioPlayed = true;
-
-        // GameDataManager.Instance.UpdateFFData(0, true); // Uncomment and adapt if updating state here
+        StartCoroutine(WaitThenPlay(audioASuccessTextSynchronizer, () => optionASuccessAudioPlayed = true));
     }
 
     public void FailOptionB()
     {
         animOverall.SetTrigger("Fail Option B");
-        optionBFailAudio.Play();
-        optionBFailAudioPlayed = true;
+        StartCoroutine(WaitThenPlay(audioBFailTextSynchronizer, () => optionBFailAudioPlayed = true));
     }
 
     public void SuccessOptionB()
     {
         animOverall.SetTrigger("Success Option B");
-        optionBSuccessAudio.Play();
-        optionBSuccessAudioPlayed = true;
+        StartCoroutine(WaitThenPlay(audioBSuccessTextSynchronizer, () => optionBSuccessAudioPlayed = true));
+    }
+
+    private IEnumerator WaitThenPlay(TextSynchronizer synchronizer, System.Action setFlag)
+    {
+        // Wait until the synchronizer's GameObject is active in the hierarchy
+        yield return new WaitUntil(() => synchronizer.gameObject.activeInHierarchy);
+
+        // Optional small delay to ensure stability
+        yield return new WaitForSeconds(0.1f);
+
+        synchronizer.Play(true);
+        setFlag?.Invoke();
     }
 
     public void FadeToMokuWheel() => fadeOutAnim.SetTrigger("Fade Out");

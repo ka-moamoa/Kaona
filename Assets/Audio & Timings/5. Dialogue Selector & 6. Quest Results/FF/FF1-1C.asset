@@ -27,3 +27,14 @@ MonoBehaviour:
       width: 475
       height: 135.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.054195
+    EndPosition: 17.057959
+    Name: Timing 2
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 794.99896
+      y: 21
+      width: 163.50104
+      height: 135.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

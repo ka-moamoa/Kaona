@@ -262,7 +262,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reward
+  m_text: Outcome
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ced00d180b7eb4a098ed067ed7e7e87c, type: 2}
   m_sharedMaterial: {fileID: 7735427699771491157, guid: ced00d180b7eb4a098ed067ed7e7e87c,
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3039929191620666298}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b52356f327ea460b8628615f4318515, type: 3}
   m_Name: 
