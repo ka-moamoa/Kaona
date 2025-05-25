@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 5f8390e06abe24c11940e3d3d51536d0, type: 3}
+  Text: You look to your companion for aid. Somehow, it smiles without a mouth or
+    means to do so. Your companion assembles the wires in such a way that the hologram
+    ceases to flicker. Its image is now vibrant. You step into the hologram, and
+    a new world awaits you.
+  Timings:
+  - StartPosition: 1.578957
+    EndPosition: 7.11946
+    Name: Timing 1
+    Text: 'You look to your companion for aid. '
+    Rectangle:
+      serializedVersion: 2
+      x: 126.07328
+      y: 21
+      width: 337.1177
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 7.2693424
+    EndPosition: 12.220868
+    Name: Timing 2
+    Text: 'Somehow, it smiles without a mouth '
+    Rectangle:
+      serializedVersion: 2
+      x: 472.31073
+      y: 21
+      width: 301.28076
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 12.39059
+    EndPosition: 14.936617
+    Name: Timing 3
+    Text: 'or means to do so. '
+    Rectangle:
+      serializedVersion: 2
+      x: 783.91833
+      y: 21
+      width: 154.91571
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.233651
+    EndPosition: 19.816477
+    Name: Timing 4
+    Text: 'Your companion assembles the wires in such a way '
+    Rectangle:
+      serializedVersion: 2
+      x: 956.9074
+      y: 21
+      width: 278.84674
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.029001
+    EndPosition: 24.635382
+    Name: Timing 5
+    Text: 'that the hologram ceases to flicker. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1248.6854
+      y: 21
+      width: 280.28003
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.693674
+    EndPosition: 29.033266
+    Name: Timing 6
+    Text: 'Its image is now vibrant. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1532.5123
+      y: 21
+      width: 264.047
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.300068
+    EndPosition: 32.536194
+    Name: Timing 7
+    Text: 'You step into the hologram, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1812.7932
+      y: 21
+      width: 196.9054
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.68195
+    EndPosition: 36.485527
+    Name: Timing 8
+    Text: and a new world awaits you.
+    Rectangle:
+      serializedVersion: 2
+      x: 2018.5673
+      y: 21
+      width: 231.43274
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.57143
+    EndPosition: 69.43347
+    Name: Timing 9
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2255.2268
+      y: 21
+      width: 1999.5251
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

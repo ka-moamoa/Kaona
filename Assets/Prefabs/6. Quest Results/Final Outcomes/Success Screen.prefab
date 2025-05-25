@@ -516,6 +516,7 @@ GameObject:
   - component: {fileID: 6560666201671326231}
   - component: {fileID: 2482192990227687123}
   - component: {fileID: 3211974875244792518}
+  - component: {fileID: 1276586472187627668}
   m_Layer: 5
   m_Name: Description
   m_TagString: Untagged
@@ -697,6 +698,20 @@ MonoBehaviour:
   scrollSpeedMultiplier: 1.5
   returnScrollDuration: 1
   scrollStartBuffer: 0.05
+--- !u!114 &1276586472187627668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3039929191620666298}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cbbf11b08fc543a288f40f9a3dcda8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneBuildIndex: 5
+  synchronizer: {fileID: 6560666201671326231}
 --- !u!1 &3214510936381689108
 GameObject:
   m_ObjectHideFlags: 0

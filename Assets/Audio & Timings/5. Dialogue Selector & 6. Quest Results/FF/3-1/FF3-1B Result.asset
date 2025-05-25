@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-1B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 297f9d926fbd241d6a20c0431247b4ca, type: 3}
+  Text: 'As you step through the hologram, you begin to fall. You close your eyes
+    in panic.
+
+
+    You open your eyes and find yourself on a beach fringed with
+    swaying palm trees; the backdrop is dominated by the imposing slopes of a lush
+    green mountain range. The scent of tropical flowers fills the air, mingling with
+    the sound of waves gently lapping against the shore.
+
+
+    Villagers can be seen
+    in the distance, engaged in their daily routines. The valley beyond the beach
+    reveals a mix of cultivated fields, untouched by wilderness, reflecting both
+    the agricultural efforts of the local population and the influence of nearby
+    ranching activities. You return to the cell.'
+  Timings:
+  - StartPosition: 0
+    EndPosition: 6.8546267
+    Name: Timing 1
+    Text: 'As you step through the hologram, you begin to fall. '
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 63
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 8.051466
+    EndPosition: 13.491647
+    Name: Timing 2
+    Text: You close your eyes in panic.
+    Rectangle:
+      serializedVersion: 2
+      x: 104
+      y: 21
+      width: 50
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.709251
+    EndPosition: 21.651917
+    Name: Timing 3
+    Text: 'You open your eyes and find yourself on a beach '
+    Rectangle:
+      serializedVersion: 2
+      x: 155.99998
+      y: 21
+      width: 73.000015
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.195919
+    EndPosition: 27.309704
+    Name: Timing 4
+    Text: 'fringed with swaying palm trees; '
+    Rectangle:
+      serializedVersion: 2
+      x: 233.99986
+      y: 21
+      width: 47.000137
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.636099
+    EndPosition: 33.83792
+    Name: Timing 5
+    Text: 'the backdrop is dominated by the imposing slopes '
+    Rectangle:
+      serializedVersion: 2
+      x: 283.99985
+      y: 21
+      width: 57.000183
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.164307
+    EndPosition: 39.169296
+    Name: Timing 6
+    Text: 'of a lush green mountain range. '
+    Rectangle:
+      serializedVersion: 2
+      x: 343.9998
+      y: 21
+      width: 46.000214
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.65926
+    EndPosition: 45.937366
+    Name: Timing 7
+    Text: 'The scent of tropical flowers fills the air, '
+    Rectangle:
+      serializedVersion: 2
+      x: 394.5032
+      y: 21
+      width: 57.701263
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.32016
+    EndPosition: 55.354527
+    Name: Timing 8
+    Text: mingling with the sound of waves gently lapping against the shore.
+    Rectangle:
+      serializedVersion: 2
+      x: 455.7227
+      y: 21
+      width: 83.03372
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.0261
+    EndPosition: 61.709194
+    Name: Timing 9
+    Text: 'Villagers can be seen in the distance, '
+    Rectangle:
+      serializedVersion: 2
+      x: 544.9288
+      y: 21
+      width: 52.232544
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.94719
+    EndPosition: 66.53262
+    Name: Timing 10
+    Text: 'engaged in their daily routines. '
+    Rectangle:
+      serializedVersion: 2
+      x: 599.3487
+      y: 21
+      width: 42.144165
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.91543
+    EndPosition: 73.65291
+    Name: Timing 11
+    Text: 'The valley beyond the beach reveals a mix of cultivated fields, '
+    Rectangle:
+      serializedVersion: 2
+      x: 645.01117
+      y: 21
+      width: 61.92334
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.11228
+    EndPosition: 76.7154
+    Name: Timing 12
+    Text: 'untouched '
+    Rectangle:
+      serializedVersion: 2
+      x: 711.15656
+      y: 21
+      width: 23.924927
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.17478
+    EndPosition: 80.084145
+    Name: Timing 13
+    Text: 'by wilderness, '
+    Rectangle:
+      serializedVersion: 2
+      x: 739.3036
+      y: 21
+      width: 26.739563
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 80.49524
+    EndPosition: 85.59663
+    Name: Timing 14
+    Text: 'reflecting both the agricultural efforts of the local population '
+    Rectangle:
+      serializedVersion: 2
+      x: 769.8215
+      y: 21
+      width: 46.88623
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.74975
+    EndPosition: 91.56848
+    Name: Timing 15
+    Text: 'and the influence of nearby ranching activities. '
+    Rectangle:
+      serializedVersion: 2
+      x: 818.115
+      y: 21
+      width: 53.479248
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 91.798164
+    EndPosition: 96.54504
+    Name: Timing 16
+    Text: You return to the cell.
+    Rectangle:
+      serializedVersion: 2
+      x: 873.7052
+      y: 21
+      width: 43.62793
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 96.77472
+    EndPosition: 100.80653
+    Name: Timing 17
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 919.4441
+      y: 21
+      width: 37.05591
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
