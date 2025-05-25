@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-3C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 2c10b7c5f42c2462683779cb06aa2178, type: 3}
+  Text: You stand and scream at these robots!
+  Timings:
+  - StartPosition: 1.4962115
+    EndPosition: 5.7486024
+    Name: Timing 1
+    Text: You stand and scream at these robots!
+    Rectangle:
+      serializedVersion: 2
+      x: 87
+      y: 21
+      width: 162
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.8798413
+    EndPosition: 24.32
+    Name: Timing 2
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 253.99971
+      y: 21
+      width: 702.5003
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

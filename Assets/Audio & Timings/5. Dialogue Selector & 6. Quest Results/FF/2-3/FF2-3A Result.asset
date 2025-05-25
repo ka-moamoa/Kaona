@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-3A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 3bda1589ff3144620b0cf0ac3ca3d488, type: 3}
+  Text: 'You immediately stand up and pull out the cable from the base of your neck.
+    You see dozens of small robots. Their arms and legs are attached to its torso,
+    which serves as its head.
+
+
+    On each of them, the word "RegEx" followed by
+    a three-digit number is marked across their chest. Behind them is a factory of
+    cables and machines of imaginable cruelty. You cry out in horror at the situation.
+    Out of the robots emits a static wail that resembles a newborn baby crying. They
+    frantically give you a bottle of water. Where did that come from?
+
+
+    Looking
+    into the water, you are mesmerized by its depths. You decide to drink it and
+    leave.'
+  Timings:
+  - StartPosition: 0.48761904
+    EndPosition: 4.614919
+    Name: Timing 1
+    Text: 'You immediately stand up '
+    Rectangle:
+      serializedVersion: 2
+      x: 39.643013
+      y: 21
+      width: 81.620285
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 4.9555554
+    EndPosition: 10.871923
+    Name: Timing 2
+    Text: 'and pull out the cable from the base of your neck. '
+    Rectangle:
+      serializedVersion: 2
+      x: 127.999626
+      y: 21
+      width: 117.000374
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.225893
+    EndPosition: 15.6757965
+    Name: Timing 3
+    Text: 'You see dozens of small robots. '
+    Rectangle:
+      serializedVersion: 2
+      x: 252
+      y: 21
+      width: 88
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.878065
+    EndPosition: 21.844982
+    Name: Timing 4
+    Text: 'Their arms and legs are attached to its torso, '
+    Rectangle:
+      serializedVersion: 2
+      x: 344
+      y: 21
+      width: 118
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.148367
+    EndPosition: 26.446587
+    Name: Timing 5
+    Text: which serves as its head.
+    Rectangle:
+      serializedVersion: 2
+      x: 467.99966
+      y: 21
+      width: 85.000336
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.792358
+    EndPosition: 32.359707
+    Name: Timing 6
+    Text: 'On each of them, the word "RegEx" '
+    Rectangle:
+      serializedVersion: 2
+      x: 559.8379
+      y: 21
+      width: 110.09827
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.464058
+    EndPosition: 37.621914
+    Name: Timing 7
+    Text: 'followed by a three-digit number is marked across '
+    Rectangle:
+      serializedVersion: 2
+      x: 671.99976
+      y: 21
+      width: 102.000244
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.824173
+    EndPosition: 40.2514
+    Name: Timing 8
+    Text: 'their chest. '
+    Rectangle:
+      serializedVersion: 2
+      x: 777.9998
+      y: 21
+      width: 48.000183
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.352516
+    EndPosition: 48.0893
+    Name: Timing 9
+    Text: 'Behind them is a factory of cables and machines of imaginable cruelty. '
+    Rectangle:
+      serializedVersion: 2
+      x: 827.99963
+      y: 21
+      width: 153.00037
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.696106
+    EndPosition: 53.75281
+    Name: Timing 10
+    Text: 'You cry out in horror at the situation. '
+    Rectangle:
+      serializedVersion: 2
+      x: 993
+      y: 21
+      width: 100
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 54.10678
+    EndPosition: 62.349216
+    Name: Timing 11
+    Text: 'Out of the robots emits a static wail that resembles a newborn baby '
+    Rectangle:
+      serializedVersion: 2
+      x: 1100
+      y: 21
+      width: 163
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.602055
+    EndPosition: 66.69799
+    Name: Timing 12
+    Text: 'crying. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1268
+      y: 21
+      width: 81
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.900246
+    EndPosition: 72.86717
+    Name: Timing 13
+    Text: 'They frantically give you a bottle of water. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1352.9998
+      y: 21
+      width: 118.000244
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.239296
+    EndPosition: 76.86197
+    Name: Timing 14
+    Text: Where did that come from?
+    Rectangle:
+      serializedVersion: 2
+      x: 1478.359
+      y: 21
+      width: 71.64099
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.11481
+    EndPosition: 79.693726
+    Name: Timing 15
+    Text: 'Looking into the water, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1555
+      y: 21
+      width: 51
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 79.89599
+    EndPosition: 83.43569
+    Name: Timing 16
+    Text: 'you are mesmerized by its depths. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1609.9999
+      y: 21
+      width: 70.00012
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.68853
+    EndPosition: 87.83503
+    Name: Timing 17
+    Text: You decide to drink it and leave.
+    Rectangle:
+      serializedVersion: 2
+      x: 1685
+      y: 21
+      width: 82
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 88.0373
+    EndPosition: 89.07755
+    Name: Timing 18
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1771
+      y: 21
+      width: 20.571777
+      height: 167.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
