@@ -17906,6 +17906,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: FadeToMokuWheel
       objectReference: {fileID: 0}
+    - target: {fileID: 7225975147370152858, guid: 761440a0dcdd346c68ab5a8fc4d2e90c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7281791684428273434, guid: 761440a0dcdd346c68ab5a8fc4d2e90c,
         type: 3}
       propertyPath: m_IsActive

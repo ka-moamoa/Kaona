@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-2C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 0f852a4d5449f41839f46d77ce2ff723, type: 3}
+  Text: 'You attempt to convince them that their mission is foolish and that no one
+    can leave this place.
+
+
+    You experience a moment of deja-vu.'
+  Timings:
+  - StartPosition: 1.6021769
+    EndPosition: 6.9055457
+    Name: Timing 1
+    Text: 'You attempt to convince them that their mission is foolish '
+    Rectangle:
+      serializedVersion: 2
+      x: 105.86827
+      y: 21
+      width: 251.1317
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 7.1378427
+    EndPosition: 12.860787
+    Name: Timing 2
+    Text: and that no one can leave this place.
+    Rectangle:
+      serializedVersion: 2
+      x: 368
+      y: 21
+      width: 271
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.072834
+    EndPosition: 18.435907
+    Name: Timing 3
+    Text: You experience a moment of deja-vu.
+    Rectangle:
+      serializedVersion: 2
+      x: 649.0411
+      y: 21
+      width: 253.95892
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.49926
+    EndPosition: 19.565714
+    Name: Timing 4
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 905.99994
+      y: 21
+      width: 50.50006
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

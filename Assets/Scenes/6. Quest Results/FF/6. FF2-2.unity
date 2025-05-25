@@ -75,18 +75,18 @@ LightmapSettings:
     m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
-    m_PVRSampleCount: 500
+    m_PVRSampleCount: 512
     m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentSampleCount: 256
     m_PVREnvironmentReferencePointCount: 2048
-    m_PVRFilteringMode: 2
-    m_PVRDenoiserTypeDirect: 0
-    m_PVRDenoiserTypeIndirect: 0
-    m_PVRDenoiserTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVREnvironmentMIS: 0
+    m_PVREnvironmentMIS: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &3689544891624880167
+--- !u!1001 &713308886
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -131,18 +131,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 63051989796614436, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 78e20a85ba82b4ec8bd3025b589e1d13,
-        type: 3}
-    - target: {fileID: 81010162057748029, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 263602750505709539, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 137781625428718242, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -151,61 +140,67 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f6c9c6abaaa3c49c68f87ac5f6aefe38,
+      objectReference: {fileID: 21300000, guid: 05a657f4527124e558d8774aabfe71fa,
+        type: 3}
+    - target: {fileID: 507660465623896995, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_text
+      value: Synth-Shard Launcher
+      objectReference: {fileID: 0}
+    - target: {fileID: 698640031884961434, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 23a1cfa55d3c6485a9f729b012a0efc4,
+        type: 3}
+    - target: {fileID: 711064385826679421, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b87ae530cf62140f588a8c568dce175f,
         type: 3}
     - target: {fileID: 1043471503303665617, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: 7aa530451e4f04ac49d6145284c0d070,
+      objectReference: {fileID: 11400000, guid: 57199ed0fa741438c86be9812ffa7ffe,
         type: 2}
-    - target: {fileID: 1070013869026324853, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_text
-      value: You stare blankly at the screen and your surroundings.
-      objectReference: {fileID: 0}
     - target: {fileID: 1136924052062950300, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1408198235893736816, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_text
-      value: Weapon Card
-      objectReference: {fileID: 0}
-    - target: {fileID: 1719581984033820771, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_text
-      value: Any RegEx Companion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1719581984033820771, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 1847359435190508279, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f6c9c6abaaa3c49c68f87ac5f6aefe38,
-        type: 3}
-    - target: {fileID: 1934177991562400547, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: scrollRect
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1953909690357581575, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: 199bc9dd967a34ae096c2b48e71c7c58,
+      objectReference: {fileID: 11400000, guid: a2a832daf062f4576a12217917d62e0e,
         type: 2}
+    - target: {fileID: 2221110470755555672, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 2221110470755555672, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3f14b910aa2fe4fc9b8ba3e80048aee6, type: 3}
+      objectReference: {fileID: 8300000, guid: 6aad32c86e4a24c40968dbd769b2f6c2, type: 3}
+    - target: {fileID: 2770813153033576628, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902959482064158924, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3238291291482795134, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: failIcon1
@@ -227,7 +222,7 @@ PrefabInstance:
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: mokuQuestNum
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -235,11 +230,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 49dc91729ffcd4d328b8d37de4350db3,
         type: 3}
-    - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: optionASuccessIcon2
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: optionBSuccessIcon1
@@ -258,32 +248,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a63cf993455e14450a8300d277db3e57,
         type: 3}
-    - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 3492842914140269276, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
-      propertyPath: optionASuccessObjects.Array.size
-      value: 1
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3835217117050134034, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3940356290982411092, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4023470202988147086, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 3910947643832050246, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f1ca1aa03cc304b5e9ff2f5f129e9344,
+      objectReference: {fileID: 21300000, guid: 23a1cfa55d3c6485a9f729b012a0efc4,
         type: 3}
-    - target: {fileID: 4044134346201162463, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4261072451018447435, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Name
@@ -293,22 +273,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d3feb26ad3e204fc59534e9ef91c9cb3, type: 3}
+      objectReference: {fileID: 8300000, guid: 0f852a4d5449f41839f46d77ce2ff723, type: 3}
     - target: {fileID: 4491016203703644365, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d3feb26ad3e204fc59534e9ef91c9cb3, type: 3}
-    - target: {fileID: 4496534390182221699, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 0f852a4d5449f41839f46d77ce2ff723, type: 3}
     - target: {fileID: 4513317740719270703, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: 967d2c21dac604101bfe8353bb9a4e54,
+      objectReference: {fileID: 11400000, guid: 81e4e82e9c5b9430c87521d3cfa75d92,
         type: 2}
     - target: {fileID: 4691508041094870256, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -360,43 +335,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4986688266778530723, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 4707475975639287271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_text
+      value: 'You attempt to convince them that their mission is foolish and that
+        no one can leave this place.
+
+
+        You experience a moment of deja-vu.'
       objectReference: {fileID: 0}
     - target: {fileID: 5067419080227888879, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bf351ed6dce024966a60ed55fd9f10d3,
+      objectReference: {fileID: 21300000, guid: b87ae530cf62140f588a8c568dce175f,
         type: 3}
-    - target: {fileID: 5277359309240398144, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5277359309240398144, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5277359309240398144, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5277541006785362942, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: scrollRect
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5407752881444535715, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5714365691735563101, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 5487741475862463708, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -405,58 +364,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: aae65f83b1f3443ee86c8d8585f12c5a,
+      objectReference: {fileID: 21300000, guid: a26cb795de471457792c35c6936e0e41,
         type: 3}
     - target: {fileID: 5801608823801756049, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5924449532341913504, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1ca1aa03cc304b5e9ff2f5f129e9344,
+        type: 3}
     - target: {fileID: 6093525354424660885, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: 199bc9dd967a34ae096c2b48e71c7c58,
+      objectReference: {fileID: 11400000, guid: a2a832daf062f4576a12217917d62e0e,
         type: 2}
-    - target: {fileID: 6150429615162714033, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: scrollRect
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6167945492795759858, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 6162882129054491380, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6188602993151645785, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_text
-      value: "Your \u201Cfriend\u201D doesn\u2019t move but somehow you know it is
-        reading you. A crackling noise emits  from its being. It takes you by the
-        hand and leads you up to the panel. It begins to enter in a series of code
-        combinations on the keyboard, you decide to assist. How are you assisting?\n\nIn
-        the red glow of the screen, the code scrolling by stops and you feel a sense
-        of dread then ease as you both solve the puzzle. On the other side of the
-        screen you see a familiar face. The cell immediately fills with water, cold
-        and welcoming. You go unconscious as the water fills your  mind with the
-        thoughts of blue skies. You awake to the sound of your friend\u2019s cracking
-        voice. It stands dripping wet. In its hands is a staff, it hands it to you.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6451516316556631810, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 233.0144
-      objectReference: {fileID: 0}
-    - target: {fileID: 6451516316556631810, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -117.89667
+      value: 'These strangers are dressed in stone and metal armor, different from
+        the prison uniforms you wear.
+
+
+        They tell you that they are from
+        a land of perpetual warfare and must return home to help the fight. You agree
+        to help them. One of the prisoners is armed with a strange weapon made from
+        a technology you have never seen. You decide to leave with them and, strangely,
+        find the cell door open. Days have passed, and you find your way to the scaffold
+        before a monolithic statue. One of the strangers hands you the weapon and
+        thanks you for your help. They both dive off the scaffold, plunging into
+        the darkness below, leaving you alone.'
       objectReference: {fileID: 0}
     - target: {fileID: 6462432647343527879, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 41d2e1ad581e747aaa04cf9027c0ff66,
+      objectReference: {fileID: 21300000, guid: 05a657f4527124e558d8774aabfe71fa,
         type: 3}
     - target: {fileID: 6483118192726059859, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -464,37 +416,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e25bfffb9302b47938a31a0e89df9b08,
         type: 3}
-    - target: {fileID: 6921989989637343724, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 287.3898
-      objectReference: {fileID: 0}
-    - target: {fileID: 6921989989637343724, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 177.05507
-      objectReference: {fileID: 0}
     - target: {fileID: 7043114450831398182, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8c054471e46a34a0eaf3b127441a0d57, type: 3}
-    - target: {fileID: 7127633742612899213, guid: 30677daa3838f4ab997ceb470cb3b56c,
-        type: 3}
-      propertyPath: m_text
-      value: Staff of Tides
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: c6f5b0be6e5e242e8a69f288b1770054, type: 3}
     - target: {fileID: 7128773982271703902, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bcd13168bdf704726a8c1200723e0a62,
+      objectReference: {fileID: 21300000, guid: 4185c3661372746ef9b20e99a1961808,
         type: 3}
     - target: {fileID: 7211752628430168611, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c3f4a557315974fa797e139bdca66521, type: 3}
+      objectReference: {fileID: 8300000, guid: 8e6296ea431ee43a7a2690fbf5ef74b1, type: 3}
     - target: {fileID: 7219772824978669920, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
@@ -504,58 +441,75 @@ PrefabInstance:
     - target: {fileID: 7294693389442421927, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_text
-      value: You begin to laugh out loud as the irony as the situation is too much.
-        Why are you here? Why are you alone? Where is everyone? You stop laughing
-        and attempt to solve the problem before you.
+      value: What do you say?
       objectReference: {fileID: 0}
     - target: {fileID: 7516436743896742922, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 68b9214c004674438b745c5ba57af805, type: 3}
+      objectReference: {fileID: 8300000, guid: b9dfd5ca060584d1b97a4ef12797ad3e, type: 3}
+    - target: {fileID: 7589060941272880124, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 734.4893
+      objectReference: {fileID: 0}
+    - target: {fileID: 7589060941272880124, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -368.63416
+      objectReference: {fileID: 0}
     - target: {fileID: 7674900276619917037, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 667b5fa8356b44e6e8295edb94007cad,
+      objectReference: {fileID: 21300000, guid: 23a1cfa55d3c6485a9f729b012a0efc4,
         type: 3}
     - target: {fileID: 7768790803732631559, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c618dfad1bf604241966d0427fb1e0a1,
+      objectReference: {fileID: 21300000, guid: 9aeff448ef5d3491f9bb365e5afd65c5,
         type: 3}
+    - target: {fileID: 8288236871910295280, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8435863348955652184, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b97411460721a46e8a23934e31b7a548,
+      objectReference: {fileID: 21300000, guid: ac680a5516270432caea76143bff36b5,
         type: 3}
-    - target: {fileID: 8523754951538765686, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 8494574001480538934, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 667b5fa8356b44e6e8295edb94007cad,
+      propertyPath: m_SizeDelta.y
+      value: 168.644
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494574001480538934, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
-    - target: {fileID: 8548670977025259108, guid: 30677daa3838f4ab997ceb470cb3b56c,
+      propertyPath: m_AnchoredPosition.y
+      value: -140.10915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532930915683603294, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
-      propertyPath: m_Name
-      value: Moku 1 Stats (Item Card)
+      propertyPath: m_text
+      value: Weapon Card
       objectReference: {fileID: 0}
     - target: {fileID: 9004554051003685903, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bcd13168bdf704726a8c1200723e0a62,
+      objectReference: {fileID: 21300000, guid: 4185c3661372746ef9b20e99a1961808,
         type: 3}
     m_RemovedComponents:
+    - {fileID: 4696792381305301896, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
     - {fileID: 8797549746094925806, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
     - {fileID: 3862416558122111868, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
-    - {fileID: 4696792381305301896, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
     m_RemovedGameObjects:
+    - {fileID: 5274437672833530924, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
     - {fileID: 1795369282385853634, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
     - {fileID: 6298087666296932432, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
-    - {fileID: 5274437672833530924, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
@@ -563,4 +517,4 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 3689544891624880167}
+  - {fileID: 713308886}

@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-2A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c6f5b0be6e5e242e8a69f288b1770054, type: 3}
+  Text: 'These strangers are dressed in a stone and metal armor, different from the
+    prison uniforms you wear.
+
+
+    They tell you that they are from a land of perpetual
+    warfare and must return home to help the fight. You agree to help them. One of
+    the prisoners is armed with a strange weapon made from a technology you have
+    never seen. You decide to leave with them and, strangely, find the cell door
+    open. Days have passed, and you find your way to the scaffold before a monolithic
+    statue. One of the strangers hands you the weapon and thanks you for your help.
+    They both dive off the scaffold, plunging into the darkness below, leaving you
+    alone.'
+  Timings:
+  - StartPosition: 1.996916
+    EndPosition: 7.4030995
+    Name: Timing 1
+    Text: 'These strangers are dressed in a stone '
+    Rectangle:
+      serializedVersion: 2
+      x: 50.770023
+      y: 21
+      width: 56.229977
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 7.8119955
+    EndPosition: 10.213048
+    Name: Timing 2
+    Text: 'and metal armor, '
+    Rectangle:
+      serializedVersion: 2
+      x: 111.25295
+      y: 21
+      width: 24.973457
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.3339
+    EndPosition: 15.901247
+    Name: Timing 3
+    Text: different from the prison uniforms you wear.
+    Rectangle:
+      serializedVersion: 2
+      x: 137.4834
+      y: 21
+      width: 57.90625
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.014536
+    EndPosition: 20.244799
+    Name: Timing 4
+    Text: 'They tell you that they are from a land '
+    Rectangle:
+      serializedVersion: 2
+      x: 196.56798
+      y: 21
+      width: 43.99916
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.356667
+    EndPosition: 23.8103
+    Name: Timing 5
+    Text: 'of perpetual warfare '
+    Rectangle:
+      serializedVersion: 2
+      x: 241.73068
+      y: 21
+      width: 35.921417
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.931156
+    EndPosition: 28.584448
+    Name: Timing 6
+    Text: 'and must return home to help the fight. '
+    Rectangle:
+      serializedVersion: 2
+      x: 278.90912
+      y: 21
+      width: 48.39914
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.760906
+    EndPosition: 32.08952
+    Name: Timing 7
+    Text: 'You agree to help them. '
+    Rectangle:
+      serializedVersion: 2
+      x: 329.1436
+      y: 21
+      width: 34.621094
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.21036
+    EndPosition: 37.407555
+    Name: Timing 8
+    Text: 'One of the prisoners is armed with a strange '
+    Rectangle:
+      serializedVersion: 2
+      x: 365.02155
+      y: 21
+      width: 54.056274
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.481293
+    EndPosition: 43.994667
+    Name: Timing 9
+    Text: 'weapon made from a technology you have never seen. '
+    Rectangle:
+      serializedVersion: 2
+      x: 419.84476
+      y: 21
+      width: 67.74594
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 44.14542
+    EndPosition: 47.8019
+    Name: Timing 10
+    Text: 'You decide to leave with them '
+    Rectangle:
+      serializedVersion: 2
+      x: 489.1587
+      y: 21
+      width: 38.03119
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.16449
+    EndPosition: 53.119938
+    Name: Timing 11
+    Text: 'and, strangely, find the cell door open. '
+    Rectangle:
+      serializedVersion: 2
+      x: 530.96124
+      y: 21
+      width: 51.54181
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.66381
+    EndPosition: 56.262413
+    Name: Timing 12
+    Text: 'Days have passed, '
+    Rectangle:
+      serializedVersion: 2
+      x: 588.1599
+      y: 21
+      width: 27.028198
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.426983
+    EndPosition: 61.096992
+    Name: Timing 13
+    Text: 'and you find your way to the scaffold before a '
+    Rectangle:
+      serializedVersion: 2
+      x: 616.89984
+      y: 21
+      width: 48.572998
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.27828
+    EndPosition: 65.20638
+    Name: Timing 14
+    Text: 'monolithic statue. '
+    Rectangle:
+      serializedVersion: 2
+      x: 667.3584
+      y: 21
+      width: 40.856384
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.62941
+    EndPosition: 70.70572
+    Name: Timing 15
+    Text: 'One of the strangers hands you the weapon '
+    Rectangle:
+      serializedVersion: 2
+      x: 712.6147
+      y: 21
+      width: 52.79895
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 70.82658
+    EndPosition: 74.08992
+    Name: Timing 16
+    Text: 'and thanks you for your help. '
+    Rectangle:
+      serializedVersion: 2
+      x: 766.6707
+      y: 21
+      width: 33.9422
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.37923
+    EndPosition: 78.320175
+    Name: Timing 17
+    Text: 'They both dive off the scaffold, '
+    Rectangle:
+      serializedVersion: 2
+      x: 803.622
+      y: 21
+      width: 40.98999
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.50147
+    EndPosition: 83.69865
+    Name: Timing 18
+    Text: 'plunging into the darkness below, '
+    Rectangle:
+      serializedVersion: 2
+      x: 846.4977
+      y: 21
+      width: 54.05603
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.879944
+    EndPosition: 87.20372
+    Name: Timing 19
+    Text: leaving you alone.
+    Rectangle:
+      serializedVersion: 2
+      x: 902.4394
+      y: 21
+      width: 34.5708
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
