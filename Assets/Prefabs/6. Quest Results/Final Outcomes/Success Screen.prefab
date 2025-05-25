@@ -262,7 +262,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Outcome
+  m_text: Reward
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ced00d180b7eb4a098ed067ed7e7e87c, type: 2}
   m_sharedMaterial: {fileID: 7735427699771491157, guid: ced00d180b7eb4a098ed067ed7e7e87c,
@@ -710,8 +710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cbbf11b08fc543a288f40f9a3dcda8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneBuildIndex: 5
   synchronizer: {fileID: 6560666201671326231}
+  targetSceneBuildIndex: 5
 --- !u!1 &3214510936381689108
 GameObject:
   m_ObjectHideFlags: 0

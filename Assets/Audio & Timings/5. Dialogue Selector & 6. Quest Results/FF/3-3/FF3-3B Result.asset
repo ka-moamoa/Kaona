@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-3B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: e565e79a55d6e44a19378c0ef2623c7c, type: 3}
+  Text: You sit down, lost, not knowing what to do, and begin to cry. Sitting next
+    to the discarded automatons, they feel comfortable, for at this moment you are
+    sharing in their blight.
+  Timings:
+  - StartPosition: 1.1609977
+    EndPosition: 3.085635
+    Name: Timing 1
+    Text: 'You sit down, '
+    Rectangle:
+      serializedVersion: 2
+      x: 75.15107
+      y: 21
+      width: 74.84893
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 3.419912
+    EndPosition: 7.5083785
+    Name: Timing 2
+    Text: 'lost, not knowing what to do, '
+    Rectangle:
+      serializedVersion: 2
+      x: 163
+      y: 21
+      width: 159
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 7.8155103
+    EndPosition: 10.414018
+    Name: Timing 3
+    Text: 'and begin to cry. '
+    Rectangle:
+      serializedVersion: 2
+      x: 333.94434
+      y: 21
+      width: 101.055664
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.671134
+    EndPosition: 14.888188
+    Name: Timing 4
+    Text: 'Sitting next to the discarded automatons, '
+    Rectangle:
+      serializedVersion: 2
+      x: 444.9992
+      y: 21
+      width: 164.0008
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.068163
+    EndPosition: 17.58812
+    Name: Timing 5
+    Text: 'they feel comfortable, '
+    Rectangle:
+      serializedVersion: 2
+      x: 615.9992
+      y: 21
+      width: 98.00079
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.79381
+    EndPosition: 23.527966
+    Name: Timing 6
+    Text: for at this moment you are sharing in their blight.
+    Rectangle:
+      serializedVersion: 2
+      x: 721.99927
+      y: 21
+      width: 223.00067
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

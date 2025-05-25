@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-3C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 01e6bc0a647e04963a16b70ad541f84d, type: 3}
+  Text: Run away as fast as you can.
+  Timings:
+  - StartPosition: 1.1782993
+    EndPosition: 2.5223317
+    Name: Timing 1
+    Text: 'Run away '
+    Rectangle:
+      serializedVersion: 2
+      x: 93.999115
+      y: 21
+      width: 73.000885
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 2.5775652
+    EndPosition: 5.0446634
+    Name: as fast as you can.
+    Text: as fast as you can.
+    Rectangle:
+      serializedVersion: 2
+      x: 170
+      y: 21
+      width: 134
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.081474
+    EndPosition: 17.057959
+    Name: Timing 3
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 305.99936
+      y: 21
+      width: 650.5006
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
