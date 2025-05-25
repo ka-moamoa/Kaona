@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: dd68a80c0ad364925a7e21e90e83104e, type: 3}
+  Text: "In my moku, I require repetitions of senseless toil. Those who shall do
+    my work are crafted in legions. I shall show you how they are made.\n\nAwaken...\n\nAwaken...\n\nAwaken\u2026\n\nYou
+    awaken on an assembly line facedown. You hear crackling static around you as
+    cold iron hands insert a cable at the base of your spine.\n\nDo not worry, the
+    cable barely breached your skin."
+  Timings:
+  - StartPosition: 10.634739
+    EndPosition: 13.750828
+    Name: Timing 1
+    Text: 'In my moku, '
+    Rectangle:
+      serializedVersion: 2
+      x: 302.79266
+      y: 21
+      width: 79.93106
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.982903
+    EndPosition: 20.597233
+    Name: Timing 2
+    Text: 'I require repetitions of senseless toil. '
+    Rectangle:
+      serializedVersion: 2
+      x: 388.6767
+      y: 21
+      width: 169.6648
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.771292
+    EndPosition: 24.020433
+    Name: Timing 3
+    Text: 'Those who shall do my work '
+    Rectangle:
+      serializedVersion: 2
+      x: 562.8063
+      y: 21
+      width: 83.344055
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.19449
+    EndPosition: 27.617697
+    Name: Timing 4
+    Text: 'are crafted in legions. '
+    Rectangle:
+      serializedVersion: 2
+      x: 650.61505
+      y: 21
+      width: 87.80902
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.907799
+    EndPosition: 30.112574
+    Name: Timing 5
+    Text: 'I shall show you '
+    Rectangle:
+      serializedVersion: 2
+      x: 745.8655
+      y: 21
+      width: 56.55487
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.286621
+    EndPosition: 33.187653
+    Name: Timing 6
+    Text: how they are made.
+    Rectangle:
+      serializedVersion: 2
+      x: 806.8849
+      y: 21
+      width: 74.41461
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.699955
+    EndPosition: 49.939396
+    Name: Timing 7
+    Text: "Awaken...\n\nAwaken...\n\nAwaken\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 894.4406
+      y: 21
+      width: 416.5594
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.49539
+    EndPosition: 56.6859
+    Name: Timing 10
+    Text: 'You awaken on an assembly line facedown. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1325.2618
+      y: 21
+      width: 158.79333
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.083538
+    EndPosition: 61.501595
+    Name: Timing 11
+    Text: 'You hear crackling static around you '
+    Rectangle:
+      serializedVersion: 2
+      x: 1494.255
+      y: 21
+      width: 113.328
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.675648
+    EndPosition: 68.46404
+    Name: Timing 12
+    Text: 'as cold iron hands insert a cable at the base '
+    Rectangle:
+      serializedVersion: 2
+      x: 1612.0476
+      y: 21
+      width: 174.12976
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.69612
+    EndPosition: 71.249016
+    Name: Timing 13
+    Text: of your spine.
+    Rectangle:
+      serializedVersion: 2
+      x: 1792.1305
+      y: 21
+      width: 65.4845
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.539116
+    EndPosition: 74.034
+    Name: Timing 14
+    Text: 'Do not worry, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1865.0564
+      y: 21
+      width: 63.996338
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.266075
+    EndPosition: 79.139786
+    Name: Timing 15
+    Text: the cable barely breached your skin.
+    Rectangle:
+      serializedVersion: 2
+      x: 1935.0059
+      y: 21
+      width: 125.01587
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 79.48791
+    EndPosition: 81.05796
+    Name: Timing 16
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2068.9514
+      y: 21
+      width: 40.27368
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
