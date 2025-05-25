@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: FF1-2C
   m_EditorClassIdentifier: 
   Clip: {fileID: 8300000, guid: d3feb26ad3e204fc59534e9ef91c9cb3, type: 3}
-  Text: You stare blankly at the screen and your surroundings.
+  Text: You stare blankly at the screen and your surroundings. You begin to cry,
+    somehow it feels good. Despite no tears running down your face.
   Timings:
   - StartPosition: 1.8781097
     EndPosition: 4.715913
@@ -21,30 +22,63 @@ MonoBehaviour:
     Text: You stare blankly
     Rectangle:
       serializedVersion: 2
-      x: 212
+      x: 93.13934
       y: 21
-      width: 275
-      height: 114.5
+      width: 95.40285
+      height: 168.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 4.7158957
-    EndPosition: 8.203831
+    EndPosition: 8.774916
     Name: Timing 2
     Text: ' at the screen and your surroundings.'
     Rectangle:
       serializedVersion: 2
-      x: 486.99832
+      x: 188.54161
       y: 21
-      width: 338.00168
-      height: 114.5
+      width: 136.45839
+      height: 168.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 8.20381
-    EndPosition: 9.560817
+  - StartPosition: 8.804648
+    EndPosition: 13.355719
     Name: Timing 3
+    Text: You begin to cry
+    Rectangle:
+      serializedVersion: 2
+      x: 325.99957
+      y: 21
+      width: 153.00043
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.385442
+    EndPosition: 18.144741
+    Name: Timing 4
+    Text: ', somehow it feels good. '
+    Rectangle:
+      serializedVersion: 2
+      x: 479.99927
+      y: 21
+      width: 160.0008
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.174467
+    EndPosition: 25.04569
+    Name: Timing 5
+    Text: Despite no tears running down your face.
+    Rectangle:
+      serializedVersion: 2
+      x: 640.9994
+      y: 21
+      width: 231.00061
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.045692
+    EndPosition: 27.559183
+    Name: Timing 6
     Text: 
     Rectangle:
       serializedVersion: 2
-      x: 824.9979
+      x: 872.00006
       y: 21
-      width: 131.50208
-      height: 114.5
+      width: 84.49994
+      height: 168.40001
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
