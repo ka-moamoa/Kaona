@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF1-2A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 8c054471e46a34a0eaf3b127441a0d57, type: 3}
+  Text: "Your \u201Cfriend\u201D doesn\u2019t move but somehow you know it is reading
+    you. A crackling noise emits  from its being. It takes you by the hand and leads
+    you up to the panel. It begins to enter in a series of code combinations on the
+    keyboard, you decide to assist. How are you assisting?\n\nIn the red glow of
+    the screen, the code scrolling by stops and you feel a sense of dread then ease
+    as you both solve the puzzle. On the other side of the screen you see a familiar
+    face. The cell immediately fills with water, cold and welcoming. You go unconscious
+    as the water fills your mind with the thoughts of blue skies. You awake to the
+    sound of your friend\u2019s cracking voice. It stands dripping wet. In its hands
+    is a staff, it hands it to you."
+  Timings:
+  - StartPosition: 2.2058957
+    EndPosition: 10.722046
+    Name: Timing 1
+    Text: "Your \u201Cfriend\u201D doesn\u2019t move but somehow you know it is reading
+      you. "
+    Rectangle:
+      serializedVersion: 2
+      x: 49.544785
+      y: 21
+      width: 75.455215
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.834898
+    EndPosition: 17.268137
+    Name: Timing 2
+    Text: 'A crackling noise emits  from its being. '
+    Rectangle:
+      serializedVersion: 2
+      x: 125.9999
+      y: 21
+      width: 57.0001
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.380999
+    EndPosition: 22.911318
+    Name: Timing 3
+    Text: 'It takes you by the hand and leads you up to the panel. '
+    Rectangle:
+      serializedVersion: 2
+      x: 183.99998
+      y: 21
+      width: 49.000015
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.911316
+    EndPosition: 34.98773
+    Name: Timing 4
+    Text: 'It begins to enter in a series of code combinations on the keyboard, you
+      decide to assist. '
+    Rectangle:
+      serializedVersion: 2
+      x: 232.99997
+      y: 21
+      width: 107.00003
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.10059
+    EndPosition: 39.728
+    Name: Timing 5
+    Text: How are you assisting?
+    Rectangle:
+      serializedVersion: 2
+      x: 340.99997
+      y: 21
+      width: 41.00003
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.72798
+    EndPosition: 47.289864
+    Name: Timing 6
+    Text: 'In the red glow of the screen, the code scrolling by stops '
+    Rectangle:
+      serializedVersion: 2
+      x: 381.99982
+      y: 21
+      width: 67.00018
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.40272
+    EndPosition: 57.673317
+    Name: Timing 7
+    Text: 'and you feel a sense of dread then ease as you both solve the puzzle. '
+    Rectangle:
+      serializedVersion: 2
+      x: 449.99994
+      y: 21
+      width: 91.00006
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.64272
+    EndPosition: 73.135635
+    Name: Timing 8
+    Text: 'On the other side of the screen you see a familiar face. The cell immediately
+      fills with water, cold and welcoming. '
+    Rectangle:
+      serializedVersion: 2
+      x: 540.7289
+      y: 21
+      width: 137.27112
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.31619
+    EndPosition: 82.72905
+    Name: Timing 9
+    Text: 'You go unconscious as the water fills your mind with the thoughts of blue
+      skies. '
+    Rectangle:
+      serializedVersion: 2
+      x: 679.59973
+      y: 21
+      width: 83.40027
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.78993
+    EndPosition: 95.03118
+    Name: Timing 10
+    Text: "You awake to the sound of your friend\u2019s cracking voice. It stands
+      dripping wet. "
+    Rectangle:
+      serializedVersion: 2
+      x: 763.5394
+      y: 21
+      width: 108.46057
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 95.144035
+    EndPosition: 102.141594
+    Name: Timing 11
+    Text: In its hands is a staff, it hands it to you.
+    Rectangle:
+      serializedVersion: 2
+      x: 872.9999
+      y: 21
+      width: 62.000122
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 102.254456
+    EndPosition: 104.56816
+    Name: Timing 12
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 936
+      y: 21
+      width: 20.5
+      height: 168.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

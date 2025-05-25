@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using AudioTextSynchronizer;
 
 public class PostQuestGameManager : MonoBehaviour
@@ -44,8 +45,48 @@ public class PostQuestGameManager : MonoBehaviour
     [SerializeField] private TextSynchronizer audioBSuccessTextSynchronizer;
     [SerializeField] private TextSynchronizer audioBFailTextSynchronizer;
 
+    [Header("Visualizer Sprites")]
+    public Sprite optionASuccessIcon1;
+    public Sprite optionASuccessIcon2;
+    public Sprite optionASuccessIcon3;
+
+    public Sprite optionBSuccessIcon1;
+    public Sprite optionBSuccessIcon2;
+    public Sprite optionBSuccessIcon3;
+
+    public Sprite failIcon1;
+    public Sprite failIcon2;
+    public Sprite failIcon3;
+
+    [Header("Option A Success Visualizer GameObjects")]
+    public GameObject[] optionASuccessIcon1Objects;
+    public GameObject[] optionASuccessIcon2Objects;
+    public GameObject[] optionASuccessIcon3Objects;
+
+    [Header("Option B Success Visualizer GameObjects")]
+    public GameObject[] optionBSuccessIcon1Objects;
+    public GameObject[] optionBSuccessIcon2Objects;
+    public GameObject[] optionBSuccessIcon3Objects;
+
+    [Header("Fail Visualizer GameObjects")]
+    public GameObject[] failIcon1Objects;
+    public GameObject[] failIcon2Objects;
+    public GameObject[] failIcon3Objects;
+
     void Start()
     {
+        HandleVisualizer(optionASuccessIcon1Objects, optionASuccessIcon1);
+        HandleVisualizer(optionASuccessIcon2Objects, optionASuccessIcon2);
+        HandleVisualizer(optionASuccessIcon3Objects, optionASuccessIcon3);
+
+        HandleVisualizer(optionBSuccessIcon1Objects, optionBSuccessIcon1);
+        HandleVisualizer(optionBSuccessIcon2Objects, optionBSuccessIcon2);
+        HandleVisualizer(optionBSuccessIcon3Objects, optionBSuccessIcon3);
+
+        HandleVisualizer(failIcon1Objects, failIcon1);
+        HandleVisualizer(failIcon2Objects, failIcon2);
+        HandleVisualizer(failIcon3Objects, failIcon3);
+
         int questState = GetMokuQuestState();
 
         if (questState == MokuProgressState.COMPLETE)
@@ -58,7 +99,6 @@ public class PostQuestGameManager : MonoBehaviour
             optionACompleteOverlay.SetActive(false);
             optionAAudio.enabled = true;
             optionAAudio.Play();
-            Debug.Log("QUEST INCOMPLETE — starting Option A audio.");
         }
     }
 
@@ -145,28 +185,38 @@ public class PostQuestGameManager : MonoBehaviour
         setFlag?.Invoke();
     }
 
+    private void HandleVisualizer(GameObject[] targets, Sprite sprite)
+    {
+        bool isValid = sprite != null && sprite.texture != null;
+
+        foreach (GameObject obj in targets)
+        {
+            if (obj == null) continue;
+
+            var image = obj.GetComponentInChildren<Image>();
+            if (image != null)
+            {
+                image.sprite = sprite;
+                image.enabled = isValid;
+            }
+        }
+    }
+
     public void FadeToMokuWheel() => fadeOutAnim.SetTrigger("Fade Out");
 
     public void FadeToMokuWheelAndMarkHealed()
     {
         int index = mokuQuestNum - 1;
-        if (index < 0 || index > 8)
-        {
-            Debug.LogError("Quest number must be between 1 and 9.");
-        }
-        else
-        {
-            switch (mokuName)
-            {
-                case MokuType.FF: GameDataManager.Instance.UpdateFFData(index, MokuProgressState.COMPLETE); break;
-                case MokuType.FE: GameDataManager.Instance.UpdateFEData(index, MokuProgressState.COMPLETE); break;
-                case MokuType.WS: GameDataManager.Instance.UpdateWSData(index, MokuProgressState.COMPLETE); break;
-                case MokuType.PB: GameDataManager.Instance.UpdatePBData(index, MokuProgressState.COMPLETE); break;
-                case MokuType.TM: GameDataManager.Instance.UpdateTMData(index, MokuProgressState.COMPLETE); break;
-                case MokuType.SS: GameDataManager.Instance.UpdateSSData(index, MokuProgressState.COMPLETE); break;
-            }
+        if (index < 0 || index > 8) return;
 
-            Debug.Log($"Set {mokuName} quest {index + 1} to COMPLETE.");
+        switch (mokuName)
+        {
+            case MokuType.FF: GameDataManager.Instance.UpdateFFData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.FE: GameDataManager.Instance.UpdateFEData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.WS: GameDataManager.Instance.UpdateWSData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.PB: GameDataManager.Instance.UpdatePBData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.TM: GameDataManager.Instance.UpdateTMData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.SS: GameDataManager.Instance.UpdateSSData(index, MokuProgressState.COMPLETE); break;
         }
 
         fadeOutAnim.SetTrigger("Fade Out");
@@ -175,11 +225,7 @@ public class PostQuestGameManager : MonoBehaviour
     private int GetMokuQuestState()
     {
         int index = mokuQuestNum - 1;
-        if (index < 0 || index > 8)
-        {
-            Debug.LogError("Quest number must be between 1 and 9.");
-            return -1;
-        }
+        if (index < 0 || index > 8) return -1;
 
         return mokuName switch
         {

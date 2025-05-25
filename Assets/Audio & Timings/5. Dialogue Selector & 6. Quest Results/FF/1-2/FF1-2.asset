@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF1-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: d2b42e8659b2b49a4ac281c5d4d76f4d, type: 3}
+  Text: 'A room awaits you. You enter voluntarily.
+
+
+    The room you step into is
+    a haunting depth of a cell.
+
+
+    The room greets you with the cold of darkness.
+    In the center of the room a panel emits a soft red glow.
+
+
+    Another challenge
+    I have left for you.'
+  Timings:
+  - StartPosition: 9.350272
+    EndPosition: 13.079269
+    Name: Timing 1
+    Text: 'A room awaits you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 197.99974
+      y: 21
+      width: 67.00026
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.134921
+    EndPosition: 18.199665
+    Name: Timing 2
+    Text: You enter voluntarily.
+    Rectangle:
+      serializedVersion: 2
+      x: 265.9999
+      y: 21
+      width: 91.00009
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.144009
+    EndPosition: 26.047226
+    Name: Timing 3
+    Text: The room you step into is a haunting depth of a cell.
+    Rectangle:
+      serializedVersion: 2
+      x: 356
+      y: 21
+      width: 142
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.04721
+    EndPosition: 34.061756
+    Name: Timing 4
+    Text: 'The room greets you with the cold of darkness. '
+    Rectangle:
+      serializedVersion: 2
+      x: 497.99973
+      y: 21
+      width: 144.00027
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.117413
+    EndPosition: 43.96861
+    Name: Timing 5
+    Text: In the center of the room a panel emits a soft red glow.
+    Rectangle:
+      serializedVersion: 2
+      x: 643
+      y: 21
+      width: 177
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 44.024265
+    EndPosition: 47.029713
+    Name: Timing 6
+    Text: Another challenge I have left for you.
+    Rectangle:
+      serializedVersion: 2
+      x: 821
+      y: 21
+      width: 54
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.974037
+    EndPosition: 51.565716
+    Name: Timing 7
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 873.99963
+      y: 21
+      width: 82.50037
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

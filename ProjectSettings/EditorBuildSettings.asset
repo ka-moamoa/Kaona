@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/4. Moku Selector.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   - enabled: 1
-    path: Assets/Scenes/5. Dialogue Screen (Template).unity
+    path: Assets/Scenes/5. Dialogue Screen (TEMPLATE).unity
     guid: 795046a0407c643f2b625b4b19798752
   - enabled: 1
-    path: Assets/Scenes/6. Quest Results.unity
+    path: Assets/Scenes/6. Quest Results (TEMPLATE).unity
     guid: d8299c68f281a458cab5618542c76acd
   - enabled: 1
     path: Assets/Scenes/ARCHIVE/MokuDialogueScreen.unity
@@ -35,6 +35,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARCHIVE/4. Entry Sequence.unity
     guid: 26b3c2f7907bd43d0a70dfb7bdfe4bc4
+  - enabled: 1
+    path: Assets/Scenes/5. Dialogue Screens/FF/5. FF1-1.unity
+    guid: e82e3716cb83a46aea50d56d97af14bb
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/FF/6. FF1-1.unity
+    guid: 75f6beaaf4c69422fad33ef01b895a61
+  - enabled: 1
+    path: Assets/Scenes/5. Dialogue Screens/FF/5. FF1-2.unity
+    guid: b791212be689c410f9706f700d596492
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/FF/6. FF1-2.unity
+    guid: c123c2e8ab34340a799c9524085d35a7
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}
