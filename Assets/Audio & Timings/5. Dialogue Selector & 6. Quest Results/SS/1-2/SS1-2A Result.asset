@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS1-2A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 9affbbdc2b79a4426ad588a58ccf20b3, type: 3}
+  Text: 'Looking at the constellations above, you move the large obelisks into a
+    pattern that matches the starry skies. Where there is a void above, you stand
+    in that position on the vista, filling the emptiness with your very being. A
+    bright light emits around you, then floats into the sky, filling the void with
+    the missing constellation. You are puzzled, as the constellation mirrors your
+    form. As you glance at the constellation on the Pohaku obelisk, you realize the
+    figure on the obelisk resembles you. You were the answer all along.
+
+
+    The
+    light surrounding you now splits into three glowing orbs. These small lights
+    float in a circumambulation around you. They will guide you through this land.'
+  Timings:
+  - StartPosition: 0.90557826
+    EndPosition: 8.745702
+    Name: Timing 1
+    Text: 'Looking at the constellations above, you move the large obelisks into
+      a pattern that matches the starry skies. '
+    Rectangle:
+      serializedVersion: 2
+      x: 66.03384
+      y: 21
+      width: 311.96613
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 9.002041
+    EndPosition: 17.315485
+    Name: Timing 2
+    Text: 'Where there is a void above, you stand in that position on the vista,
+      filling the emptiness with your very being. '
+    Rectangle:
+      serializedVersion: 2
+      x: 388.19995
+      y: 21
+      width: 330.80005
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.5668
+    EndPosition: 26.211975
+    Name: Timing 3
+    Text: 'A bright light emits around you, then floats into the sky, filling the
+      void with the missing constellation. '
+    Rectangle:
+      serializedVersion: 2
+      x: 729
+      y: 21
+      width: 344
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.295305
+    EndPosition: 31.816261
+    Name: Timing 4
+    Text: 'You are puzzled, as the constellation mirrors your form. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1076.3158
+      y: 21
+      width: 219.6842
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.239616
+    EndPosition: 40.08447
+    Name: Timing 5
+    Text: 'As you glance at the constellation on the Pohaku obelisk, you realize
+      the figure on the obelisk resembles you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1312.8457
+      y: 21
+      width: 312.1543
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.34338
+    EndPosition: 43.251015
+    Name: Timing 6
+    Text: You were the answer all along.
+    Rectangle:
+      serializedVersion: 2
+      x: 1635.3024
+      y: 21
+      width: 115.69763
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.315533
+    EndPosition: 48.578857
+    Name: Timing 7
+    Text: 'The light surrounding you now splits into three glowing orbs. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1753.5671
+      y: 21
+      width: 209.43286
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.779907
+    EndPosition: 53.12763
+    Name: Timing 8
+    Text: 'These small lights float in a circumambulation around you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1971
+      y: 21
+      width: 173
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.228153
+    EndPosition: 56.555103
+    Name: Timing 9
+    Text: They will guide you through this land.
+    Rectangle:
+      serializedVersion: 2
+      x: 2148
+      y: 21
+      width: 132.38257
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

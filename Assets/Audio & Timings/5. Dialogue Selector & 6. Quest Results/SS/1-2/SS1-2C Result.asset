@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS1-2C Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 9e7b41fba632f4945b829766d1e2b29f, type: 3}
+  Text: "You sense that something is wrong, but you can find no other way forward.
+    Taking a fractured rock floating in the air, you begin carving an astronomical
+    sign into the Pohaku obelisk. Though your intentions may be pure, the result
+    is catastrophic. The ground beneath you starts to crumble, the sky shatters like
+    glass, and out of it pours a river of stars. You hear the realm itself screaming\u2026
+    You awaken\u2026"
+  Timings:
+  - StartPosition: 0.55727893
+    EndPosition: 6.062946
+    Name: Timing 1
+    Text: 'You sense that something is wrong, but you can find no other way forward. '
+    Rectangle:
+      serializedVersion: 2
+      x: 44.522655
+      y: 21
+      width: 143.47734
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.431927
+    EndPosition: 14.543396
+    Name: Timing 2
+    Text: 'Taking a fractured rock floating in the air, you begin carving an astronomical
+      sign into the Pohaku obelisk. '
+    Rectangle:
+      serializedVersion: 2
+      x: 197.61563
+      y: 21
+      width: 211.38437
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.837551
+    EndPosition: 20.644714
+    Name: Timing 3
+    Text: 'Though your intentions may be pure, the result is catastrophic. '
+    Rectangle:
+      serializedVersion: 2
+      x: 416.66568
+      y: 21
+      width: 151.33432
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.921179
+    EndPosition: 29.393776
+    Name: Timing 4
+    Text: 'The ground beneath you starts to crumble, the sky shatters like glass,
+      and out of it pours a river of stars. '
+    Rectangle:
+      serializedVersion: 2
+      x: 575.20465
+      y: 21
+      width: 220.79535
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.547256
+    EndPosition: 35.552654
+    Name: Timing 5
+    Text: "You hear the realm itself screaming\u2026 You awaken\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 799.9997
+      y: 21
+      width: 156.5003
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
