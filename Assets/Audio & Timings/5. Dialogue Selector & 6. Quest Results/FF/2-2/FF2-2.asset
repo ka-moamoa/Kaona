@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a7d212671a0fa4e5e825067d90db33cd, type: 3}
+  Text: 'Yet another test is put before you.
+
+
+    Your eyes open in a cell. You
+    are not alone. There are two others here, whispering in a darkened corner; you
+    cannot make out what they look like. You close your eyes and pretend to be asleep.
+
+
+    Listening
+    with your very being, you hear they are planning an escape. You hear them mention
+    of a scaffold, where if you jump off, it will lead you out of this prison of
+    isolation.
+
+
+    As you tune into the sound of their voices, you feel encouraged
+    to approach them, as if the very sound of their voices inspires you.
+
+
+    I
+    do not approve of this.'
+  Timings:
+  - StartPosition: 13.490793
+    EndPosition: 19.387623
+    Name: Timing 1
+    Text: Yet another test is put before you.
+    Rectangle:
+      serializedVersion: 2
+      x: 371.60568
+      y: 21
+      width: 149.31595
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.458323
+    EndPosition: 23.183601
+    Name: Timing 2
+    Text: 'Your eyes open in a cell. '
+    Rectangle:
+      serializedVersion: 2
+      x: 522.71185
+      y: 21
+      width: 94.32922
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.183582
+    EndPosition: 27.183113
+    Name: Timing 3
+    Text: 'You are not alone. '
+    Rectangle:
+      serializedVersion: 2
+      x: 617.0406
+      y: 21
+      width: 101.27368
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.250885
+    EndPosition: 31.65714
+    Name: Timing 4
+    Text: 'There are two others here, '
+    Rectangle:
+      serializedVersion: 2
+      x: 720.0304
+      y: 21
+      width: 111.57251
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.71263
+    EndPosition: 35.80617
+    Name: Timing 5
+    Text: 'whispering in a darkened corner; '
+    Rectangle:
+      serializedVersion: 2
+      x: 833.00793
+      y: 21
+      width: 103.654236
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.097687
+    EndPosition: 39.998356
+    Name: Timing 6
+    Text: 'you cannot make out what they look like. '
+    Rectangle:
+      serializedVersion: 2
+      x: 944.0437
+      y: 21
+      width: 98.770386
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.442234
+    EndPosition: 46.957916
+    Name: Timing 7
+    Text: You close your eyes and pretend to be asleep.
+    Rectangle:
+      serializedVersion: 2
+      x: 1054.0537
+      y: 21
+      width: 164.9862
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.692245
+    EndPosition: 52.278984
+    Name: Timing 8
+    Text: 'Listening with your very being, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1237.6342
+      y: 21
+      width: 116.14258
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.5749
+    EndPosition: 57.95076
+    Name: Timing 9
+    Text: 'you hear they are planning an escape. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1361.2698
+      y: 21
+      width: 136.12415
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.090347
+    EndPosition: 63.277298
+    Name: Timing 10
+    Text: 'You hear them mention of a scaffold, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1500.9286
+      y: 21
+      width: 131.3407
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 63.3266
+    EndPosition: 66.77901
+    Name: Timing 11
+    Text: 'where if you jump off, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1633.5177
+      y: 21
+      width: 87.4198
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.779
+    EndPosition: 73.157776
+    Name: Timing 12
+    Text: it will lead you out of this prison of isolation.
+    Rectangle:
+      serializedVersion: 2
+      x: 1720.9373
+      y: 21
+      width: 161.51953
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.43718
+    EndPosition: 79.032425
+    Name: Timing 13
+    Text: 'As you tune into the sound of their voices, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1889.5317
+      y: 21
+      width: 141.67932
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 79.50351
+    EndPosition: 83.30113
+    Name: Timing 14
+    Text: 'you feel encouraged to approach them, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2043.1396
+      y: 21
+      width: 96.16113
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.4491
+    EndPosition: 87.14808
+    Name: Timing 15
+    Text: 'as if the very sound '
+    Rectangle:
+      serializedVersion: 2
+      x: 2143.0474
+      y: 21
+      width: 93.66333
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.296036
+    EndPosition: 89.51543
+    Name: Timing 16
+    Text: of their voices
+    Rectangle:
+      serializedVersion: 2
+      x: 2240.4573
+      y: 21
+      width: 56.197998
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.61407
+    EndPosition: 93.658295
+    Name: Timing 17
+    Text: ' inspires you.'
+    Rectangle:
+      serializedVersion: 2
+      x: 2299.153
+      y: 21
+      width: 102.40552
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 93.89807
+    EndPosition: 100.563065
+    Name: Timing 18
+    Text: I do not approve of this.
+    Rectangle:
+      serializedVersion: 2
+      x: 2407.63
+      y: 21
+      width: 168.76709
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.74485
+    EndPosition: 102.06041
+    Name: Timing 19
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2581
+      y: 21
+      width: 33.311768
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
