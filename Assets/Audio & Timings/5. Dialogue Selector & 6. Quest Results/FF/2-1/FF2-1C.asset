@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-1C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 1bbea40d85f7947ffba68fd696679e3d, type: 3}
+  Text: 'Try as you may, there seems to be no way you can do this alone. Maybe something
+    or someone to assist would help?
+
+
+    In isolation, you begin to cry. Barely
+    audible, your pain echoes through the halls.'
+  Timings:
+  - StartPosition: 9.132398
+    EndPosition: 11.748448
+    Name: Timing 1
+    Text: 'Try as you may, '
+    Rectangle:
+      serializedVersion: 2
+      x: 222.00002
+      y: 21
+      width: 54.999985
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.796013
+    EndPosition: 18.026972
+    Name: Timing 2
+    Text: 'there seems to be no way you can do this alone. '
+    Rectangle:
+      serializedVersion: 2
+      x: 278
+      y: 21
+      width: 131
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.026972
+    EndPosition: 21.97483
+    Name: Timing 3
+    Text: 'Maybe something '
+    Rectangle:
+      serializedVersion: 2
+      x: 409
+      y: 21
+      width: 83
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.022396
+    EndPosition: 26.398336
+    Name: Timing 4
+    Text: 'or someone to assist '
+    Rectangle:
+      serializedVersion: 2
+      x: 493.00003
+      y: 21
+      width: 91.99997
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.445896
+    EndPosition: 28.538742
+    Name: Timing 5
+    Text: would help?
+    Rectangle:
+      serializedVersion: 2
+      x: 585.99994
+      y: 21
+      width: 44.00006
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.74467
+    EndPosition: 35.15022
+    Name: Timing 6
+    Text: 'In isolation, you begin to cry. '
+    Rectangle:
+      serializedVersion: 2
+      x: 634.32947
+      y: 21
+      width: 134.6706
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.315918
+    EndPosition: 38.070206
+    Name: Timing 7
+    Text: 'Barely audible, '
+    Rectangle:
+      serializedVersion: 2
+      x: 772.4837
+      y: 21
+      width: 57.90631
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.099205
+    EndPosition: 42.332466
+    Name: Timing 8
+    Text: your pain echoes through the halls.
+    Rectangle:
+      serializedVersion: 2
+      x: 830.9997
+      y: 21
+      width: 89.000305
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.38003
+    EndPosition: 44.068573
+    Name: Timing 9
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 921
+      y: 21
+      width: 35.5
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

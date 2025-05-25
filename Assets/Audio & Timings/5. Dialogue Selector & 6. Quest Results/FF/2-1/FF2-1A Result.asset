@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 9fa3d00663bd6483cafb772ab98acc76, type: 3}
+  Text: 'You stand before the prisoner, and remove the vines, which seem to be some
+    type of armor. The prisoner does not awaken.
+
+
+    You notice that the arms of
+    this prisoner is corded with muscles. The armor appears to be from vines from
+    a distant land. You use the armor as leverage to remove the cable from your neck.
+    You feel a sense of alertness return to you.'
+  Timings:
+  - StartPosition: 2.1826758
+    EndPosition: 5.562268
+    Name: Timing 1
+    Text: You stand before the prisoner
+    Rectangle:
+      serializedVersion: 2
+      x: 79.68266
+      y: 21
+      width: 76.927185
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.54449
+    EndPosition: 13.890432
+    Name: Timing 2
+    Text: ', and remove the vines, which seem to be some type of armor. '
+    Rectangle:
+      serializedVersion: 2
+      x: 156.20518
+      y: 21
+      width: 189.97261
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.007143
+    EndPosition: 20.83565
+    Name: Timing 3
+    Text: The prisoner does not awaken.
+    Rectangle:
+      serializedVersion: 2
+      x: 348.8344
+      y: 21
+      width: 155.43231
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.83565
+    EndPosition: 22.936722
+    Name: Timing 4
+    Text: 'You notice '
+    Rectangle:
+      serializedVersion: 2
+      x: 504.26672
+      y: 21
+      width: 47.825195
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.995087
+    EndPosition: 28.656313
+    Name: Timing 5
+    Text: 'that the arms of this prisoner is corded with muscles. '
+    Rectangle:
+      serializedVersion: 2
+      x: 553.4204
+      y: 21
+      width: 128.86237
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.948118
+    EndPosition: 36.01007
+    Name: Timing 6
+    Text: 'The armor appears to be from vines from a distant land. '
+    Rectangle:
+      serializedVersion: 2
+      x: 688.9249
+      y: 21
+      width: 160.7461
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.36025
+    EndPosition: 40.562397
+    Name: Timing 7
+    Text: 'You use the armor as leverage '
+    Rectangle:
+      serializedVersion: 2
+      x: 857.6419
+      y: 21
+      width: 95.65045
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.620747
+    EndPosition: 45.173088
+    Name: Timing 8
+    Text: 'to remove the cable from your neck. '
+    Rectangle:
+      serializedVersion: 2
+      x: 954.6205
+      y: 21
+      width: 103.621704
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.523266
+    EndPosition: 52.32342
+    Name: Timing 9
+    Text: You feel a sense of alertness return to you.
+    Rectangle:
+      serializedVersion: 2
+      x: 1066.213
+      y: 21
+      width: 154.78699
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.32342
+    EndPosition: 54.07347
+    Name: Timing 10
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1221
+      y: 21
+      width: 39.835083
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
