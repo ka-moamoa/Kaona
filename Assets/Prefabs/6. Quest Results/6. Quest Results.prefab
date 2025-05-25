@@ -2116,7 +2116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &159060749623777181
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5876,7 +5876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2602974628396253906
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10399,7 +10399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7145914338181492967
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10908,7 +10908,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6134004823735452644
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14915,7 +14915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1800006987534147432
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17765,11 +17765,6 @@ PrefabInstance:
       propertyPath: source
       value: 
       objectReference: {fileID: 7043114450831398182}
-    - target: {fileID: 2630373199685819056, guid: 761440a0dcdd346c68ab5a8fc4d2e90c,
-        type: 3}
-      propertyPath: m_Content
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3211974875244792518, guid: 761440a0dcdd346c68ab5a8fc4d2e90c,
         type: 3}
       propertyPath: audioSource
@@ -18254,12 +18249,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 3466832482426667271}
-    - target: {fileID: 8327427453182989655, guid: 6890b852d0626409bb5c21459e8ccd0e,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e883c715d106641aeba6b98a8b9329f9,
-        type: 3}
     - target: {fileID: 8840217644009967118, guid: 6890b852d0626409bb5c21459e8ccd0e,
         type: 3}
       propertyPath: m_Sprite

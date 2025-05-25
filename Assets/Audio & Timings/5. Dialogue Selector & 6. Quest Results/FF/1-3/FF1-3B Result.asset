@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF1-3B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 5dca4aeb0d908441783eaf5e464d8841, type: 3}
+  Text: 'You are not sure how long you have been traversing through the winding network
+    of caves. Along its walls are red crimson cables leading into and out of the
+    walls that surround you. In the dim dark ahead of you, you hear crackling noises.
+    Somehow they sound like cries.
+
+
+    Following its sound, you eventually find
+    yourself before a pile of robots in various stages of disrepair. They all have
+    a mark of RegEx across their bodies; some have arms and legs protruding from
+    its base, others are missing arms and legs. Kneeling down, you pick one of them
+    up.
+
+
+    You understand its plea. It is asking for help. Somehow you understand
+    this. However, alone you can do nothing for it. Your heart sinks, and you continue
+    to walk into the cave as the faded hiss of the automatons'' cries for help fades
+    in the distance.'
+  Timings:
+  - StartPosition: 2.1015248
+    EndPosition: 10.093911
+    Name: Timing 1
+    Text: 'You are not sure how long you have been traversing through the winding
+      network of caves. '
+    Rectangle:
+      serializedVersion: 2
+      x: 44
+      y: 21
+      width: 53.24391
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.37932
+    EndPosition: 22.76351
+    Name: Timing 2
+    Text: 'Along its walls are red crimson cables leading into and out of the walls
+      that surround you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 99.14526
+      y: 21
+      width: 82.50136
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.763493
+    EndPosition: 31.455738
+    Name: Timing 3
+    Text: 'In the dim dark ahead of you, you hear crackling noises. '
+    Rectangle:
+      serializedVersion: 2
+      x: 181.6465
+      y: 21
+      width: 57.906265
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.465147
+    EndPosition: 40.15739
+    Name: Timing 4
+    Text: Somehow they sound like cries.
+    Rectangle:
+      serializedVersion: 2
+      x: 239.61545
+      y: 21
+      width: 57.90625
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.1668
+    EndPosition: 49.494972
+    Name: Timing 5
+    Text: 'Following its sound, you eventually find yourself before a pile of robots '
+    Rectangle:
+      serializedVersion: 2
+      x: 297.58438
+      y: 21
+      width: 62.14267
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.56458
+    EndPosition: 55.13364
+    Name: Timing 6
+    Text: 'in various stages of disrepair. '
+    Rectangle:
+      serializedVersion: 2
+      x: 360.19077
+      y: 21
+      width: 37.10013
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.203243
+    EndPosition: 64.32258
+    Name: Timing 7
+    Text: 'They all have a mark of RegEx across their bodies; '
+    Rectangle:
+      serializedVersion: 2
+      x: 397.75458
+      y: 21
+      width: 60.751465
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.39217
+    EndPosition: 71.14467
+    Name: Timing 8
+    Text: some have arms and legs protruding from its base
+    Rectangle:
+      serializedVersion: 2
+      x: 458.96967
+      y: 21
+      width: 44.98398
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.35351
+    EndPosition: 77.1314
+    Name: Timing 9
+    Text: ', others are missing arms and legs. '
+    Rectangle:
+      serializedVersion: 2
+      x: 505.3449
+      y: 21
+      width: 38.491333
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.20102
+    EndPosition: 83.4662
+    Name: Timing 10
+    Text: Kneeling down, you pick one of them up.
+    Rectangle:
+      serializedVersion: 2
+      x: 544.30005
+      y: 21
+      width: 41.73755
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.74466
+    EndPosition: 87.92145
+    Name: Timing 11
+    Text: 'You understand its plea. '
+    Rectangle:
+      serializedVersion: 2
+      x: 587.89264
+      y: 21
+      width: 27.825073
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.991066
+    EndPosition: 92.028625
+    Name: Timing 12
+    Text: 'It is asking for help. '
+    Rectangle:
+      serializedVersion: 2
+      x: 616.18146
+      y: 21
+      width: 26.897522
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.402855
+    EndPosition: 98.08497
+    Name: Timing 13
+    Text: 'Somehow you understand this. '
+    Rectangle:
+      serializedVersion: 2
+      x: 645.5721
+      y: 21
+      width: 37.85327
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.29381
+    EndPosition: 107.62198
+    Name: Timing 14
+    Text: 'However, alone you can do nothing for it. '
+    Rectangle:
+      serializedVersion: 2
+      x: 684.8166
+      y: 21
+      width: 62.1427
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 107.62197
+    EndPosition: 116.31422
+    Name: Timing 15
+    Text: Your heart sinks, and you continue to walk into the cave
+    Rectangle:
+      serializedVersion: 2
+      x: 746.9592
+      y: 21
+      width: 57.90625
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 116.58488
+    EndPosition: 125.651794
+    Name: Timing 16
+    Text: 'as the faded hiss of the automatons'' cries for help '
+    Rectangle:
+      serializedVersion: 2
+      x: 806.6686
+      y: 21
+      width: 60.40222
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 125.791016
+    EndPosition: 130.9424
+    Name: Timing 17
+    Text: fades in the distance.
+    Rectangle:
+      serializedVersion: 2
+      x: 867.9983
+      y: 21
+      width: 34.317627
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 131.08162
+    EndPosition: 139.07591
+    Name: Timing 18
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 903.2434
+      y: 21
+      width: 53.25659
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

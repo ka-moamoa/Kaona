@@ -6,32 +6,29 @@ using UnityEngine.SceneManagement;
 
 public class MokuDialogueSceneChanger : MonoBehaviour
 {
-
     public AudioSource mokuAudio;
-    public int sceneNum;
-
-    public Boolean changeInvoked = false;
-
+    public bool changeInvoked = false;
     public Animator fadeAnim;
 
-    // Start is called before the first frame update
     void Start()
     {
-        mokuAudio = this.GetComponent<AudioSource>();
+        mokuAudio = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (mokuAudio.isPlaying == false && !changeInvoked && Time.timeScale == 1){
+        if (!mokuAudio.isPlaying && !changeInvoked && Time.timeScale == 1)
+        {
             fadeAnim.SetTrigger("Fade Out");
-            Invoke("InvokeChangeAfterDelay", 1);
+            Invoke("InvokeChangeAfterDelay", 1f);
             Debug.Log("STOP");
             changeInvoked = true;
         }
     }
 
-    public void InvokeChangeAfterDelay(){
-        SceneManager.LoadScene(sceneNum);
+    void InvokeChangeAfterDelay()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 }

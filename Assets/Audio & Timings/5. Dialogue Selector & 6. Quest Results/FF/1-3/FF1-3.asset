@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF1-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 68f423b46c2d94439aa38fa9d1802709, type: 3}
+  Text: 'You awaken to find yourself standing on the precipice of a metal scaffold. 
+    Surrounding you is darkness illuminated by a dim crimson hue.
+
+
+    High above,
+    structures resembling stalagmites descend from the shadows. Behind you, the scaffold
+    continues into a mountain cave, shrouding its peaks in mystery. Along the mountain''s
+    side, prison bars etch scars upon the rock face. Below you and before you, I,
+    the colossal face, welcome your gaze with awe. Time has worn my once imposing
+    features, leaving a weathered visage revealing my aging grandeur.
+
+
+    I grant
+    you an audience before me.'
+  Timings:
+  - StartPosition: 14.164936
+    EndPosition: 22.729181
+    Name: Timing 1
+    Text: 'You awaken to find yourself standing on the precipice of a metal scaffold.  '
+    Rectangle:
+      serializedVersion: 2
+      x: 238.77362
+      y: 21
+      width: 126.22638
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.79703
+    EndPosition: 31.61731
+    Name: Timing 2
+    Text: Surrounding you is darkness illuminated by a dim crimson hue.
+    Rectangle:
+      serializedVersion: 2
+      x: 366
+      y: 21
+      width: 130
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.685148
+    EndPosition: 42.06595
+    Name: Timing 3
+    Text: 'High above, structures resembling stalagmites descend from the shadows. '
+    Rectangle:
+      serializedVersion: 2
+      x: 496.99985
+      y: 21
+      width: 153.00015
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.01803
+    EndPosition: 54.007248
+    Name: Timing 4
+    Text: 'Behind you, the scaffold continues into a mountain cave, shrouding its
+      peaks in mystery. '
+    Rectangle:
+      serializedVersion: 2
+      x: 649.2937
+      y: 21
+      width: 176.7063
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 54.007233
+    EndPosition: 61.741955
+    Name: Timing 5
+    Text: 'Along the mountain''s side, prison bars etch '
+    Rectangle:
+      serializedVersion: 2
+      x: 825.99976
+      y: 21
+      width: 114.000244
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.809795
+    EndPosition: 66.69488
+    Name: Timing 6
+    Text: 'scars upon the rock face. '
+    Rectangle:
+      serializedVersion: 2
+      x: 940.9999
+      y: 21
+      width: 72.00006
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.802086
+    EndPosition: 73.52535
+    Name: Timing 7
+    Text: Below you and before you
+    Rectangle:
+      serializedVersion: 2
+      x: 1014.5801
+      y: 21
+      width: 99.09265
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.65213
+    EndPosition: 82.91063
+    Name: Timing 8
+    Text: ', I, the colossal face, welcome your gaze with awe. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1115.5413
+      y: 21
+      width: 136.45874
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.910614
+    EndPosition: 89.63388
+    Name: Timing 9
+    Text: Time has worn my once imposing features
+    Rectangle:
+      serializedVersion: 2
+      x: 1251.9998
+      y: 21
+      width: 99.09265
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.69544
+    EndPosition: 98.71928
+    Name: Timing 10
+    Text: ', leaving a weathered visage revealing my aging grandeur.'
+    Rectangle:
+      serializedVersion: 2
+      x: 1351.9998
+      y: 21
+      width: 133.00012
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.78712
+    EndPosition: 105.50411
+    Name: Timing 11
+    Text: I grant you an audience before me.
+    Rectangle:
+      serializedVersion: 2
+      x: 1485.9998
+      y: 21
+      width: 99.000244
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.57196
+    EndPosition: 107.57224
+    Name: Timing 12
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1586
+      y: 21
+      width: 29.48169
+      height: 133
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
