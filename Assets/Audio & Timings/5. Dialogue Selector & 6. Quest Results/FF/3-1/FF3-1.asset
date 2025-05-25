@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 111a4adf235bb45729de8731b1312aaa, type: 3}
+  Text: 'Congratulations, you have found a bridge into another realm.
+
+
+    Your
+    efforts to leave this place, however, will be in vain. You do not possess the
+    skills alone to leave. Therefore, you will remain here forever.
+
+
+    You are
+    standing in a cell, worn and aged from years untold.
+
+
+    Rust and decay creep
+    across the walls, hinting at the passage of time and neglect.
+
+
+    There is
+    no toilet in this cell or a place for you to rest. In the center of this room
+    is a large emerald cube.
+
+
+    I did not place this here, nor was I responsible
+    for its creation.
+
+
+    Wires dangle aimlessly from the cube, its connections
+    severed and forgotten. Above the cube is a flickering hologram of a coastline.'
+  Timings:
+  - StartPosition: 13.93347
+    EndPosition: 23.146309
+    Name: Timing 1
+    Text: Congratulations, you have found a bridge into another realm.
+    Rectangle:
+      serializedVersion: 2
+      x: 242.06863
+      y: 21
+      width: 140.22021
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.15179
+    EndPosition: 29.237442
+    Name: Timing 2
+    Text: 'Your efforts to leave this place, however, will be in vain. '
+    Rectangle:
+      serializedVersion: 2
+      x: 382.37228
+      y: 21
+      width: 92.624146
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.541996
+    EndPosition: 35.633133
+    Name: Timing 3
+    Text: 'You do not possess the skills alone to leave. '
+    Rectangle:
+      serializedVersion: 2
+      x: 479.63177
+      y: 21
+      width: 92.70764
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.113243
+    EndPosition: 43.383446
+    Name: Timing 4
+    Text: Therefore, you will remain here forever.
+    Rectangle:
+      serializedVersion: 2
+      x: 579.6467
+      y: 21
+      width: 110.65314
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 44.031246
+    EndPosition: 52.459892
+    Name: Timing 5
+    Text: You are standing in a cell, worn and aged from years untold.
+    Rectangle:
+      serializedVersion: 2
+      x: 700.1594
+      y: 21
+      width: 128.28473
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.916725
+    EndPosition: 58.398746
+    Name: Timing 6
+    Text: Rust and decay creep across the walls
+    Rectangle:
+      serializedVersion: 2
+      x: 835.3972
+      y: 21
+      width: 83.43683
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.703304
+    EndPosition: 65.24272
+    Name: Timing 7
+    Text: ', hinting at the passage of time and neglect'
+    Rectangle:
+      serializedVersion: 2
+      x: 923.4694
+      y: 21
+      width: 99.53052
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.834045
+    EndPosition: 74.69253
+    Name: Timing 8
+    Text: 'There is no toilet in this cell or a place for you to rest. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1032
+      y: 21
+      width: 134.82678
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 75.14937
+    EndPosition: 82.60195
+    Name: Timing 9
+    Text: In the center of this room is a large emerald cube.
+    Rectangle:
+      serializedVersion: 2
+      x: 1173.78
+      y: 21
+      width: 113.428955
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.9917
+    EndPosition: 86.570244
+    Name: Timing 10
+    Text: 'I did not place this here, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1293.141
+      y: 21
+      width: 54.4657
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.02708
+    EndPosition: 91.97612
+    Name: Timing 11
+    Text: nor was I responsible for its creation.
+    Rectangle:
+      serializedVersion: 2
+      x: 1354.5598
+      y: 21
+      width: 75.32483
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.432945
+    EndPosition: 97.91498
+    Name: Timing 12
+    Text: 'Wires dangle aimlessly from the cube, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1436.8375
+      y: 21
+      width: 83.43701
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.29567
+    EndPosition: 104.00611
+    Name: Timing 13
+    Text: 'its connections severed and forgotten. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1526.0687
+      y: 21
+      width: 86.91345
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 104.332855
+    EndPosition: 109.25971
+    Name: Timing 14
+    Text: 'Above the cube is a flickering '
+    Rectangle:
+      serializedVersion: 2
+      x: 1617.9552
+      y: 21
+      width: 74.98718
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.48814
+    EndPosition: 115.12243
+    Name: Timing 15
+    Text: hologram of a coastline.
+    Rectangle:
+      serializedVersion: 2
+      x: 1696.4191
+      y: 21
+      width: 85.754395
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 115.14011
+    EndPosition: 116.323265
+    Name: Timing 16
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1782.4425
+      y: 21
+      width: 18.007812
+      height: 189.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

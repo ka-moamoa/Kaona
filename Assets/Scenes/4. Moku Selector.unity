@@ -11151,6 +11151,11 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7892329141258645193, guid: 25e5ddb0a6a11421380491160b67c346,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 8294722950833173762, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: m_AnchorMax.y
