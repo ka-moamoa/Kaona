@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS1-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 2895ac65a1c2848718aadfe1678332c4, type: 3}
+  Text: "With the first rays of the morning sun casting a golden glow over the cliffs,
+    you are guided by your keen understanding of the winds, navigating the treacherous
+    terrain with remarkable agility. You move with purpose, your form silhouetted
+    against the brightening sky, as you skillfully glide from ledge to ledge. Each
+    leap and bound is timed with the gusts, allowing you to reach the Ilima flowers
+    not just as a traveler, but as a dancer in harmony with the realm\u2019s breath.\n\nHow
+    will you perform this ritual? And what will be the result?\n\nOne of the Kanaka
+    of the mountain floats toward you and hands you a Kukui nut lei."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 5.198889
+    Name: Timing 1
+    Text: 'With the first rays of the morning sun casting a golden glow over the
+      cliffs, '
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 104
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.5987983
+    EndPosition: 8.79812
+    Name: Timing 2
+    Text: 'you are guided by your keen understanding of the winds, '
+    Rectangle:
+      serializedVersion: 2
+      x: 141.9999
+      y: 21
+      width: 64.00011
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 8.998077
+    EndPosition: 12.847255
+    Name: Timing 3
+    Text: 'navigating the treacherous terrain with remarkable agility. '
+    Rectangle:
+      serializedVersion: 2
+      x: 210.00002
+      y: 21
+      width: 76.999985
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.122064
+    EndPosition: 15.196753
+    Name: Timing 4
+    Text: 'You move with purpose, '
+    Rectangle:
+      serializedVersion: 2
+      x: 292.49738
+      y: 21
+      width: 41.502625
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.397619
+    EndPosition: 18.292313
+    Name: Timing 5
+    Text: 'your form silhouetted against the brightening sky, '
+    Rectangle:
+      serializedVersion: 2
+      x: 338.0182
+      y: 21
+      width: 57.90625
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.462652
+    EndPosition: 22.395214
+    Name: Timing 6
+    Text: 'as you skillfully glide from ledge to ledge. '
+    Rectangle:
+      serializedVersion: 2
+      x: 399.33197
+      y: 21
+      width: 78.66803
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.688684
+    EndPosition: 25.583378
+    Name: Timing 7
+    Text: 'Each leap and bound is timed with the gusts, '
+    Rectangle:
+      serializedVersion: 2
+      x: 483.87067
+      y: 21
+      width: 57.90625
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.68406
+    EndPosition: 30.193546
+    Name: Timing 8
+    Text: 'allowing you to reach the Ilima flowers not just as a traveler, '
+    Rectangle:
+      serializedVersion: 2
+      x: 543.79095
+      y: 21
+      width: 90.209045
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.28161
+    EndPosition: 34.092712
+    Name: Timing 9
+    Text: "but as a dancer in harmony with the realm\u2019s breath.\n"
+    Rectangle:
+      serializedVersion: 2
+      x: 635.76166
+      y: 21
+      width: 76.23834
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.32188
+    EndPosition: 39.391582
+    Name: Timing 10
+    Text: How will you perform this ritual? And what will be the result?
+    Rectangle:
+      serializedVersion: 2
+      x: 716.5843
+      y: 21
+      width: 101.41571
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.52315
+    EndPosition: 46.3151
+    Name: Timing 11
+    Text: One of the Kanaka of the mountain floats toward you and hands you a Kukui
+      nut lei.
+    Rectangle:
+      serializedVersion: 2
+      x: 820.63196
+      y: 21
+      width: 135.86804
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

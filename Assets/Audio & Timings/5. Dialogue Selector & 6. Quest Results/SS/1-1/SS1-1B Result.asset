@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS1-1B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: fdc60a6c99957414b8544e73e8d9ebd2, type: 3}
+  Text: "As you approach the solemn Kanaka, attempting to bridge the chasm of silence
+    with words, you are met not with responses, but with a pleasing wave of disharmony
+    that echoes through their very cores\u2014a silent yet profound declaration of
+    the elemental\u2019s deep-seated unrest and the fractured spirit of the mountain."
+  Timings:
+  - StartPosition: 0.4643991
+    EndPosition: 6.401621
+    Name: Timing 1
+    Text: 'As you approach the solemn Kanaka, attempting to bridge the chasm of silence
+      with words, '
+    Rectangle:
+      serializedVersion: 2
+      x: 47.338013
+      y: 21
+      width: 221.66199
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.7894106
+    EndPosition: 9.6693945
+    Name: Timing 2
+    Text: 'you are met not with responses, '
+    Rectangle:
+      serializedVersion: 2
+      x: 283.47784
+      y: 21
+      width: 107.522156
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 9.964014
+    EndPosition: 14.999614
+    Name: Timing 3
+    Text: but with a pleasing wave of disharmony that echoes through their very cores
+    Rectangle:
+      serializedVersion: 2
+      x: 401.99942
+      y: 21
+      width: 188.00058
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.24068
+    EndPosition: 18.588808
+    Name: Timing 4
+    Text: "\u2014a silent yet profound declaration "
+    Rectangle:
+      serializedVersion: 2
+      x: 599
+      y: 21
+      width: 125
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.734354
+    EndPosition: 24.816326
+    Name: Timing 5
+    Text: "of the elemental\u2019s deep-seated unrest and the fractured spirit of
+      the mountain."
+    Rectangle:
+      serializedVersion: 2
+      x: 729.4339
+      y: 21
+      width: 227.0661
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
