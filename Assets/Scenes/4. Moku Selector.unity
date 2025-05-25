@@ -3142,6 +3142,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 46849d32b71de404089ed839e8cf4537,
         type: 3}
+    - target: {fileID: 1116061710647385158, guid: 25e5ddb0a6a11421380491160b67c346,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 31
+      objectReference: {fileID: 0}
     - target: {fileID: 1242837711583425878, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: mokuName
@@ -3671,7 +3676,7 @@ PrefabInstance:
     - target: {fileID: 7199817514820794539, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 27
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 7209767086805648115, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
@@ -10844,7 +10849,7 @@ PrefabInstance:
     - target: {fileID: 1801505277081404400, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 3006147160321941322, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS1-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 1f60e81ddf1af4ca5831c165a1a19cae, type: 3}
+  Text: "It is dark\u2026\n\nYou are floating in the sky, hopping from fractured
+    rocks as they drift through the air when suddenly\u2026\n\nYou are greeted by
+    an awe-inspiring sight: ancient Pohaku obelisks scattered across the wide plateau.
+    These towering structures, carved from volcanic rock and adorned with intricate
+    symbols depicting the night sky, stand as silent guardians.\n\nYou notice that
+    the symbols form constellations, yet as you look up, the sky above does not resemble
+    the constellations on the Pohaku obelisks. In fact, where certain stars should
+    be found on the obelisks, there is a void\u2014a deep darkness in those same
+    locations in the sky above. As you stare into the void, a feeling of deep dread
+    seeps into your very being.\n\nAs you move closer to the Pohaku obelisks, the
+    air grows thick with anticipation. However, something is wrong here\u2026 You
+    can feel it. Despite the majestic surroundings, there is an overwhelming sense
+    of sadness emanating from the obelisks. Above, the stars seem to shift, aligning
+    slowly with the coming convergence.\n\nPerhaps the answer lies within the Pohaku
+    obelisks."
+  Timings:
+  - StartPosition: 15.15405
+    EndPosition: 17.31249
+    Name: Timing 1
+    Text: "It is dark\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 367
+      y: 21
+      width: 48.00003
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.672222
+    EndPosition: 19.560865
+    Name: Timing 2
+    Text: 'You are floating in the sky, '
+    Rectangle:
+      serializedVersion: 2
+      x: 422.99985
+      y: 21
+      width: 42.000183
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.740726
+    EndPosition: 24.192518
+    Name: Timing 3
+    Text: "hopping from fractured rocks as they drift through the air when suddenly\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 468.99982
+      y: 21
+      width: 99.00018
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.642193
+    EndPosition: 27.789919
+    Name: Timing 4
+    Text: 'You are greeted by an awe-inspiring sight: '
+    Rectangle:
+      serializedVersion: 2
+      x: 578
+      y: 21
+      width: 70
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.099909
+    EndPosition: 33.051117
+    Name: Timing 5
+    Text: 'ancient Pohaku obelisks scattered across the wide plateau. '
+    Rectangle:
+      serializedVersion: 2
+      x: 654.8937
+      y: 21
+      width: 110.10632
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.231518
+    EndPosition: 41.86475
+    Name: Timing 6
+    Text: 'These towering structures, carved from volcanic rock and adorned with
+      intricate symbols depicting the night sky, '
+    Rectangle:
+      serializedVersion: 2
+      x: 769.01184
+      y: 21
+      width: 191.98822
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.134537
+    EndPosition: 45.507114
+    Name: Timing 7
+    Text: stand as silent guardians.
+    Rectangle:
+      serializedVersion: 2
+      x: 966.99963
+      y: 21
+      width: 75.00037
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.710407
+    EndPosition: 50.993153
+    Name: Timing 8
+    Text: 'You notice that the symbols form constellations, yet as you look up, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1046.5209
+      y: 21
+      width: 117.479126
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.217983
+    EndPosition: 58.129005
+    Name: Timing 9
+    Text: 'the sky above does not resemble the constellations on the Pohaku obelisks. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1168.9999
+      y: 21
+      width: 153.68921
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.23292
+    EndPosition: 60.121555
+    Name: Timing 10
+    Text: 'In fact, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1325
+      y: 21
+      width: 42
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 60.481293
+    EndPosition: 64.97804
+    Name: Timing 11
+    Text: where certain stars should be found on the obelisks, there is a void
+    Rectangle:
+      serializedVersion: 2
+      x: 1375
+      y: 21
+      width: 100
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.33427
+    EndPosition: 70.374146
+    Name: Timing 12
+    Text: "\u2014a deep darkness in those same locations in the sky above."
+    Rectangle:
+      serializedVersion: 2
+      x: 1482.9218
+      y: 21
+      width: 112.07825
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 70.64395
+    EndPosition: 77.8029
+    Name: Timing 13
+    Text: As you stare into the void, a feeling of deep dread seeps into your very
+      being.
+    Rectangle:
+      serializedVersion: 2
+      x: 1601
+      y: 21
+      width: 159.20276
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.15351
+    EndPosition: 85.34833
+    Name: Timing 14
+    Text: 'As you move closer to the Pohaku obelisks, the air grows thick with anticipation. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1767.9998
+      y: 21
+      width: 160.00037
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.75304
+    EndPosition: 89.125595
+    Name: Timing 15
+    Text: "However, something is wrong here\u2026 "
+    Rectangle:
+      serializedVersion: 2
+      x: 1937.0001
+      y: 21
+      width: 74.99988
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.21553
+    EndPosition: 90.474625
+    Name: Timing 16
+    Text: 'You can feel it. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2014
+      y: 21
+      width: 28.000122
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.654495
+    EndPosition: 99.063416
+    Name: Timing 17
+    Text: 'Despite the majestic surroundings, there is an overwhelming sense of sadness
+      emanating from the obelisks. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2046.0001
+      y: 21
+      width: 186.99988
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 99.513084
+    EndPosition: 105.80854
+    Name: Timing 18
+    Text: Above, the stars seem to shift, aligning slowly with the coming convergence.
+    Rectangle:
+      serializedVersion: 2
+      x: 2243
+      y: 21
+      width: 140
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 106.16828
+    EndPosition: 109.72072
+    Name: Timing 19
+    Text: Perhaps the answer lies within the Pohaku obelisks.
+    Rectangle:
+      serializedVersion: 2
+      x: 2391
+      y: 21
+      width: 79.000244
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.810646
+    EndPosition: 110.576324
+    Name: Timing 20
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2472
+      y: 21
+      width: 17.027344
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
