@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: b512486457fee4d6d92af237ecd46562, type: 3}
+  Text: 'You are being carried by my servants. I have no more use of you. You are
+    to be discarded.
+
+
+    You awaken alone. Emerging from a slumber, disoriented
+    and surrounded by a heap of discarded robots.
+
+
+    The cold metal limbs and
+    lifeless bodies form an unsettling landscape, a graveyard of forgotten machinery.
+
+
+    As
+    you rise from the pile, you can''t help but wonder how you ended up amidst this
+    eerie collection of discarded beings.
+
+
+    The stillness hangs heavy in the
+    air, and an unsettling sense of curiosity sets in as you begin to unravel the
+    mystery that brought you to this peculiar awakening.
+
+
+    Amidst the broken
+    robot bodies, a chorus of static voices rises, their fragmented words pleading
+    for help through the crackling dissonance.'
+  Timings:
+  - StartPosition: 12.903334
+    EndPosition: 16.153063
+    Name: Timing 1
+    Text: 'You are being carried by my servants. '
+    Rectangle:
+      serializedVersion: 2
+      x: 165
+      y: 21
+      width: 34.000015
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.37848
+    EndPosition: 19.638094
+    Name: Timing 2
+    Text: 'I have no more use of you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 201.35843
+      y: 21
+      width: 34.10341
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.919773
+    EndPosition: 23.541567
+    Name: Timing 3
+    Text: You are to be discarded.
+    Rectangle:
+      serializedVersion: 2
+      x: 238.40889
+      y: 21
+      width: 37.892685
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.823242
+    EndPosition: 27.84746
+    Name: Timing 4
+    Text: 'You awaken alone. Emerging from a slumber, '
+    Rectangle:
+      serializedVersion: 2
+      x: 279.2486
+      y: 21
+      width: 42.103027
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.088911
+    EndPosition: 32.79955
+    Name: Timing 5
+    Text: disoriented and surrounded by a heap of discarded robots.
+    Rectangle:
+      serializedVersion: 2
+      x: 323.87778
+      y: 21
+      width: 49.284637
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.13538
+    EndPosition: 37.399395
+    Name: Timing 6
+    Text: 'The cold metal limbs and lifeless bodies '
+    Rectangle:
+      serializedVersion: 2
+      x: 376.67603
+      y: 21
+      width: 44.611877
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.490173
+    EndPosition: 40.443203
+    Name: Timing 7
+    Text: 'form an unsettling landscape, '
+    Rectangle:
+      serializedVersion: 2
+      x: 422.23767
+      y: 21
+      width: 30.895813
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.644398
+    EndPosition: 44.479183
+    Name: Timing 8
+    Text: a graveyard of forgotten machinery.
+    Rectangle:
+      serializedVersion: 2
+      x: 455.23846
+      y: 21
+      width: 40.121094
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 44.814854
+    EndPosition: 47.76271
+    Name: Timing 19
+    Text: As you rise from the pile,
+    Rectangle:
+      serializedVersion: 2
+      x: 498.8715
+      y: 21
+      width: 30.841705
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.800022
+    EndPosition: 50.44936
+    Name: Timing 20
+    Text: ' you can''t help but wonder '
+    Rectangle:
+      serializedVersion: 2
+      x: 530.1036
+      y: 21
+      width: 27.718445
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.514397
+    EndPosition: 56.49976
+    Name: Timing 10
+    Text: how you ended up amidst this eerie collection of discarded beings.
+    Rectangle:
+      serializedVersion: 2
+      x: 558.50244
+      y: 21
+      width: 62.621338
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.64295
+    EndPosition: 61.006863
+    Name: Timing 11
+    Text: 'The stillness hangs heavy in the air, '
+    Rectangle:
+      serializedVersion: 2
+      x: 622.6219
+      y: 21
+      width: 45.657104
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.263718
+    EndPosition: 65.353
+    Name: Timing 12
+    Text: 'and an unsettling sense of curiosity sets in '
+    Rectangle:
+      serializedVersion: 2
+      x: 670.9663
+      y: 21
+      width: 42.78369
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.55419
+    EndPosition: 68.493515
+    Name: Timing 13
+    Text: 'as you begin to unravel the '
+    Rectangle:
+      serializedVersion: 2
+      x: 715.855
+      y: 21
+      width: 30.752441
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.772316
+    EndPosition: 72.04872
+    Name: Timing 18
+    Text: mystery that brought you to this peculiar awakening.
+    Rectangle:
+      serializedVersion: 2
+      x: 749.52435
+      y: 21
+      width: 34.279114
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.234375
+    EndPosition: 76.057365
+    Name: Timing 14
+    Text: 'Amidst the broken robot bodies, '
+    Rectangle:
+      serializedVersion: 2
+      x: 785.74585
+      y: 21
+      width: 39.99768
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.21832
+    EndPosition: 80.685196
+    Name: Timing 15
+    Text: 'a chorus of static voices rises, '
+    Rectangle:
+      serializedVersion: 2
+      x: 827.42755
+      y: 21
+      width: 46.734253
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 80.8146
+    EndPosition: 84.678375
+    Name: Timing 16
+    Text: 'their fragmented words pleading for '
+    Rectangle:
+      serializedVersion: 2
+      x: 875.5157
+      y: 21
+      width: 40.42444
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 84.85241
+    EndPosition: 87.23911
+    Name: Timing 19
+    Text: help through the crackling dissonance.
+    Rectangle:
+      serializedVersion: 2
+      x: 917.7609
+      y: 21
+      width: 24.970703
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.41315
+    EndPosition: 88.5551
+    Name: Timing 17
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 944.5524
+      y: 21
+      width: 11.947571
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
