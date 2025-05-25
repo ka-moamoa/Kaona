@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 446decd480bd848aaa0c3c353f8dcda8, type: 3}
+  Text: "Alone in the pitch-black confines of a cell, you cautiously explore your
+    surroundings. You feel alone. Remember, while you are here\u2026 I am always
+    with you\u2026\n\nI have placed a bed for you, so that you may rest and continue
+    your labour in my name. You decide to sit on the bed.\n\nThen, like a beacon
+    of hope, a soft white glow pierces through the darkness. Did I gift this to you
+    because I am so great? I did not\u2026 This was not of my own design.\n\nYou
+    follow the ethereal light, its subtle radiance guiding you.\n\nAs you reach the
+    edge of the cell, your fingers clasp the cold bars, and you peer into the vast,
+    impenetrable darkness that lies beyond, trying to see the source of the white
+    light.\n\nTwo shadows move from the darkness, as if the darkness itself gave
+    birth to these forms. How interesting."
+  Timings:
+  - StartPosition: 7.9220862
+    EndPosition: 13.918504
+    Name: Timing 1
+    Text: 'Alone in the pitch-black confines of a cell, '
+    Rectangle:
+      serializedVersion: 2
+      x: 177.15814
+      y: 21
+      width: 111.38751
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.259003
+    EndPosition: 18.00467
+    Name: Timing 20
+    Text: 'you cautiously explore your surroundings. '
+    Rectangle:
+      serializedVersion: 2
+      x: 294.87067
+      y: 21
+      width: 69.57831
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.268467
+    EndPosition: 20.292686
+    Name: Timing 2
+    Text: 'You feel alone. '
+    Rectangle:
+      serializedVersion: 2
+      x: 369.34918
+      y: 21
+      width: 37.601257
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.475555
+    EndPosition: 23.92167
+    Name: Timing 3
+    Text: "Remember, while you are here\u2026 "
+    Rectangle:
+      serializedVersion: 2
+      x: 410.34735
+      y: 21
+      width: 64.01395
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.069794
+    EndPosition: 27.10629
+    Name: Timing 4
+    Text: "I am always with you\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 477.11276
+      y: 21
+      width: 56.405
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.698778
+    EndPosition: 30.290909
+    Name: Timing 5
+    Text: 'I have placed a bed for you, '
+    Rectangle:
+      serializedVersion: 2
+      x: 544.5236
+      y: 21
+      width: 48.150574
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.401995
+    EndPosition: 35.25299
+    Name: Timing 6
+    Text: 'so that you may rest and continue your labour in my name. '
+    Rectangle:
+      serializedVersion: 2
+      x: 594.73773
+      y: 21
+      width: 90.110535
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.487167
+    EndPosition: 39.17822
+    Name: Timing 7
+    Text: You decide to sit on the bed.
+    Rectangle:
+      serializedVersion: 2
+      x: 689.19824
+      y: 21
+      width: 68.56378
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.47446
+    EndPosition: 44.91794
+    Name: Timing 8
+    Text: 'Then, like a beacon of hope, a soft white '
+    Rectangle:
+      serializedVersion: 2
+      x: 763.26495
+      y: 21
+      width: 101.11627
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.140114
+    EndPosition: 49.10238
+    Name: Timing 9
+    Text: 'glow pierces through the darkness. '
+    Rectangle:
+      serializedVersion: 2
+      x: 868.5083
+      y: 21
+      width: 73.601746
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.361588
+    EndPosition: 52.953545
+    Name: Timing 10
+    Text: 'Did I gift this to you because I am so great? '
+    Rectangle:
+      serializedVersion: 2
+      x: 946.92505
+      y: 21
+      width: 66.72302
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.064625
+    EndPosition: 54.693977
+    Name: Timing 11
+    Text: "I did not\u2026 "
+    Rectangle:
+      serializedVersion: 2
+      x: 1015.7115
+      y: 21
+      width: 30.266296
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 54.879116
+    EndPosition: 59.13763
+    Name: Timing 12
+    Text: This was not of my own design.
+    Rectangle:
+      serializedVersion: 2
+      x: 1049.4169
+      y: 21
+      width: 79.10486
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.546326
+    EndPosition: 65.30044
+    Name: Timing 13
+    Text: You follow the ethereal light, its subtle radiance guiding you.
+    Rectangle:
+      serializedVersion: 2
+      x: 1136.1134
+      y: 21
+      width: 106.8866
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.51577
+    EndPosition: 72.8389
+    Name: Timing 14
+    Text: 'As you reach the edge of the cell, your fingers clasp the cold bars, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1247
+      y: 21
+      width: 136.03198
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.135124
+    EndPosition: 81.3559
+    Name: Timing 15
+    Text: 'and you peer into the vast, impenetrable darkness that lies beyond, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1388.5347
+      y: 21
+      width: 152.70654
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 81.76324
+    EndPosition: 87.28077
+    Name: Timing 16
+    Text: trying to see the source of the white light.
+    Rectangle:
+      serializedVersion: 2
+      x: 1548.8077
+      y: 21
+      width: 102.49182
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 88.09542
+    EndPosition: 91.65037
+    Name: Timing 17
+    Text: 'Two shadows move from the darkness, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1666.4323
+      y: 21
+      width: 66.035645
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 91.83551
+    EndPosition: 95.64966
+    Name: Timing 18
+    Text: 'as if the darkness itself gave birth to these forms. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1735.907
+      y: 21
+      width: 70.850464
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 95.797775
+    EndPosition: 98.15312
+    Name: Timing 19
+    Text: How interesting.
+    Rectangle:
+      serializedVersion: 2
+      x: 1809.5088
+      y: 21
+      width: 43.752197
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.32337
+    EndPosition: 99.186935
+    Name: Timing 21
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1856.4235
+      y: 21
+      width: 16.04126
+      height: 184
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
