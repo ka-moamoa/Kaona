@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF2-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 7e4b45811a42b4e9283b89749f731c5d, type: 3}
+  Text: 'I have placed you in a cold prison cell. You have awakened. As you open
+    your eyes, you are one of three prisoners sitting in a chair.
+
+
+    The other
+    two prisoners seem to be unconscious. At the base of their neck is a cable pulsing
+    with a dim red glow. You find a similar cable at the base of your neck.
+
+
+    Your
+    cable, however, is glowing a bright neon red and is pulsing with energy. I thank
+    you for your vibrancy.
+
+
+    The cable extends into the darkness of the cell.
+    Why is this cable in your neck? Is the cable feeding me your life force?'
+  Timings:
+  - StartPosition: 14.579615
+    EndPosition: 19.951065
+    Name: Timing 1
+    Text: 'I have placed you in a cold prison cell. '
+    Rectangle:
+      serializedVersion: 2
+      x: 265.81085
+      y: 21
+      width: 86.8779
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.06068
+    EndPosition: 24.335917
+    Name: Timing 2
+    Text: 'You have awakened. '
+    Rectangle:
+      serializedVersion: 2
+      x: 354.46167
+      y: 21
+      width: 69.147736
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.226294
+    EndPosition: 29.12079
+    Name: Timing 3
+    Text: 'As you open your eyes, '
+    Rectangle:
+      serializedVersion: 2
+      x: 421.83636
+      y: 21
+      width: 79.163635
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.18262
+    EndPosition: 35.365376
+    Name: Timing 4
+    Text: you are one of three prisoners sitting in a chair.
+    Rectangle:
+      serializedVersion: 2
+      x: 502.00003
+      y: 21
+      width: 99.99997
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.73984
+    EndPosition: 42.475548
+    Name: Timing 5
+    Text: 'The other two prisoners seem to be unconscious. '
+    Rectangle:
+      serializedVersion: 2
+      x: 608.05664
+      y: 21
+      width: 108.94336
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.90832
+    EndPosition: 48.349167
+    Name: Timing 6
+    Text: 'At the base of their neck is a cable '
+    Rectangle:
+      serializedVersion: 2
+      x: 723.9997
+      y: 21
+      width: 88.000305
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.472824
+    EndPosition: 53.41903
+    Name: Timing 7
+    Text: 'pulsing with a dim red glow. '
+    Rectangle:
+      serializedVersion: 2
+      x: 814
+      y: 21
+      width: 80
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.63594
+    EndPosition: 59.78727
+    Name: Timing 8
+    Text: You find a similar cable at the base of your neck.
+    Rectangle:
+      serializedVersion: 2
+      x: 897.5083
+      y: 21
+      width: 99.4917
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.910908
+    EndPosition: 66.27917
+    Name: Timing 9
+    Text: 'Your cable, however, is glowing a bright '
+    Rectangle:
+      serializedVersion: 2
+      x: 998.9997
+      y: 21
+      width: 103.000305
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.40281
+    EndPosition: 73.76031
+    Name: Timing 10
+    Text: 'neon red and is pulsing with energy. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1103.9998
+      y: 21
+      width: 119.00037
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.88395
+    EndPosition: 82.478
+    Name: Timing 11
+    Text: I thank you for your vibrancy.
+    Rectangle:
+      serializedVersion: 2
+      x: 1224.9999
+      y: 21
+      width: 139.00024
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.28175
+    EndPosition: 88.9624
+    Name: Timing 12
+    Text: 'The cable extends into the darkness of the cell. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1377
+      y: 21
+      width: 91.87891
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.09354
+    EndPosition: 93.05051
+    Name: Timing 13
+    Text: 'Why is this cable in your neck? '
+    Rectangle:
+      serializedVersion: 2
+      x: 1470.9999
+      y: 21
+      width: 64.00012
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 93.29782
+    EndPosition: 99.91337
+    Name: Timing 14
+    Text: Is the cable feeding me your life force?
+    Rectangle:
+      serializedVersion: 2
+      x: 1539
+      y: 21
+      width: 107
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.098854
+    EndPosition: 101.56408
+    Name: Timing 15
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1649
+      y: 21
+      width: 23.698608
+      height: 171.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
