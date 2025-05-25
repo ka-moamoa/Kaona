@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-2A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a184890cfdb5f49eaa6e5dbcb6b094e3, type: 3}
+  Text: 'You close your eyes and look deep within. You are frightened beyond measure.
+    Yet you find, deep within you, the courage to speak. You ask, why am I here?
+    Can you free me? Who is keeping me here? How long have I been here? One of the
+    shadows moves closer to the bars you are leaning against. Warm stones seem to
+    float and touch your temples. They seem to be shaped like fingers.
+
+
+    In your
+    mind, you see an image of the head of a statue, adorned with a helmet that stands
+    as a symbol of nobility and power, woven with cultural significance. The statue
+    hums with red vibrance. Beneath the statue is a sea of forms bowing in praise.
+    The forms, you assume, are people turned into stone.
+
+
+    You awaken and hear
+    a cell door open. A glimmering object hovers before you. You take it into your
+    hands; it feels like it''s always been yours.
+
+
+    A small wisp of smoke lingers
+    in the room.'
+  Timings:
+  - StartPosition: 0.4041632
+    EndPosition: 5.295086
+    Name: Timing 1
+    Text: 'You close your eyes and look deep within. '
+    Rectangle:
+      serializedVersion: 2
+      x: 38.572124
+      y: 21
+      width: 103.734314
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.6561
+    EndPosition: 9.386744
+    Name: Timing 2
+    Text: 'You are frightened beyond measure. '
+    Rectangle:
+      serializedVersion: 2
+      x: 149.96338
+      y: 21
+      width: 79.125305
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 9.687601
+    EndPosition: 14.26063
+    Name: Timing 3
+    Text: 'Yet you find, deep within you, the courage to speak. '
+    Rectangle:
+      serializedVersion: 2
+      x: 235.46974
+      y: 21
+      width: 96.99193
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.642222
+    EndPosition: 23.286345
+    Name: Timing 4
+    Text: 'You ask, why am I here? Can you free me? Who is keeping me here? '
+    Rectangle:
+      serializedVersion: 2
+      x: 340.55508
+      y: 21
+      width: 183.33804
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.651566
+    EndPosition: 26.595774
+    Name: Timing 5
+    Text: 'How long have I been here? '
+    Rectangle:
+      serializedVersion: 2
+      x: 531.6393
+      y: 21
+      width: 62.445374
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.995237
+    EndPosition: 32.432404
+    Name: Timing 6
+    Text: 'One of the shadows moves closer to the bars you are leaning against. '
+    Rectangle:
+      serializedVersion: 2
+      x: 602.55707
+      y: 21
+      width: 115.319885
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.733242
+    EndPosition: 38.449547
+    Name: Timing 7
+    Text: 'Warm stones seem to float and touch your temples. '
+    Rectangle:
+      serializedVersion: 2
+      x: 724.2576
+      y: 21
+      width: 121.240295
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.750404
+    EndPosition: 44.46669
+    Name: Timing 8
+    Text: They seem to be shaped like fingers.
+    Rectangle:
+      serializedVersion: 2
+      x: 851.87897
+      y: 21
+      width: 121.23993
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.063038
+    EndPosition: 49.761776
+    Name: Timing 9
+    Text: 'In your mind, you see an image of the head of a statue, '
+    Rectangle:
+      serializedVersion: 2
+      x: 985.76715
+      y: 21
+      width: 99.65814
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.916008
+    EndPosition: 56.013966
+    Name: Timing 10
+    Text: 'adorned with a helmet that stands as a symbol of nobility and power, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1088.6965
+      y: 21
+      width: 129.33496
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.23184
+    EndPosition: 60.774483
+    Name: Timing 11
+    Text: 'woven with cultural significance. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1222.6525
+      y: 21
+      width: 96.347534
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 60.945488
+    EndPosition: 65.81938
+    Name: Timing 12
+    Text: 'The statue hums with red vibrance. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1322.627
+      y: 21
+      width: 103.37305
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.10227
+    EndPosition: 70.86427
+    Name: Timing 13
+    Text: Beneath the statue is a sea of forms bowing in praise.
+    Rectangle:
+      serializedVersion: 2
+      x: 1432
+      y: 21
+      width: 101
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.06939
+    EndPosition: 76.23921
+    Name: Timing 14
+    Text: The forms, you assume, are people turned into stone.
+    Rectangle:
+      serializedVersion: 2
+      x: 1537.3505
+      y: 21
+      width: 109.64966
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.64217
+    EndPosition: 83.64153
+    Name: Timing 15
+    Text: 'You awaken and hear a cell door open. A glimmering object hovers before
+      you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1655.5468
+      y: 21
+      width: 148.45325
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.971565
+    EndPosition: 90.85526
+    Name: Timing 16
+    Text: You take it into your hands; it feels like it's always been yours.
+    Rectangle:
+      serializedVersion: 2
+      x: 1810.9999
+      y: 21
+      width: 146.00012
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 91.23245
+    EndPosition: 96.465935
+    Name: Timing 17
+    Text: A small wisp of smoke lingers in the room.
+    Rectangle:
+      serializedVersion: 2
+      x: 1965.0001
+      y: 21
+      width: 110.99988
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 96.560234
+    EndPosition: 97.567345
+    Name: Timing 18
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2078
+      y: 21
+      width: 21.360352
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FF3-2B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 5f82b6b7bbd45417ea368d300a56dde5, type: 3}
+  Text: Closing your eyes and looking deep within, you let all the fear and anxiety
+    of your soul release in a loud scream. Images of others in prison cells, with
+    neon red cables strapped around their bodies, find a moment of relief. You hear
+    a cell door open.
+  Timings:
+  - StartPosition: 1.0448979
+    EndPosition: 4.0613146
+    Name: Timing 1
+    Text: 'Closing your eyes and looking deep within, '
+    Rectangle:
+      serializedVersion: 2
+      x: 72.45132
+      y: 21
+      width: 122.54868
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 4.3074374
+    EndPosition: 10.362506
+    Name: Timing 2
+    Text: 'you let all the fear and anxiety of your soul release in a loud scream. '
+    Rectangle:
+      serializedVersion: 2
+      x: 204.99928
+      y: 21
+      width: 246.00072
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.805555
+    EndPosition: 16.762154
+    Name: Timing 3
+    Text: 'Images of others in prison cells, with neon red cables strapped around
+      their bodies, '
+    Rectangle:
+      serializedVersion: 2
+      x: 468.99988
+      y: 21
+      width: 242.00012
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.934444
+    EndPosition: 18.682047
+    Name: Timing 4
+    Text: 'find a moment of relief. '
+    Rectangle:
+      serializedVersion: 2
+      x: 717.9997
+      y: 21
+      width: 71.000305
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.87896
+    EndPosition: 21.80803
+    Name: Timing 5
+    Text: You hear a cell door open.
+    Rectangle:
+      serializedVersion: 2
+      x: 797
+      y: 21
+      width: 119
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.881872
+    EndPosition: 22.804897
+    Name: Timing 6
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 919.00006
+      y: 21
+      width: 37.49994
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
