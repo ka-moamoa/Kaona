@@ -3091,6 +3091,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlaySSIntroTileFinished
       objectReference: {fileID: 0}
+    - target: {fileID: 308503200142688539, guid: 25e5ddb0a6a11421380491160b67c346,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 489860621121829522, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: m_AnchorMax.y

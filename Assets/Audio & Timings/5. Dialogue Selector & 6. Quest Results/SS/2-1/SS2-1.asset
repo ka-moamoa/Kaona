@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS2-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 0dace6eadac19429494cd6feaeb950fe, type: 3}
+  Text: "It\u2019s been some time, drifting among the clouds. Suddenly, a plateau
+    emerges into view. In the center of this floating landmass lies a Lo\u2018i.
+    You decide to ascend and investigate.\nYou land in the Lo\u2018i, and your heart
+    fills with sorrow. The Lo\u2018i around you is not a vibrant green but a sickly
+    grey. The water beneath your feet is thick, viscous, and as dark as black smoke.
+    Suddenly, a rock formation stirs\u2014a Kanaka. Its head, limbs, and entire form
+    are composed of fragmented rock, suspended in place. It speaks in a language
+    you somehow understand.\n\nHe says,\n\n\u201CAloha,\n\nThe Lo\u2018i is more
+    than just a plot of land; it is a living, breathing entity that nurtures not
+    only the taro but the spirit of the community. It serves as a reminder of our
+    interconnectedness with the world around us, a call to preserve and cherish the
+    natural gifts bestowed upon us, and to tread gently on this earth, which we share
+    with countless beings. Through the Lo\u2018i, we learn patience, perseverance,
+    and the profound impact of working in harmony with nature\u2019s cycles, ensuring
+    that the land we borrow from our ancestors is passed down, fertile and abundant,
+    to our descendants\u2014a testament to our respect and care for this shared home.\n\nThis
+    was before the Shattering. Now, this place, once the heart of the \u2019Aina,
+    is all that remains, soon to vanish. All that holds this shell of the Lo\u2018i
+    is the fading light of my soul. I was once its Mahi'ai, and in a way, I still
+    am\u2026 Yet I fear it won\u2019t be long before my inner light fades completely.\u201D\n\nYou
+    are overwhelmed by a sense of loss for a memory you never had."
+  Timings:
+  - StartPosition: 14.805328
+    EndPosition: 18.738096
+    Name: Timing 1
+    Text: "It\u2019s been some time, drifting among the clouds. "
+    Rectangle:
+      serializedVersion: 2
+      x: 348.35178
+      y: 21
+      width: 84.56439
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.858662
+    EndPosition: 23.769222
+    Name: Timing 2
+    Text: 'Suddenly, a plateau emerges into view. '
+    Rectangle:
+      serializedVersion: 2
+      x: 435.5086
+      y: 21
+      width: 105.58942
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.967619
+    EndPosition: 28.72941
+    Name: Timing 3
+    Text: "In the center of this floating landmass lies a Lo\u2018i. "
+    Rectangle:
+      serializedVersion: 2
+      x: 545.364
+      y: 21
+      width: 102.3905
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.012947
+    EndPosition: 33.530872
+    Name: Timing 4
+    Text: You decide to ascend and investigate.
+    Rectangle:
+      serializedVersion: 2
+      x: 653.85126
+      y: 21
+      width: 97.14679
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.689598
+    EndPosition: 39.36405
+    Name: Timing 5
+    Text: "You land in the Lo\u2018i, and your heart fills with sorrow. "
+    Rectangle:
+      serializedVersion: 2
+      x: 754.411
+      y: 21
+      width: 122.015015
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.59426
+    EndPosition: 44.99883
+    Name: Timing 6
+    Text: "The Lo\u2018i around you is not a vibrant green but a sickly grey. "
+    Rectangle:
+      serializedVersion: 2
+      x: 881.3761
+      y: 21
+      width: 116.21179
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.197235
+    EndPosition: 52.18118
+    Name: Timing 7
+    Text: 'The water beneath your feet is thick, viscous, and as dark as black smoke. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1001.8541
+      y: 21
+      width: 150.17236
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.35161
+    EndPosition: 57.815952
+    Name: Timing 8
+    Text: "Suddenly, a rock formation stirs\u2014a Kanaka. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1155.6912
+      y: 21
+      width: 117.49707
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.09027
+    EndPosition: 65.91098
+    Name: Timing 9
+    Text: 'Its head, limbs, and entire form are composed of fragmented rock, suspended
+      in place. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1279.0868
+      y: 21
+      width: 168.16492
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.282265
+    EndPosition: 70.35531
+    Name: Timing 10
+    Text: It speaks in a language you somehow understand.
+    Rectangle:
+      serializedVersion: 2
+      x: 1455.2352
+      y: 21
+      width: 87.58069
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 70.51404
+    EndPosition: 72.339386
+    Name: Timing 11
+    Text: He says,
+    Rectangle:
+      serializedVersion: 2
+      x: 1546.229
+      y: 21
+      width: 39.249634
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.51161
+    EndPosition: 73.92664
+    Name: Timing 12
+    Text: "\u201CAloha,"
+    Rectangle:
+      serializedVersion: 2
+      x: 1589.1819
+      y: 21
+      width: 30.426758
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.00601
+    EndPosition: 77.73607
+    Name: Timing 13
+    Text: "The Lo\u2018i is more than just a plot of land; "
+    Rectangle:
+      serializedVersion: 2
+      x: 1621.3152
+      y: 21
+      width: 80.20569
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.96333
+    EndPosition: 85.11683
+    Name: Timing 14
+    Text: 'it is a living, breathing entity that nurtures not only the taro but the
+      spirit of the community. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1706.4076
+      y: 21
+      width: 153.81812
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.31265
+    EndPosition: 90.23574
+    Name: Timing 15
+    Text: 'It serves as a reminder of our interconnectedness with the world around
+      us, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1864.4364
+      y: 21
+      width: 105.858765
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.39447
+    EndPosition: 94.52135
+    Name: Timing 16
+    Text: 'a call to preserve and cherish the natural gifts bestowed upon us, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1973.7083
+      y: 21
+      width: 88.73828
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 94.64039
+    EndPosition: 100.28825
+    Name: Timing 17
+    Text: 'and to tread gently on this earth, which we share with countless beings. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2065.006
+      y: 21
+      width: 121.44336
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.468575
+    EndPosition: 109.304276
+    Name: Timing 18
+    Text: "Through the Lo\u2018i, we learn patience, perseverance, and the profound
+      impact of working in harmony with nature\u2019s cycles, "
+    Rectangle:
+      serializedVersion: 2
+      x: 2190.327
+      y: 21
+      width: 189.98975
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.42449
+    EndPosition: 115.40512
+    Name: Timing 19
+    Text: 'ensuring that the land we borrow from our ancestors is passed down, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2382.9016
+      y: 21
+      width: 128.59839
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 115.55538
+    EndPosition: 118.83121
+    Name: Timing 20
+    Text: fertile and abundant, to our descendants
+    Rectangle:
+      serializedVersion: 2
+      x: 2514.7312
+      y: 21
+      width: 70.43848
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 119.10169
+    EndPosition: 123.66981
+    Name: Timing 21
+    Text: "\u2014a testament to our respect and care for this shared home."
+    Rectangle:
+      serializedVersion: 2
+      x: 2590.9856
+      y: 21
+      width: 98.226074
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 123.88018
+    EndPosition: 126.43472
+    Name: Timing 22
+    Text: 'This was before the Shattering. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2693.735
+      y: 21
+      width: 54.9292
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 126.67515
+    EndPosition: 136.47256
+    Name: Timing 23
+    Text: "Now, this place, once the heart of the \u2019Aina, is all that remains,
+      soon to vanish. "
+    Rectangle:
+      serializedVersion: 2
+      x: 2753.834
+      y: 21
+      width: 210.66919
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 136.61617
+    EndPosition: 142.63351
+    Name: Timing 24
+    Text: "All that holds this shell of the Lo\u2018i is the fading light of my soul. "
+    Rectangle:
+      serializedVersion: 2
+      x: 2967.5908
+      y: 21
+      width: 129.38818
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 142.80284
+    EndPosition: 147.26173
+    Name: Timing 25
+    Text: "I was once its Mahi'ai, and in a way, I still am\u2026 "
+    Rectangle:
+      serializedVersion: 2
+      x: 3100.6199
+      y: 21
+      width: 95.87744
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 147.53223
+    EndPosition: 153.87349
+    Name: Timing 26
+    Text: "Yet I fear it won\u2019t be long before my inner light fades completely.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 3202.3137
+      y: 21
+      width: 136.35303
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 154.14397
+    EndPosition: 158.12105
+    Name: Timing 27
+    Text: You are overwhelmed by a sense of loss for a memory you never had.
+    Rectangle:
+      serializedVersion: 2
+      x: 3344.4827
+      y: 21
+      width: 85.517334
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 158.53961
+    EndPosition: 161.80244
+    Name: Timing 28
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3439
+      y: 21
+      width: 70.15918
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
