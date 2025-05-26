@@ -2875,7 +2875,7 @@ PrefabInstance:
     - target: {fileID: 867506100560930418, guid: 6c38bc7c58ded4e2286f2c236c86a8f4,
         type: 3}
       propertyPath: m_text
-      value: Companion Card
+      value: Attribute Debuff
       objectReference: {fileID: 0}
     - target: {fileID: 1117954057536417306, guid: 6c38bc7c58ded4e2286f2c236c86a8f4,
         type: 3}
@@ -2975,7 +2975,7 @@ PrefabInstance:
     - target: {fileID: 6634621006162285976, guid: 6c38bc7c58ded4e2286f2c236c86a8f4,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9037209077715543695, guid: 6c38bc7c58ded4e2286f2c236c86a8f4,
         type: 3}
