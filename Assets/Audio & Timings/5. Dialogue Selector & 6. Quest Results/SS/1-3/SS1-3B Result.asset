@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS1-3B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 91407664454cc41da816f7f9b8ca4d17, type: 3}
+  Text: You express a desire to observe and learn before attempting to perform. She
+    acknowledges this and begins the ritual herself. However, no matter how long
+    you wait, the mountains remain uncured.
+  Timings:
+  - StartPosition: 1.7173243
+    EndPosition: 6.2391005
+    Name: Timing 1
+    Text: 'You express a desire to observe and learn before attempting to perform. '
+    Rectangle:
+      serializedVersion: 2
+      x: 115.05283
+      y: 21
+      width: 223.94717
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.360248
+    EndPosition: 10.701369
+    Name: Timing 2
+    Text: 'She acknowledges this and begins the ritual herself. '
+    Rectangle:
+      serializedVersion: 2
+      x: 345
+      y: 21
+      width: 214.99994
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.842709
+    EndPosition: 18.808163
+    Name: Timing 3
+    Text: However, no matter how long you wait, the mountains remain uncured.
+    Rectangle:
+      serializedVersion: 2
+      x: 567
+      y: 21
+      width: 394.5
+      height: 128
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
