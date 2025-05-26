@@ -101,6 +101,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5. Dialogue Screens/SS/5. SS1-2.unity
     guid: 058e96cb68be2421192c33ef321e5f55
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/SS/6. SS1-2.unity
+    guid: 57bfdf247de4b443ab6e0d6ba347f682
+  - enabled: 1
+    path: Assets/Scenes/5. Dialogue Screens/SS/5. SS1-3.unity
+    guid: a9ff65d70508a4a2ba2f8e49462a87b8
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}

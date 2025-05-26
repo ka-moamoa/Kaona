@@ -39,20 +39,20 @@ MonoBehaviour:
       unstable mountain, '
     Rectangle:
       serializedVersion: 2
-      x: 318.85193
+      x: 388.21243
       y: 21
-      width: 155.11032
+      width: 192.35617
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 20.078663
+  - StartPosition: 19.745274
     EndPosition: 23.843422
     Name: Timing 2
     Text: its floating peaks and cliffs adrift in the sky.
     Rectangle:
       serializedVersion: 2
-      x: 485.092
+      x: 585
       y: 21
-      width: 85.32999
+      width: 115.190735
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 24.007097
@@ -61,9 +61,9 @@ MonoBehaviour:
     Text: 'Here, amidst the echoes of shifting rocks, '
     Rectangle:
       serializedVersion: 2
-      x: 574.1318
+      x: 704.7913
       y: 21
-      width: 98.93329
+      width: 122.68964
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 28.590273
@@ -72,9 +72,9 @@ MonoBehaviour:
     Text: the Kanaka of the mountain float around you.
     Rectangle:
       serializedVersion: 2
-      x: 678.01154
+      x: 833.6152
       y: 21
-      width: 65.543396
+      width: 81.28198
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 31.700294
@@ -83,9 +83,9 @@ MonoBehaviour:
     Text: 'They appear fragmented, like the landscape itself, '
     Rectangle:
       serializedVersion: 2
-      x: 748.5016
+      x: 921.0316
       y: 21
-      width: 86.56647
+      width: 107.35327
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 35.62873
@@ -94,9 +94,9 @@ MonoBehaviour:
     Text: 'composed of craggy pieces of rock, '
     Rectangle:
       serializedVersion: 2
-      x: 837.5414
+      x: 1031.452
       y: 21
-      width: 51.93988
+      width: 64.41199
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 38.083992
@@ -105,20 +105,20 @@ MonoBehaviour:
     Text: their solemn expressions mirroring the shattered beauty of their surroundings.
     Rectangle:
       serializedVersion: 2
-      x: 893.191
+      x: 1100.4646
       y: 21
-      width: 127.376526
+      width: 157.96277
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 44.074738
+  - StartPosition: 43.83095
     EndPosition: 48.8872
     Name: Timing 8
     Text: 'Their deep, resonant voices speak of a realm out of balance, '
     Rectangle:
       serializedVersion: 2
-      x: 1028.974
+      x: 1262
       y: 21
-      width: 109.07654
+      width: 142.12097
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 49.16
@@ -127,31 +127,31 @@ MonoBehaviour:
     Text: urging you to undertake a sacred ritual to restore harmony.
     Rectangle:
       serializedVersion: 2
-      x: 1144.2338
+      x: 1411.789
       y: 21
-      width: 116.24658
+      width: 144.16016
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 54.8344
+  - StartPosition: 54.43292
     EndPosition: 59.799522
     Name: Timing 10
     Text: 'The landscape around you is a blend of stark beauty and chaos, '
     Rectangle:
       serializedVersion: 2
-      x: 1272.8466
+      x: 1560
       y: 21
-      width: 112.53674
+      width: 150.84448
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 60.126892
+  - StartPosition: 59.94736
     EndPosition: 64.3827
     Name: Timing 11
     Text: 'with rare flowers blooming defiantly on precarious ledges, '
     Rectangle:
       serializedVersion: 2
-      x: 1392.8033
+      x: 1715
       y: 21
-      width: 96.45972
+      width: 124.668335
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 64.3827
@@ -160,9 +160,9 @@ MonoBehaviour:
     Text: glowing faintly with ancestral magic.
     Rectangle:
       serializedVersion: 2
-      x: 1489.2631
+      x: 1839.6683
       y: 21
-      width: 103.87976
+      width: 128.82385
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 69.02043
@@ -171,31 +171,31 @@ MonoBehaviour:
     Text: 'Perhaps, if you could gather these flowers, '
     Rectangle:
       serializedVersion: 2
-      x: 1594.3794
+      x: 1970.0258
       y: 21
-      width: 82.85657
+      width: 102.75256
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 73.05799
+  - StartPosition: 72.86184
     EndPosition: 76.38625
     Name: Timing 14
     Text: "they would restore balance to the mountain\u2026"
     Rectangle:
       serializedVersion: 2
-      x: 1685.8926
+      x: 2078
       y: 21
-      width: 75.43652
+      width: 99.06421
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 76.73174
+  - StartPosition: 76.526276
     EndPosition: 81.95154
     Name: Timing 15
     Text: "The fragmented mountains, once the realm\u2019s steadfast guardians, "
     Rectangle:
       serializedVersion: 2
-      x: 1769.1598
+      x: 2181
       y: 21
-      width: 118.30908
+      width: 152.49316
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 82.169785
@@ -204,9 +204,9 @@ MonoBehaviour:
     Text: 'now teeter on the brink of chaos, their forms disquieted by the Shattering. '
     Rectangle:
       serializedVersion: 2
-      x: 1892.4155
+      x: 2339.6277
       y: 21
-      width: 165.71265
+      width: 205.5044
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 89.753845
@@ -215,9 +215,9 @@ MonoBehaviour:
     Text: 'To restore equilibrium and ensure the safety of the realm, '
     Rectangle:
       serializedVersion: 2
-      x: 2064.3118
+      x: 2552.8003
       y: 21
-      width: 96.45972
+      width: 119.622314
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 94.118774
@@ -226,9 +226,9 @@ MonoBehaviour:
     Text: a ritual of harmony must be performed.
     Rectangle:
       serializedVersion: 2
-      x: 2163.2449
+      x: 2675.4897
       y: 21
-      width: 59.359863
+      width: 73.61377
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 97.0651
@@ -237,9 +237,9 @@ MonoBehaviour:
     Text: "How will you accomplish this\u2026?"
     Rectangle:
       serializedVersion: 2
-      x: 2230.0247
+      x: 2758.3052
       y: 21
-      width: 63.069824
+      width: 78.214355
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 100.06599
@@ -248,9 +248,9 @@ MonoBehaviour:
     Text: 'This sacred rite requires you to gather rare flowers, '
     Rectangle:
       serializedVersion: 2
-      x: 2298.041
+      x: 2842.654
       y: 21
-      width: 111.299805
+      width: 138.02539
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 105.140205
@@ -260,9 +260,9 @@ MonoBehaviour:
       floating islands. "
     Rectangle:
       serializedVersion: 2
-      x: 2413.0505
+      x: 2985.28
       y: 21
-      width: 127.37671
+      width: 157.96289
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 110.961815
@@ -271,9 +271,9 @@ MonoBehaviour:
     Text: 'Each element plays a crucial role in soothing the spirits, '
     Rectangle:
       serializedVersion: 2
-      x: 2545
+      x: 3148.9138
       y: 21
-      width: 119.093506
+      width: 147.69092
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 116.34446
@@ -282,9 +282,9 @@ MonoBehaviour:
     Text: "reestablishing the mountains\u2019 stability, "
     Rectangle:
       serializedVersion: 2
-      x: 2667
+      x: 3300.2092
       y: 21
-      width: 70.05664
+      width: 86.87891
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 119.70816
@@ -293,9 +293,9 @@ MonoBehaviour:
     Text: and reinforcing the interconnectedness of all life within the realm.
     Rectangle:
       serializedVersion: 2
-      x: 2743.2397
+      x: 3394.756
       y: 21
-      width: 106.35327
+      width: 131.89136
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 124.667946
@@ -304,9 +304,9 @@ MonoBehaviour:
     Text: "Do this for me\u2026\n\nYou\u2026"
     Rectangle:
       serializedVersion: 2
-      x: 2855.6555
+      x: 3534.1655
       y: 21
-      width: 47.99048
+      width: 59.514404
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 126.8583
@@ -315,8 +315,8 @@ MonoBehaviour:
     Text: 
     Rectangle:
       serializedVersion: 2
-      x: 2905.301
+      x: 3595.7322
       y: 21
-      width: 21.732666
+      width: 26.951172
       height: 144.6
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
