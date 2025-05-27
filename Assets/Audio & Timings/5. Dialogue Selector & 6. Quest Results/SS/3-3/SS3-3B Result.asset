@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-3B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 3b2aaf85aab544f449c8a8bef7d6e0eb, type: 3}
+  Text: You swiftly navigate the skies, collecting vibrant strands of algae and lush
+    seagrass from pockets of the ocean untouched by the blight. With careful precision,
+    you weave these elements into a natural remedy, applying it to the affected corals.
+    This infusion of life brings a temporary respite to the reefs, as hints of color
+    and vitality begin to return to the once-dimmed corals, offering a brief moment
+    of hope and showcasing the potential for renewal amidst despair.
+  Timings:
+  - StartPosition: 1.3699774
+    EndPosition: 10.557789
+    Name: Timing 1
+    Text: 'You swiftly navigate the skies, collecting vibrant strands of algae and
+      lush seagrass from pockets of the ocean untouched by the blight. '
+    Rectangle:
+      serializedVersion: 2
+      x: 63.73757
+      y: 21
+      width: 226.26245
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.727619
+    EndPosition: 18.963413
+    Name: Timing 2
+    Text: 'With careful precision, you weave these elements into a natural remedy,
+      applying it to the affected corals. '
+    Rectangle:
+      serializedVersion: 2
+      x: 294.1823
+      y: 21
+      width: 202.81772
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.179682
+    EndPosition: 37.825306
+    Name: Timing 3
+    Text: This infusion of life brings a temporary respite to the reefs, as hints
+      of color and vitality begin to return to the once-dimmed corals, offering a
+      brief moment of hope and showcasing the potential for renewal amidst despair.
+    Rectangle:
+      serializedVersion: 2
+      x: 502.32596
+      y: 21
+      width: 459.17404
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

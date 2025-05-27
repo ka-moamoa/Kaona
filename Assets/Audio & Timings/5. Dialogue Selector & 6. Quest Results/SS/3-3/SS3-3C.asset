@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-3C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 197ac17e954ba4391ac459e64ac781ac, type: 3}
+  Text: Failure to adequately address the blight or to perform the ritual leads to
+    the further decline of the coral reefs.
+  Timings:
+  - StartPosition: 1.0712028
+    EndPosition: 14.053878
+    Name: Timing 1
+    Text: Failure to adequately address the blight or to perform the ritual leads
+      to the further decline of the coral reefs.
+    Rectangle:
+      serializedVersion: 2
+      x: 101
+      y: 21
+      width: 860.5
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

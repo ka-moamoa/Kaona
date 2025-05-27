@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-3A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: dbc448c88d9914bcca66412cee97dcec, type: 3}
+  Text: "You are guided by the whispers of the ocean\u2014voices that carry the ancient
+    wisdom of the Coral Guardians. You dive into the heart of the troubled waters,
+    where the once-thriving coral reefs lay in silent despair. You collect samples
+    of the afflicted corals and create a healing salve from rare algae and sea minerals,
+    and perform a purification ritual at the reef's core, all under the watchful
+    gaze of the ocean's depths.\n\nAs you work, you weave through the coral structures
+    with care, applying the salve to the corals, which begin to pulse with a faint,
+    returning vibrancy. They chant the old melodies of the sea, a harmonious plea
+    for renewal that resonates through the water, enveloping the reef in a gentle,
+    glowing aura. The ritual\u2014a blend of emotion, spirit, and mind\u2014slowly
+    lifts the blight, revealing the true colors of the coral beneath.\n\nIn recognition
+    of your efforts, the Coral Guardians, through voices that ripple across the water's
+    surface, express their deep gratitude. From the very essence of the rejuvenated
+    reef, they sculpt The Tide Breaker, a Mano of coral and light. This majestic
+    creature, embodying the strength and beauty of the healed reef, swims loyally
+    by your side. The Tide Breaker, with its body aglow with the vibrant colors of
+    a healthy reef, serves as a symbol of the restored harmony between humanity and
+    the natural world, and a reminder of the profound impact of compassionate action."
+  Timings:
+  - StartPosition: 0.7198186
+    EndPosition: 8.27084
+    Name: Timing 1
+    Text: "You are guided by the whispers of the ocean\u2014voices that carry the
+      ancient wisdom of the Coral Guardians. "
+    Rectangle:
+      serializedVersion: 2
+      x: 35.54984
+      y: 21
+      width: 58.218754
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 8.591383
+    EndPosition: 16.601707
+    Name: Timing 2
+    Text: 'You dive into the heart of the troubled waters, where the once-thriving
+      coral reefs lay in silent despair. '
+    Rectangle:
+      serializedVersion: 2
+      x: 96.24
+      y: 21
+      width: 61.760002
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.275646
+    EndPosition: 34.889526
+    Name: Timing 3
+    Text: You collect samples of the afflicted corals and create a healing salve
+      from rare algae and sea minerals, and perform a purification ritual at the
+      reef's core, all under the watchful gaze of the ocean's depths
+    Rectangle:
+      serializedVersion: 2
+      x: 163.1961
+      y: 21
+      width: 135.8039
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.36399
+    EndPosition: 48.11901
+    Name: Timing 4
+    Text: 'As you work, you weave through the coral structures with care, applying
+      the salve to the corals, which begin to pulse with a faint, returning vibrancy. '
+    Rectangle:
+      serializedVersion: 2
+      x: 302.65814
+      y: 21
+      width: 98.34186
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.576145
+    EndPosition: 61.218796
+    Name: Timing 5
+    Text: 'They chant the old melodies of the sea, a harmonious plea for renewal
+      that resonates through the water, enveloping the reef in a gentle, glowing
+      aura. '
+    Rectangle:
+      serializedVersion: 2
+      x: 404.52454
+      y: 21
+      width: 97.475464
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.83474
+    EndPosition: 72.50277
+    Name: Timing 6
+    Text: "The ritual\u2014a blend of emotion, spirit, and mind\u2014slowly lifts
+      the blight, revealing the true colors of the coral beneath."
+    Rectangle:
+      serializedVersion: 2
+      x: 506.74896
+      y: 21
+      width: 82.25104
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.91066
+    EndPosition: 83.39764
+    Name: Timing 7
+    Text: 'In recognition of your efforts, the Coral Guardians, through voices that
+      ripple across the water''s surface, express their deep gratitude. '
+    Rectangle:
+      serializedVersion: 2
+      x: 592.14484
+      y: 21
+      width: 80.85516
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 84.07945
+    EndPosition: 92.347
+    Name: Timing 8
+    Text: 'From the very essence of the rejuvenated reef, they sculpt The Tide Breaker,
+      a Mano of coral and light. '
+    Rectangle:
+      serializedVersion: 2
+      x: 678.25684
+      y: 21
+      width: 63.743164
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.8658
+    EndPosition: 101.01134
+    Name: Timing 9
+    Text: 'This majestic creature, embodying the strength and beauty of the healed
+      reef, swims loyally by your side. '
+    Rectangle:
+      serializedVersion: 2
+      x: 746
+      y: 21
+      width: 62.80249
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 101.49442
+    EndPosition: 120.81633
+    Name: Timing 10
+    Text: The Tide Breaker, with its body aglow with the vibrant colors of a healthy
+      reef, serves as a symbol of the restored harmony between humanity and the natural
+      world, and a reminder of the profound impact of compassionate action.
+    Rectangle:
+      serializedVersion: 2
+      x: 812.5271
+      y: 21
+      width: 148.9729
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
