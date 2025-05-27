@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 5b5bb7d4d50f046f39d8294b4086e5e6, type: 3}
+  Text: "A serene floating island creature comes into view on the horizon. Its lush
+    back is a vibrant garden of swaying trees and colorful blooms, carried by gentle
+    waves. As it approaches, you smell the familiar plant life that has been apparent
+    on all of these creatures.\n\nYou wait patiently, and eventually the island approaches.
+    You see on the island a figure walking back and forth, completely ignoring you
+    all. Cloaked in regal robes of deep purple, a turtle's noble expression graces
+    its features\u2014an emblem of patience and ancient wisdom. Adorning its head
+    is a crown of luminous pearls, each one a shard of enlightenment and insight.
+    The entity seems to be lost in thought, walking back and forth in a purposeless
+    manner. It seems to be in a state of unrest."
+  Timings:
+  - StartPosition: 9.310182
+    EndPosition: 13.933991
+    Name: Timing 1
+    Text: 'A serene floating island creature comes into view on the horizon. '
+    Rectangle:
+      serializedVersion: 2
+      x: 400.24213
+      y: 21
+      width: 183.87708
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.070272
+    EndPosition: 19.965122
+    Name: Timing 2
+    Text: 'Its lush back is a vibrant garden of swaying trees and colorful blooms, '
+    Rectangle:
+      serializedVersion: 2
+      x: 589.53876
+      y: 21
+      width: 234.42316
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.31644
+    EndPosition: 22.183468
+    Name: Timing 3
+    Text: 'carried by gentle waves. '
+    Rectangle:
+      serializedVersion: 2
+      x: 837.9329
+      y: 21
+      width: 74.24689
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.290136
+    EndPosition: 26.326054
+    Name: Timing 4
+    Text: As it approaches, you smell the familiar plant life
+    Rectangle:
+      serializedVersion: 2
+      x: 916.42175
+      y: 21
+      width: 160.49817
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.376848
+    EndPosition: 28.907833
+    Name: Timing 5
+    Text: that has been apparent on all of these creatures.
+    Rectangle:
+      serializedVersion: 2
+      x: 1078.9398
+      y: 21
+      width: 100.65088
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.977142
+    EndPosition: 32.304676
+    Name: Timing 6
+    Text: 'You wait patiently, and eventually the island approaches. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1182.3469
+      y: 21
+      width: 132.32751
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.361927
+    EndPosition: 38.483234
+    Name: Timing 7
+    Text: 'You see on the island a figure walking back and forth, completely ignoring
+      you all. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1316.9512
+      y: 21
+      width: 243.42871
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.729523
+    EndPosition: 45.18967
+    Name: Timing 8
+    Text: Cloaked in regal robes of deep purple, a turtle's noble expression graces
+      its features
+    Rectangle:
+      serializedVersion: 2
+      x: 1570.1742
+      y: 21
+      width: 256.90356
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.37043
+    EndPosition: 48.6104
+    Name: Timing 9
+    Text: "\u2014an emblem of patience and ancient wisdom. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1834.266
+      y: 21
+      width: 128.84546
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.760544
+    EndPosition: 55.766933
+    Name: Timing 10
+    Text: 'Adorning its head is a crown of luminous pearls, each one a shard of enlightenment
+      and insight. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1969.0822
+      y: 21
+      width: 278.62634
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.07483
+    EndPosition: 58.4225
+    Name: Timing 11
+    Text: 'The entity seems to be lost in thought, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2259.9526
+      y: 21
+      width: 93.36084
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.467506
+    EndPosition: 61.843235
+    Name: Timing 12
+    Text: 'walking back and forth in a purposeless manner. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2355.1033
+      y: 21
+      width: 134.24414
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.933254
+    EndPosition: 62.664326
+    Name: Timing 13
+    Text: It seems to be in a state of unrest.
+    Rectangle:
+      serializedVersion: 2
+      x: 2492.9272
+      y: 21
+      width: 29.072754
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.73976
+    EndPosition: 64.57469
+    Name: Timing 14
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2525
+      y: 21
+      width: 72.97046
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
