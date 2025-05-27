@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-1A Result (WS)
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: b38c79b52b5c3447192e1d8fbc6c11e9, type: 3}
+  Text: ">>> DATA FOUND: The Harmonic Ukeke\n>>> TRANSFER INITIATED\n>>> LOADING
+    SIMULATION: MOKU_HANA.EXE\n>>> SETTING: WAIANAE_COAST\n>>> AUTHORITY: DRAFTSMAN\n\nThe
+    air folds inward. A portal spirals open, \nRimmed with streaming glyphs and static.
+    \nAs you\u2019re pulled through, holographic images swirl around you.\n\nA hawaiian
+    man collapses in the midday sun. \nThere\u2019s no more \u201D he gasps. \u201COnly
+    debt. Only wood.\nBehind him, trees fall in slow motionstripped for profit, not
+    need.\n\nA schoolhouse door creaks open. Inside, rows of Hawaiian children sit
+    still hair cut\nshort, eyes lowered.\nA foreign educator paces between desks.\nForget
+    the chants. Forget the stories. We\u2019ll teach you how to think.\nThe air pulses
+    once.\nThen again.\nThe sun above freezes. The ocean halts mid-wave. You see
+    it now the seams, the\ncoding, the false sky behind the clouds.\nBuildings fracture
+    into lines of light. The voices around you slow\ndistort\nFade.\n\nThe ground
+    beneath your feet unravels like tape.\nA new portal spirals open but this one
+    doesn\u2019t hum.\nIt sighs like a system relieved of its burden.\nFINALIZE USER
+    ENTRY\nREALITY OVERRIDE EQUALS THE DRAFTSMAN\nThe portal consumes you. The Draftsman
+    is waiting. You enter Moku Hana"
+  Timings:
+  - StartPosition: 17.486671
+    EndPosition: 27.232208
+    Name: Timing 1
+    Text: '>>> DATA FOUND: The Harmonic Ukeke
+
+      >>> TRANSFER INITIATED
+
+      >>>
+      LOADING SIMULATION: MOKU_HANA.EXE
+
+      >>> SETTING: WAIANAE_COAST
+
+      >>>
+      AUTHORITY: DRAFTSMAN
+
+'
+    Rectangle:
+      serializedVersion: 2
+      x: 163.6098
+      y: 21
+      width: 74.46239
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.37043
+    EndPosition: 36.28657
+    Name: Timing 2
+    Text: "The air folds inward. A portal spirals open, \nRimmed with streaming glyphs
+      and static. \nAs you\u2019re pulled through, holographic images swirl around
+      you."
+    Rectangle:
+      serializedVersion: 2
+      x: 239.1283
+      y: 21
+      width: 68.125244
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.35569
+    EndPosition: 48.312977
+    Name: Timing 3
+    Text: "A hawaiian man collapses in the midday sun. \nThere\u2019s no more \u201D
+      he gasps. \u201COnly debt. Only wood.\nBehind him, trees fall in slow motionstripped
+      for profit, not need."
+    Rectangle:
+      serializedVersion: 2
+      x: 307.78165
+      y: 21
+      width: 91.36163
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.52381
+    EndPosition: 57.09087
+    Name: Timing 4
+    Text: 'A schoolhouse door creaks open. Inside, rows of Hawaiian children sit
+      still hair cut
+
+      short, eyes lowered.'
+    Rectangle:
+      serializedVersion: 2
+      x: 400.7542
+      y: 21
+      width: 65.45801
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.22909
+    EndPosition: 67.38934
+    Name: Timing 5
+    Text: "A foreign educator paces between desks.\nForget the chants. Forget the
+      stories. We\u2019ll teach you how to think.\nThe air pulses once.\nThen again."
+    Rectangle:
+      serializedVersion: 2
+      x: 467.26834
+      y: 21
+      width: 77.63107
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.53875
+    EndPosition: 82.45691
+    Name: Timing 6
+    Text: 'The sun above freezes. The ocean halts mid-wave. You see it now the seams,
+      the
+
+      coding, the false sky behind the clouds.
+
+      Buildings fracture
+      into lines of light. The voices around you slow
+
+      distort
+
+      Fade.'
+    Rectangle:
+      serializedVersion: 2
+      x: 546.04095
+      y: 21
+      width: 113.98468
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.52601
+    EndPosition: 95.17449
+    Name: Timing 7
+    Text: "The ground beneath your feet unravels like tape.\nA new portal spirals
+      open but this one doesn\u2019t hum.\nIt sighs like a system relieved of its
+      burden."
+    Rectangle:
+      serializedVersion: 2
+      x: 660.5536
+      y: 21
+      width: 96.64282
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.565636
+    EndPosition: 113.69792
+    Name: Timing 8
+    Text: 'FINALIZE USER ENTRY
+
+      REALITY OVERRIDE EQUALS THE DRAFTSMAN'
+    Rectangle:
+      serializedVersion: 2
+      x: 798.38837
+      y: 21
+      width: 100.33942
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 113.800995
+    EndPosition: 120.886116
+    Name: Timing 9
+    Text: The portal consumes you. The Draftsman is waiting. You enter Moku Hana
+    Rectangle:
+      serializedVersion: 2
+      x: 899.5153
+      y: 21
+      width: 54.13501
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 120.96994
+    EndPosition: 121.91347
+    Name: Timing 10
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 954.29083
+      y: 21
+      width: 7.2091675
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

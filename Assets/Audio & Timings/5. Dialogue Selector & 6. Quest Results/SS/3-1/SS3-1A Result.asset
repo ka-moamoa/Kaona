@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 6d60c7d5e66d04c4fad36638772911b5, type: 3}
+  Text: "Surrounded by the chaotic dance of the floating waterways, you stand united,
+    your spirit raised in an ancient song whose melody has woven through the fabric
+    of time. Drawing upon the wisdom of old chants, passed down through generations,
+    you begin. The song, rich with the power of forgotten rhythms, flows like a gentle
+    breeze, carrying the promise of peace and harmony to the tumultuous rivers above.
+    As the melody unfurls into the air, the chaotic movements of the waters start
+    to slow, their clash and turmoil quieting under the spell. The rivers, sentient
+    and stirred by the deep magic, listen and remember. Guided by your spirit, they
+    begin to weave together, their courses gently redirected, merging and separating
+    in a harmonious dance that breathes life back into the fragmented landscapes
+    below.\n\nAs the waterways calm, a single drop separates from the flow, floating
+    gently toward you\u2014a new ally, gifted to guide your path forward."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 13.429435
+    Name: Timing 1
+    Text: 'Surrounded by the chaotic dance of the floating waterways, you stand united,
+      your spirit raised in an ancient song whose melody has woven through the fabric
+      of time. '
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 481.4399
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.815873
+    EndPosition: 21.063976
+    Name: Timing 2
+    Text: 'Drawing upon the wisdom of old chants, passed down through generations,
+      you begin. '
+    Rectangle:
+      serializedVersion: 2
+      x: 525.2936
+      y: 21
+      width: 259.8416
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.339909
+    EndPosition: 34.12548
+    Name: Timing 3
+    Text: 'The song, rich with the power of forgotten rhythms, flows like a gentle
+      breeze, carrying the promise of peace and harmony to the tumultuous rivers
+      above. '
+    Rectangle:
+      serializedVersion: 2
+      x: 795.0273
+      y: 21
+      width: 458.35773
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.493412
+    EndPosition: 47.27897
+    Name: Timing 4
+    Text: 'As the melody unfurls into the air, the chaotic movements of the waters
+      start to slow, their clash and turmoil quieting under the spell. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1266.5752
+      y: 21
+      width: 458.35706
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.601677
+    EndPosition: 54.637566
+    Name: Timing 5
+    Text: 'The rivers, sentient and stirred by the deep magic, listen and remember. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1736.5012
+      y: 21
+      width: 252.23389
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.450024
+    EndPosition: 62.732018
+    Name: Timing 6
+    Text: 'Guided by your spirit, they begin to weave together, their courses gently
+      redirected, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2017.8613
+      y: 21
+      width: 261.05664
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 63.089386
+    EndPosition: 71.93026
+    Name: Timing 7
+    Text: merging and separating in a harmonious dance that breathes life back into
+      the fragmented landscapes below.
+    Rectangle:
+      serializedVersion: 2
+      x: 2291.7295
+      y: 21
+      width: 316.9419
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.26127
+    EndPosition: 85.105545
+    Name: Timing 8
+    Text: "As the waterways calm, a single drop separates from the flow, floating
+      gently toward you\u2014a new ally, gifted to guide your path forward."
+    Rectangle:
+      serializedVersion: 2
+      x: 2620.5378
+      y: 21
+      width: 460.46216
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.16133
+    EndPosition: 85.68163
+    Name: Timing 9
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3083
+      y: 21
+      width: 18.652588
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

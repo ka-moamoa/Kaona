@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49085a91c7464647876ee4db6eb3aea, type: 3}
+  m_Name: MeshTextEffect (FOR WS)
+  m_EditorClassIdentifier: 
+  TextSplitConfig: {fileID: 11400000, guid: 825f279d72a1a47039c8cbac59ae71a6, type: 2}
+  TextHighlightConfig: {fileID: 11400000, guid: 9ce124e4bff22486d8c12b9caf543e26,
+    type: 2}
+  MeshAnimation: {fileID: 11400000, guid: 91acdae13d699438f816db5adefdd486, type: 2}
+  CharIndexOffset: 5
+  AnimateTextInstantly: 0
+  TextPartFinishedAction: 1

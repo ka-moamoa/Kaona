@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-1B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 05918191a447346d5a4c7d38cdb17b37, type: 3}
+  Text: "Amid the sky\u2019s tumultuous waterways, you gather floating rock and wood
+    fragments, crafting makeshift dams to guide the raging rivers into calmer flows
+    that briefly restore life to the land below. Yet, as the dams weaken with time,
+    you realize that true harmony with the waters demands more than temporary fixes\u2014it
+    calls for a lasting reconciliation with the realm\u2019s elemental forces."
+  Timings:
+  - StartPosition: 1.2306576
+    EndPosition: 15.8501425
+    Name: Timing 1
+    Text: "Amid the sky\u2019s tumultuous waterways, you gather floating rock and
+      wood fragments, crafting makeshift dams to guide the raging rivers into calmer
+      flows that briefly restore life to the land below. "
+    Rectangle:
+      serializedVersion: 2
+      x: 64.93949
+      y: 21
+      width: 415.06052
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.068209
+    EndPosition: 25.642008
+    Name: Timing 2
+    Text: Yet, as the dams weaken with time, you realize that true harmony with the
+      waters demands more than temporary fixes
+    Rectangle:
+      serializedVersion: 2
+      x: 486.1911
+      y: 21
+      width: 271.8089
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.84381
+    EndPosition: 32.809795
+    Name: Timing 3
+    Text: "\u2014it calls for a lasting reconciliation with the realm\u2019s elemental
+      forces."
+    Rectangle:
+      serializedVersion: 2
+      x: 763.7293
+      y: 21
+      width: 197.77069
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
