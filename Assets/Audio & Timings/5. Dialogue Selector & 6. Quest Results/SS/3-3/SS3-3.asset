@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 53bc7ee56f2e443b59dbe38145d2d14c, type: 3}
+  Text: "After days of navigating the unpredictable air currents and fragmented landscapes
+    of the sky, you find solace on the shore of a floating island. As you rest, your
+    gaze is drawn to the waters below, where the coral reefs\u2014once a kaleidoscope
+    of underwater brilliance\u2014are now cloaked in shadows, their vibrant hues
+    muted by a creeping malaise. It's a scene that weighs heavily on the heart.\n\nCompelled
+    by a sense of urgency and the innate call to protect, you venture closer, witnessing
+    the extent of the blight's devastation. It is here, amidst the silence of the
+    dying reef, that the ancient Coral Guardians emerge. These spirits, woven from
+    the ocean's depths and the life force of the coral itself, express their sorrow
+    and plea for assistance. They speak of The Tide Breaker, a majestic Mano born
+    from the coral's essence, promising its companionship to those who help restore
+    balance and vitality to the reefs."
+  Timings:
+  - StartPosition: 4.249252
+    EndPosition: 11.567091
+    Name: Timing 1
+    Text: 'After days of navigating the unpredictable air currents and fragmented
+      landscapes of the sky, '
+    Rectangle:
+      serializedVersion: 2
+      x: 172.53452
+      y: 21
+      width: 245.46548
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.679637
+    EndPosition: 15.442662
+    Name: Timing 2
+    Text: 'you find solace on the shore of a floating island. '
+    Rectangle:
+      serializedVersion: 2
+      x: 421.77518
+      y: 21
+      width: 126.22482
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.561911
+    EndPosition: 22.38888
+    Name: Timing 3
+    Text: As you rest, your gaze is drawn to the waters below, where the coral reefs
+    Rectangle:
+      serializedVersion: 2
+      x: 552
+      y: 21
+      width: 229
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.639456
+    EndPosition: 27.725245
+    Name: Timing 4
+    Text: "\u2014once a kaleidoscope of underwater brilliance\u2014are now cloaked
+      in shadows, "
+    Rectangle:
+      serializedVersion: 2
+      x: 789.40515
+      y: 21
+      width: 170.59485
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.81468
+    EndPosition: 32.70386
+    Name: Timing 5
+    Text: 'their vibrant hues muted by a creeping malaise. '
+    Rectangle:
+      serializedVersion: 2
+      x: 963
+      y: 21
+      width: 163.99988
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.88272
+    EndPosition: 36.93718
+    Name: Timing 6
+    Text: It's a scene that weighs heavily on the heart.
+    Rectangle:
+      serializedVersion: 2
+      x: 1132.9995
+      y: 21
+      width: 136.00049
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.039093
+    EndPosition: 46.05968
+    Name: Timing 7
+    Text: 'Compelled by a sense of urgency and the innate call to protect, you venture
+      closer, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1272.4185
+      y: 21
+      width: 302.58154
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.094875
+    EndPosition: 49.96506
+    Name: Timing 8
+    Text: 'witnessing the extent of the blight''s devastation. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1576.1805
+      y: 21
+      width: 129.81934
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.204807
+    EndPosition: 57.388275
+    Name: Timing 9
+    Text: 'It is here, amidst the silence of the dying reef, that the ancient Coral
+      Guardians emerge. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1714.0419
+      y: 21
+      width: 240.95813
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.519093
+    EndPosition: 64.57299
+    Name: Timing 10
+    Text: 'These spirits, woven from the ocean''s depths and the life force of the
+      coral itself, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1959.3881
+      y: 21
+      width: 236.61194
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.83338
+    EndPosition: 68.74668
+    Name: Timing 11
+    Text: 'express their sorrow and plea for assistance. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2204.7344
+      y: 21
+      width: 131.26562
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.96653
+    EndPosition: 76.706505
+    Name: Timing 12
+    Text: 'They speak of The Tide Breaker, a majestic Mano born from the coral''s
+      essence, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2343.3745
+      y: 21
+      width: 259.62524
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.88454
+    EndPosition: 82.200455
+    Name: Timing 13
+    Text: promising its companionship to those who help restore balance and vitality
+      to the reefs.
+    Rectangle:
+      serializedVersion: 2
+      x: 2608.9717
+      y: 21
+      width: 178.31421
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.31118
+    EndPosition: 85.054695
+    Name: Timing 14
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2791
+      y: 21
+      width: 92.026855
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
