@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a8f0d232906d84c7a971ff3e35129e64, type: 3}
+  Text: "As you navigate the surreal landscape of fragmented waters suspended in
+    the vast expanse of the sky, you witness firsthand the consequences of the realm's
+    upheaval. The once-bountiful fishing grounds, teeming with life, now appear eerily
+    deserted, the silence of the void punctuated only by the occasional ripple of
+    a solitary fish darting into the shadows. The instability of the shattered ocean,
+    with its currents and tides torn asunder, has scattered the fish populations,
+    severing the age-old bond between the sea and those who depend on its bounty.\n\nIn
+    this moment, you realize the gravity of what must be done. The skies around you\u2014a
+    patchwork of drifting islands and wandering waters\u2014tell a story of disconnection,
+    not just of land and sea, but of communities from their lifelines. The task ahead
+    is clear yet daunting: to restore balance to these celestial seas, to coax back
+    the fish with the wisdom of ancient practices, and to rekindle the harmony that
+    once flowed between sky, ocean, and man."
+  Timings:
+  - StartPosition: 3.8080726
+    EndPosition: 8.842401
+    Name: Timing 1
+    Text: 'As you navigate the surreal landscape of fragmented waters '
+    Rectangle:
+      serializedVersion: 2
+      x: 105.91911
+      y: 21
+      width: 100.36618
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 8.944921
+    EndPosition: 14.197162
+    Name: Timing 2
+    Text: 'suspended in the vast expanse of the sky, '
+    Rectangle:
+      serializedVersion: 2
+      x: 208.32916
+      y: 21
+      width: 104.71057
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.408533
+    EndPosition: 16.980228
+    Name: Timing 3
+    Text: you witness firsthand the consequences of the realm's upheaval.
+    Rectangle:
+      serializedVersion: 2
+      x: 317.25372
+      y: 21
+      width: 51.270264
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.071905
+    EndPosition: 24.73054
+    Name: Timing 4
+    Text: 'The once-bountiful fishing grounds, teeming with life, now appear eerily
+      deserted, '
+    Rectangle:
+      serializedVersion: 2
+      x: 370.35168
+      y: 21
+      width: 152.6853
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.92025
+    EndPosition: 33.04451
+    Name: Timing 5
+    Text: 'the silence of the void punctuated only by the occasional ripple of a
+      solitary fish darting into the shadows. '
+    Rectangle:
+      serializedVersion: 2
+      x: 526.8191
+      y: 21
+      width: 161.9682
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.255882
+    EndPosition: 37.34241
+    Name: Timing 6
+    Text: 'The instability of the shattered ocean, '
+    Rectangle:
+      serializedVersion: 2
+      x: 693.0013
+      y: 21
+      width: 81.47052
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.448074
+    EndPosition: 43.50743
+    Name: Timing 7
+    Text: 'with its currents and tides torn asunder, has scattered the fish populations, '
+    Rectangle:
+      serializedVersion: 2
+      x: 776.57837
+      y: 21
+      width: 120.80151
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.88
+    EndPosition: 48.755135
+    Name: Timing 8
+    Text: severing the age-old bond between the sea and those who depend on its bounty.
+    Rectangle:
+      serializedVersion: 2
+      x: 904.80756
+      y: 21
+      width: 97.192444
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.805294
+    EndPosition: 55.624214
+    Name: Timing 9
+    Text: 'In this moment, you realize the gravity of what must be done. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1003
+      y: 21
+      width: 135.94446
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.791836
+    EndPosition: 62.742294
+    Name: Timing 10
+    Text: "The skies around you\u2014a patchwork of drifting islands and wandering
+      waters"
+    Rectangle:
+      serializedVersion: 2
+      x: 1142.2863
+      y: 21
+      width: 138.56677
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.918438
+    EndPosition: 67.95614
+    Name: Timing 11
+    Text: "\u2014tell a story of disconnection, not just of land and sea, "
+    Rectangle:
+      serializedVersion: 2
+      x: 1284.3647
+      y: 21
+      width: 100.43335
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.09705
+    EndPosition: 71.90176
+    Name: Timing 12
+    Text: 'but of communities from their lifelines. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1387.6074
+      y: 21
+      width: 75.85193
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.04444
+    EndPosition: 75.67122
+    Name: Timing 13
+    Text: 'The task ahead is clear yet daunting: '
+    Rectangle:
+      serializedVersion: 2
+      x: 1466.3041
+      y: 21
+      width: 72.30469
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 75.98828
+    EndPosition: 83.56245
+    Name: Timing 14
+    Text: 'to restore balance to these celestial seas, to coax back the fish with
+      the wisdom of ancient practices, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1544.9298
+      y: 21
+      width: 151.00134
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.809044
+    EndPosition: 89.562515
+    Name: Timing 15
+    Text: and to rekindle the harmony that once flowed between sky, ocean, and man.
+    Rectangle:
+      serializedVersion: 2
+      x: 1700.8474
+      y: 21
+      width: 114.70325
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.69224
+    EndPosition: 92.05551
+    Name: Timing 16
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1818.1368
+      y: 21
+      width: 47.115112
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
