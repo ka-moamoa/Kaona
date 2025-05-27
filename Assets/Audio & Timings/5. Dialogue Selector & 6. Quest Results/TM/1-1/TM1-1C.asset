@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-1C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 2826888c5a91f4179b3bd2730fab17ce, type: 3}
+  Text: Your bold and pushy words seem to upset the figure. It resumes its pacing,
+    and you're left with an odd sense that something isn't right.
+  Timings:
+  - StartPosition: 4.07527
+    EndPosition: 13.557551
+    Name: Timing 1
+    Text: Your bold and pushy words seem to upset the figure. It resumes its pacing,
+      and you're left with an odd sense that something isn't right.
+    Rectangle:
+      serializedVersion: 2
+      x: 309.99997
+      y: 21
+      width: 651.5
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

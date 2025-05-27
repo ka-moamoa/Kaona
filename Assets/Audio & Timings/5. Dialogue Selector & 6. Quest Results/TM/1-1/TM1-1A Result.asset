@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 7fe259229afaf4ed8ad0816150ea4af7, type: 3}
+  Text: 'You engage in a respectful dialogue, using thoughtful questions to gently
+    probe the figure''s thoughts. What kind of questions do you ask to understand
+    what the figure is going through?
+
+
+    Although the figure does not speak, you
+    somehow hear its words.
+
+
+    The figure explains that he seems to have misplaced
+    his thoughts and that he does not remember what they are.
+
+
+    How do you respond?
+
+
+    Through
+    your questions, the figure recalls where his thoughts are. Its thoughts were
+    always with him. You feel a shimmering item appear before you; you look down
+    and reach out to grab it. When you look up, the figure is gone.'
+  Timings:
+  - StartPosition: 0
+    EndPosition: 41.82204
+    Name: Timing 1
+    Text: 'You engage in a respectful dialogue, using thoughtful questions to gently
+      probe the figure''s thoughts. What kind of questions do you ask to understand
+      what the figure is going through?
+
+
+      Although the figure does not speak,
+      you somehow hear its words.
+
+
+      The figure explains that he seems to have
+      misplaced his thoughts and that he does not remember what they are.
+
+
+      How
+      do you respond?
+
+
+      Through your questions, the figure recalls where his
+      thoughts are. Its thoughts were always with him. You feel a shimmering item
+      appear before you; you look down and reach out to grab it. When you look up,
+      the figure is gone.'
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 931.5
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
