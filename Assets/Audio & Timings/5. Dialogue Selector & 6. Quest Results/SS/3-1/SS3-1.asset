@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 526f818c73cea42d5b22f73a7da7b302, type: 3}
+  Text: "As you drift through the skies, you encounter a breathtaking yet chaotic
+    spectacle: rivers suspended in the air, their waters clashing and colliding with
+    a fury that echoes of the shattered realm itself. These once serene waterways,
+    now sentient and in conflict, weave a maze of turbulence and beauty against the
+    backdrop of the floating islands. The rivers, animated by the Shattering, seem
+    to have forgotten their course\u2014their vital role in sustaining life across
+    the fragmented landscapes now lost to strife.\n\nThe task at hand, daunting yet
+    vital, is to navigate this aerial labyrinth, seeking to soothe the angered spirits
+    of the water and guide them back into harmony."
+  Timings:
+  - StartPosition: 16.399773
+    EndPosition: 22.730877
+    Name: Timing 1
+    Text: 'As you drift through the skies, you encounter a breathtaking yet chaotic
+      spectacle: '
+    Rectangle:
+      serializedVersion: 2
+      x: 445.01318
+      y: 21
+      width: 160.21515
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.9478
+    EndPosition: 31.807974
+    Name: Timing 2
+    Text: 'rivers suspended in the air, their waters clashing and colliding with
+      a fury that echoes of the shattered realm itself. '
+    Rectangle:
+      serializedVersion: 2
+      x: 610.7178
+      y: 21
+      width: 224.21588
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.003582
+    EndPosition: 36.689774
+    Name: Timing 3
+    Text: 'These once serene waterways, now sentient and in conflict, '
+    Rectangle:
+      serializedVersion: 2
+      x: 839.8837
+      y: 21
+      width: 118.58893
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.972652
+    EndPosition: 42.598534
+    Name: Timing 4
+    Text: 'weave a maze of turbulence and beauty against the backdrop of the floating
+      islands. '
+    Rectangle:
+      serializedVersion: 2
+      x: 965.63116
+      y: 21
+      width: 142.36871
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.75442
+    EndPosition: 48.881622
+    Name: Timing 5
+    Text: The rivers, animated by the Shattering, seem to have forgotten their course
+    Rectangle:
+      serializedVersion: 2
+      x: 1111.9448
+      y: 21
+      width: 155.05518
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.90771
+    EndPosition: 55.283257
+    Name: Timing 6
+    Text: "\u2014their vital role in sustaining life across the fragmented landscapes
+      now lost to strife."
+    Rectangle:
+      serializedVersion: 2
+      x: 1267.6602
+      y: 21
+      width: 161.33972
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.432518
+    EndPosition: 63.976837
+    Name: Timing 7
+    Text: 'The task at hand, daunting yet vital, is to navigate this aerial labyrinth, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1432.7771
+      y: 21
+      width: 216.2229
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.11678
+    EndPosition: 68.5576
+    Name: Timing 8
+    Text: seeking to soothe the angered spirits of the water and guide them back
+      into harmony.
+    Rectangle:
+      serializedVersion: 2
+      x: 1652.5415
+      y: 21
+      width: 112.37952
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.71879
+    EndPosition: 71.05306
+    Name: Timing 9
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1769
+      y: 21
+      width: 59.071167
+      height: 144
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
