@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS3-2B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: fff75458d846b4410802407211b84127, type: 3}
+  Text: "Utilizing resources at hand, you set about constructing artificial reefs
+    from the scattered debris and plant life adrift in the sky, providing much-needed
+    habitats for the dwindling fish populations. These makeshift sanctuaries, though
+    effective in the short term, bloom with life, drawing schools of fish back to
+    their swirling waters. However, this solution serves merely as a bandage\u2014a
+    temporary reprieve that underscores the necessity of finding a more profound,
+    lasting method to restore the natural balance and harmony of the sky's fragmented
+    oceans."
+  Timings:
+  - StartPosition: 0.510839
+    EndPosition: 11.136324
+    Name: Timing 1
+    Text: 'Utilizing resources at hand, you set about constructing artificial reefs
+      from the scattered debris and plant life adrift in the sky, '
+    Rectangle:
+      serializedVersion: 2
+      x: 39.954098
+      y: 21
+      width: 207.0459
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.145578
+    EndPosition: 16.832785
+    Name: Timing 2
+    Text: 'providing much-needed habitats for the dwindling fish populations. '
+    Rectangle:
+      serializedVersion: 2
+      x: 247.18033
+      y: 21
+      width: 110.81967
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.020227
+    EndPosition: 28.071747
+    Name: Timing 3
+    Text: 'These makeshift sanctuaries, though effective in the short term, bloom
+      with life, drawing schools of fish back to their swirling waters. '
+    Rectangle:
+      serializedVersion: 2
+      x: 361.65247
+      y: 21
+      width: 215.34753
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.305124
+    EndPosition: 40.029182
+    Name: Timing 4
+    Text: "However, this solution serves merely as a bandage\u2014a temporary reprieve
+      that underscores the necessity of finding a more profound, "
+    Rectangle:
+      serializedVersion: 2
+      x: 581.54755
+      y: 21
+      width: 228.45245
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.18313
+    EndPosition: 47.80408
+    Name: Timing 5
+    Text: lasting method to restore the natural balance and harmony of the sky's
+      fragmented oceans.
+    Rectangle:
+      serializedVersion: 2
+      x: 812.99976
+      y: 21
+      width: 148.50024
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
