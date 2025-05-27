@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS2-3B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a84995980c13e4f0dae5cb2d99b0f615, type: 3}
+  Text: "Turning to the spirits of the forest, you seek guidance on how to adapt
+    the crafting of the 'ukeke to the Kanaka\u2019s new form, but as you reach out,
+    there is only silence. The grove feels distant, the trees unresponsive. Something
+    vital remains missing\u2014the forest, somehow, is unable to listen."
+  Timings:
+  - StartPosition: 1.2306576
+    EndPosition: 9.879698
+    Name: Timing 1
+    Text: "Turning to the spirits of the forest, you seek guidance on how to adapt
+      the crafting of the 'ukeke to the Kanaka\u2019s new form, "
+    Rectangle:
+      serializedVersion: 2
+      x: 70.4834
+      y: 21
+      width: 284.5166
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.05424
+    EndPosition: 14.165967
+    Name: Timing 2
+    Text: 'but as you reach out, there is only silence. '
+    Rectangle:
+      serializedVersion: 2
+      x: 360.7417
+      y: 21
+      width: 135.2583
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.558911
+    EndPosition: 28.316734
+    Name: Timing 3
+    Text: "The grove feels distant, the trees unresponsive. Something vital remains
+      missing\u2014the forest, somehow, is unable to listen."
+    Rectangle:
+      serializedVersion: 2
+      x: 508.9262
+      y: 21
+      width: 452.5738
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

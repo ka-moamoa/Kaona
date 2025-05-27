@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS2-3A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: bf02c93af1b5c4e4aa2dca787f71edff, type: 3}
+  Text: In a quiet forest clearing, surrounded by towering trees, you come across
+    the scattered remnants of a nearly forgotten craft. Branches of koa wood, both
+    strong and pliable, lie among the leaves, waiting to be shaped into an 'ukeke.
+    With care, you select one piece, running your hand over its smooth grain, feeling
+    the instrument hidden within it. Sunlight filters gently through the canopy as
+    you gather fiber from coconut husks nearby, preparing the strings that will one
+    day carry its voice. Working alongside the Kanaka, you carve the wood and smooth
+    its edges with a practiced touch, each movement steeped in tradition. When the
+    strings are finally stretched into place, the Kanaka lifts the 'ukeke and plays
+    a gentle tune, the melody weaving through the trees like a breath from the past.
+    In gratitude, he offers the instrument to you, passing on the stories and spirit
+    it holds.
+  Timings:
+  - StartPosition: 0.55727893
+    EndPosition: 10.769437
+    Name: Timing 1
+    Text: 'In a quiet forest clearing, surrounded by towering trees, you come across
+      the scattered remnants of a nearly forgotten craft. '
+    Rectangle:
+      serializedVersion: 2
+      x: 52.406166
+      y: 21
+      width: 410.59384
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.866939
+    EndPosition: 21.091185
+    Name: Timing 2
+    Text: 'Branches of koa wood, both strong and pliable, lie among the leaves, waiting
+      to be shaped into an ''ukeke. '
+    Rectangle:
+      serializedVersion: 2
+      x: 466.9202
+      y: 21
+      width: 411.07986
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.265284
+    EndPosition: 32.059593
+    Name: Timing 3
+    Text: 'With care, you select one piece, running your hand over its smooth grain,
+      feeling the instrument hidden within it. '
+    Rectangle:
+      serializedVersion: 2
+      x: 884.99994
+      y: 21
+      width: 434.00006
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.24832
+    EndPosition: 45.863377
+    Name: Timing 4
+    Text: 'Sunlight filters gently through the canopy as you gather fiber from coconut
+      husks nearby, preparing the strings that will one day carry its voice. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1326.588
+      y: 21
+      width: 547.412
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.017754
+    EndPosition: 56.707428
+    Name: Timing 5
+    Text: 'Working alongside the Kanaka, you carve the wood and smooth its edges
+      with a practiced touch, each movement steeped in tradition. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1880.207
+      y: 21
+      width: 429.79297
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.838253
+    EndPosition: 65.78559
+    Name: Timing 6
+    Text: 'When the strings are finally stretched into place, the Kanaka lifts the
+      ''ukeke and plays a gentle tune, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2315.26
+      y: 21
+      width: 359.74
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.909935
+    EndPosition: 70.85941
+    Name: Timing 7
+    Text: 'the melody weaving through the trees like a breath from the past. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2679.9995
+      y: 21
+      width: 199.00049
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.08798
+    EndPosition: 81.05796
+    Name: Timing 8
+    Text: In gratitude, he offers the instrument to you, passing on the stories and
+      spirit it holds.
+    Rectangle:
+      serializedVersion: 2
+      x: 2888.19
+      y: 21
+      width: 400.8567
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

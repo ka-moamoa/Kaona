@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: SS2-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a4b597d5e7e5a4e828a80116d6fc5237, type: 3}
+  Text: "You have been traversing a floating plateau for some time, moving with cautious
+    grace through the ethereal landscape adrift in the clouds. The ground beneath
+    you is a patchwork of contrasts\u2014vibrant greenery bursts forth in lush pockets,
+    a forest in the sky where trees and plants thrive in splendid isolation. The
+    air is crisp, tinged with the scent of flowers and the earthy musk of moss-covered
+    stones. Sunlight filters through the leafy canopy above, casting dappled patterns
+    on the ground. Yet, this beauty is marred by the Shattering; gaps yawn between
+    patches of this floating oasis, requiring you to leap with precision from one
+    verdant island to the next. With each jump, your heart races over the void, propelled
+    by the promise of discovery.\n\nIn a quiet clearing, you spot a Kanaka\u2014solid
+    yet fragmented.\n\nAmidst the remnants of a world torn asunder, this figure attempts
+    the ancient art of crafting an 'ukeke, a task once woven harmoniously into daily
+    life. They, too, bear the marks of the Shattering\u2014not only in the fractured
+    land but within their very being. Their hands, once nimble, now appear bulky
+    and disjointed, stony fingers struggling to carve the instrument with delicate
+    precision. Parts of their body float close but separate, held together by an
+    unseen force, mirroring the fractured world they inhabit.\n\nEach attempt to
+    shape the 'ukeke ends in frustration, the chisel awkward in their stone grip,
+    their once-fluid motions now jagged and strained. A discordant energy fills the
+    air, a reflection of the lost connection to their craft. Around them, trees and
+    plants stand as silent witnesses to this struggle, their leaves whispering of
+    a time before the world was broken. The unfinished 'ukeke, lying imperfectly
+    in their lap, becomes a symbol of a realm and a people yearning to restore harmony
+    amidst the chaos."
+  Timings:
+  - StartPosition: 17.577505
+    EndPosition: 21.28497
+    Name: Timing 1
+    Text: 'You have been traversing a floating plateau for some time, '
+    Rectangle:
+      serializedVersion: 2
+      x: 343.8803
+      y: 21
+      width: 66.20395
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.362358
+    EndPosition: 27.870667
+    Name: Timing 2
+    Text: 'moving with cautious grace through the ethereal landscape adrift in the
+      clouds. '
+    Rectangle:
+      serializedVersion: 2
+      x: 411.4662
+      y: 21
+      width: 116.218445
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.980045
+    EndPosition: 32.34894
+    Name: Timing 3
+    Text: The ground beneath you is a patchwork of contrasts
+    Rectangle:
+      serializedVersion: 2
+      x: 529.63776
+      y: 21
+      width: 78.015076
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.48472
+    EndPosition: 42.991425
+    Name: Timing 4
+    Text: "\u2014vibrant greenery bursts forth in lush pockets, a forest in the sky
+      where trees and plants thrive in splendid isolation. "
+    Rectangle:
+      serializedVersion: 2
+      x: 610.0774
+      y: 21
+      width: 187.61755
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.044106
+    EndPosition: 51.63186
+    Name: Timing 5
+    Text: 'The air is crisp, tinged with the scent of flowers and the earthy musk
+      of moss-covered stones. '
+    Rectangle:
+      serializedVersion: 2
+      x: 798.6357
+      y: 21
+      width: 153.35095
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.63186
+    EndPosition: 59.640064
+    Name: Timing 6
+    Text: 'Sunlight filters through the leafy canopy above, casting dappled patterns
+      on the ground. '
+    Rectangle:
+      serializedVersion: 2
+      x: 951.98663
+      y: 21
+      width: 143.00189
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.73925
+    EndPosition: 69.228836
+    Name: Timing 7
+    Text: 'Yet, this beauty is marred by the Shattering; gaps yawn between patches
+      of this floating oasis, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1096.7598
+      y: 21
+      width: 169.45483
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 69.39875
+    EndPosition: 75.18231
+    Name: Timing 8
+    Text: 'requiring you to leap with precision from one verdant island to the next. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1269.2488
+      y: 21
+      width: 103.27661
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 75.234985
+    EndPosition: 83.29588
+    Name: Timing 9
+    Text: With each jump, your heart races over the void, propelled by the promise
+      of discovery.
+    Rectangle:
+      serializedVersion: 2
+      x: 1373.4661
+      y: 21
+      width: 143.94287
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.34857
+    EndPosition: 90.72455
+    Name: Timing 10
+    Text: "In a quiet clearing, you spot a Kanaka\u2014solid yet fragmented."
+    Rectangle:
+      serializedVersion: 2
+      x: 1518.3499
+      y: 21
+      width: 131.71228
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.88261
+    EndPosition: 100.155266
+    Name: Timing 11
+    Text: 'Amidst the remnants of a world torn asunder, this figure attempts the
+      ancient art of crafting an ''ukeke, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1652.8845
+      y: 21
+      width: 165.5813
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.217026
+    EndPosition: 105.21308
+    Name: Timing 12
+    Text: 'a task once woven harmoniously into daily life. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1819.5686
+      y: 21
+      width: 89.21423
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.32542
+    EndPosition: 108.80929
+    Name: Timing 13
+    Text: They, too, bear the marks of the Shattering
+    Rectangle:
+      serializedVersion: 2
+      x: 1910.7888
+      y: 21
+      width: 62.211304
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 108.86528
+    EndPosition: 112.337326
+    Name: Timing 24
+    Text: "\u2014not only in the fractured land but within their very being. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1973.9999
+      y: 21
+      width: 62.000122
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 112.449326
+    EndPosition: 119.43819
+    Name: Timing 14
+    Text: 'Their hands, once nimble, now appear bulky and disjointed, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2038
+      y: 21
+      width: 124.79956
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 119.62728
+    EndPosition: 125.76045
+    Name: Timing 15
+    Text: 'stony fingers struggling to carve the instrument with delicate precision. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2166.1763
+      y: 21
+      width: 109.51953
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 125.9185
+    EndPosition: 137.50055
+    Name: Timing 16
+    Text: Parts of their body float close but separate, held together by an unseen
+      force, mirroring the fractured world they inhabit.
+    Rectangle:
+      serializedVersion: 2
+      x: 2278.518
+      y: 21
+      width: 206.81982
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 137.71423
+    EndPosition: 143.56818
+    Name: Timing 17
+    Text: 'Each attempt to shape the ''ukeke ends in frustration, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2489.1538
+      y: 21
+      width: 104.53345
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 143.77464
+    EndPosition: 151.41833
+    Name: Timing 18
+    Text: 'the chisel awkward in their stone grip, their once-fluid motions now jagged
+      and strained. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2597.374
+      y: 21
+      width: 136.49292
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 151.55333
+    EndPosition: 158.26746
+    Name: Timing 19
+    Text: 'A discordant energy fills the air, a reflection of the lost connection
+      to their craft. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2736.2776
+      y: 21
+      width: 119.893555
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 158.35678
+    EndPosition: 169.7529
+    Name: Timing 20
+    Text: 'Around them, trees and plants stand as silent witnesses to this struggle,
+      their leaves whispering of a time before the world was broken. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2857.7664
+      y: 21
+      width: 203.49976
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 170.0132
+    EndPosition: 176.54935
+    Name: Timing 21
+    Text: 'The unfinished ''ukeke, lying imperfectly in their lap, '
+    Rectangle:
+      serializedVersion: 2
+      x: 3065.914
+      y: 21
+      width: 116.715576
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 176.81277
+    EndPosition: 183.02966
+    Name: Timing 22
+    Text: becomes a symbol of a realm and a people yearning to restore harmony amidst
+      the chaos.
+    Rectangle:
+      serializedVersion: 2
+      x: 3187.3337
+      y: 21
+      width: 111.01465
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 183.13504
+    EndPosition: 185.31265
+    Name: Timing 23
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3300.23
+      y: 21
+      width: 38.885498
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
