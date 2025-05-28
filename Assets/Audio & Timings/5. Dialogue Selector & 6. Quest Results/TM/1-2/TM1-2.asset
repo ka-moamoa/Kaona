@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: bfd642bdaf24d452ea3db65150847f75, type: 3}
+  Text: "While in the open ocean, your eyes are drawn to an awe-inspiring sight\u2014a
+    colossal sea creature, with a vast city of coral built across its back. The coral
+    twists and rises into fantastical spires and towers, forming a cityscape almost
+    too incredible to believe. This living city, grown from both coral and creature,
+    breathes with life and light.\n\nAs you draw closer, you notice the winding paths
+    and towering shapes within the coral city. It's like a living, maze-like castle.
+    The coral itself is alive, slowly shifting to form new passages and unexpected
+    obstacles. The entire city seems to breathe\u2014a living world of its own, holding
+    secrets and ancient wisdom within its glowing, organic walls."
+  Timings:
+  - StartPosition: 11.092904
+    EndPosition: 15.948156
+    Name: Timing 1
+    Text: While in the open ocean, your eyes are drawn to an awe-inspiring sight
+    Rectangle:
+      serializedVersion: 2
+      x: 367.84314
+      y: 21
+      width: 147.87054
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.068209
+    EndPosition: 20.751392
+    Name: Timing 2
+    Text: "\u2014a colossal sea creature, with a vast city of coral built across
+      its back. "
+    Rectangle:
+      serializedVersion: 2
+      x: 519.36993
+      y: 21
+      width: 142.63007
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.915565
+    EndPosition: 25.019875
+    Name: Timing 3
+    Text: 'The coral twists and rises into fantastical spires and towers, '
+    Rectangle:
+      serializedVersion: 2
+      x: 667
+      y: 21
+      width: 125
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.085545
+    EndPosition: 31.045238
+    Name: Timing 4
+    Text: 'forming a cityscape almost too incredible to believe. '
+    Rectangle:
+      serializedVersion: 2
+      x: 794
+      y: 21
+      width: 181.5072
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.175125
+    EndPosition: 34.930847
+    Name: Timing 5
+    Text: 'This living city, grown from both coral and creature, '
+    Rectangle:
+      serializedVersion: 2
+      x: 979.463
+      y: 21
+      width: 114.38342
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.93084
+    EndPosition: 36.313244
+    Name: Timing 6
+    Text: breathes with life and light.
+    Rectangle:
+      serializedVersion: 2
+      x: 1093.8462
+      y: 21
+      width: 42.102295
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.346962
+    EndPosition: 42.11257
+    Name: Timing 7
+    Text: 'As you draw closer, you notice the winding paths and towering shapes within
+      the coral city. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1136.9753
+      y: 21
+      width: 175.59619
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.21372
+    EndPosition: 45.68658
+    Name: Timing 8
+    Text: 'It''s like a living, maze-like castle. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1315.652
+      y: 21
+      width: 105.7688
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.888866
+    EndPosition: 53.475212
+    Name: Timing 9
+    Text: 'The coral itself is alive, slowly shifting to form new passages and unexpected
+      obstacles. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1427.5815
+      y: 21
+      width: 231.0481
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.597893
+    EndPosition: 56.712048
+    Name: Timing 10
+    Text: The entire city seems to breathe
+    Rectangle:
+      serializedVersion: 2
+      x: 1662.3661
+      y: 21
+      width: 94.843994
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.77948
+    EndPosition: 61.364998
+    Name: Timing 11
+    Text: "\u2014a living world of its own, holding secrets and ancient wisdom within
+      its glowing, organic walls."
+    Rectangle:
+      serializedVersion: 2
+      x: 1759.2638
+      y: 21
+      width: 139.65552
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.432434
+    EndPosition: 64.052246
+    Name: Timing 12
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1900.9731
+      y: 21
+      width: 79.78845
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

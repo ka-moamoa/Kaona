@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-2C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a1f61def40dc14867b4f20f0d25ac397, type: 3}
+  Text: In frustration or haste, you try to push your way through, unaware that the
+    living city resists such force.
+  Timings:
+  - StartPosition: 3.2855678
+    EndPosition: 10.55347
+    Name: Timing 1
+    Text: In frustration or haste, you try to push your way through, unaware that
+      the living city resists such force.
+    Rectangle:
+      serializedVersion: 2
+      x: 320.00003
+      y: 21
+      width: 641.5
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
