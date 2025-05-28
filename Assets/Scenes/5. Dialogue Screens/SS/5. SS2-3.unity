@@ -147,6 +147,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 51
       objectReference: {fileID: 0}
+    - target: {fileID: 2129846609946510057, guid: 0d294ef48a211473dbb797c4d756bd17,
+        type: 3}
+      propertyPath: scrollSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 2819333171742054257, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: m_Sprite

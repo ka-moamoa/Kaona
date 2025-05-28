@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c60892e26ec4a4d8baa8a8c31d53acde, type: 3}
+  Text: "You awaken in the depths of the ocean, your body suspended in water so dark
+    it seems like ink has spilled across the abyss. Around you lies an alien world
+    of coral, faintly glowing with hues of blue, green, and violet, pulsating like
+    a heartbeat. The coral structures rise like ancient, twisted towers, their surfaces
+    etched with cryptic patterns that shift and shimmer. The silence is heavy, broken
+    only by the occasional low hum of unseen creatures moving through the murk.\n\nAs
+    you gain your bearings, a spectral voice resonates through the water\u2014melodic
+    yet tinged with sorrow. It is I, The Artist, my presence faint and distant:\n\u201CThe
+    Pearl of Profound Depths lies within this abyss, a treasure born of my deepest
+    introspection. To claim it, you must confront the currents of my forgotten fears
+    and navigate the labyrinth of my hidden truths. Only those who dare to unearth
+    their own reflections may succeed.\u201D"
+  Timings:
+  - StartPosition: 10.969637
+    EndPosition: 13.754507
+    Name: Timing 1
+    Text: 'You awaken in the depths of the ocean, '
+    Rectangle:
+      serializedVersion: 2
+      x: 352.99976
+      y: 21
+      width: 82.00021
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.934082
+    EndPosition: 19.528004
+    Name: Timing 2
+    Text: 'your body suspended in water so dark it seems like ink has spilled across
+      the abyss. '
+    Rectangle:
+      serializedVersion: 2
+      x: 440.28754
+      y: 21
+      width: 164.7124
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.66941
+    EndPosition: 22.890217
+    Name: Timing 3
+    Text: 'Around you lies an alien world of coral, '
+    Rectangle:
+      serializedVersion: 2
+      x: 609.16364
+      y: 21
+      width: 94.8363
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.02855
+    EndPosition: 29.784452
+    Name: Timing 4
+    Text: 'faintly glowing with hues of blue, green, and violet, pulsating like a
+      heartbeat. '
+    Rectangle:
+      serializedVersion: 2
+      x: 708.0731
+      y: 21
+      width: 198.92682
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.886337
+    EndPosition: 34.946636
+    Name: Timing 5
+    Text: 'The coral structures rise like ancient, twisted towers, '
+    Rectangle:
+      serializedVersion: 2
+      x: 909.99994
+      y: 21
+      width: 148.99994
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.010044
+    EndPosition: 39.191856
+    Name: Timing 6
+    Text: 'their surfaces etched with cryptic patterns that shift and shimmer. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1060.867
+      y: 21
+      width: 123.13306
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.259296
+    EndPosition: 47.07098
+    Name: Timing 7
+    Text: The silence is heavy, broken only by the occasional low hum of unseen creatures
+      moving through the murk.
+    Rectangle:
+      serializedVersion: 2
+      x: 1185.9857
+      y: 21
+      width: 230.01416
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.27475
+    EndPosition: 53.04825
+    Name: Timing 8
+    Text: As you gain your bearings, a spectral voice resonates through the water
+    Rectangle:
+      serializedVersion: 2
+      x: 1421.9999
+      y: 21
+      width: 170
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.150135
+    EndPosition: 55.934998
+    Name: Timing 9
+    Text: "\u2014melodic yet tinged with sorrow. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1595
+      y: 21
+      width: 81.99988
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.93653
+    EndPosition: 60.90959
+    Name: Timing 10
+    Text: 'It is I, The Artist, my presence faint and distant:'
+    Rectangle:
+      serializedVersion: 2
+      x: 1677.045
+      y: 21
+      width: 146.43127
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.32356
+    EndPosition: 64.28959
+    Name: Timing 11
+    Text: "\u201CThe Pearl of Profound Depths lies within this abyss, "
+    Rectangle:
+      serializedVersion: 2
+      x: 1835.6655
+      y: 21
+      width: 87.33447
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.45825
+    EndPosition: 67.51595
+    Name: Timing 12
+    Text: 'a treasure born of my deepest introspection. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1927.9662
+      y: 21
+      width: 90.03369
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.616165
+    EndPosition: 71.52344
+    Name: Timing 13
+    Text: To claim it, you must confront the currents of my forgotten fears
+    Rectangle:
+      serializedVersion: 2
+      x: 2020.9507
+      y: 21
+      width: 115.04907
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.63322
+    EndPosition: 74.27434
+    Name: Timing 14
+    Text: 'and navigate the labyrinth of my hidden truths. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2139.2322
+      y: 21
+      width: 77.76758
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.51206
+    EndPosition: 77.704475
+    Name: Timing 15
+    Text: "Only those who dare to unearth their own reflections may succeed.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 2223.9995
+      y: 21
+      width: 94.000244
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.80636
+    EndPosition: 79.56898
+    Name: Timing 16
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2320.9998
+      y: 21
+      width: 51.900146
+      height: 122
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

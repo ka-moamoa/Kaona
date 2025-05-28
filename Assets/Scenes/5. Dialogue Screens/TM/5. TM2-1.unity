@@ -142,6 +142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Screen
       objectReference: {fileID: 0}
+    - target: {fileID: 1498588939237775176, guid: 0d294ef48a211473dbb797c4d756bd17,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 48
+      objectReference: {fileID: 0}
     - target: {fileID: 2129846609946510057, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: scrollSpeed
@@ -151,7 +156,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cdb097e1f1044d41902916f9a126dc7,
+      objectReference: {fileID: 21300000, guid: 11847e148fb5646e094da5f33cda8339,
         type: 3}
     - target: {fileID: 2857540039944819033, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
@@ -212,37 +217,47 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b53961ea900114a41b038c905fd06665,
+      objectReference: {fileID: 21300000, guid: 7bed5147bbe0d4278b27fc06e9f0127c,
         type: 3}
     - target: {fileID: 5135157534037218642, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ff7612f80749641a989f5979d22c60da,
+      objectReference: {fileID: 21300000, guid: 8755b2c3a4401479c8745c18f220af7b,
         type: 3}
     - target: {fileID: 5507692917700146094, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: 823bdc25ca44149f184652f4d9378547,
+      objectReference: {fileID: 11400000, guid: b6480b5af711741ac822cd824cacda61,
         type: 2}
+    - target: {fileID: 6272379667087327893, guid: 0d294ef48a211473dbb797c4d756bd17,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -63
+      objectReference: {fileID: 0}
     - target: {fileID: 6737326315748852534, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cdb097e1f1044d41902916f9a126dc7,
+      objectReference: {fileID: 21300000, guid: 11847e148fb5646e094da5f33cda8339,
         type: 3}
+    - target: {fileID: 7293047716411089863, guid: 0d294ef48a211473dbb797c4d756bd17,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8800252239825715500, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cdb097e1f1044d41902916f9a126dc7,
+      objectReference: {fileID: 21300000, guid: 11847e148fb5646e094da5f33cda8339,
         type: 3}
     - target: {fileID: 8899425290572363477, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3de75ab5d83ff471bb975a0cd60367df, type: 3}
+      objectReference: {fileID: 8300000, guid: c60892e26ec4a4d8baa8a8c31d53acde, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
