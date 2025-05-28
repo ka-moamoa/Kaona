@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 371c045600a26412db3842f0091e72e4, type: 3}
+  Text: "As you explore the expansive ocean, you encounter a majestic Havenback\u2014a
+    colossal creature with a lush island on its back. This Havenback, like others
+    of its kind, has forgotten its ability to dive into the ocean's depths, opting
+    to float on the surface instead. Can you help this Havenback remember its long-lost
+    ability to swim underwater, reconnecting it with a part of its essence it has
+    long forgotten?\n\nYou approach the Havenback cautiously, observing its serene,
+    yet somehow melancholic demeanor. The island on its back teems with life, but
+    the creature's eyes reflect a forgotten longing. The air vibrates with an unspoken
+    melody\u2014a tune that seems to be missing its harmony."
+  Timings:
+  - StartPosition: 10.51864
+    EndPosition: 15.510677
+    Name: Timing 1
+    Text: As you explore the expansive ocean, you encounter a majestic Havenback
+    Rectangle:
+      serializedVersion: 2
+      x: 399.14587
+      y: 21
+      width: 175.19281
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.71991
+    EndPosition: 19.466848
+    Name: Timing 2
+    Text: "\u2014a colossal creature with a lush island on its back. "
+    Rectangle:
+      serializedVersion: 2
+      x: 581.6816
+      y: 21
+      width: 131.49677
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.644081
+    EndPosition: 22.912039
+    Name: Timing 3
+    Text: 'This Havenback, like others of its kind, '
+    Rectangle:
+      serializedVersion: 2
+      x: 719.3982
+      y: 21
+      width: 114.687195
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.040749
+    EndPosition: 26.580538
+    Name: Timing 4
+    Text: 'has forgotten its ability to dive into the ocean''s depths, '
+    Rectangle:
+      serializedVersion: 2
+      x: 838.60236
+      y: 21
+      width: 124.22699
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.616621
+    EndPosition: 29.669802
+    Name: Timing 5
+    Text: 'opting to float on the surface instead. '
+    Rectangle:
+      serializedVersion: 2
+      x: 964.09564
+      y: 21
+      width: 107.14972
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.86288
+    EndPosition: 35.07601
+    Name: Timing 6
+    Text: 'Can you help this Havenback remember its long-lost ability to swim underwater, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1078.0214
+      y: 21
+      width: 182.9519
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.204716
+    EndPosition: 39.77427
+    Name: Timing 7
+    Text: reconnecting it with a part of its essence it has long forgotten?
+    Rectangle:
+      serializedVersion: 2
+      x: 1265.4901
+      y: 21
+      width: 160.36597
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.82549
+    EndPosition: 43.12097
+    Name: Timing 8
+    Text: 'You approach the Havenback cautiously, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1427.6536
+      y: 21
+      width: 115.6532
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.23882
+    EndPosition: 47.36871
+    Name: Timing 9
+    Text: 'observing its serene, yet somehow melancholic demeanor. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1547.4425
+      y: 21
+      width: 144.93628
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.55773
+    EndPosition: 50.20053
+    Name: Timing 10
+    Text: 'The island on its back teems with life, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1699.0125
+      y: 21
+      width: 92.74756
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.367348
+    EndPosition: 53.675953
+    Name: Timing 11
+    Text: 'but the creature''s eyes reflect a forgotten longing. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1797.6144
+      y: 21
+      width: 116.11365
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.92
+    EndPosition: 56.70086
+    Name: Timing 12
+    Text: The air vibrates with an unspoken melody
+    Rectangle:
+      serializedVersion: 2
+      x: 1922.2926
+      y: 21
+      width: 97.59277
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.818104
+    EndPosition: 58.61326
+    Name: Timing 13
+    Text: "\u2014a tune that seems to be missing its harmony."
+    Rectangle:
+      serializedVersion: 2
+      x: 2024
+      y: 21
+      width: 63
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.670246
+    EndPosition: 59.95102
+    Name: Timing 14
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2089
+      y: 21
+      width: 44.947998
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

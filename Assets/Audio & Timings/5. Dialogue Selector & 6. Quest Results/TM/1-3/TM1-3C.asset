@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM1-3C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 44258840065604b539b1b67480b9c530, type: 3}
+  Text: "Trying to fix things fast, you push the Havenback to dive. But in doing
+    so, you show a lack of patience\u2014and a deeper misunderstanding."
+  Timings:
+  - StartPosition: 4.760091
+    EndPosition: 15.072653
+    Name: Timing 1
+    Text: "Trying to fix things fast, you push the Havenback to dive. But in doing
+      so, you show a lack of patience\u2014and a deeper misunderstanding."
+    Rectangle:
+      serializedVersion: 2
+      x: 324.1768
+      y: 21
+      width: 637.32324
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
