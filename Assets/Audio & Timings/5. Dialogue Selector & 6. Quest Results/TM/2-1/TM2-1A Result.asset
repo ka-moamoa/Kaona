@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: b0001ce615bbc4427beb2710351d53d6, type: 3}
+  Text: "You decide to venture further into the murky depths. The faint glow of the
+    coral intensifies, revealing a towering figure standing amidst the labyrinth.
+    The being is majestic\u2014a turtle-like entity. Its robes of deep blue flow
+    with the currents, adorned with patterns resembling the coral\u2019s shifting
+    etchings. In its hand, it holds a staff crowned with an orb radiating a soft
+    light, casting rippling reflections across the coral walls.\n\nThe entity gazes
+    at you with ancient, knowing eyes. Its voice carries the weight of wisdom and
+    reverence:\n\u201CI am Makapo, the guardian of this abyss and steward of thought.
+    To seek the pearl is to seek the truths within yourself. But know this: truth
+    comes at a price. If you are ready to face the Leviathan of Depths, step forward,
+    for the pearl lies within its slumbering maw.\u201D\n\nKeeper Makapo leads you
+    deeper into the labyrinth, the coral walls tightening until they give way to
+    a vast, open chamber\u2014not separate from the Leviathan, but within it. The
+    creature\u2019s immense form coils around the space, its body forming living
+    pathways, chambers, and spiraling corridors. Its radiant scales glimmer faintly
+    through the inky water, pulsing with ancient memory. At the heart of its slumber
+    lies the Pearl of Profound Depths, cradled between massive, unmoving jaws that
+    seem both protective and vulnerable.\n\nIn silence, you navigate the winding
+    corridors of flesh and thought, each step a test of stillness, each breath a
+    measure of your resolve. At last, you reach the pearl.\n\nMakapo approaches wordlessly
+    and places the treasure into your hands. It thrums with life\u2014warm and steady.
+    Then he turns and vanishes into the dark without a sound. The object in your
+    hand begins to vibrate, glowing faintly green.\n\nYou hear it before you see
+    it: a low-frequency hum, building like a wave of static. The world around you
+    begins to fracture. Geometry overlays reality.\n\nThe ground beneath you ripples
+    like liquid code. A digital iris opens\u2014wide and glowing, lined with cascading
+    green glyphs.\nThe ground beneath you ripples like liquid code. A digital iris
+    opens\u2014wide and glowing, lined with cascading green glyphs."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 27.868914
+    Name: Timing 2
+    Text: "You decide to venture further into the murky depths. The faint glow of
+      the coral intensifies, revealing a towering figure standing amidst the labyrinth.
+      The being is majestic\u2014a turtle-like entity. Its robes of deep blue flow
+      with the currents, adorned with patterns resembling the coral\u2019s shifting
+      etchings. In its hand, it holds a staff crowned with an orb radiating a soft
+      light, casting rippling reflections across the coral walls."
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 388.5843
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.971361
+    EndPosition: 34.88737
+    Name: Timing 3
+    Text: 'The entity gazes at you with ancient, knowing eyes. Its voice carries
+      the weight of wisdom and reverence:'
+    Rectangle:
+      serializedVersion: 2
+      x: 420.01276
+      y: 21
+      width: 96.431885
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.099888
+    EndPosition: 53.637413
+    Name: Timing 4
+    Text: "\u201CI am Makapo, the guardian of this abyss and steward of thought.
+      To seek the pearl is to seek the truths within yourself. But know this: truth
+      comes at a price. If you are ready to face the Leviathan of Depths, step forward,
+      for the pearl lies within its slumbering maw.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 519.40784
+      y: 21
+      width: 258.47406
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.86161
+    EndPosition: 90.52274
+    Name: Timing 5
+    Text: "Keeper Makapo leads you deeper into the labyrinth, the coral walls tightening
+      until they give way to a vast, open chamber\u2014not separate from the Leviathan,
+      but within it. The creature\u2019s immense form coils around the space, its
+      body forming living pathways, chambers, and spiraling corridors. Its radiant
+      scales glimmer faintly through the inky water, pulsing with ancient memory.
+      At the heart of its slumber lies the Pearl of Profound Depths, cradled between
+      massive, unmoving jaws that seem both protective and vulnerable."
+    Rectangle:
+      serializedVersion: 2
+      x: 781.00793
+      y: 21
+      width: 511.17676
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.72764
+    EndPosition: 103.33015
+    Name: Timing 6
+    Text: In silence, you navigate the winding corridors of flesh and thought, each
+      step a test of stillness, each breath a measure of your resolve. At last, you
+      reach the pearl.
+    Rectangle:
+      serializedVersion: 2
+      x: 1295.0416
+      y: 21
+      width: 175.72034
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 103.739975
+    EndPosition: 118.03305
+    Name: Timing 7
+    Text: "Makapo approaches wordlessly and places the treasure into your hands.
+      It thrums with life\u2014warm and steady. Then he turns and vanishes into the
+      dark without a sound. The object in your hand begins to vibrate, glowing faintly
+      green."
+    Rectangle:
+      serializedVersion: 2
+      x: 1476.4763
+      y: 21
+      width: 199.29248
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 118.13551
+    EndPosition: 128.27898
+    Name: Timing 8
+    Text: 'You hear it before you see it: a low-frequency hum, building like a wave
+      of static. The world around you begins to fracture. Geometry overlays reality.'
+    Rectangle:
+      serializedVersion: 2
+      x: 1677.1975
+      y: 21
+      width: 141.43323
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 128.43265
+    EndPosition: 137.91582
+    Name: Timing 9
+    Text: "The ground beneath you ripples like liquid code. A digital iris opens\u2014wide
+      and glowing, lined with cascading green glyphs"
+    Rectangle:
+      serializedVersion: 2
+      x: 1820.7734
+      y: 21
+      width: 132.22656
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 137.91582
+    EndPosition: 141.71693
+    Name: Timing 10
+    Text: .
+    Rectangle:
+      serializedVersion: 2
+      x: 1953
+      y: 21
+      width: 53
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 141.86037
+    EndPosition: 143.56898
+    Name: Timing 2
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2008
+      y: 21
+      width: 23.82373
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

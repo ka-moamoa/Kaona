@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-1C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 32a3d43d1bec14a9bb9fa47b43710d55, type: 3}
+  Text: "Overwhelmed by the daunting trial, you retreat into the ink-like waters,
+    leaving Keeper Makapo and the labyrinth behind. As you flee, Makapo\u2019s voice
+    echoes through the abyss, heavy with sorrow:\n\n\u201CSo, you choose to flee?
+    Know this\u2014truths avoided will follow you, growing heavier with each step
+    until you can no longer bear their weight.\nThe path you evade today will rise
+    before you again, and when it does, it will not be as forgiving.\u201D\n\nEmpty-handed,
+    you leave the realm with a lingering sense of regret, your unresolved fears casting
+    darker shadows on your journey ahead."
+  Timings:
+  - StartPosition: 2.4380953
+    EndPosition: 15.930123
+    Name: Timing 1
+    Text: "Overwhelmed by the daunting trial, you retreat into the ink-like waters,
+      leaving Keeper Makapo and the labyrinth behind. As you flee, Makapo\u2019s
+      voice echoes through the abyss, heavy with sorrow:"
+    Rectangle:
+      serializedVersion: 2
+      x: 80.81239
+      y: 21
+      width: 281.18762
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.9985485
+    EndPosition: 34.547253
+    Name: Timing 2
+    Text: "\u201CSo, you choose to flee? Know this\u2014truths avoided will follow
+      you, growing heavier with each step until you can no longer bear their weight.\nThe
+      path you evade today will rise before you again, and when it does, it will
+      not be as forgiving.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 363.42606
+      y: 21
+      width: 386.57388
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.90272
+    EndPosition: 44.69551
+    Name: Timing 3
+    Text: Empty-handed, you leave the realm with a lingering sense of regret, your
+      unresolved fears casting darker shadows on your journey ahead.
+    Rectangle:
+      serializedVersion: 2
+      x: 757.40826
+      y: 21
+      width: 204.09174
+      height: 144.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
