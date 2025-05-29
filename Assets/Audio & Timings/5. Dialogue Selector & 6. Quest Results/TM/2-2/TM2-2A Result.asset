@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-2A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: ba4ca1a525ad24ad6be494fb20ddda65, type: 3}
+  Text: "As you navigate the shifting maze of seaweed, glowing symbols of chaos,
+    clarity, and balance emerge, illuminating the currents with cryptic guidance.
+    The pathways constantly shift, forcing you to interpret the symbols and align
+    their meanings to unlock hidden routes and avoid traps. At the maze\u2019s heart,
+    the Currents of Wisdom Bracelet rests on a coral pedestal, pulsing with the essence
+    of harmony. You solve the puzzle and bring calm to the chaotic waters. Nana\u2019ole
+    appears, his voice resonating:\n\u201CYou have proven your understanding of wisdom\u2019s
+    flow. You have proven yourself worthy of the wisdom that flows through these
+    depths. The Bracelet of Currents is yours\u2014a token of your understanding
+    and a guide for the journeys yet to come. Wear it well, for it will remind you
+    that wisdom lies not in chaos or clarity alone, but in the harmony between them.\""
+  Timings:
+  - StartPosition: 1.1085376
+    EndPosition: 61.570614
+    Name: Timing 1
+    Text: "As you navigate the shifting maze of seaweed, glowing symbols of chaos,
+      clarity, and balance emerge, illuminating the currents with cryptic guidance.
+      The pathways constantly shift, forcing you to interpret the symbols and align
+      their meanings to unlock hidden routes and avoid traps. At the maze\u2019s
+      heart, the Currents of Wisdom Bracelet rests on a coral pedestal, pulsing with
+      the essence of harmony. You solve the puzzle and bring calm to the chaotic
+      waters. Nana\u2019ole appears, his voice resonating:\n\u201CYou have proven
+      your understanding of wisdom\u2019s flow. You have proven yourself worthy of
+      the wisdom that flows through these depths. The Bracelet of Currents is yours\u2014a
+      token of your understanding and a guide for the journeys yet to come. Wear
+      it well, for it will remind you that wisdom lies not in chaos or clarity alone,
+      but in the harmony between them.\""
+    Rectangle:
+      serializedVersion: 2
+      x: 111.00001
+      y: 21
+      width: 4417.9185
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

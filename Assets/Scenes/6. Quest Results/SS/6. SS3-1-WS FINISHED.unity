@@ -162,7 +162,7 @@ MonoBehaviour:
   objectToDisable: {fileID: 1852076936}
   fadeOutAnim: {fileID: 44297254}
   fadeDelay: 1
-  mokuName: 0
+  mokuName: 5
   mokuQuestNum: 7
 --- !u!224 &58558974
 RectTransform:
@@ -1299,7 +1299,7 @@ PrefabInstance:
     - target: {fileID: 7589060941272880124, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -529.16754
+      value: -529.1674
       objectReference: {fileID: 0}
     - target: {fileID: 7591889994436617988, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}

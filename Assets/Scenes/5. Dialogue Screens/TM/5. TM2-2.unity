@@ -229,7 +229,7 @@ PrefabInstance:
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: b6480b5af711741ac822cd824cacda61,
+      objectReference: {fileID: 11400000, guid: 6b3b2c53382464e328ef0ac506537f2e,
         type: 2}
     - target: {fileID: 6272379667087327893, guid: 0d294ef48a211473dbb797c4d756bd17,
         type: 3}
@@ -257,7 +257,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c60892e26ec4a4d8baa8a8c31d53acde, type: 3}
+      objectReference: {fileID: 8300000, guid: 6012359abe96243d5ba44b69843dd39f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

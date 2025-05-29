@@ -162,8 +162,8 @@ MonoBehaviour:
   objectToDisable: {fileID: 1852076936}
   fadeOutAnim: {fileID: 44297254}
   fadeDelay: 1
-  mokuName: 0
-  mokuQuestNum: 7
+  mokuName: 4
+  mokuQuestNum: 4
 --- !u!224 &58558974
 RectTransform:
   m_ObjectHideFlags: 0

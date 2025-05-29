@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-2C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 6fd339471a4124bf483dcd6b284e601a, type: 3}
+  Text: You do nothing.
+  Timings:
+  - StartPosition: 0.27384403
+    EndPosition: 2.4293878
+    Name: Timing 1
+    Text: You do nothing.
+    Rectangle:
+      serializedVersion: 2
+      x: 135
+      y: 21
+      width: 826.5
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
