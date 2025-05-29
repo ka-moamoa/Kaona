@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 6012359abe96243d5ba44b69843dd39f, type: 3}
+  Text: "You awaken to a faint, otherworldly glow\u2014a soft green and blue light
+    radiating through a dense forest of swaying seaweed. The water around you is
+    calmer than before but heavy with the weight of unseen wisdom, the currents brushing
+    against you like whispers in the dark. The forest is alive, teeming with glowing
+    fish darting between the fronds and coral formations carved into the shapes of
+    intricate spirals and labyrinths.\n\nFrom deep within the seaweed, a voice emerges\u2014melodic,
+    yet layered with an undeniable edge of authority. It is I, The Artist, my tone
+    resolute:\n\n\u201CHere lies the Bracelet of the Currents of Wisdom, woven from
+    the very essence of my thoughts. It channels the vast knowledge of this realm.
+    If you seek it, you must prove yourself capable of discerning wisdom from chaos,
+    of finding stillness amidst the current of thought.\u201D\n\nA figure comes into
+    view.\n\nA turtle-like being, draped in flowing robes of deep blue and yellow
+    that ripple like the tides. Its head is crowned with a brilliant, shell-like
+    crest that reflects a dim glowing light. One hand clutches a staff topped with
+    an orb encased in a delicate lattice, its glow pulsating gently in rhythm with
+    the ocean\u2019s currents.\n\nThe being\u2019s eyes appear cloudy, as though
+    unseeing, but their movements are deliberate and precise, as if guided by something
+    beyond sight. It speaks, its voice resonating through the water like the roll
+    of distant waves:\n\n\u201CI am Nana'ole,\u201D the being announces, his voice
+    measured and contemplative. \u201CI am the keeper of the Bracelet of Currents.
+    Though I cannot see forward as others might, I perceive the currents of the present\u2014the
+    flows of thought and energy around me. If you seek the bracelet, you must navigate
+    the maze of shifting currents and discern wisdom from chaos. Only then will you
+    prove yourself worthy.\u201D"
+  Timings:
+  - StartPosition: 10.049923
+    EndPosition: 13.421936
+    Name: Timing 1
+    Text: You awaken to a faint, otherworldly glow
+    Rectangle:
+      serializedVersion: 2
+      x: 97.31218
+      y: 21
+      width: 22.585007
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.520675
+    EndPosition: 19.769257
+    Name: Timing 2
+    Text: "\u2014a soft green and blue light radiating through a dense forest of
+      swaying seaweed. "
+    Rectangle:
+      serializedVersion: 2
+      x: 120.55852
+      y: 21
+      width: 41.85164
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.033718
+    EndPosition: 26.31493
+    Name: Timing 3
+    Text: 'The water around you is calmer than before but heavy with the weight of
+      unseen wisdom, '
+    Rectangle:
+      serializedVersion: 2
+      x: 164.18146
+      y: 21
+      width: 42.070175
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.447165
+    EndPosition: 30.017532
+    Name: Timing 4
+    Text: 'the currents brushing against you like whispers in the dark. '
+    Rectangle:
+      serializedVersion: 2
+      x: 207.13731
+      y: 21
+      width: 23.913544
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.281996
+    EndPosition: 31.868834
+    Name: Timing 5
+    Text: 'The forest is alive, '
+    Rectangle:
+      serializedVersion: 2
+      x: 232.82217
+      y: 21
+      width: 10.628296
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.19941
+    EndPosition: 40.00134
+    Name: Timing 6
+    Text: teeming with glowing fish darting between the fronds and coral formations
+      carved into the shapes of intricate spirals and labyrinths.
+    Rectangle:
+      serializedVersion: 2
+      x: 245.6646
+      y: 21
+      width: 52.2556
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.146053
+    EndPosition: 43.770058
+    Name: Timing 7
+    Text: From deep within the seaweed, a voice emerges
+    Rectangle:
+      serializedVersion: 2
+      x: 298.88947
+      y: 21
+      width: 24.272797
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.900726
+    EndPosition: 48.19996
+    Name: Timing 8
+    Text: "\u2014melodic, yet layered with an undeniable edge of authority. "
+    Rectangle:
+      serializedVersion: 2
+      x: 324.03745
+      y: 21
+      width: 28.795319
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.3983
+    EndPosition: 52.497623
+    Name: Timing 9
+    Text: 'It is I, The Artist, my tone resolute:'
+    Rectangle:
+      serializedVersion: 2
+      x: 354.16122
+      y: 21
+      width: 27.45636
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.72896
+    EndPosition: 56.06799
+    Name: Timing 10
+    Text: "\u201CHere lies the Bracelet of the Currents of Wisdom, "
+    Rectangle:
+      serializedVersion: 2
+      x: 383.16702
+      y: 21
+      width: 22.364075
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.992947
+    EndPosition: 58.844944
+    Name: Timing 11
+    Text: 'woven from the very essence of my thoughts. '
+    Rectangle:
+      serializedVersion: 2
+      x: 405.0285
+      y: 21
+      width: 19.10205
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.91104
+    EndPosition: 61.68801
+    Name: Timing 12
+    Text: 'It channels the vast knowledge of this realm. '
+    Rectangle:
+      serializedVersion: 2
+      x: 424.57324
+      y: 21
+      width: 18.599548
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.887028
+    EndPosition: 66.64686
+    Name: Timing 13
+    Text: 'If you seek it, you must prove yourself capable of discerning wisdom from
+      chaos, '
+    Rectangle:
+      serializedVersion: 2
+      x: 444.50577
+      y: 21
+      width: 31.88028
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.77236
+    EndPosition: 70.084984
+    Name: Timing 14
+    Text: "of finding stillness amidst the current of thought.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 477.22665
+      y: 21
+      width: 22.187225
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 70.18569
+    EndPosition: 72.53135
+    Name: Timing 15
+    Text: A figure comes into view.
+    Rectangle:
+      serializedVersion: 2
+      x: 500.08838
+      y: 21
+      width: 15.710693
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.77769
+    EndPosition: 78.41585
+    Name: Timing 16
+    Text: 'A turtle-like being, draped in flowing robes of deep blue and yellow that
+      ripple like the tides. '
+    Rectangle:
+      serializedVersion: 2
+      x: 517.44904
+      y: 21
+      width: 37.763123
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.53769
+    EndPosition: 84.56481
+    Name: Timing 17
+    Text: 'Its head is crowned with a brilliant, shell-like crest that reflects a
+      dim glowing light. '
+    Rectangle:
+      serializedVersion: 2
+      x: 556.02826
+      y: 21
+      width: 40.368347
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 84.6817
+    EndPosition: 90.31707
+    Name: Timing 18
+    Text: 'One hand clutches a staff topped with an orb encased in a delicate lattice, '
+    Rectangle:
+      serializedVersion: 2
+      x: 597.1795
+      y: 21
+      width: 37.744446
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.43102
+    EndPosition: 94.81309
+    Name: Timing 19
+    Text: "its glow pulsating gently in rhythm with the ocean\u2019s currents."
+    Rectangle:
+      serializedVersion: 2
+      x: 635.6872
+      y: 21
+      width: 29.350098
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 94.94304
+    EndPosition: 98.9124
+    Name: Timing 20
+    Text: "The being\u2019s eyes appear cloudy, as though unseeing, "
+    Rectangle:
+      serializedVersion: 2
+      x: 665.90765
+      y: 21
+      width: 26.585938
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 99.044624
+    EndPosition: 104.99525
+    Name: Timing 21
+    Text: 'but their movements are deliberate and precise, as if guided by something
+      beyond sight. '
+    Rectangle:
+      serializedVersion: 2
+      x: 693.3792
+      y: 21
+      width: 39.855957
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.156624
+    EndPosition: 110.08633
+    Name: Timing 22
+    Text: 'It speaks, its voice resonating through the water like the roll of distant
+      waves:'
+    Rectangle:
+      serializedVersion: 2
+      x: 734.31604
+      y: 21
+      width: 33.018066
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 110.19127
+    EndPosition: 117.0287
+    Name: Timing 23
+    Text: "\u201CI am Nana'ole,\u201D the being announces, his voice measured and
+      contemplative. "
+    Rectangle:
+      serializedVersion: 2
+      x: 768.037
+      y: 21
+      width: 45.795654
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 117.24195
+    EndPosition: 120.3346
+    Name: Timing 24
+    Text: "\u201CI am the keeper of the Bracelet of Currents. "
+    Rectangle:
+      serializedVersion: 2
+      x: 815.2609
+      y: 21
+      width: 20.713867
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 120.4007
+    EndPosition: 125.227325
+    Name: Timing 25
+    Text: Though I cannot see forward as others might, I perceive the currents of
+      the present
+    Rectangle:
+      serializedVersion: 2
+      x: 836.41754
+      y: 21
+      width: 32.327637
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 125.29345
+    EndPosition: 128.0704
+    Name: Timing 26
+    Text: "\u2014the flows of thought and energy around me. "
+    Rectangle:
+      serializedVersion: 2
+      x: 869.1881
+      y: 21
+      width: 18.599426
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 128.1365
+    EndPosition: 134.41771
+    Name: Timing 27
+    Text: 'If you seek the bracelet, you must navigate the maze of shifting currents
+      and discern wisdom from chaos. '
+    Rectangle:
+      serializedVersion: 2
+      x: 888.2302
+      y: 21
+      width: 42.07013
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 134.48384
+    EndPosition: 136.40126
+    Name: Timing 28
+    Text: "Only then will you prove yourself worthy.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 930.7433
+      y: 21
+      width: 12.842468
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 136.46738
+    EndPosition: 139.07591
+    Name: Timing 29
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 944.0286
+      y: 21
+      width: 17.471375
+      height: 156.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
