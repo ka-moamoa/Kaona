@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c2e1f0e3b8719440bab5a315a6c8690d, type: 3}
+  Text: "The currents carry you deeper into the abyss, where the water grows thick
+    and oppressive, as though it resists your every movement. The otherworldly glow
+    of coral is now dim and erratic, casting long, flickering shadows that twist
+    unnaturally in the gloom. Shapes that should not exist drift at the edges of
+    your vision, vanishing the moment you turn to face them. A chilling silence fills
+    the space, punctuated only by the distant, rhythmic pulse of something vast and
+    alive\u2014its presence just beyond comprehension.\n\nA voice reaches you, soft
+    yet piercing, like the whisper of waves against jagged rocks. It is I, The Artist,
+    my tone alien, unsettling, and laced with a subtle malice:\n\u201CYou wish to
+    claim the Anemone Crown, do you? Then you must walk the edge of reason, where
+    reality and thought bleed into one another. Only those who embrace the unknown\u2014who
+    surrender to intuition\u2014may earn the right to wear it. But beware: the path
+    to the crown is not made for the faint of mind.\u201D"
+  Timings:
+  - StartPosition: 9.072313
+    EndPosition: 12.234529
+    Name: Timing 1
+    Text: 'The currents carry you deeper into the abyss, '
+    Rectangle:
+      serializedVersion: 2
+      x: 252.46005
+      y: 21
+      width: 77.53995
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 12.316077
+    EndPosition: 17.11771
+    Name: Timing 2
+    Text: 'where the water grows thick and oppressive, as though it resists your
+      every movement. '
+    Rectangle:
+      serializedVersion: 2
+      x: 331.99963
+      y: 21
+      width: 117.739716
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.308367
+    EndPosition: 22.91935
+    Name: Timing 3
+    Text: 'The otherworldly glow of coral is now dim and erratic, casting long, '
+    Rectangle:
+      serializedVersion: 2
+      x: 454.41437
+      y: 21
+      width: 137.58563
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.061974
+    EndPosition: 26.589708
+    Name: Timing 4
+    Text: 'flickering shadows that twist unnaturally in the gloom. '
+    Rectangle:
+      serializedVersion: 2
+      x: 595.4972
+      y: 21
+      width: 86.50281
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.661066
+    EndPosition: 30.463976
+    Name: Timing 5
+    Text: 'Shapes that should not exist drift at the edges of your vision, '
+    Rectangle:
+      serializedVersion: 2
+      x: 683.7497
+      y: 21
+      width: 93.250305
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.631678
+    EndPosition: 32.992447
+    Name: Timing 6
+    Text: 'vanishing the moment you turn to face them. '
+    Rectangle:
+      serializedVersion: 2
+      x: 781.1121
+      y: 21
+      width: 57.88788
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.155556
+    EndPosition: 40.129253
+    Name: Timing 7
+    Text: A chilling silence fills the space, punctuated only by the distant, rhythmic
+      pulse of something vast and alive
+    Rectangle:
+      serializedVersion: 2
+      x: 842.9996
+      y: 21
+      width: 171.00037
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.26086
+    EndPosition: 43.67727
+    Name: Timing 8
+    Text: "\u2014its presence just beyond comprehension."
+    Rectangle:
+      serializedVersion: 2
+      x: 1017.22705
+      y: 21
+      width: 83.77295
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.743855
+    EndPosition: 49.672188
+    Name: Timing 9
+    Text: 'A voice reaches you, soft yet piercing, like the whisper of waves against
+      jagged rocks. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1102.6327
+      y: 21
+      width: 145.36731
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.897144
+    EndPosition: 55.707886
+    Name: Timing 10
+    Text: 'It is I, The Artist, my tone alien, unsettling, and laced with a subtle
+      malice:'
+    Rectangle:
+      serializedVersion: 2
+      x: 1253.5161
+      y: 21
+      width: 142.48376
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.725353
+    EndPosition: 59.378246
+    Name: Timing 11
+    Text: "\u201CYou wish to claim the Anemone Crown, do you? "
+    Rectangle:
+      serializedVersion: 2
+      x: 1396.4282
+      y: 21
+      width: 89.57178
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.463764
+    EndPosition: 61.662025
+    Name: Timing 12
+    Text: 'Then you must walk the edge of reason, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1488.0969
+      y: 21
+      width: 53.903076
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.73932
+    EndPosition: 64.51675
+    Name: Timing 13
+    Text: 'where reality and thought bleed into one another. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1543.8953
+      y: 21
+      width: 68.104614
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.66503
+    EndPosition: 66.75974
+    Name: Timing 14
+    Text: Only those who embrace the unknown
+    Rectangle:
+      serializedVersion: 2
+      x: 1615.636
+      y: 21
+      width: 51.36389
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.84771
+    EndPosition: 70.960266
+    Name: Timing 15
+    Text: "\u2014who surrender to intuition\u2014may earn the right to wear it. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1669.157
+      y: 21
+      width: 100.84302
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.09696
+    EndPosition: 74.67141
+    Name: Timing 16
+    Text: "But beware: the path to the crown is not made for the faint of mind.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 1773.3518
+      y: 21
+      width: 87.64819
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.87531
+    EndPosition: 76.826126
+    Name: Timing 17
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1865.9999
+      y: 21
+      width: 47.83545
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
