@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: f2b1f371b93af414ea87d7230862ec04, type: 3}
+  Text: "The Havenback stretches endlessly across the horizon, a leviathan whose
+    immense, motionless form floats gently upon the ocean\u2019s surface. Its back
+    is a breathtaking reef of crystalline coral, glowing softly with hues of aquamarine,
+    violet, and gold, refracting the sunlight into shifting rainbows across the water.
+    Towering coral spires rise like ancient monuments, their jagged peaks crowned
+    by glowing trees whose roots twist deep into the living reef, intertwining with
+    its veins. Pools of shimmering water dot the coral expanse, teeming with bioluminescent
+    life, while the Havenback\u2019s massive body lies still, as if it has forgotten
+    the tides and the freedom of the depths it once embraced.\n\nAt the summit of
+    a coral spire, the Turtle Elder stands tall, his ceremonial robes of gold and
+    blue rippling faintly in the ocean breeze. A crystalline staff crowned with a
+    softly glowing orb rests in his hand, and the runes etched into his shell shimmer
+    faintly with an inner light. His deep, resonant voice carries across the stillness:\n\n\u201CTravelers,
+    you walk upon the sacred being\u2014one who once bridged the surface and the
+    depths. This Havenback, like the Artist, has forgotten the harmony it once upheld.
+    You seek the Artist, but know this\u2014her mind is the ocean itself. To enter
+    it is to step into the chaos of unbound thoughts, where the currents will twist
+    your own until you no longer know them.\u201D\n\nAs he finishes, a deep tremor
+    shakes the Havenback, the coral spires flickering as a mournful groan echoes
+    through the air. Suddenly, the light vanishes, and the ocean twists violently
+    around you. The Elder\u2019s form dissolves into mist as the vortex of blackened
+    water pulls you down into an endless abyss, his final words echoing faintly:\n\n\u201CThe
+    currents have claimed you\u2026 tread carefully, for they carry not only the
+    Artist\u2019s thoughts, but your own.\u201D\n\nAmidst the chaos, a fragmented
+    form appears before you\u2026"
+  Timings:
+  - StartPosition: 13.023991
+    EndPosition: 18.37801
+    Name: Timing 1
+    Text: 'The Havenback stretches endlessly across the horizon, a leviathan whose
+      immense, '
+    Rectangle:
+      serializedVersion: 2
+      x: 236.93237
+      y: 21
+      width: 85.06763
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.463991
+    EndPosition: 21.902561
+    Name: Timing 2
+    Text: "motionless form floats gently upon the ocean\u2019s surface. "
+    Rectangle:
+      serializedVersion: 2
+      x: 323.36612
+      y: 21
+      width: 54.63391
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.047981
+    EndPosition: 29.455168
+    Name: Timing 3
+    Text: 'Its back is a breathtaking reef of crystalline coral, glowing softly with
+      hues of aquamarine, '
+    Rectangle:
+      serializedVersion: 2
+      x: 380.31055
+      y: 21
+      width: 117.68948
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.397324
+    EndPosition: 35.811947
+    Name: Timing 4
+    Text: 'violet, and gold, refracting the sunlight into shifting rainbows across
+      the water. '
+    Rectangle:
+      serializedVersion: 2
+      x: 497.08096
+      y: 21
+      width: 101.9191
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.874874
+    EndPosition: 40.091755
+    Name: Timing 5
+    Text: 'Towering coral spires rise like ancient monuments, '
+    Rectangle:
+      serializedVersion: 2
+      x: 599.9999
+      y: 21
+      width: 67.00012
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.1522
+    EndPosition: 46.51147
+    Name: Timing 6
+    Text: 'their jagged peaks crowned by glowing trees whose roots twist deep into
+      the living reef, '
+    Rectangle:
+      serializedVersion: 2
+      x: 667.9604
+      y: 21
+      width: 101.03961
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.594852
+    EndPosition: 48.462563
+    Name: Timing 7
+    Text: 'intertwining with its veins. '
+    Rectangle:
+      serializedVersion: 2
+      x: 770.3248
+      y: 21
+      width: 29.67517
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.62152
+    EndPosition: 52.49062
+    Name: Timing 8
+    Text: Pools of shimmering water dot the coral expanse,
+    Rectangle:
+      serializedVersion: 2
+      x: 802.52563
+      y: 21
+      width: 61.474426
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.616486
+    EndPosition: 58.65858
+    Name: Timing 9
+    Text: "teeming with bioluminescent life, while the Havenback\u2019s massive body
+      lies still, "
+    Rectangle:
+      serializedVersion: 2
+      x: 865.9999
+      y: 21
+      width: 96.00012
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.835148
+    EndPosition: 64.2601
+    Name: Timing 10
+    Text: as if it has forgotten the tides and the freedom of the depths it once
+      embraced.
+    Rectangle:
+      serializedVersion: 2
+      x: 964.8054
+      y: 21
+      width: 86.1947
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.32304
+    EndPosition: 68.8546
+    Name: Timing 11
+    Text: 'At the summit of a coral spire, the Turtle Elder stands tall, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1052
+      y: 21
+      width: 72
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.91753
+    EndPosition: 74.20436
+    Name: Timing 12
+    Text: 'his ceremonial robes of gold and blue rippling faintly in the ocean breeze. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1124.9999
+      y: 21
+      width: 84.00012
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.33619
+    EndPosition: 79.68001
+    Name: Timing 13
+    Text: 'A crystalline staff crowned with a softly glowing orb rests in his hand, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1211.0945
+      y: 21
+      width: 84.90564
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 79.74417
+    EndPosition: 85.15565
+    Name: Timing 14
+    Text: 'and the runes etched into his shell shimmer faintly with an inner light. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1297.0195
+      y: 21
+      width: 85.98059
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.25884
+    EndPosition: 89.30958
+    Name: Timing 15
+    Text: 'His deep, resonant voice carries across the stillness:'
+    Rectangle:
+      serializedVersion: 2
+      x: 1384.6396
+      y: 21
+      width: 64.36035
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.42953
+    EndPosition: 93.40057
+    Name: Timing 16
+    Text: "\u201CTravelers, you walk upon the sacred being"
+    Rectangle:
+      serializedVersion: 2
+      x: 1450.9059
+      y: 21
+      width: 63.094116
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 93.568184
+    EndPosition: 97.30276
+    Name: Timing 17
+    Text: "\u2014one who once bridged the surface and the depths. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1516.6631
+      y: 21
+      width: 59.337036
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 97.42862
+    EndPosition: 103.2819
+    Name: Timing 18
+    Text: 'This Havenback, like the Artist, has forgotten the harmony it once upheld. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1577.9999
+      y: 21
+      width: 93.00012
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 103.359276
+    EndPosition: 108.568726
+    Name: Timing 19
+    Text: "You seek the Artist, but know this\u2014her mind is the ocean itself. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1672.2294
+      y: 21
+      width: 82.77063
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 108.692604
+    EndPosition: 112.47091
+    Name: Timing 20
+    Text: 'To enter it is to step into the chaos of unbound thoughts, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1756.9683
+      y: 21
+      width: 60.03186
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 112.53383
+    EndPosition: 116.31015
+    Name: Timing 21
+    Text: "where the currents will twist your own until you no longer know them.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 1817.9998
+      y: 21
+      width: 60.000366
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 116.38449
+    EndPosition: 120.715836
+    Name: Timing 22
+    Text: 'As he finishes, a deep tremor shakes the Havenback, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1879.1813
+      y: 21
+      width: 68.818726
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 120.78982
+    EndPosition: 125.93972
+    Name: Timing 23
+    Text: 'the coral spires flickering as a mournful groan echoes through the air. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1949.1755
+      y: 21
+      width: 81.82446
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 126.05916
+    EndPosition: 132.04475
+    Name: Timing 24
+    Text: 'Suddenly, the light vanishes, and the ocean twists violently around you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2032.8977
+      y: 21
+      width: 95.10254
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 132.10715
+    EndPosition: 137.20569
+    Name: Timing 25
+    Text: "The Elder\u2019s form dissolves into mist as the vortex of blackened water "
+    Rectangle:
+      serializedVersion: 2
+      x: 2128.9915
+      y: 21
+      width: 81.008545
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 137.26862
+    EndPosition: 144.00304
+    Name: Timing 26
+    Text: 'pulls you down into an endless abyss, his final words echoing faintly:'
+    Rectangle:
+      serializedVersion: 2
+      x: 2210.9998
+      y: 21
+      width: 107.000244
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 144.08461
+    EndPosition: 152.43678
+    Name: Timing 27
+    Text: "\u201CThe currents have claimed you\u2026 tread carefully, for they carry
+      not only the Artist\u2019s thoughts, but your own.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 2319.2961
+      y: 21
+      width: 132.70386
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 152.49973
+    EndPosition: 154.262
+    Name: Timing 28
+    Text: "Amidst the chaos, a fragmented form appears before you\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 2453
+      y: 21
+      width: 28
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 154.38788
+    EndPosition: 158.06694
+    Name: Timing 29
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2483
+      y: 21
+      width: 58.45508
+      height: 145.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
