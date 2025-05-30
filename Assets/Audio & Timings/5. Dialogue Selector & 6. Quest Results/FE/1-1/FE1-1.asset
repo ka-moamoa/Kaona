@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE1-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 78e366e278e68499490bccb72add2c2a, type: 3}
+  Text: "In the dim glow of the cold lava rivers, a lone chanter stands solemnly,
+    their presence radiating a deep, sorrowful aura. The figure is a being of both
+    male and female essence, shifting subtly between the two, embodying both the
+    reverence of a guardian and the melancholy of a mourner. Their eyes are closed
+    in silent prayer, neither voice nor body confined by a single form.\n\nAs the
+    chant begins, the voice resonates with a haunting and powerful timbre, a sound
+    both rich and sorrowful. Each note carries the weight of grief, vibrating with
+    an intensity that weaves a tapestry of raw emotion. The rhythm mirrors the tremors
+    of the earth\u2014primal and fierce, yet infused with a delicate sorrow, as if
+    each word is a tear for the lives lost to time.\n\nBeside the chanter, two composed
+    warriors stand, their forms towering even in the dim light. Clad in ancient armaments
+    forged from stone and metal, they are a living example of the enduring craftsmanship
+    of their people. Their stone armor, dark and rugged, clings to them like a second
+    skin, shaped by centuries of tradition and conflict. Intricate cultural arcane
+    symbols, etched into the stone, glow faintly with an otherworldly light.\n\nAt
+    their feet lies a shadow, motionless. Though it is but an outline in the dim
+    light, you can only imagine it to be the fallen body of a warrior, one whose
+    fate is now woven into the chant\u2019s lament."
+  Timings:
+  - StartPosition: 3.9009523
+    EndPosition: 12.088486
+    Name: Timing 1
+    Text: 'In the dim glow of the cold lava rivers, a lone chanter stands solemnly, '
+    Rectangle:
+      serializedVersion: 2
+      x: 99.59798
+      y: 21
+      width: 146.07605
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 12.211202
+    EndPosition: 17.242968
+    Name: Timing 2
+    Text: 'their presence radiating a deep, sorrowful aura. '
+    Rectangle:
+      serializedVersion: 2
+      x: 247.86345
+      y: 21
+      width: 89.77312
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.389252
+    EndPosition: 28.901913
+    Name: Timing 3
+    Text: 'The figure is a being of both male and female essence, shifting subtly
+      between the two, '
+    Rectangle:
+      serializedVersion: 2
+      x: 340.24646
+      y: 21
+      width: 205.40057
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.963276
+    EndPosition: 36.449547
+    Name: Timing 4
+    Text: 'embodying both the reverence of a guardian and the melancholy of a mourner. '
+    Rectangle:
+      serializedVersion: 2
+      x: 546.7419
+      y: 21
+      width: 133.56464
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.615376
+    EndPosition: 46.08352
+    Name: Timing 5
+    Text: Their eyes are closed in silent prayer, neither voice nor body confined
+      by a single form.
+    Rectangle:
+      serializedVersion: 2
+      x: 683.2651
+      y: 21
+      width: 168.92377
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.144875
+    EndPosition: 61.117424
+    Name: Timing 6
+    Text: 'As the chant begins, the voice resonates with a haunting and powerful
+      timbre, a sound both rich and sorrowful. '
+    Rectangle:
+      serializedVersion: 2
+      x: 853.2835
+      y: 21
+      width: 267.12946
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.240135
+    EndPosition: 73.57409
+    Name: Timing 7
+    Text: 'Each note carries the weight of grief, vibrating with an intensity that
+      weaves a tapestry of raw emotion. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1122.6023
+      y: 21
+      width: 220.05347
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.732475
+    EndPosition: 78.667206
+    Name: Timing 8
+    Text: The rhythm mirrors the tremors of the earth
+    Rectangle:
+      serializedVersion: 2
+      x: 1345.4816
+      y: 21
+      width: 88.04187
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.79442
+    EndPosition: 92.41249
+    Name: Timing 9
+    Text: "\u2014primal and fierce, yet infused with a delicate sorrow, as if each
+      word is a tear for the lives lost to time."
+    Rectangle:
+      serializedVersion: 2
+      x: 1435.7931
+      y: 21
+      width: 242.96387
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.6103
+    EndPosition: 102.598724
+    Name: Timing 10
+    Text: 'Beside the chanter, two composed warriors stand, their forms towering
+      even in the dim light. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1682.286
+      y: 21
+      width: 178.2063
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 102.664536
+    EndPosition: 109.77818
+    Name: Timing 11
+    Text: 'Clad in ancient armaments forged from stone and metal, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1861.6665
+      y: 21
+      width: 126.916504
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.96227
+    EndPosition: 117.755356
+    Name: Timing 12
+    Text: 'they are a living example of the enduring craftsmanship of their people. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1991.8674
+      y: 21
+      width: 139.03857
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 117.87808
+    EndPosition: 130.02792
+    Name: Timing 13
+    Text: 'Their stone armor, dark and rugged, clings to them like a second skin,
+      shaped by centuries of tradition and conflict. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2133.0957
+      y: 21
+      width: 216.76855
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 130.18018
+    EndPosition: 142.08624
+    Name: Timing 14
+    Text: Intricate cultural arcane symbols, etched into the stone, glow faintly
+      with an otherworldly light.
+    Rectangle:
+      serializedVersion: 2
+      x: 2352.5806
+      y: 21
+      width: 212.41968
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 142.25438
+    EndPosition: 146.40207
+    Name: Timing 15
+    Text: At their feet lies a shadow
+    Rectangle:
+      serializedVersion: 2
+      x: 2568
+      y: 21
+      width: 74
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 146.51418
+    EndPosition: 148.41986
+    Name: Timing 19
+    Text: ', motionless. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2644
+      y: 21
+      width: 34
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 148.58801
+    EndPosition: 153.59128
+    Name: Timing 16
+    Text: 'Though it is but an outline in the dim light, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2681
+      y: 21
+      width: 89.26465
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 153.65555
+    EndPosition: 164.9434
+    Name: Timing 17
+    Text: "you can only imagine it to be the fallen body of a warrior, one whose
+      fate is now woven into the chant\u2019s lament."
+    Rectangle:
+      serializedVersion: 2
+      x: 2771.4114
+      y: 21
+      width: 201.38965
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 165.06613
+    EndPosition: 168.80327
+    Name: Timing 18
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2974.9907
+      y: 21
+      width: 66.67529
+      height: 182.40001
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
