@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-2A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: da45a4ca1a10c43c2be7c9afc475d9e0, type: 3}
+  Text: "As you wield the Blade of Balance, its coral structure hums softly, resonating
+    with the chaotic currents of the Artist\u2019s mind. The swirling void around
+    you reacts to its presence\u2014the chaotic thoughts and currents calming slightly
+    as you step closer to the fractured figure of the Artist. Her form flickers,
+    torn between radiant light and suffocating shadow, her voice a blend of broken
+    laughter and quiet sobs:\n\n\u201CYou bring balance here? To me? Do you think
+    the Blade will calm this storm? You cannot separate the surface from the depths\u2026
+    but try, seeker. Try!\u201D\n\nThe Blade glows brighter, stabilizing the chaotic
+    waters momentarily. The Artist\u2019s voice softens, though still fractured:\n\n\u201CYou\u2026
+    you carry harmony where I could not. The storm quiets, but it will never be still.
+    Go forward, seeker, and hold to that balance.\u201D\n\nYou leave with a sense
+    of clarity, gaining insights into the fractured realm and the Artist\u2019s plight."
+  Timings:
+  - StartPosition: 0.38419488
+    EndPosition: 30.81243
+    Name: Timing 1
+    Text: "As you wield the Blade of Balance, its coral structure hums softly, resonating
+      with the chaotic currents of the Artist\u2019s mind. The swirling void around
+      you reacts to its presence\u2014the chaotic thoughts and currents calming slightly
+      as you step closer to the fractured figure of the Artist. Her form flickers,
+      torn between radiant light and suffocating shadow, her voice a blend of broken
+      laughter and quiet sobs:"
+    Rectangle:
+      serializedVersion: 2
+      x: 35
+      y: 21
+      width: 396
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.856508
+    EndPosition: 42.568794
+    Name: Timing 2
+    Text: "\u201CYou bring balance here? To me? Do you think the Blade will calm
+      this storm? You cannot separate the surface from the depths\u2026 but try,
+      seeker. Try!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 431.57364
+      y: 21
+      width: 152.42636
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.721905
+    EndPosition: 52.250504
+    Name: Timing 3
+    Text: "The Blade glows brighter, stabilizing the chaotic waters momentarily.
+      The Artist\u2019s voice softens, though still fractured:"
+    Rectangle:
+      serializedVersion: 2
+      x: 585.9926
+      y: 21
+      width: 124.007385
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.404625
+    EndPosition: 64.314224
+    Name: Timing 4
+    Text: "\u201CYou\u2026 you carry harmony where I could not. The storm quiets,
+      but it will never be still. Go forward, seeker, and hold to that balance.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 712.00574
+      y: 21
+      width: 154.99426
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.391045
+    EndPosition: 71.57551
+    Name: Timing 5
+    Text: "You leave with a sense of clarity, gaining insights into the fractured
+      realm and the Artist\u2019s plight."
+    Rectangle:
+      serializedVersion: 2
+      x: 867.99976
+      y: 21
+      width: 93.500244
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
