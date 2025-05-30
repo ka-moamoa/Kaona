@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-1C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 3f2f73795f1be4b4ebc74aed94978547, type: 3}
+  Text: "As you demand that the Artist restore the realm to its former glory, her
+    form twists violently, fragments of her body spiraling outward like shattered
+    glass caught in an unseen storm. Her voice erupts in a discordant wail, layering
+    screams with guttural whispers:\n\n\u201CRestore it? RESTORE IT? You think I
+    control this?! Do you see the truth that claws at the edges of your mind? The
+    realm was never whole! It was an illusion\u2014a lie painted over an abyss that
+    was always there, waiting to devour me\u2014and now, you!\u201D\n\nHer laughter
+    cracks the air like thunder, breaking into words that bleed malice:\n\n\u201CYou
+    think you can demand of me? I am not the Artist\u2014I am her ruin! Her mind
+    is a thousand pieces, and now you will feel every one!\u201D\n\nBefore you react,
+    she surges forward, her essence dissolving into a torrent of blackened light
+    that tears into your thoughts. For a fleeting moment, the world around you disappears,
+    replaced by a void of writhing shadows\u2014each one a fragment of her broken
+    mind. The whispers grow deafening, each competing for dominance, filling your
+    thoughts with incoherent babble and visions of unraveling realities.\n\nYour
+    sense of self splinters, and the weight of her madness presses against you like
+    an unstoppable tide.\n\n\u201CDo you see it now?\u201D her voice whispers\u2014softer
+    now, but infinitely more sinister\u2014resonating from within your own thoughts.\n\u201CThere
+    is no balance, no peace\u2014only this! And now, it is yours too!\u201D\n\nThe
+    connection snaps violently, and you are thrown from the abyss, gasping as the
+    realm around you reforms\u2014but it is no longer the same. The Artist is gone,
+    her fractured essence scattered into the waters.\n\nYou awaken in another Moku,
+    your mind raw and reeling, echoes of her madness still clawing at the edge of
+    your thoughts. The realm around you is alien and unfamiliar\u2014a new piece
+    of the fractured Moku\u2014and the weight of your failure lingers heavy around
+    you."
+  Timings:
+  - StartPosition: 3.3673244
+    EndPosition: 55.10196
+    Name: Timing 1
+    Text: "As you demand that the Artist restore the realm to its former glory, her
+      form twists violently, fragments of her body spiraling outward like shattered
+      glass caught in an unseen storm. Her voice erupts in a discordant wail, layering
+      screams with guttural whispers:\n\n\u201CRestore it? RESTORE IT? You think
+      I control this?! Do you see the truth that claws at the edges of your mind?
+      The realm was never whole! It was an illusion\u2014a lie painted over an abyss
+      that was always there, waiting to devour me\u2014and now, you!\u201D\n\nHer
+      laughter cracks the air like thunder, breaking into words that bleed malice:\n\n\u201CYou
+      think you can demand of me? I am not the Artist\u2014I am her ruin! Her mind
+      is a thousand pieces, and now you will feel every one!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 51.999886
+      y: 21
+      width: 338.00012
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.212948
+    EndPosition: 106.83658
+    Name: Timing 2
+    Text: "Before you react, she surges forward, her essence dissolving into a torrent
+      of blackened light that tears into your thoughts. For a fleeting moment, the
+      world around you disappears, replaced by a void of writhing shadows\u2014each
+      one a fragment of her broken mind. The whispers grow deafening, each competing
+      for dominance, filling your thoughts with incoherent babble and visions of
+      unraveling realities.\n\nYour sense of self splinters, and the weight of her
+      madness presses against you like an unstoppable tide.\n\n\u201CDo you see it
+      now?\u201D her voice whispers\u2014softer now, but infinitely more sinister\u2014resonating
+      from within your own thoughts.\n\u201CThere is no balance, no peace\u2014only
+      this! And now, it is yours too!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 390.72513
+      y: 21
+      width: 337.27487
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 107.33358
+    EndPosition: 142.57632
+    Name: Timing 3
+    Text: "The connection snaps violently, and you are thrown from the abyss, gasping
+      as the realm around you reforms\u2014but it is no longer the same. The Artist
+      is gone, her fractured essence scattered into the waters.\n\nYou awaken in
+      another Moku, your mind raw and reeling, echoes of her madness still clawing
+      at the edge of your thoughts. The realm around you is alien and unfamiliar\u2014a
+      new piece of the fractured Moku\u2014and the weight of your failure lingers
+      heavy around you."
+    Rectangle:
+      serializedVersion: 2
+      x: 731.2471
+      y: 21
+      width: 230.25293
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

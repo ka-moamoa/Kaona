@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-1A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 90cd27932810c4218bde3bce4a0c3baa, type: 3}
+  Text: "Amidst the swirling chaos of the Artist\u2019s mind, a strange energy flows
+    through the water. A pulse, ancient and steady, cutting through the discord.
+    A glowing vortex appears, rippling like a faint melody, its currents drawing
+    you closer. The fragmented voice pierces the silence, trembling with both dread
+    and hope:\n\n\u201CThe currents of time\u2026 a thread that remains unbroken.
+    You would dare pull on it? To step into what was lost? Do so, and you will see
+    what I was. But beware\u2014the past does not exist for your comfort.\u201D\n\nClosing
+    your eyes, you take a breath and let the vortex guide you, surrendering to its
+    pull.\n\nThe murky chaos dissolves, replaced by the clear, shimmering waters
+    of the past. The oppressive weight of the Artist\u2019s broken mind lifts, and
+    in its place is a realm of dazzling harmony. Leviathans glide effortlessly through
+    the air, their luminous trails weaving intricate patterns in the sky, while crystalline
+    palaces rise from the ocean\u2019s depths, refracting light into radiant rainbows.
+    Beneath the waves, coral forests glow softly, tended by turtle-like inhabitants
+    who cast spells of creation and balance. Their shells shimmer with runes, and
+    their synchronized gestures weave magical structures that breathe life into the
+    realm. The harmony between surface and depths resonates deeply, as if the very
+    fabric of the Moku is alive and whole.\n\nYou are approached by a turtle elder,
+    his golden rune-carved shell gleaming faintly as he observes you with curiosity.\n\n\u201CTravelers,\u201D
+    he says, his voice calm and measured, \u201Cyou are not of this time. The currents
+    have brought you here, yet you carry the weight of what is to come. Why have
+    you entered the harmony of our realm?\u201D\n\nAs you explain the fractured state
+    of the world in your time and the chaos that has consumed the realm, the elder
+    listens in quiet stillness. He pauses, then summons other casters. Though their
+    regalia are similar to the elder\u2019s, his adornments speak of deeper wisdom
+    and greater rank.\n\n\u201CThe Blade of Balance,\u201D the elder intones, \u201Cwas
+    born of thought\u2014a symbol of the harmony you see before you. If our realm
+    has truly fallen, the Blade must return to restore what was lost.\u201D\n\nThe
+    elder leads you to the base of the crystalline palace, where the water glows
+    faintly with the same ethereal energy as the Blade. The casters perform a ritual,
+    summoning the Blade of Balance from the ocean\u2019s depths. Its coral structure
+    pulses with serene light, radiating a profound sense of clarity and equilibrium.\n\nAs
+    you take hold of the Blade, you feel a surge of insight, the burdens of the present
+    momentarily lifted. The elder places a hand on your shoulder, his expression
+    grave:\n\n\u201CThe Blade is yours, traveler, but it carries more than power\u2014it
+    carries the responsibility of balance. What you do with it will shape not only
+    your world, but the currents of all time. Go now, and may harmony guide your
+    path.\u201D\n\nThe glowing vortex reappears, and as you step back through, the
+    shimmering beauty of the past fades, replaced once more by the fractured chaos
+    of the present."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 77.80208
+    Name: Timing 1
+    Text: "Amidst the swirling chaos of the Artist\u2019s mind, a strange energy
+      flows through the water. A pulse, ancient and steady, cutting through the discord.
+      A glowing vortex appears, rippling like a faint melody, its currents drawing
+      you closer. The fragmented voice pierces the silence, trembling with both dread
+      and hope:\n\n\u201CThe currents of time\u2026 a thread that remains unbroken.
+      You would dare pull on it? To step into what was lost? Do so, and you will
+      see what I was. But beware\u2014the past does not exist for your comfort.\u201D\n\nClosing
+      your eyes, you take a breath and let the vortex guide you, surrendering to
+      its pull.\n\nThe murky chaos dissolves, replaced by the clear, shimmering waters
+      of the past. The oppressive weight of the Artist\u2019s broken mind lifts,
+      and in its place is a realm of dazzling harmony. Leviathans glide effortlessly
+      through the air, their luminous trails weaving intricate patterns in the sky,
+      while crystalline palaces rise from the ocean\u2019s depths, refracting light
+      into radiant rainbows. "
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 336.31744
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.09967
+    EndPosition: 163.09135
+    Name: Timing 2
+    Text: "Beneath the waves, coral forests glow softly, tended by turtle-like inhabitants
+      who cast spells of creation and balance. Their shells shimmer with runes, and
+      their synchronized gestures weave magical structures that breathe life into
+      the realm. The harmony between surface and depths resonates deeply, as if the
+      very fabric of the Moku is alive and whole.\n\nYou are approached by a turtle
+      elder, his golden rune-carved shell gleaming faintly as he observes you with
+      curiosity.\n\n\u201CTravelers,\u201D he says, his voice calm and measured,
+      \u201Cyou are not of this time. The currents have brought you here, yet you
+      carry the weight of what is to come. Why have you entered the harmony of our
+      realm?\u201D\n\nAs you explain the fractured state of the world in your time
+      and the chaos that has consumed the realm, the elder listens in quiet stillness.
+      He pauses, then summons other casters. Though their regalia are similar to
+      the elder\u2019s, his adornments speak of deeper wisdom and greater rank.\n\n\u201CThe
+      Blade of Balance,\u201D the elder intones, \u201Cwas born of thought\u2014a
+      symbol of the harmony you see before you. If our realm has truly fallen, the
+      Blade must return to restore what was lost.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 367.60385
+      y: 21
+      width: 367.39615
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 163.48665
+    EndPosition: 227.18694
+    Name: Timing 3
+    Text: "The elder leads you to the base of the crystalline palace, where the water
+      glows faintly with the same ethereal energy as the Blade. The casters perform
+      a ritual, summoning the Blade of Balance from the ocean\u2019s depths. Its
+      coral structure pulses with serene light, radiating a profound sense of clarity
+      and equilibrium.\n\nAs you take hold of the Blade, you feel a surge of insight,
+      the burdens of the present momentarily lifted. The elder places a hand on your
+      shoulder, his expression grave:\n\n\u201CThe Blade is yours, traveler, but
+      it carries more than power\u2014it carries the responsibility of balance. What
+      you do with it will shape not only your world, but the currents of all time.
+      Go now, and may harmony guide your path.\u201D\n\nThe glowing vortex reappears,
+      and as you step back through, the shimmering beauty of the past fades, replaced
+      once more by the fractured chaos of the present."
+    Rectangle:
+      serializedVersion: 2
+      x: 736.70874
+      y: 21
+      width: 275.3592
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
