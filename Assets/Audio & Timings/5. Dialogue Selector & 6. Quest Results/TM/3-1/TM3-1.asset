@@ -1,0 +1,502 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 7370493d73e6c45bfb1379be3dd7dd3c, type: 3}
+  Text: "As you step into a part of the realm where the boundaries between memory
+    and reality blur, the oppressive darkness lightens for a moment. The water grows
+    clear, shimmering with an ethereal light, and the currents carry a melody that
+    feels ancient and harmonious. Before you, the chaos recedes, and a breathtaking
+    vision unfolds\u2014a window into what this realm once was, before the Artist\u2019s
+    mind shattered.\n\nThe ocean stretches endlessly, both above and below, bathed
+    in soft hues of aquamarine and deep cobalt. The Leviathans, their forms sleek
+    and radiant, swim gracefully through the air, their bodies trailing streams of
+    glowing energy that weave intricate patterns in the sky. Crystalline palaces
+    rise from the ocean\u2019s surface, their structures impossibly delicate yet
+    monumental, refracting light into dazzling rainbows that illuminate the waters
+    below. These magical spires extend into the depths, anchoring the palaces in
+    coral forests that pulse gently, as though alive and breathing with the rhythm
+    of the ocean.\n\nThe turtle-like inhabitants, their shells glimmering with intricate
+    runes, move with purpose and grace. On the surface, they chant ancient spells,
+    weaving shimmering threads of magic that arc into the air, forming bridges and
+    dwellings for their people. Below the waves, others craft luminous orbs of energy,
+    placing them into coral formations to power the realm\u2019s ecosystems. The
+    harmony between the surface and the depths is in complete balance\u2014each action
+    above mirrored by a response below\u2014creating a seamless order that resonates
+    through the air and water alike.\n\nEverywhere you look, there is motion and
+    life: children learning the sacred gestures of spellcasting, elders tending to
+    crystalline gardens, and majestic Leviathans soaring through both sky and sea,
+    their calls echoing with wisdom. The realm hums with vitality\u2014the very essence
+    at its peak: balanced, creative, and interconnected.\n\nThe melody fades, and
+    the vision fractures, shards of the harmonious realm dissolving into shadow and
+    chaos. The once-clear water becomes thick and murky, like ink seeping into every
+    corner of the expanse.\n\nA voice rises from the chaos, broken and filled with
+    anguish:\n\u201CDo you see it? Do you feel it? What this place was\u2014what
+    I was\u2014before the balance shattered? Now it is only this\u2026 this endless,
+    broken nightmare! Do you think you can fix it? You cannot even imagine the harmony
+    that was lost!\u201D\n\nHer laughter echoes, a sound both mocking and despairing,
+    as the nightmarish reality tightens around you\u2014the weight of her fractured
+    mind pressing down like an endless tide."
+  Timings:
+  - StartPosition: 9.287982
+    EndPosition: 15.341751
+    Name: Timing 1
+    Text: 'As you step into a part of the realm where the boundaries between memory
+      and reality blur, '
+    Rectangle:
+      serializedVersion: 2
+      x: 204.14146
+      y: 21
+      width: 113.50282
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.53415
+    EndPosition: 19.093447
+    Name: Timing 2
+    Text: 'the oppressive darkness lightens for a moment. '
+    Rectangle:
+      serializedVersion: 2
+      x: 321.2516
+      y: 21
+      width: 66.73367
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.202902
+    EndPosition: 22.644157
+    Name: Timing 3
+    Text: 'The water grows clear, shimmering with an ethereal light, '
+    Rectangle:
+      serializedVersion: 2
+      x: 390.03745
+      y: 21
+      width: 64.52051
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.732336
+    EndPosition: 27.668749
+    Name: Timing 4
+    Text: 'and the currents carry a melody that feels ancient and harmonious. '
+    Rectangle:
+      serializedVersion: 2
+      x: 456.21124
+      y: 21
+      width: 92.553345
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.869728
+    EndPosition: 32.827328
+    Name: Timing 5
+    Text: "Before you, the chaos recedes, and a breathtaking vision unfolds\u2014"
+    Rectangle:
+      serializedVersion: 2
+      x: 552.5328
+      y: 21
+      width: 92.95062
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.86202
+    EndPosition: 37.71793
+    Name: Timing 6
+    Text: "a window into what this realm once was, before the Artist\u2019s mind
+      shattered."
+    Rectangle:
+      serializedVersion: 2
+      x: 646.13385
+      y: 21
+      width: 91.04401
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.851906
+    EndPosition: 41.268642
+    Name: Timing 7
+    Text: 'The ocean stretches endlessly, both above and below, '
+    Rectangle:
+      serializedVersion: 2
+      x: 739.6898
+      y: 21
+      width: 64.06079
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.358116
+    EndPosition: 45.556293
+    Name: Timing 8
+    Text: 'bathed in soft hues of aquamarine and deep cobalt. '
+    Rectangle:
+      serializedVersion: 2
+      x: 805.42816
+      y: 21
+      width: 78.7121
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.70025
+    EndPosition: 52.25575
+    Name: Timing 9
+    Text: 'The Leviathans, their forms sleek and radiant, swim gracefully through
+      the air, '
+    Rectangle:
+      serializedVersion: 2
+      x: 886.8393
+      y: 21
+      width: 122.90985
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.341156
+    EndPosition: 58.419247
+    Name: Timing 10
+    Text: 'their bodies trailing streams of glowing energy that weave intricate patterns
+      in the sky. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1011.35046
+      y: 21
+      width: 113.95886
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.486237
+    EndPosition: 61.969955
+    Name: Timing 11
+    Text: "Crystalline palaces rise from the ocean\u2019s surface, "
+    Rectangle:
+      serializedVersion: 2
+      x: 1126.5653
+      y: 21
+      width: 65.31665
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.062107
+    EndPosition: 65.654655
+    Name: Timing 12
+    Text: 'their structures impossibly delicate yet monumental, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1193.6097
+      y: 21
+      width: 67.357056
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.75408
+    EndPosition: 71.2152
+    Name: Timing 13
+    Text: 'refracting light into dazzling rainbows that illuminate the waters below. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1262.8309
+      y: 21
+      width: 102.391235
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.373314
+    EndPosition: 74.43095
+    Name: Timing 14
+    Text: 'These magical spires extend into the depths, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1368.1866
+      y: 21
+      width: 57.32788
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.6559
+    EndPosition: 78.450615
+    Name: Timing 15
+    Text: 'anchoring the palaces in coral forests that pulse gently, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1429.7322
+      y: 21
+      width: 71.14758
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.64973
+    EndPosition: 82.4033
+    Name: Timing 16
+    Text: as though alive and breathing with the rhythm of the ocean.
+    Rectangle:
+      serializedVersion: 2
+      x: 1504.6129
+      y: 21
+      width: 70.3761
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.62034
+    EndPosition: 89.57171
+    Name: Timing 17
+    Text: 'The turtle-like inhabitants, their shells glimmering with intricate runes,
+      move with purpose and grace. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1579.0583
+      y: 21
+      width: 130.33215
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.70569
+    EndPosition: 92.251495
+    Name: Timing 18
+    Text: 'On the surface, they chant ancient spells, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1711.9025
+      y: 21
+      width: 47.731567
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.49209
+    EndPosition: 96.20417
+    Name: Timing 19
+    Text: 'weaving shimmering threads of magic that arc into the air, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1764.145
+      y: 21
+      width: 69.59827
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 96.33816
+    EndPosition: 99.28592
+    Name: Timing 20
+    Text: 'forming bridges and dwellings for their people. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1836.2554
+      y: 21
+      width: 55.267944
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 99.45807
+    EndPosition: 104.3775
+    Name: Timing 21
+    Text: 'Below the waves, others craft luminous orbs of energy, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1894.751
+      y: 21
+      width: 92.234985
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 104.45036
+    EndPosition: 109.00013
+    Name: Timing 22
+    Text: "placing them into coral formations to power the realm\u2019s ecosystems. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1988.352
+      y: 21
+      width: 85.3042
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.06712
+    EndPosition: 113.62276
+    Name: Timing 23
+    Text: The harmony between the surface and the depths is in complete balance
+    Rectangle:
+      serializedVersion: 2
+      x: 2074.9124
+      y: 21
+      width: 85.41406
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 113.71111
+    EndPosition: 117.50844
+    Name: Timing 24
+    Text: "\u2014each action above mirrored by a response below"
+    Rectangle:
+      serializedVersion: 2
+      x: 2161.983
+      y: 21
+      width: 71.19653
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 117.635284
+    EndPosition: 122.33205
+    Name: Timing 25
+    Text: "\u2014creating a seamless order that resonates through the air and water
+      alike."
+    Rectangle:
+      serializedVersion: 2
+      x: 2235.5576
+      y: 21
+      width: 88.0603
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 122.465034
+    EndPosition: 125.81576
+    Name: Timing 26
+    Text: 'Everywhere you look, there is motion and life: '
+    Rectangle:
+      serializedVersion: 2
+      x: 2326.1113
+      y: 21
+      width: 62.822998
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 125.90159
+    EndPosition: 129.50046
+    Name: Timing 27
+    Text: 'children learning the sacred gestures of spellcasting, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2390.5437
+      y: 21
+      width: 67.475586
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 129.56744
+    EndPosition: 136.06593
+    Name: Timing 28
+    Text: 'elders tending to crystalline gardens, and majestic Leviathans soaring
+      through both sky and sea, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2459.2751
+      y: 21
+      width: 121.841064
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 136.20834
+    EndPosition: 137.94177
+    Name: Timing 29
+    Text: 'their calls echoing with wisdom. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2583.7861
+      y: 21
+      width: 32.500244
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 138.11238
+    EndPosition: 147.05304
+    Name: Timing 30
+    Text: "The realm hums with vitality\u2014the very essence at its peak: balanced,
+      creative, and interconnected."
+    Rectangle:
+      serializedVersion: 2
+      x: 2619.485
+      y: 21
+      width: 167.62964
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 147.26105
+    EndPosition: 154.89139
+    Name: Timing 31
+    Text: The melody fades, and the vision fractures, shards of the harmonious realm
+      dissolving into shadow and chaos.
+    Rectangle:
+      serializedVersion: 2
+      x: 2791.0146
+      y: 21
+      width: 143.06201
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 155.09238
+    EndPosition: 161.72484
+    Name: Timing 32
+    Text: The once-clear water becomes thick and murky, like ink seeping into every
+      corner of the expanse.
+    Rectangle:
+      serializedVersion: 2
+      x: 2937.8452
+      y: 21
+      width: 124.35278
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 161.79181
+    EndPosition: 166.95041
+    Name: Timing 33
+    Text: 'A voice rises from the chaos, broken and filled with anguish:'
+    Rectangle:
+      serializedVersion: 2
+      x: 3063.4536
+      y: 21
+      width: 96.71924
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 167.1514
+    EndPosition: 172.30998
+    Name: Timing 34
+    Text: "\u201CDo you see it? Do you feel it? What this place was\u2014what I was\u2014"
+    Rectangle:
+      serializedVersion: 2
+      x: 3163.9412
+      y: 21
+      width: 96.718994
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 172.33368
+    EndPosition: 173.91785
+    Name: Timing 35
+    Text: 'before the balance shattered? '
+    Rectangle:
+      serializedVersion: 2
+      x: 3261.1042
+      y: 21
+      width: 29.701904
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 174.05196
+    EndPosition: 176.66463
+    Name: Timing 36
+    Text: "Now it is only this\u2026 this endless, broken nightmare! "
+    Rectangle:
+      serializedVersion: 2
+      x: 3293.3206
+      y: 21
+      width: 48.985107
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 176.81512
+    EndPosition: 181.28725
+    Name: Timing 37
+    Text: "Do you think you can fix it? You cannot even imagine the harmony that
+      was lost!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 3345.1274
+      y: 21
+      width: 83.84839
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 181.4359
+    EndPosition: 188.65665
+    Name: Timing 38
+    Text: Her laughter echoes, a sound both mocking and despairing, as the nightmarish
+      reality tightens around you
+    Rectangle:
+      serializedVersion: 2
+      x: 3431.763
+      y: 21
+      width: 135.38257
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 188.72365
+    EndPosition: 190.62231
+    Name: Timing 39
+    Text: "\u2014the weight of her fractured mind pressing down like an endless tide."
+    Rectangle:
+      serializedVersion: 2
+      x: 3568.4019
+      y: 21
+      width: 35.598145
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 190.62231
+    EndPosition: 192.47534
+    Name: Timing 40
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3604
+      y: 21
+      width: 34.742676
+      height: 165.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
