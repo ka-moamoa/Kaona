@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c7fc64c7970f34b23a3ece2ae323b493, type: 3}
+  Text: "You enter a space unlike any you have seen before\u2014a vast expanse of
+    shimmering water where the surface and depths coexist in surreal harmony. Reflections
+    of your mind ripple unnaturally across the water, not mirroring your movements
+    but twisting, turning, and reshaping into versions of your thoughts you do not
+    recognize. The air feels heavy, the currents whispering truths and lies alike.
+    At the center of this space, a massive, shattered mirror floats above the water\u2019s
+    surface, its jagged shards swirling in a slow, deliberate dance.\n\nYou must
+    attempt to use the Blade of Balance to restore the mirror."
+  Timings:
+  - StartPosition: 8.916463
+    EndPosition: 12.771031
+    Name: Timing 1
+    Text: You enter a space unlike any you have seen before
+    Rectangle:
+      serializedVersion: 2
+      x: 182.20297
+      y: 21
+      width: 65.79703
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 12.979955
+    EndPosition: 20.679697
+    Name: Timing 2
+    Text: "\u2014a vast expanse of shimmering water where the surface and depths
+      coexist in surreal harmony. "
+    Rectangle:
+      serializedVersion: 2
+      x: 251.5663
+      y: 21
+      width: 131.4337
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.78186
+    EndPosition: 25.014818
+    Name: Timing 3
+    Text: 'Reflections of your mind ripple unnaturally across the water, '
+    Rectangle:
+      serializedVersion: 2
+      x: 384.7439
+      y: 21
+      width: 72.2561
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.147211
+    EndPosition: 28.002537
+    Name: Timing 4
+    Text: 'not mirroring your movements but twisting, turning, '
+    Rectangle:
+      serializedVersion: 2
+      x: 459.25992
+      y: 21
+      width: 48.74008
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.106894
+    EndPosition: 32.279076
+    Name: Timing 5
+    Text: 'and reshaping into versions of your thoughts you do not recognize. '
+    Rectangle:
+      serializedVersion: 2
+      x: 509.78134
+      y: 21
+      width: 71.21866
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.332924
+    EndPosition: 37.082855
+    Name: Timing 6
+    Text: 'The air feels heavy, the currents whispering truths and lies alike. '
+    Rectangle:
+      serializedVersion: 2
+      x: 581.9192
+      y: 21
+      width: 81.08075
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.14143
+    EndPosition: 43.058292
+    Name: Timing 7
+    Text: "At the center of this space, a massive, shattered mirror floats above
+      the water\u2019s surface, "
+    Rectangle:
+      serializedVersion: 2
+      x: 663.9998
+      y: 21
+      width: 101.00012
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.108955
+    EndPosition: 48.565067
+    Name: Timing 8
+    Text: its jagged shards swirling in a slow, deliberate dance.
+    Rectangle:
+      serializedVersion: 2
+      x: 765.8648
+      y: 21
+      width: 93.13513
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.68222
+    EndPosition: 52.080032
+    Name: Timing 9
+    Text: You must attempt to use the Blade of Balance to restore the mirror.
+    Rectangle:
+      serializedVersion: 2
+      x: 860.99976
+      y: 21
+      width: 58.000244
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.080032
+    EndPosition: 54.569798
+    Name: Timing 10
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 919
+      y: 21
+      width: 42.5
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

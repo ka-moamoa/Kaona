@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-3C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 3422bfebdc97e4e398a0464add3180ce, type: 3}
+  Text: "You choose the path of fear. Overwhelmed by the chaotic energy of the fractured
+    mirror, you turn away, unable to face the shards reflecting your fears and hidden
+    truths. The Artist\u2019s voice rises in fury and despair:\n\n\u201CYou flee?
+    You cannot run from this! The fractures will follow you, growing deeper until
+    they consume you!\u201D\n\nAs you retreat, the mirror\u2019s jagged edges glow
+    brighter, casting distorted shadows that seem to mock your failure. You leave
+    empty-handed, with the imbalance unresolved and the chaos lingering in your mind,
+    promising greater challenges ahead."
+  Timings:
+  - StartPosition: 0.49077097
+    EndPosition: 2.7662594
+    Name: Timing 1
+    Text: 'You choose the path of fear. '
+    Rectangle:
+      serializedVersion: 2
+      x: 40.99962
+      y: 21
+      width: 51.00038
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 2.8359864
+    EndPosition: 15.7052145
+    Name: Timing 2
+    Text: "Overwhelmed by the chaotic energy of the fractured mirror, you turn away,
+      unable to face the shards reflecting your fears and hidden truths. The Artist\u2019s
+      voice rises in fury and despair:"
+    Rectangle:
+      serializedVersion: 2
+      x: 93.56278
+      y: 21
+      width: 288.43723
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.825034
+    EndPosition: 22.843948
+    Name: Timing 3
+    Text: "\u201CYou flee? You cannot run from this! The fractures will follow you,
+      growing deeper until they consume you!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 384.6855
+      y: 21
+      width: 157.31451
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.9778
+    EndPosition: 41.560818
+    Name: Timing 4
+    Text: "As you retreat, the mirror\u2019s jagged edges glow brighter, casting
+      distorted shadows that seem to mock your failure. You leave empty-handed, with
+      the imbalance unresolved and the chaos lingering in your mind, promising greater
+      challenges ahead."
+    Rectangle:
+      serializedVersion: 2
+      x: 545
+      y: 21
+      width: 416.5
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

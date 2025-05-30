@@ -247,7 +247,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: abe1941f1724545d89d379c32f4b72cd,
+      objectReference: {fileID: 21300000, guid: 613288dfa514a4741b8a8e409ea7d0ff,
         type: 3}
     - target: {fileID: 507660465623896995, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -258,7 +258,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4185c3661372746ef9b20e99a1961808,
+      objectReference: {fileID: 21300000, guid: 3d3a0df5488f1465a8b86824e37d6eaa,
         type: 3}
     - target: {fileID: 514207444861773890, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -275,7 +275,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 315ce2e0325114e21a426e4678ed70d7,
+      objectReference: {fileID: 21300000, guid: a4afdf0737c0243a891c29fa8e284ce8,
         type: 3}
     - target: {fileID: 667156917572728415, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -308,19 +308,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9aeff448ef5d3491f9bb365e5afd65c5,
+      objectReference: {fileID: 21300000, guid: 10ca0205c6d504e748c258cf8946096d,
         type: 3}
     - target: {fileID: 1043471503303665617, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
       value: 
-      objectReference: {fileID: 11400000, guid: b2d9256f8520e4f928a212ccbd1b3728,
+      objectReference: {fileID: 11400000, guid: 273bb07e8f2ae4b5b8c94933facd0799,
         type: 2}
+    - target: {fileID: 1070013869026324853, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_text
+      value: "Overwhelmed by the chaotic energy of the fractured mirror, you turn
+        away, unable to face the shards reflecting your fears and hidden truths.
+        The Artist\u2019s voice rises in fury and despair:\n\n\u201CYou flee? You
+        cannot run from this! The fractures will follow you, growing deeper until
+        they consume you!\u201D\n\nAs you retreat, the mirror\u2019s jagged edges
+        glow brighter, casting distorted shadows that seem to mock your failure.
+        You leave empty-handed, with the imbalance unresolved and the chaos lingering
+        in your mind, promising greater challenges ahead."
+      objectReference: {fileID: 0}
     - target: {fileID: 1103836198028958527, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 26482f7ad9a684491ad591ffbe0a30ef,
+      objectReference: {fileID: 21300000, guid: e600fd97276f147f4a729566ff1a12e1,
         type: 3}
     - target: {fileID: 1239724677597738773, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -405,6 +417,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b6a1ee8c430e64f8982527d4f09a650c,
         type: 3}
+    - target: {fileID: 1953909690357581575, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: timings
+      value: 
+      objectReference: {fileID: 11400000, guid: 448f3237ccc0d4e1fae1301d6056e336,
+        type: 2}
     - target: {fileID: 1979479468462019178, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
@@ -416,11 +434,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 11847e148fb5646e094da5f33cda8339,
         type: 3}
+    - target: {fileID: 2131778556065766233, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 730.2391
+      objectReference: {fileID: 0}
+    - target: {fileID: 2131778556065766233, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -365.12057
+      objectReference: {fileID: 0}
     - target: {fileID: 2203945107899456693, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2221110470755555672, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9ad4a7a6a75a847dca71bb5785ad20f1, type: 3}
     - target: {fileID: 2302967759299502499, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
@@ -473,7 +506,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 05a657f4527124e558d8774aabfe71fa,
+      objectReference: {fileID: 21300000, guid: 51c9fa90abe204d4b923cfe1f43a3e2a,
         type: 3}
     - target: {fileID: 2902959482064158924, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -550,7 +583,7 @@ PrefabInstance:
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: mokuQuestNum
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -625,6 +658,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 742d063a5a6f14eaeb407bc9bca7c626,
         type: 3}
+    - target: {fileID: 3862416558122111868, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Content
+      value: 
+      objectReference: {fileID: 364035751}
+    - target: {fileID: 3862416558122111868, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3910947643832050246, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
@@ -646,7 +689,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 315ce2e0325114e21a426e4678ed70d7,
+      objectReference: {fileID: 21300000, guid: a4afdf0737c0243a891c29fa8e284ce8,
         type: 3}
     - target: {fileID: 4023470202988147086, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -669,6 +712,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: 6. Quest Results
       objectReference: {fileID: 0}
+    - target: {fileID: 4348132352359277946, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3422bfebdc97e4e398a0464add3180ce, type: 3}
+    - target: {fileID: 4491016203703644365, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3422bfebdc97e4e398a0464add3180ce, type: 3}
+    - target: {fileID: 4513317740719270703, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: timings
+      value: 
+      objectReference: {fileID: 11400000, guid: 969eea376839142cfb9ae244c0ac12e6,
+        type: 2}
     - target: {fileID: 4532882838595185367, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
@@ -736,6 +795,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4707475975639287271, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_text
+      value: "Overwhelmed by the chaotic energy of the fractured mirror, you turn
+        away, unable to face the shards reflecting your fears and hidden truths.
+        The Artist\u2019s voice rises in fury and despair:\n\n\u201CYou flee? You
+        cannot run from this! The fractures will follow you, growing deeper until
+        they consume you!\u201D\n\nAs you retreat, the mirror\u2019s jagged edges
+        glow brighter, casting distorted shadows that seem to mock your failure.
+        You leave empty-handed, with the imbalance unresolved and the chaos lingering
+        in your mind, promising greater challenges ahead."
+      objectReference: {fileID: 0}
     - target: {fileID: 4707833970744700282, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
@@ -756,7 +827,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ac680a5516270432caea76143bff36b5,
+      objectReference: {fileID: 21300000, guid: 3647af6c8b7f641edadd14fc41966223,
         type: 3}
     - target: {fileID: 5017178541814297406, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -784,11 +855,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5277541006785362942, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: scrollSpeedMultiplier
+      value: 1.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5287257582251314987, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 23a1cfa55d3c6485a9f729b012a0efc4,
+      objectReference: {fileID: 21300000, guid: 0f8fb588b6a2349b8984116d16bd3563,
         type: 3}
     - target: {fileID: 5303454230901314243, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -843,6 +919,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5915683486940540875, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 737.0548
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915683486940540875, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -368.5277
+      objectReference: {fileID: 0}
     - target: {fileID: 5924449532341913504, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
@@ -853,7 +939,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: abe1941f1724545d89d379c32f4b72cd,
+      objectReference: {fileID: 21300000, guid: 613288dfa514a4741b8a8e409ea7d0ff,
         type: 3}
     - target: {fileID: 6083094074443051061, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -861,6 +947,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 315ce2e0325114e21a426e4678ed70d7,
         type: 3}
+    - target: {fileID: 6093525354424660885, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: timings
+      value: 
+      objectReference: {fileID: 11400000, guid: 448f3237ccc0d4e1fae1301d6056e336,
+        type: 2}
     - target: {fileID: 6134004823735452644, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -886,24 +978,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4185c3661372746ef9b20e99a1961808,
+      objectReference: {fileID: 21300000, guid: 3d3a0df5488f1465a8b86824e37d6eaa,
         type: 3}
     - target: {fileID: 6188602993151645785, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_text
-      value: "As you wield the Blade of Balance, its coral structure hums softly,
-        resonating with the chaotic currents of the Artist\u2019s mind. The swirling
-        void around you reacts to its presence\u2014the chaotic thoughts and currents
-        calming slightly as you step closer to the fractured figure of the Artist.
-        Her form flickers, torn between radiant light and suffocating shadow, her
-        voice a blend of broken laughter and quiet sobs:\n\n\u201CYou bring balance
-        here? To me? Do you think the Blade will calm this storm? You cannot separate
-        the surface from the depths\u2026 but try, seeker. Try!\u201D\n\nThe Blade
-        glows brighter, stabilizing the chaotic waters momentarily. The Artist\u2019s
-        voice softens, though still fractured:\n\n\u201CYou\u2026 you carry harmony
-        where I could not. The storm quiets, but it will never be still. Go forward,
-        seeker, and hold to that balance.\u201D\n\nYou leave with a sense of clarity,
-        gaining insights into the fractured realm and the Artist\u2019s plight."
+      value: "With the Blade of Balance in hand, you step toward the swirling shards
+        of the shattered mirror, its jagged pieces glowing faintly with shifting
+        images of your past and subconscious. As the blade hums with a serene, steady
+        energy, you begin to draw the fragments together, each movement guided by
+        intuition rather than force. The shards resist at first, their surfaces emanating
+        bursts of light and shadow, conjuring spectral guardians\u2014manifestations
+        of fears, doubts, and hidden truths\u2014that lash out in defense. With each
+        precise strike of the Blade, you dispel the illusions, cutting through the
+        chaos with clarity and purpose. Gradually, the shards align, fusing into
+        a single, brilliant surface that reflects not just your form but the unity
+        of this Moku."
       objectReference: {fileID: 0}
     - target: {fileID: 6269413862385710869, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -921,23 +1011,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 742d063a5a6f14eaeb407bc9bca7c626,
+      objectReference: {fileID: 21300000, guid: 25d9c0a9ecdcf441c82c01d63651eea4,
         type: 3}
     - target: {fileID: 6417834880689248834, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6d47d8542d5ca4bbea2118ee4d9fdd14,
+      objectReference: {fileID: 21300000, guid: b6a1ee8c430e64f8982527d4f09a650c,
         type: 3}
     - target: {fileID: 6451516316556631810, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 949.3722
+      value: 2061.7827
       objectReference: {fileID: 0}
     - target: {fileID: 6451516316556631810, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -476.0757
+      value: -1032.2808
       objectReference: {fileID: 0}
     - target: {fileID: 6462432647343527879, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -990,6 +1080,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 11847e148fb5646e094da5f33cda8339,
         type: 3}
+    - target: {fileID: 7043114450831398182, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d285d4c7255364a13aea8179663ebcb3, type: 3}
     - target: {fileID: 7063063106717221258, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -1006,6 +1101,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: bcd13168bdf704726a8c1200723e0a62,
         type: 3}
+    - target: {fileID: 7211752628430168611, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e8b17b8db8b794c13a22ef7eb3d39f49, type: 3}
     - target: {fileID: 7219772824978669920, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Sprite
@@ -1025,21 +1125,36 @@ PrefabInstance:
     - target: {fileID: 7269221494702076546, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7294693389442421927, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_text
-      value: "Without the Blade, you attempt to approach the Artist with empathy,
-        stepping cautiously into the swirling chaos that surrounds her. Her fragmented
-        form trembles, her voice an anguished chorus of contradiction:\n\n\u201CYou
-        seek to understand this? To know me? You think you can shift through the
-        currents, through the screams, through the silence? My mind is this ocean!
-        It is endless! It will drown you!\u201D\n\nThe chaotic waters calm slightly,
-        and the Artist\u2019s form flickers with a fleeting moment of clarity. Her
-        voice trembles, quieter now:\n\n\u201CYou have glimpsed it\u2026 the storm
-        within. It cannot be mended, but you\u2026 you bring a light to the depths.
-        Perhaps it is enough.\u201D"
+      value: "As you approach the fractured mirror without the Blade of Balance,
+        the shards pulse erratically, their chaotic energy filling the air with flickering
+        light and shadow. The Artist\u2019s voice surrounds you, her tone fractured
+        and erratic:\n\u201CYou come without the Blade\u2026 you cannot mend what
+        is broken! But step closer\u2014see what lies in these shards of thought!
+        They are pieces of me, pieces of you, twisted and jagged, waiting to cut
+        you open!\u201D\n\nHer words rise and fall in a chaotic symphony, a blend
+        of mocking laughter and desperate cries. The shards float toward you, each
+        one shimmering with fragments of memories, fears, and regrets. As you reach
+        out to touch them, visions erupt\u2014moments of your past that demand reflection,
+        forcing you to confront truths long buried.\n\nThe mirror\u2019s shards react
+        to your responses, glowing faintly when your answers are honest and trembling
+        violently when avoided or dismissed. Each interaction pulls you deeper into
+        your own mind, the boundaries between reflection and reality blurring. The
+        Artist\u2019s voice fractures further, her anguish spilling out with every
+        word:\n\u201CDo you see now? This chaos\u2014it is mine, it is yours! The
+        mirror breaks because we break, over and over again!\u201D\n\nSlowly, as
+        you face each shard with introspection and courage, the fragments begin to
+        stabilize, forming a fragile mosaic that reflects pieces of yourself alongside
+        the realm\u2019s shattered balance. Though incomplete, the mirror radiates
+        a faint harmony, and the Artist\u2019s voice softens, trembling with sorrow:\n\u201CYou
+        have touched the edges of understanding\u2026 but the cracks remain. Take
+        what you\u2019ve learned, and carry it forward\u2026 if you can.\u201D\n\nThe
+        light from the shards lingers within you, filling you with clarity and insight
+        for the journey ahead."
       objectReference: {fileID: 0}
     - target: {fileID: 7410670169945757431, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -1047,15 +1162,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3d3a0df5488f1465a8b86824e37d6eaa,
         type: 3}
+    - target: {fileID: 7516436743896742922, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 44990a6451a1f4c4aabef08a47907ed1, type: 3}
     - target: {fileID: 7589060941272880124, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1284.865
+      value: 782.9089
       objectReference: {fileID: 0}
     - target: {fileID: 7589060941272880124, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -643.8219
+      value: -392.8437
       objectReference: {fileID: 0}
     - target: {fileID: 7674900276619917037, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -1090,6 +1210,16 @@ PrefabInstance:
     - target: {fileID: 8066998100396077669, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8136882805965905042, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181975451412144516, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8265911925785337632, guid: 30677daa3838f4ab997ceb470cb3b56c,
@@ -1155,7 +1285,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 23a1cfa55d3c6485a9f729b012a0efc4,
+      objectReference: {fileID: 21300000, guid: 0f8fb588b6a2349b8984116d16bd3563,
         type: 3}
     - target: {fileID: 8613653487321385459, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -1178,6 +1308,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797549746094925806, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Content
+      value: 
+      objectReference: {fileID: 364035750}
+    - target: {fileID: 8797549746094925806, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8923160145686241291, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -1250,6 +1390,18 @@ RectTransform:
 --- !u!224 &364035749 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5369245595612093048, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    type: 3}
+  m_PrefabInstance: {fileID: 364035746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &364035750 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2131778556065766233, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    type: 3}
+  m_PrefabInstance: {fileID: 364035746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &364035751 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5915683486940540875, guid: 30677daa3838f4ab997ceb470cb3b56c,
     type: 3}
   m_PrefabInstance: {fileID: 364035746}
   m_PrefabAsset: {fileID: 0}

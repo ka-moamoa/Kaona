@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-3B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 9ad4a7a6a75a847dca71bb5785ad20f1, type: 3}
+  Text: "As you approach the fractured mirror without the Blade of Balance, the shards
+    pulse erratically, their chaotic energy filling the air with flickering light
+    and shadow. The Artist\u2019s voice surrounds you, her tone fractured and erratic:\n\u201CYou
+    come without the Blade\u2026 you cannot mend what is broken! But step closer\u2014see
+    what lies in these shards of thought! They are pieces of me, pieces of you, twisted
+    and jagged, waiting to cut you open!\u201D\n\nHer words rise and fall in a chaotic
+    symphony, a blend of mocking laughter and desperate cries. The shards float toward
+    you, each one shimmering with fragments of memories, fears, and regrets. As you
+    reach out to touch them, visions erupt\u2014moments of your past that demand
+    reflection, forcing you to confront truths long buried.\n\nThe mirror\u2019s
+    shards react to your responses, glowing faintly when your answers are honest
+    and trembling violently when avoided or dismissed. Each interaction pulls you
+    deeper into your own mind, the boundaries between reflection and reality blurring.
+    The Artist\u2019s voice fractures further, her anguish spilling out with every
+    word:\n\u201CDo you see now? This chaos\u2014it is mine, it is yours! The mirror
+    breaks because we break, over and over again!\u201D\n\nSlowly, as you face each
+    shard with introspection and courage, the fragments begin to stabilize, forming
+    a fragile mosaic that reflects pieces of yourself alongside the realm\u2019s
+    shattered balance. Though incomplete, the mirror radiates a faint harmony, and
+    the Artist\u2019s voice softens, trembling with sorrow:\n\u201CYou have touched
+    the edges of understanding\u2026 but the cracks remain. Take what you\u2019ve
+    learned, and carry it forward\u2026 if you can.\u201D\n\nThe light from the shards
+    lingers within you, filling you with clarity and insight for the journey ahead."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 16.455572
+    Name: Timing 1
+    Text: "As you approach the fractured mirror without the Blade of Balance, the
+      shards pulse erratically, their chaotic energy filling the air with flickering
+      light and shadow. The Artist\u2019s voice surrounds you, her tone fractured
+      and erratic:"
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 195.12567
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.648708
+    EndPosition: 29.454092
+    Name: Timing 2
+    Text: "\u201CYou come without the Blade\u2026 you cannot mend what is broken!
+      But step closer\u2014see what lies in these shards of thought! They are pieces
+      of me, pieces of you, twisted and jagged, waiting to cut you open!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 227.41583
+      y: 21
+      width: 151.84274
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.592358
+    EndPosition: 54.898003
+    Name: Timing 3
+    Text: "Her words rise and fall in a chaotic symphony, a blend of mocking laughter
+      and desperate cries. The shards float toward you, each one shimmering with
+      fragments of memories, fears, and regrets. As you reach out to touch them,
+      visions erupt\u2014moments of your past that demand reflection, forcing you
+      to confront truths long buried."
+    Rectangle:
+      serializedVersion: 2
+      x: 380.89807
+      y: 21
+      width: 300.06744
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.018208
+    EndPosition: 77.57627
+    Name: Timing 4
+    Text: "The mirror\u2019s shards react to your responses, glowing faintly when
+      your answers are honest and trembling violently when avoided or dismissed.
+      Each interaction pulls you deeper into your own mind, the boundaries between
+      reflection and reality blurring. The Artist\u2019s voice fractures further,
+      her anguish spilling out with every word:"
+    Rectangle:
+      serializedVersion: 2
+      x: 682.39087
+      y: 21
+      width: 267.4873
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.83955
+    EndPosition: 86.86319
+    Name: Timing 5
+    Text: "\u201CDo you see now? This chaos\u2014it is mine, it is yours! The mirror
+      breaks because we break, over and over again!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 953.00006
+      y: 21
+      width: 106.99982
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.03186
+    EndPosition: 108.789825
+    Name: Timing 6
+    Text: "Slowly, as you face each shard with introspection and courage, the fragments
+      begin to stabilize, forming a fragile mosaic that reflects pieces of yourself
+      alongside the realm\u2019s shattered balance. Though incomplete, the mirror
+      radiates a faint harmony, and the Artist\u2019s voice softens, trembling with
+      sorrow:"
+    Rectangle:
+      serializedVersion: 2
+      x: 1062
+      y: 21
+      width: 258
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 108.97472
+    EndPosition: 120.76514
+    Name: Timing 7
+    Text: "\u201CYou have touched the edges of understanding\u2026 but the cracks
+      remain. Take what you\u2019ve learned, and carry it forward\u2026 if you can.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 1322.1924
+      y: 21
+      width: 139.80762
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 120.9338
+    EndPosition: 128.8098
+    Name: Timing 8
+    Text: The light from the shards lingers within you, filling you with clarity
+      and insight for the journey ahead.
+    Rectangle:
+      serializedVersion: 2
+      x: 1463.9999
+      y: 21
+      width: 93.39148
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

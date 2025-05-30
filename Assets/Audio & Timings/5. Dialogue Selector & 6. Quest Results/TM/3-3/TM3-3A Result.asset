@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM3-3A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: d285d4c7255364a13aea8179663ebcb3, type: 3}
+  Text: "With the Blade of Balance in hand, you step toward the swirling shards of
+    the shattered mirror, its jagged pieces glowing faintly with shifting images
+    of your past and subconscious. As the blade hums with a serene, steady energy,
+    you begin to draw the fragments together, each movement guided by intuition rather
+    than force. The shards resist at first, their surfaces emanating bursts of light
+    and shadow, conjuring spectral guardians\u2014manifestations of fears, doubts,
+    and hidden truths\u2014that lash out in defense. With each precise strike of
+    the Blade, you dispel the illusions, cutting through the chaos with clarity and
+    purpose. Gradually, the shards align, fusing into a single, brilliant surface
+    that reflects not just your form but the unity of this Moku."
+  Timings:
+  - StartPosition: 0.18213151
+    EndPosition: 23.860607
+    Name: Timing 1
+    Text: 'With the Blade of Balance in hand, you step toward the swirling shards
+      of the shattered mirror, its jagged pieces glowing faintly with shifting images
+      of your past and subconscious. As the blade hums with a serene, steady energy,
+      you begin to draw the fragments together, each movement guided by intuition
+      rather than force. '
+    Rectangle:
+      serializedVersion: 2
+      x: 38.437595
+      y: 21
+      width: 1096.9512
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.895386
+    EndPosition: 40.171013
+    Name: Timing 2
+    Text: "The shards resist at first, their surfaces emanating bursts of light and
+      shadow, conjuring spectral guardians\u2014manifestations of fears, doubts,
+      and hidden truths\u2014that lash out in defense."
+    Rectangle:
+      serializedVersion: 2
+      x: 1137
+      y: 21
+      width: 754
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.192585
+    EndPosition: 56.555103
+    Name: Timing 3
+    Text: With each precise strike of the Blade, you dispel the illusions, cutting
+      through the chaos with clarity and purpose. Gradually, the shards align, fusing
+      into a single, brilliant surface that reflects not just your form but the unity
+      of this Moku.
+    Rectangle:
+      serializedVersion: 2
+      x: 1891.9993
+      y: 21
+      width: 758.0254
+      height: 165.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
