@@ -191,6 +191,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5. Dialogue Screens/TM/5. TM2-3.unity
     guid: 727f77ff24f994481a50baa856225251
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/TM/6. TM2-3.unity
+    guid: d5419f7a60a01477ba244fc5c7131868
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: TM2-3A Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 4d70dccc17bb444c4a488f1bca129845, type: 3}
+  Text: "The currents guide you into a chamber of impossible geometry, where coral
+    structures twist in directions that defy logic and perspective. Strange symbols
+    pulse with otherworldly light, appearing in places that seem to shift when not
+    directly observed. The water here hums with an unsettling vibration that fills
+    your mind with whispers that are not your own.\n\nAs you move through the maze,
+    strange visions close in. Shadows twist and shift, and voices rise from the dark,
+    accusing and screaming. Your very being is filled with fear.\nYou must trust
+    your instincts. You close your eyes and lean into your instincts.\n\nYou open
+    your eyes at the center of it all and find the Anemone Crown of Intuition, floating
+    on a still column of currents. When you take it, the chaos fades, replaced by
+    a deep, quiet voice:\n\u201CYou have walked the edge of madness and emerged with
+    your mind intact. This crown is yours\u2014a token of intuition\u2019s triumph
+    over fear.\u201D"
+  Timings:
+  - StartPosition: 0.14210884
+    EndPosition: 65.874504
+    Name: Timing 1
+    Text: "The currents guide you into a chamber of impossible geometry, where coral
+      structures twist in directions that defy logic and perspective. Strange symbols
+      pulse with otherworldly light, appearing in places that seem to shift when
+      not directly observed. The water here hums with an unsettling vibration that
+      fills your mind with whispers that are not your own.\n\nAs you move through
+      the maze, strange visions close in. Shadows twist and shift, and voices rise
+      from the dark, accusing and screaming. Your very being is filled with fear.\nYou
+      must trust your instincts. You close your eyes and lean into your instincts.\n\nYou
+      open your eyes at the center of it all and find the Anemone Crown of Intuition,
+      floating on a still column of currents. When you take it, the chaos fades,
+      replaced by a deep, quiet voice:\n\u201CYou have walked the edge of madness
+      and emerged with your mind intact. This crown is yours\u2014a token of intuition\u2019s
+      triumph over fear.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 31.999786
+      y: 21
+      width: 925.00024
+      height: 184.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
