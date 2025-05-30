@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE1-1C
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: afa73c3d239af48a28768d8e96756522, type: 3}
+  Text: You leave the area
+  Timings:
+  - StartPosition: 0.72183776
+    EndPosition: 3.0563266
+    Name: Timing 1
+    Text: You leave the area
+    Rectangle:
+      serializedVersion: 2
+      x: 250
+      y: 21
+      width: 711.5
+      height: 148.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

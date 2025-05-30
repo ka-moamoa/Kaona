@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE1-1B Result
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 9ed99abd9a7f24e7eb513f97bf034948, type: 3}
+  Text: "The chanting continues for a time, then stops abruptly as one of the warriors
+    notices your approach. In the cold, dark stillness, you announce who you are.
+    The two warriors remain silent, while the chanter speaks. Their voice is rich
+    and resonant, carrying the weight of history, shifting seamlessly between male
+    and female tones. \u201CBeware the Sentinels,\u201D they say, their words layered
+    with ancient sorrow. \u201CThose silent towers that loom over our land. To us,
+    they are cruel oppressors, against whom we have waged a ceaseless war.\u201D
+    Their voice, both commanding and soft, echoes with the pain of their people\u2019s
+    enduring struggle, a plea for you to grasp the complexity of the conflict. \u201CYou
+    tread upon a land scarred by battle,\u201D they continue, \u201Cwhere every stone
+    tells a story of defiance against what we perceive as tyranny. Be cautious, be
+    wise, and see beyond the silence of these monoliths to the deeper truths of our
+    struggle.\u201D Their warning, filled with emotion, serves as a powerful reminder
+    of the relentless war and a call for empathy and understanding as you journey
+    through this troubled land."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 54.91572
+    Name: Timing 1
+    Text: "The chanting continues for a time, then stops abruptly as one of the warriors
+      notices your approach. In the cold, dark stillness, you announce who you are.
+      The two warriors remain silent, while the chanter speaks. Their voice is rich
+      and resonant, carrying the weight of history, shifting seamlessly between male
+      and female tones. \u201CBeware the Sentinels,\u201D they say, their words layered
+      with ancient sorrow. "
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 348.99997
+      height: 148.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.281586
+    EndPosition: 100.39035
+    Name: Timing 2
+    Text: "\u201CThose silent towers that loom over our land. To us, they are cruel
+      oppressors, against whom we have waged a ceaseless war.\u201D Their voice,
+      both commanding and soft, echoes with the pain of their people\u2019s enduring
+      struggle, a plea for you to grasp the complexity of the conflict. \u201CYou
+      tread upon a land scarred by battle,\u201D they continue, "
+    Rectangle:
+      serializedVersion: 2
+      x: 381.3251
+      y: 21
+      width: 286.6749
+      height: 148.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.54768
+    EndPosition: 146.57306
+    Name: Timing 3
+    Text: "\u201Cwhere every stone tells a story of defiance against what we perceive
+      as tyranny. Be cautious, be wise, and see beyond the silence of these monoliths
+      to the deeper truths of our struggle.\u201D Their warning, filled with emotion,
+      serves as a powerful reminder of the relentless war and a call for empathy
+      and understanding as you journey through this troubled land."
+    Rectangle:
+      serializedVersion: 2
+      x: 668.9999
+      y: 21
+      width: 292.50012
+      height: 148.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
