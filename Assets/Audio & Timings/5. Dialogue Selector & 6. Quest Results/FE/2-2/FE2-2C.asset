@@ -12,6 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-2C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 4970e8b245d45491bb7fad3fd553eea2, type: 3}
+  Text: In a moment tinged with sorrow and desperation, you find yourself urging
+    the severely injured warriors to return to battle against the Sentinel towers.
+    Despite the warriors' blistered skin and the pain etched on their faces, their
+    resolve is reignited by your persuasion. As they turn back towards the looming
+    towers, there's a tragic bravery in their steps, a poignant acceptance of their
+    fate. Their silhouettes, marred by injuries and smoke, become a heart-wrenching
+    symbol of the sacrifice as they disappear into the battlefield. You are left
+    with a profound sense of sadness, knowing that these warriors, driven by a sense
+    of duty and belief, are walking towards an almost certain demise. The air is
+    heavy with the weight of this decision, a somber reminder of the cost of war
+    and the price of unwavering conviction in a cause.
+  Timings:
+  - StartPosition: 13.862313
+    EndPosition: 40.595657
+    Name: Timing 1
+    Text: 'In a moment tinged with sorrow and desperation, you find yourself urging
+      the severely injured warriors to return to battle against the Sentinel towers.
+      Despite the warriors'' blistered skin and the pain etched on their faces, their
+      resolve is reignited by your persuasion. '
+    Rectangle:
+      serializedVersion: 2
+      x: 158.39377
+      y: 21
+      width: 247.60623
+      height: 149
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.80592
+    EndPosition: 68.23525
+    Name: Timing 2
+    Text: 'As they turn back towards the looming towers, there''s a tragic bravery
+      in their steps, a poignant acceptance of their fate. Their silhouettes, marred
+      by injuries and smoke, become a heart-wrenching symbol of the sacrifice as
+      they disappear into the battlefield. '
+    Rectangle:
+      serializedVersion: 2
+      x: 407.94745
+      y: 21
+      width: 254.05249
+      height: 149
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.34322
+    EndPosition: 100.57143
+    Name: Timing 3
+    Text: You are left with a profound sense of sadness, knowing that these warriors,
+      driven by a sense of duty and belief, are walking towards an almost certain
+      demise. The air is heavy with the weight of this decision, a somber reminder
+      of the cost of war and the price of unwavering conviction in a cause.
+    Rectangle:
+      serializedVersion: 2
+      x: 663
+      y: 21
+      width: 298.5
+      height: 149
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

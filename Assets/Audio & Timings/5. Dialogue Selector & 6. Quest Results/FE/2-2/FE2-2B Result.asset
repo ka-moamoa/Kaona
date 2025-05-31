@@ -12,6 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-2B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 325f73fc7f63d46eda29be2ed861ef30, type: 3}
+  Text: In the midst of chaos and suffering, you create a small sanctuary of solace
+    and peace for the injured warriors. You find a quiet spot away from the turmoil,
+    where the distant glow of the lava rivers casts a gentle light. Here, you carefully
+    tend to the warriors' wounds, your actions gentle and deliberate. You share words
+    of comfort, your voice soft and empathetic, cutting through the pain and fear.
+    For a brief moment, the warriors are allowed to lay down their burdens, their
+    blistered skin and pained expressions easing under the care. In this temporary
+    haven, there's a sense of shared humanity, a poignant pause in the relentless
+    cycle of conflict. Your compassion provides a fleeting, yet powerful respite,
+    offering the warriors a rare moment of peace amidst the ravages of their unyielding
+    war.
+  Timings:
+  - StartPosition: 0.38234466
+    EndPosition: 32.335434
+    Name: Timing 1
+    Text: 'In the midst of chaos and suffering, you create a small sanctuary of solace
+      and peace for the injured warriors. You find a quiet spot away from the turmoil,
+      where the distant glow of the lava rivers casts a gentle light. Here, you carefully
+      tend to the warriors'' wounds, your actions gentle and deliberate. '
+    Rectangle:
+      serializedVersion: 2
+      x: 37
+      y: 21
+      width: 585
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.3778
+    EndPosition: 62.813763
+    Name: Timing 2
+    Text: 'You share words of comfort, your voice soft and empathetic, cutting through
+      the pain and fear. For a brief moment, the warriors are allowed to lay down
+      their burdens, their blistered skin and pained expressions easing under the
+      care. In this temporary haven, '
+    Rectangle:
+      serializedVersion: 2
+      x: 622.77563
+      y: 21
+      width: 557.22437
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.868366
+    EndPosition: 89.573875
+    Name: Timing 3
+    Text: there's a sense of shared humanity, a poignant pause in the relentless
+      cycle of conflict. Your compassion provides a fleeting, yet powerful respite,
+      offering the warriors a rare moment of peace amidst the ravages of their unyielding
+      war.
+    Rectangle:
+      serializedVersion: 2
+      x: 1180.9996
+      y: 21
+      width: 488.92688
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
