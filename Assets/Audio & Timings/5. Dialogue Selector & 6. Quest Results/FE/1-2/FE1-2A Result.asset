@@ -12,6 +12,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE1-2A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: a164479155a924e50b51009e2a988818, type: 3}
+  Text: "Driven by necessity but mindful of the sacred, you carefully search the
+    encampment for essential supplies without disturbing the sanctity of the rites.\n\nAs
+    you search through the equipment and supplies, one thing stands out: stone armor
+    adorning each figure, intricately etched with symbols of cultural significance.
+    Despite its sturdiness, the armor seems to cradle the bodies in a protective
+    embrace, and notably, no weapons are found\u2014a choice perhaps signifying a
+    desire for these warriors to rest unburdened by the tools of war. Instead, small
+    personal or practical items are found, such as trinkets and amulets made of stone.
+    You decide to keep one of these talismans, as it may aid you in your journey."
+  Timings:
+  - StartPosition: 0
+    EndPosition: 21.70174
+    Name: Timing 1
+    Text: Driven by necessity but mindful of the sacred, you carefully search the
+      encampment for essential supplies without disturbing the sanctity of the rites.
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 202
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.942858
+    EndPosition: 45.229862
+    Name: Timing 2
+    Text: 'As you search through the equipment and supplies, one thing stands out:
+      stone armor adorning each figure, intricately etched with symbols of cultural
+      significance. '
+    Rectangle:
+      serializedVersion: 2
+      x: 234.24432
+      y: 21
+      width: 216.75565
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.444717
+    EndPosition: 57.262512
+    Name: Timing 3
+    Text: 'Despite its sturdiness, the armor seems to cradle the bodies in a protective
+      embrace, '
+    Rectangle:
+      serializedVersion: 2
+      x: 452.99985
+      y: 21
+      width: 110.00015
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.495872
+    EndPosition: 76.923
+    Name: Timing 4
+    Text: "and notably, no weapons are found\u2014a choice perhaps signifying a desire
+      for these warriors to rest unburdened by the tools of war. "
+    Rectangle:
+      serializedVersion: 2
+      x: 565.1721
+      y: 21
+      width: 180.82788
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.0703
+    EndPosition: 100.0751
+    Name: Timing 5
+    Text: Instead, small personal or practical items are found, such as trinkets
+      and amulets made of stone. You decide to keep one of these talismans, as it
+      may aid you in your journey.
+    Rectangle:
+      serializedVersion: 2
+      x: 747.37103
+      y: 21
+      width: 214.12897
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

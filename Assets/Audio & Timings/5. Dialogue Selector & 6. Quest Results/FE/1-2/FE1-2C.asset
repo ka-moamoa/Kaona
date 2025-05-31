@@ -12,6 +12,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE1-2C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 73ae59e1be50341528d9bf7835412100, type: 3}
+  Text: As you leave the encampment, you carry within you a deep sense of solemnity
+    and introspection. The experience of navigating through the ceremonial resting
+    place, amidst the silent figures in their stone armor, leaves a lasting impression
+    on your mind. As you tread away quietly, each step resonates with respect for
+    the fallen and a newfound understanding of the realm's profound relationship
+    with life, death, and honor.
+  Timings:
+  - StartPosition: 4.0890403
+    EndPosition: 19.298742
+    Name: Timing 1
+    Text: 'As you leave the encampment, you carry within you a deep sense of solemnity
+      and introspection. '
+    Rectangle:
+      serializedVersion: 2
+      x: 100.51069
+      y: 21
+      width: 262.2734
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.37517
+    EndPosition: 48.604233
+    Name: Timing 2
+    Text: 'The experience of navigating through the ceremonial resting place, amidst
+      the silent figures in their stone armor, leaves a lasting impression on your
+      mind. '
+    Rectangle:
+      serializedVersion: 2
+      x: 364.102
+      y: 21
+      width: 504.0208
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.704967
+    EndPosition: 78.05388
+    Name: Timing 3
+    Text: As you tread away quietly, each step resonates with respect for the fallen
+      and a newfound understanding of the realm's profound relationship with life,
+      death, and honor.
+    Rectangle:
+      serializedVersion: 2
+      x: 869.85986
+      y: 21
+      width: 506.0874
+      height: 127
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
