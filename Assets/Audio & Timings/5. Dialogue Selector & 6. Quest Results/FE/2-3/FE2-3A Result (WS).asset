@@ -12,6 +12,89 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-3A Result (WS)
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 015026b45e32e4050b3b108068f202db, type: 3}
+  Text: ">>> ACCESS GRANTED: STONE_OF_INSIGHT.MRK  \n>>> TRANSFER INITIATED  \n>>>
+    BOOTING SIMULATION: MOKU_HANA.EXE  \n>>> ENVIRONMENT: WAIANAE_COAST.LOAD  \n>>>
+    DRAFTSMAN: PRESENT\n\nThe mist around you fractures into blocks of light. Through
+    the forming portal, images begin to  stutter into view, like memories on rewind:
+    \nA stern missionary squints in the sun as he questions a Hawaiian guide beside
+    you. A dim, wooden house packed with sea captains, plantation workers, and whispers
+    of rebellion. A woman clutches a basket of wilted food. Her voice shakes: \n\u201CDowsett
+    drains the lo'i dry. Will you help us divert the water?\u201D \nBehind her, the
+    fields are cracked with thirst.\n\n>>> FINALIZE USER ENTRY  \n>>> REALITY OVERRIDE:
+    AUTHORITY = DRAFTSMAN\n\nThe images expand and the portal pulls you into Moku
+    Hana."
+  Timings:
+  - StartPosition: 18.075556
+    EndPosition: 31.221415
+    Name: Timing 1
+    Text: ">>> ACCESS GRANTED: STONE_OF_INSIGHT.MRK  \n>>> TRANSFER INITIATED  \n>>>
+      BOOTING SIMULATION: MOKU_HANA.EXE  \n>>> ENVIRONMENT: WAIANAE_COAST.LOAD  \n>>>
+      DRAFTSMAN: PRESENT"
+    Rectangle:
+      serializedVersion: 2
+      x: 522.1942
+      y: 21
+      width: 357.9594
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.307892
+    EndPosition: 43.15647
+    Name: Timing 2
+    Text: 'The mist around you fractures into blocks of light. Through the forming
+      portal, images begin to  stutter into view, like memories on rewind: '
+    Rectangle:
+      serializedVersion: 2
+      x: 882.50836
+      y: 21
+      width: 322.6347
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.242947
+    EndPosition: 67.89144
+    Name: Timing 3
+    Text: "A stern missionary squints in the sun as he questions a Hawaiian guide
+      beside you. A dim, wooden house packed with sea captains, plantation workers,
+      and whispers of rebellion. A woman clutches a basket of wilted food. Her voice
+      shakes: \n\u201CDowsett drains the lo'i dry. Will you help us divert the water?\u201D
+      \nBehind her, the fields are cracked with thirst."
+    Rectangle:
+      serializedVersion: 2
+      x: 1207.4978
+      y: 21
+      width: 671.1742
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.17882
+    EndPosition: 74.46437
+    Name: Timing 4
+    Text: ">>> FINALIZE USER ENTRY  \n>>> REALITY OVERRIDE: AUTHORITY = DRAFTSMAN"
+    Rectangle:
+      serializedVersion: 2
+      x: 1886.4972
+      y: 21
+      width: 171.15442
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.54109
+    EndPosition: 80.235115
+    Name: Timing 5
+    Text: The images expand and the portal pulls you into Moku Hana.
+    Rectangle:
+      serializedVersion: 2
+      x: 2059.7407
+      y: 21
+      width: 155.04736
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 80.279625
+    EndPosition: 80.56163
+    Name: Timing 6
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2216
+      y: 21
+      width: 7.678955
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

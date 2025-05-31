@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-3C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 00e6474f8fa2f452f97d9b1109d6fc0f, type: 3}
+  Text: Leave the area.
+  Timings:
+  - StartPosition: 0.6758957
+    EndPosition: 3.0563266
+    Name: Timing 1
+    Text: Leave the area.
+    Rectangle:
+      serializedVersion: 2
+      x: 235.9979
+      y: 21
+      width: 725.5021
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

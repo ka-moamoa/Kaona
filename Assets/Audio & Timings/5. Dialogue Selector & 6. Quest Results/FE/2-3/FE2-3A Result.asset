@@ -12,6 +12,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-3A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 3f017860fb47b4492ae446c2f96edbf7, type: 3}
+  Text: 'Approaching the Sentinel towers, you navigate through a warm, misty haze,
+    easily stepping around the steamy currents. As you draw near, the towers reveal
+    themselves to be just massive structures of stone and granite, with steam vents
+    dotting their surfaces. This simple yet striking realization dawns on you: the
+    towers are not sentient beings, but natural formations, their intimidating aura
+    a result of misinterpreted geological activity. This discovery underscores the
+    futility of the warriors'' conflict, a war waged against mere inanimate objects,
+    fueled by deep-seated but misplaced emotions and beliefs.
+
+
+    You find a small
+    fragment of a stone; you decide to keep it as a reminder of the futility of war.
+    The stone in your hand pulses. Terminal code flickers in your vision.'
+  Timings:
+  - StartPosition: 0.16709751
+    EndPosition: 25.69449
+    Name: Timing 1
+    Text: 'Approaching the Sentinel towers, you navigate through a warm, misty haze,
+      easily stepping around the steamy currents. As you draw near, the towers reveal
+      themselves to be just massive structures of stone and granite, with steam vents
+      dotting their surfaces. '
+    Rectangle:
+      serializedVersion: 2
+      x: 38.005215
+      y: 21
+      width: 1222.9521
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.832449
+    EndPosition: 61.854465
+    Name: Timing 2
+    Text: 'his simple yet striking realization dawns on you: the towers are not sentient
+      beings, but natural formations, their intimidating aura a result of misinterpreted
+      geological activity. This discovery underscores the futility of the warriors''
+      conflict, a war waged against mere inanimate objects, fueled by deep-seated
+      but misplaced emotions and beliefs.'
+    Rectangle:
+      serializedVersion: 2
+      x: 1267.5667
+      y: 21
+      width: 1725.7229
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.88585
+    EndPosition: 79.590965
+    Name: Timing 3
+    Text: You find a small fragment of a stone; you decide to keep it as a reminder
+      of the futility of war. The stone in your hand pulses. Terminal code flickers
+      in your vision.
+    Rectangle:
+      serializedVersion: 2
+      x: 2994.793
+      y: 21
+      width: 848.20703
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 79.61184
+    EndPosition: 79.804085
+    Name: Timing 4
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3844
+      y: 21
+      width: 9.209961
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

@@ -12,6 +12,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-3B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 4c18271bdeb2e49db856873539419ef4, type: 3}
+  Text: In a swift and coordinated attack, you charge at one of the towering Sentinels,
+    skillfully dodging the bursts of steam erupting from its surface. Each strike
+    against the granite tower is met with silence, no response or change occurring
+    in the stoic structure. As you maneuver around the steam blasts, it becomes increasingly
+    clear that the tower, much like the land itself, is inert and silent, an unyielding
+    monolith standing as a mere witness to the futility of your actions.
+  Timings:
+  - StartPosition: 0
+    EndPosition: 14.250407
+    Name: Timing 1
+    Text: 'In a swift and coordinated attack, you charge at one of the towering Sentinels,
+      skillfully dodging the bursts of steam erupting from its surface. '
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 285.00003
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.300385
+    EndPosition: 25.450727
+    Name: Timing 2
+    Text: 'Each strike against the granite tower is met with silence, no response
+      or change occurring in the stoic structure. '
+    Rectangle:
+      serializedVersion: 2
+      x: 315.99954
+      y: 21
+      width: 223.00052
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.492018
+    EndPosition: 45.701305
+    Name: Timing 3
+    Text: As you maneuver around the steam blasts, it becomes increasingly clear
+      that the tower, much like the land itself, is inert and silent, an unyielding
+      monolith standing as a mere witness to the futility of your actions.
+    Rectangle:
+      serializedVersion: 2
+      x: 539.8258
+      y: 21
+      width: 404.17426
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.701305
+    EndPosition: 46.57633
+    Name: Timing 4
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 944.00006
+      y: 21
+      width: 17.499939
+      height: 137
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
