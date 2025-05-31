@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE2-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 79374452953354585ba5efb7280895dc, type: 3}
+  Text: From a distance, you catch a glimpse of the Sentinel towers, rising majestically
+    against the horizon. These towering structures of stone and granite stand as
+    silent monoliths, their surfaces roughened by the passage of time. The towers,
+    bathed in the dim light from the realm's cold lava rivers, cast long, imposing
+    shadows across the rugged terrain. Even from afar, there's an undeniable sense
+    of grandeur and mystery about them, evoking a mix of awe and curiosity.
+  Timings:
+  - StartPosition: 8.777143
+    EndPosition: 19.056488
+    Name: Timing 1
+    Text: 'From a distance, you catch a glimpse of the Sentinel towers, rising majestically
+      against the horizon. '
+    Rectangle:
+      serializedVersion: 2
+      x: 408.34875
+      y: 21
+      width: 443.1029
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.272562
+    EndPosition: 31.311464
+    Name: Timing 2
+    Text: 'These towering structures of stone and granite stand as silent monoliths,
+      their surfaces roughened by the passage of time. '
+    Rectangle:
+      serializedVersion: 2
+      x: 860.7658
+      y: 21
+      width: 518.9506
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.37274
+    EndPosition: 38.112976
+    Name: Timing 3
+    Text: 'The towers, bathed in the dim light from the realm''s cold lava rivers, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1382.3578
+      y: 21
+      width: 290.54553
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.23551
+    EndPosition: 44.17919
+    Name: Timing 4
+    Text: 'cast long, imposing shadows across the rugged terrain. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1678.1854
+      y: 21
+      width: 256.2091
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 44.272697
+    EndPosition: 55.943966
+    Name: Timing 5
+    Text: Even from afar, there's an undeniable sense of grandeur and mystery about
+      them, evoking a mix of awe and curiosity.
+    Rectangle:
+      serializedVersion: 2
+      x: 1938.4252
+      y: 21
+      width: 503.1034
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.978104
+    EndPosition: 57.077553
+    Name: Timing 6
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2443
+      y: 21
+      width: 47.393066
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
