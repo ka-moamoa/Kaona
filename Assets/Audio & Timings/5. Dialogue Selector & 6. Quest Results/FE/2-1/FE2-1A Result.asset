@@ -12,6 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-1A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: a25a02fa8bbd54d029398bdf70b32118, type: 3}
+  Text: You approach the encampment of warriors. The sound coming from the area is
+    filling you with emotional fervor. In that heightened state, you suggest possible
+    battle tactics.
+  Timings:
+  - StartPosition: 0.5251131
+    EndPosition: 19.565714
+    Name: Timing 1
+    Text: You approach the encampment of warriors. The sound coming from the area
+      is filling you with emotional fervor. In that heightened state, you suggest
+      possible battle tactics.
+    Rectangle:
+      serializedVersion: 2
+      x: 55
+      y: 21
+      width: 906.5
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

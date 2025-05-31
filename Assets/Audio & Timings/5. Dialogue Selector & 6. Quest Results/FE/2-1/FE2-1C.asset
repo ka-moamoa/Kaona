@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-1C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: a307e9a78f2b84a21b7e12212ee4ebdf, type: 3}
+  Text: Observe the battle
+  Timings:
+  - StartPosition: 0.28135964
+    EndPosition: 2.0636735
+    Name: Timing 1
+    Text: Observe the battle
+    Rectangle:
+      serializedVersion: 2
+      x: 156.99998
+      y: 21
+      width: 804.5
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

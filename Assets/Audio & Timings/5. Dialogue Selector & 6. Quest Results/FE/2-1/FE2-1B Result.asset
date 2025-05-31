@@ -12,6 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE2-1B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 2dc45097f4ed84da88d6db550cc88842, type: 3}
+  Text: "In their strategic assault, you join the warriors, using the weapons to
+    target the Sentinel towers. They coordinate their attacks with precision, aiming
+    to create a significant impact. However, as the battle progresses, it becomes
+    clear that their efforts are in vain \u2014 the towers remain utterly unaffected.
+    This stark realization hits them hard, underscoring the futility of attacking
+    an inanimate object and pointing to the need for addressing the real emotional
+    struggles within."
+  Timings:
+  - StartPosition: 0.32507935
+    EndPosition: 19.282152
+    Name: Timing 1
+    Text: 'In their strategic assault, you join the warriors, using the weapons to
+      target the Sentinel towers. They coordinate their attacks with precision, aiming
+      to create a significant impact. '
+    Rectangle:
+      serializedVersion: 2
+      x: 36.018692
+      y: 21
+      width: 350.98126
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.336145
+    EndPosition: 50.311836
+    Name: Timing 2
+    Text: "However, as the battle progresses, it becomes clear that their efforts
+      are in vain \u2014 the towers remain utterly unaffected. This stark realization
+      hits them hard, underscoring the futility of attacking an inanimate object
+      and pointing to the need for addressing the real emotional struggles within."
+    Rectangle:
+      serializedVersion: 2
+      x: 387.99963
+      y: 21
+      width: 573.50037
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
