@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE2-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: e6bb04404811f4daf9bdd7e40868a414, type: 3}
+  Text: You traverse the rugged terrain of the realm. You crest a rise and suddenly
+    come upon a bustling scene. Below you, a large group of warriors are gathered,
+    their movements charged with urgency and purpose. The air resonates with the
+    distinct sounds of war drums, the tuning of unique sound-emitting weapons, and
+    steam-forged cannons. This cacophony is interspersed with the rhythmic chanting
+    of the warriors, creating a powerful, almost hypnotic atmosphere. You observe
+    as the warriors practice coordinated maneuvers, their faces a mix of determination
+    and fervor, completely absorbed in their preparation for the assault on the Sentinel
+    tower. The intensity of the scene is palpable, drawing you into the warriors'
+    world of sound, belief, and unyielding resolve against their perceived enemy.
+  Timings:
+  - StartPosition: 7.8715644
+    EndPosition: 12.060832
+    Name: Timing 1
+    Text: 'You traverse the rugged terrain of the realm. '
+    Rectangle:
+      serializedVersion: 2
+      x: 106.13019
+      y: 21
+      width: 40.516693
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 12.144036
+    EndPosition: 18.548428
+    Name: Timing 2
+    Text: 'You crest a rise and suddenly come upon a bustling scene. '
+    Rectangle:
+      serializedVersion: 2
+      x: 147.45158
+      y: 21
+      width: 61.940353
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.591969
+    EndPosition: 24.38291
+    Name: Timing 3
+    Text: 'Below you, a large group of warriors are gathered, '
+    Rectangle:
+      serializedVersion: 2
+      x: 209.81305
+      y: 21
+      width: 56.007355
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 24.404173
+    EndPosition: 30.423765
+    Name: Timing 4
+    Text: 'their movements charged with urgency and purpose. '
+    Rectangle:
+      serializedVersion: 2
+      x: 266.02603
+      y: 21
+      width: 58.21878
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.478617
+    EndPosition: 35.92125
+    Name: Timing 5
+    Text: 'The air resonates with the distinct sounds of war drums, '
+    Rectangle:
+      serializedVersion: 2
+      x: 324.7753
+      y: 21
+      width: 52.63867
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.051407
+    EndPosition: 41.62511
+    Name: Timing 6
+    Text: 'the tuning of unique sound-emitting weapons, '
+    Rectangle:
+      serializedVersion: 2
+      x: 378.6728
+      y: 21
+      width: 53.90631
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.66865
+    EndPosition: 45.93566
+    Name: Timing 7
+    Text: 'and steam-forged cannons. '
+    Rectangle:
+      serializedVersion: 2
+      x: 433.0002
+      y: 21
+      width: 41.268585
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.035988
+    EndPosition: 53.773026
+    Name: Timing 8
+    Text: 'This cacophony is interspersed with the rhythmic chanting of the warriors, '
+    Rectangle:
+      serializedVersion: 2
+      x: 475.2391
+      y: 21
+      width: 74.82913
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.903645
+    EndPosition: 59.3898
+    Name: Timing 9
+    Text: 'creating a powerful, almost hypnotic atmosphere. '
+    Rectangle:
+      serializedVersion: 2
+      x: 551.3315
+      y: 21
+      width: 53.05963
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.61966
+    EndPosition: 65.09366
+    Name: Timing 10
+    Text: 'You observe as the warriors practice coordinated maneuvers, '
+    Rectangle:
+      serializedVersion: 2
+      x: 606.6142
+      y: 21
+      width: 52.942017
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.14601
+    EndPosition: 71.1656
+    Name: Timing 11
+    Text: 'their faces a mix of determination and fervor, '
+    Rectangle:
+      serializedVersion: 2
+      x: 660.06256
+      y: 21
+      width: 58.21875
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.27647
+    EndPosition: 78.28655
+    Name: Timing 12
+    Text: 'completely absorbed in their preparation for the assault on the Sentinel
+      tower. '
+    Rectangle:
+      serializedVersion: 2
+      x: 719.3535
+      y: 21
+      width: 67.79834
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.38177
+    EndPosition: 82.945435
+    Name: Timing 13
+    Text: 'The intensity of the scene is palpable, '
+    Rectangle:
+      serializedVersion: 2
+      x: 788.07275
+      y: 21
+      width: 44.137695
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.03252
+    EndPosition: 94.40064
+    Name: Timing 14
+    Text: drawing you into the warriors' world of sound, belief, and unyielding resolve
+      against their perceived enemy.
+    Rectangle:
+      serializedVersion: 2
+      x: 833.0527
+      y: 21
+      width: 109.94733
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 94.60744
+    EndPosition: 96.31347
+    Name: Timing 15
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 945.00006
+      y: 21
+      width: 16.499939
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

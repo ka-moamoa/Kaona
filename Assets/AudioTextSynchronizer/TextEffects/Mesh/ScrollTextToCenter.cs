@@ -16,7 +16,7 @@ public class ScrollTextToCenter : MonoBehaviour
     public float scrollSpeed = 20f;
 
     private Vector3 velocity = Vector3.zero;
-    private int lastTimingIndex = -1;
+    private Timing lastTiming = null;
     private float targetX;
 
     void Start()
@@ -43,7 +43,6 @@ public class ScrollTextToCenter : MonoBehaviour
         if (timings == null || timings.Count == 0)
             return;
 
-        // Skip movement before first timing
         if (currentTime < timings[0].StartPosition)
             return;
 
@@ -51,7 +50,6 @@ public class ScrollTextToCenter : MonoBehaviour
         if (currentTiming == null)
             return;
 
-        // If blank timing, just scroll continuously
         if (string.IsNullOrWhiteSpace(currentTiming.Text))
         {
             float newX = textObject.position.x - scrollSpeed * Time.deltaTime;
@@ -59,11 +57,9 @@ public class ScrollTextToCenter : MonoBehaviour
             return;
         }
 
-        // Normal timing: snap spoken word to center
-        int index = timings.IndexOf(currentTiming);
-        if (index != lastTimingIndex)
+        if (!ReferenceEquals(currentTiming, lastTiming))
         {
-            lastTimingIndex = index;
+            lastTiming = currentTiming;
             tmpText.ForceMeshUpdate();
             targetX = CalculateTargetX(currentTiming);
         }
@@ -86,18 +82,37 @@ public class ScrollTextToCenter : MonoBehaviour
     {
         string fullText = synchronizer.Timings.Text;
         int timingStartIndex = fullText.IndexOf(timing.Text);
-        if (timingStartIndex < 0) return textObject.position.x;
+        if (timingStartIndex < 0)
+        {
+            Debug.LogWarning($"Text '{timing.Text}' not found in full transcript.");
+            return textObject.position.x;
+        }
 
         int centerCharIndex = timingStartIndex + timing.Text.Length / 2;
-        if (centerCharIndex >= tmpText.textInfo.characterCount) return textObject.position.x;
+        if (centerCharIndex >= tmpText.textInfo.characterCount)
+            return textObject.position.x;
 
-        var charInfo = tmpText.textInfo.characterInfo[centerCharIndex];
-        if (!charInfo.isVisible) return textObject.position.x;
+        // Try to find the nearest visible character around the centerCharIndex
+        int range = 3;
+        for (int offset = 0; offset <= range; offset++)
+        {
+            foreach (int i in new int[] { centerCharIndex - offset, centerCharIndex + offset })
+            {
+                if (i >= 0 && i < tmpText.textInfo.characterCount)
+                {
+                    var charInfo = tmpText.textInfo.characterInfo[i];
+                    if (charInfo.isVisible)
+                    {
+                        Vector3 charLocalCenter = (charInfo.bottomLeft + charInfo.topRight) / 2f;
+                        Vector3 charWorldPos = tmpText.transform.TransformPoint(charLocalCenter);
+                        float offsetX = centerTarget.position.x - charWorldPos.x;
+                        return textObject.position.x + offsetX;
+                    }
+                }
+            }
+        }
 
-        Vector3 charLocalCenter = (charInfo.bottomLeft + charInfo.topRight) / 2f;
-        Vector3 charWorldPos = tmpText.transform.TransformPoint(charLocalCenter);
-        float offsetX = centerTarget.position.x - charWorldPos.x;
-
-        return textObject.position.x + offsetX;
+        // If no visible character found, return current position
+        return textObject.position.x;
     }
 }
