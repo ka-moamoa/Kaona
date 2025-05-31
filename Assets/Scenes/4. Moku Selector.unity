@@ -1305,7 +1305,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a175920430f4442f78b4605b33b27da3, type: 3}
+      objectReference: {fileID: 8300000, guid: 09c6279e3fb7e4d99b27378d7bb9f3b0, type: 3}
     - target: {fileID: 7790367572619303820, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: m_IsActive
@@ -2330,7 +2330,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 09c6279e3fb7e4d99b27378d7bb9f3b0, type: 3}
+      objectReference: {fileID: 8300000, guid: a175920430f4442f78b4605b33b27da3, type: 3}
     - target: {fileID: 7790367572619303820, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: m_IsActive
