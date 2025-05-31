@@ -486,7 +486,7 @@ PrefabInstance:
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: mokuQuestNum
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
