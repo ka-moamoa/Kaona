@@ -12,6 +12,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE1-3A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: eb7eeddf3d78c4b939fd59d76178f601, type: 3}
+  Text: 'As you attempt to administer aid to the survivor, you decide to use a talisman
+    you had previously found in the ceremonial encampment. The moment the talisman
+    is revealed, a change comes over the survivor. Their initial expression of pain
+    and weariness shifts to one of hesitation and then anger. Their eyes, bearing
+    the weight of their suffering, now flash with a mix of indignation and disbelief.
+
+
+    They
+    speak, the voice strained but firm, questioning how you came to possess such
+    a sacred item. In their view, the talisman holds deep cultural significance,
+    meant only for those who understand and respect the traditions of his people.
+    The presence of the talisman in the hands of a stranger feels like a violation,
+    a breach of the sanctity held dear.
+
+
+    Despite the urgency of their wounds,
+    their focus momentarily shifts to the talisman, demanding an explanation. This
+    moment becomes a delicate junction for you, requiring not just the skill to heal
+    but also the sensitivity to navigate the complex cultural dynamics at play. The
+    talisman, intended as a tool for healing, has inadvertently become a symbol of
+    the cultural rifts and misunderstandings in this war-torn land.'
+  Timings:
+  - StartPosition: 0
+    EndPosition: 36.52196
+    Name: Timing 1
+    Text: As you attempt to administer aid to the survivor, you decide to use a talisman
+      you had previously found in the ceremonial encampment. The moment the talisman
+      is revealed, a change comes over the survivor. Their initial expression of
+      pain and weariness shifts to one of hesitation and then anger. Their eyes,
+      bearing the weight of their suffering, now flash with a mix of indignation
+      and disbelief.
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 323
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.909615
+    EndPosition: 67.729576
+    Name: Timing 2
+    Text: They speak, the voice strained but firm, questioning how you came to possess
+      such a sacred item. In their view, the talisman holds deep cultural significance,
+      meant only for those who understand and respect the traditions of his people.
+      The presence of the talisman in the hands of a stranger feels like a violation,
+      a breach of the sanctity held dear.
+    Rectangle:
+      serializedVersion: 2
+      x: 356.4284
+      y: 21
+      width: 272.5716
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.84265
+    EndPosition: 105.325714
+    Name: Timing 3
+    Text: Despite the urgency of their wounds, their focus momentarily shifts to
+      the talisman, demanding an explanation. This moment becomes a delicate junction
+      for you, requiring not just the skill to heal but also the sensitivity to navigate
+      the complex cultural dynamics at play. The talisman, intended as a tool for
+      healing, has inadvertently become a symbol of the cultural rifts and misunderstandings
+      in this war-torn land.
+    Rectangle:
+      serializedVersion: 2
+      x: 630
+      y: 21
+      width: 331.5
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

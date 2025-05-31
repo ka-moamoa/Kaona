@@ -12,6 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE1-3C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 124adcf4f84ce425899e588c747a430f, type: 3}
+  Text: You solemnly escort the survivor across the rugged granite terrain. The journey
+    is marked by a silent camaraderie and a shared determination to reach safety.
+    Despite your efforts, the survivor's condition deteriorates steadily, their injuries
+    too severe to withstand the arduous journey. In the fading light of the cold
+    lava rivers, their last breath was given, leaving you in a poignant moment of
+    grief and helplessness. The realization that they will never make it to see kin
+    again weighs heavily on your heart, underscoring the brutal reality of the realm's
+    unending conflict and the fragile nature of life amidst such turmoil. This solemn
+    trek, ending in unforeseen tragedy, becomes a profound testament to the cost
+    of war and the resilience of the human spirit in the face of insurmountable odds.
+  Timings:
+  - StartPosition: 4.5255866
+    EndPosition: 33.69505
+    Name: Timing 1
+    Text: 'You solemnly escort the survivor across the rugged granite terrain. The
+      journey is marked by a silent camaraderie and a shared determination to reach
+      safety. Despite your efforts, the survivor''s condition deteriorates steadily,
+      their injuries too severe to withstand the arduous journey. '
+    Rectangle:
+      serializedVersion: 2
+      x: 80.28913
+      y: 21
+      width: 324.1363
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.73619
+    EndPosition: 66.69069
+    Name: Timing 2
+    Text: 'In the fading light of the cold lava rivers, their last breath was given,
+      leaving you in a poignant moment of grief and helplessness. The realization
+      that they will never make it to see kin again weighs heavily on your heart,
+      underscoring the brutal reality of the realm''s unending conflict and the fragile
+      nature of life amidst such turmoil. '
+    Rectangle:
+      serializedVersion: 2
+      x: 404.8826
+      y: 21
+      width: 366.19626
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.87027
+    EndPosition: 83.82694
+    Name: Timing 3
+    Text: This solemn trek, ending in unforeseen tragedy, becomes a profound testament
+      to the cost of war and the resilience of the human spirit in the face of insurmountable
+      odds.
+    Rectangle:
+      serializedVersion: 2
+      x: 773.0744
+      y: 21
+      width: 188.4256
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

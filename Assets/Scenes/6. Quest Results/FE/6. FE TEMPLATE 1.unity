@@ -327,19 +327,19 @@ PrefabInstance:
         type: 3}
       propertyPath: failIcon1
       value: 
-      objectReference: {fileID: 21300000, guid: ff17b1906df8745ba9f658930ad18d57,
+      objectReference: {fileID: 21300000, guid: b02cd076d473249a0b6b2c69d54725a4,
         type: 3}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: failIcon2
       value: 
-      objectReference: {fileID: 21300000, guid: 01d651de7b0e8451785055115997892b,
+      objectReference: {fileID: 21300000, guid: fa1ebf2ffc28b4d08ac71cb52cb8ef39,
         type: 3}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: failIcon3
       value: 
-      objectReference: {fileID: 21300000, guid: 087a3929a79e14ac6b02933bc9b69267,
+      objectReference: {fileID: 21300000, guid: c4edde08f178b470598ad17a25d1ee7a,
         type: 3}
     - target: {fileID: 3466832482426667271, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
