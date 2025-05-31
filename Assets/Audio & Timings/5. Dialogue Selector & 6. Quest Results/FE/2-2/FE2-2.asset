@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE2-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: d24fddca2009847b29639d106f1050a5, type: 3}
+  Text: 'As you navigate the desolate terrain near the Sentinel towers, you suddenly
+    encounter a group of warriors in full retreat. The sight is harrowing: their
+    skin is blistered and emits wisps of smoke, evidence of the severe burns they''ve
+    sustained from the steam vents. These warriors, once filled with resolve and
+    determination, now move with a mix of haste and agony, their faces contorted
+    in pain and shock. Their armor, designed for protection and battle, offers no
+    respite from their emotional injuries.'
+  Timings:
+  - StartPosition: 4.504671
+    EndPosition: 10.146442
+    Name: Timing 1
+    Text: 'As you navigate the desolate terrain near the Sentinel towers, '
+    Rectangle:
+      serializedVersion: 2
+      x: 188.05174
+      y: 21
+      width: 197.94826
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.231928
+    EndPosition: 15.932195
+    Name: Timing 2
+    Text: 'you suddenly encounter a group of warriors in full retreat. '
+    Rectangle:
+      serializedVersion: 2
+      x: 388.99936
+      y: 21
+      width: 200.00064
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.083357
+    EndPosition: 26.762667
+    Name: Timing 3
+    Text: 'The sight is harrowing: their skin is blistered and emits wisps of smoke, '
+    Rectangle:
+      serializedVersion: 2
+      x: 594.3037
+      y: 21
+      width: 374.6963
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.791168
+    EndPosition: 33.23245
+    Name: Timing 4
+    Text: 'evidence of the severe burns they''ve sustained from the steam vents. '
+    Rectangle:
+      serializedVersion: 2
+      x: 970
+      y: 21
+      width: 226
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.38222
+    EndPosition: 39.18921
+    Name: Timing 5
+    Text: 'These warriors, once filled with resolve and determination, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1201.255
+      y: 21
+      width: 203.745
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.23365
+    EndPosition: 48.90813
+    Name: Timing 6
+    Text: 'now move with a mix of haste and agony, their faces contorted in pain
+      and shock. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1406.5593
+      y: 21
+      width: 339.44067
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.05569
+    EndPosition: 58.399044
+    Name: Timing 7
+    Text: Their armor, designed for protection and battle, offers no respite from
+      their emotional injuries.
+    Rectangle:
+      serializedVersion: 2
+      x: 1751.1774
+      y: 21
+      width: 327.82263
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.427547
+    EndPosition: 59.95102
+    Name: Timing 8
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2080
+      y: 21
+      width: 53.45288
+      height: 150.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
