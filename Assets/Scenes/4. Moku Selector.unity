@@ -1730,6 +1730,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 84be082da592046ee9ee0092846c4192,
         type: 3}
+    - target: {fileID: 1116061710647385158, guid: 25e5ddb0a6a11421380491160b67c346,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 71
+      objectReference: {fileID: 0}
     - target: {fileID: 1242837711583425878, guid: 25e5ddb0a6a11421380491160b67c346,
         type: 3}
       propertyPath: mokuName

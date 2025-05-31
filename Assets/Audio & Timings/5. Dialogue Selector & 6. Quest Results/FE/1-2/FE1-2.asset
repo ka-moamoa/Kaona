@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE1-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: c9440d42c76ac44b88b7addfb6204211, type: 3}
+  Text: As you navigate the cold granite landscape, you come across a solemn and
+    carefully arranged encampment. Here, bodies are laid out in a ceremonial fashion,
+    surrounded by intricate ground etchings suggestive of funeral rites. The atmosphere
+    is one of reverence and respect for the departed.
+  Timings:
+  - StartPosition: 9.009342
+    EndPosition: 14.553405
+    Name: Timing 1
+    Text: 'As you navigate the cold granite landscape, '
+    Rectangle:
+      serializedVersion: 2
+      x: 210.76373
+      y: 21
+      width: 111.23627
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.653086
+    EndPosition: 22.278671
+    Name: Timing 2
+    Text: 'you come across a solemn and carefully arranged encampment. '
+    Rectangle:
+      serializedVersion: 2
+      x: 324
+      y: 21
+      width: 153
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.378345
+    EndPosition: 29.10681
+    Name: Timing 3
+    Text: 'Here, bodies are laid out in a ceremonial fashion, '
+    Rectangle:
+      serializedVersion: 2
+      x: 478.99985
+      y: 21
+      width: 135.00015
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.251451
+    EndPosition: 36.533035
+    Name: Timing 4
+    Text: 'surrounded by intricate ground etchings '
+    Rectangle:
+      serializedVersion: 2
+      x: 616.9021
+      y: 21
+      width: 146.0979
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.58286
+    EndPosition: 41.566917
+    Name: Timing 5
+    Text: 'suggestive of funeral rites. '
+    Rectangle:
+      serializedVersion: 2
+      x: 763.9997
+      y: 21
+      width: 100.000305
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.668026
+    EndPosition: 49.641068
+    Name: Timing 6
+    Text: The atmosphere is one of reverence and respect for the departed.
+    Rectangle:
+      serializedVersion: 2
+      x: 866.0286
+      y: 21
+      width: 159.97137
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.690907
+    EndPosition: 51.565716
+    Name: Timing 7
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1027
+      y: 21
+      width: 37.61621
+      height: 100
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
