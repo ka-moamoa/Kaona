@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE3-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: dce1be063e72f417dafde65a5ba2a8b5, type: 3}
+  Text: 'A sudden and thunderous explosion rocks the realm, accompanied by the deep
+    echo of chanting and the rhythmic pounding of massive drums. You witness a startling
+    display of lightning in the distance, signaling the onset of a colossal battle.
+
+
+    Drawn
+    by the cacophony of war, you make your way towards the source of the commotion.
+    As you approach, the scene that unfolds before you is one of epic proportions:
+    a vast army of countless warriors engaged in a fierce battle with the Sentinel
+    towers. The air is filled with the sounds of sacred hymns chanted by rows of
+    dedicated chanters, their voices united in a powerful symphony of aggression
+    and fervor.
+
+
+    In the midst of the battlefield, warriors operate handheld
+    cannons, launching massive stone projectiles at the stoic towers. Drummers, their
+    hands moving in a blur, beat upon enormous drums placed on the ground, each strike
+    sending veins of lightning arcing into the air towards the Sentinels. This electrifying
+    spectacle is both awe-inspiring and terrifying.
+
+
+    However, the cost of the
+    battle is immediately evident. The ground is littered with the bodies of fallen
+    warriors, their figures charred and still, victims of the lethal mists emitted
+    by the towers. Despite the apparent ferocity and technological prowess displayed
+    by the army, the towers stand unyielding, their silent forms a stark contrast
+    to the chaos surrounding them.'
+  Timings:
+  - StartPosition: 2.9721541
+    EndPosition: 6.3092766
+    Name: Timing 1
+    Text: 'A sudden and thunderous explosion rocks the realm, '
+    Rectangle:
+      serializedVersion: 2
+      x: 99.719376
+      y: 21
+      width: 78.280624
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.351905
+    EndPosition: 11.851209
+    Name: Timing 2
+    Text: 'accompanied by the deep echo of chanting and the rhythmic pounding of
+      massive drums. '
+    Rectangle:
+      serializedVersion: 2
+      x: 178.99995
+      y: 21
+      width: 129.00005
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.947914
+    EndPosition: 19.737804
+    Name: Timing 3
+    Text: You witness a startling display of lightning in the distance, signaling
+      the onset of a colossal battle.
+    Rectangle:
+      serializedVersion: 2
+      x: 310.26846
+      y: 21
+      width: 182.73154
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.88914
+    EndPosition: 26.089712
+    Name: Timing 4
+    Text: 'Drawn by the cacophony of war, you make your way towards the source of
+      the commotion. '
+    Rectangle:
+      serializedVersion: 2
+      x: 496.54996
+      y: 21
+      width: 145.4501
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.089712
+    EndPosition: 32.185837
+    Name: Timing 5
+    Text: 'As you approach, the scene that unfolds before you is one of epic proportions: '
+    Rectangle:
+      serializedVersion: 2
+      x: 642.00006
+      y: 21
+      width: 142.99994
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.2312
+    EndPosition: 37.94092
+    Name: Timing 6
+    Text: 'a vast army of countless warriors engaged in a fierce battle with the
+      Sentinel towers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 786.06415
+      y: 21
+      width: 133.93591
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.08263
+    EndPosition: 43.823895
+    Name: Timing 7
+    Text: 'The air is filled with the sounds of sacred hymns chanted by rows of dedicated
+      chanters, '
+    Rectangle:
+      serializedVersion: 2
+      x: 923.32416
+      y: 21
+      width: 134.67584
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.86651
+    EndPosition: 49.40846
+    Name: Timing 8
+    Text: their voices united in a powerful symphony of aggression and fervor.
+    Rectangle:
+      serializedVersion: 2
+      x: 1058.9996
+      y: 21
+      width: 130.00049
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.532177
+    EndPosition: 54.353565
+    Name: Timing 9
+    Text: 'In the midst of the battlefield, warriors operate handheld cannons, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1191.9022
+      y: 21
+      width: 113.09778
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 54.385147
+    EndPosition: 59.128155
+    Name: Timing 10
+    Text: 'launching massive stone projectiles at the stoic towers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1305.7408
+      y: 21
+      width: 111.25928
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.122017
+    EndPosition: 65.09639
+    Name: Timing 11
+    Text: 'Drummers, their hands moving in a blur, beat upon enormous drums placed
+      on the ground, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1416.8561
+      y: 21
+      width: 140.14404
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.09639
+    EndPosition: 70.63832
+    Name: Timing 12
+    Text: 'each strike sending veins of lightning arcing into the air towards the
+      Sentinels. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1557.0001
+      y: 21
+      width: 130
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 70.731995
+    EndPosition: 76.47867
+    Name: Timing 13
+    Text: This electrifying spectacle is both awe-inspiring and terrifying.
+    Rectangle:
+      serializedVersion: 2
+      x: 1689.1974
+      y: 21
+      width: 134.80273
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.53699
+    EndPosition: 81.0401
+    Name: Timing 14
+    Text: 'However, the cost of the battle is immediately evident. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1825.3682
+      y: 21
+      width: 105.631836
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 81.08272
+    EndPosition: 87.5199
+    Name: Timing 15
+    Text: 'The ground is littered with the bodies of fallen warriors, their figures
+      charred and still, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1931.9998
+      y: 21
+      width: 151.00024
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.584305
+    EndPosition: 92.465004
+    Name: Timing 16
+    Text: 'victims of the lethal mists emitted by the towers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2084.511
+      y: 21
+      width: 114.48901
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.4605
+    EndPosition: 98.5185
+    Name: Timing 17
+    Text: 'Despite the apparent ferocity and technological prowess displayed by the
+      army, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2198.8943
+      y: 21
+      width: 142.10571
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.56111
+    EndPosition: 105.20601
+    Name: Timing 18
+    Text: the towers stand unyielding, their silent forms a stark contrast to the
+      chaos surrounding them.
+    Rectangle:
+      serializedVersion: 2
+      x: 2341.9995
+      y: 21
+      width: 155.8728
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.21145
+    EndPosition: 106.31837
+    Name: Timing 19
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2498
+      y: 21
+      width: 25.965576
+      height: 140.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
