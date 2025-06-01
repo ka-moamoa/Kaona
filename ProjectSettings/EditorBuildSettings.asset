@@ -254,6 +254,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6. Quest Results/FE/6. FE2-3-WS FINISHED.unity
     guid: 7cb5d68ce21774c9aa6f42fd9a980bf8
+  - enabled: 1
+    path: Assets/Scenes/5. Dialogue Screens/FE/5. FE3-1.unity
+    guid: 2830cc38bb8664716ac983e7b52e928d
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/FE/6. FE3-1.unity
+    guid: 5af2997b303cc426cb714a2585465038
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}
