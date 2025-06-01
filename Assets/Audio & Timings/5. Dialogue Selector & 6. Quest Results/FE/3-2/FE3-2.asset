@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: FE3-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 335d7fc4fc9344cb284ceae6c7f01f92, type: 3}
+  Text: 'You see in the distance what appears to be an ancient ruin. You decide to
+    approach. As you approach the site of the ancient ruins, you are greeted by a
+    landscape of stone structures, their forms worn and fragmented by time. This
+    cityscape, scattered across the area, hint at a grandeur long lost, their purpose
+    obscured by the passage of centuries. The shapes are peculiar, some tall and
+    slender, others broad and curved, evoking a sense of order and design that is
+    now but a whisper of the past.
+
+
+    Among the weathered stone, glints of metal
+    catch your eye. These metallic fragments, interspersed throughout the wreckage,
+    bear the marks of intricate workmanship. Their tarnished surfaces are adorned
+    with patterns and engravings, suggesting a functionality that is no longer discernible.
+    The metal pieces vary in size and shape; some are small and delicate, resembling
+    the components of a complex mechanism, while others are larger, with smooth,
+    curved forms that hint at mobility and transport.
+
+
+    The entire scene paints
+    a picture of a civilization that once thrived, blending stone and metal in ways
+    that now defy clear understanding. You can''t help but feel a sense of mystery
+    and intrigue as you explore this forgotten place, where the lines between natural
+    formations and crafted structures are blurred, and the remnants of a bygone era
+    lay silent, holding their secrets close.
+
+
+    You hear a group approaching from
+    behind you.'
+  Timings:
+  - StartPosition: 2.2987754
+    EndPosition: 6.6577926
+    Name: Timing 1
+    Text: 'You see in the distance what appears to be an ancient ruin. '
+    Rectangle:
+      serializedVersion: 2
+      x: 106.42983
+      y: 21
+      width: 144.9289
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.7802267
+    EndPosition: 8.944307
+    Name: Timing 2
+    Text: 'You decide to approach. '
+    Rectangle:
+      serializedVersion: 2
+      x: 255.42941
+      y: 21
+      width: 71.95151
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 8.977914
+    EndPosition: 15.333098
+    Name: Timing 3
+    Text: 'As you approach the site of the ancient ruins, you are greeted by a landscape
+      of stone structures, '
+    Rectangle:
+      serializedVersion: 2
+      x: 328.49826
+      y: 21
+      width: 211.29758
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 15.333098
+    EndPosition: 19.569876
+    Name: Timing 4
+    Text: 'their forms worn and fragmented by time. '
+    Rectangle:
+      serializedVersion: 2
+      x: 539.79584
+      y: 21
+      width: 140.86469
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.603493
+    EndPosition: 26.732046
+    Name: Timing 5
+    Text: 'This cityscape, scattered across the area, hint at a grandeur long lost, '
+    Rectangle:
+      serializedVersion: 2
+      x: 681.7782
+      y: 21
+      width: 237.01062
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.848118
+    EndPosition: 31.069698
+    Name: Timing 6
+    Text: 'their purpose obscured by the passage of centuries. '
+    Rectangle:
+      serializedVersion: 2
+      x: 922.64795
+      y: 21
+      width: 140.35938
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.103312
+    EndPosition: 36.718735
+    Name: Timing 7
+    Text: 'The shapes are peculiar, some tall and slender, others broad and curved, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1064.1249
+      y: 21
+      width: 186.70203
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.745758
+    EndPosition: 42.636772
+    Name: Timing 8
+    Text: evoking a sense of order and design that is now but a whisper of the past.
+    Rectangle:
+      serializedVersion: 2
+      x: 1251.7253
+      y: 21
+      width: 195.86487
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.759727
+    EndPosition: 47.815056
+    Name: Timing 9
+    Text: 'Among the weathered stone, glints of metal catch your eye. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1451.6782
+      y: 21
+      width: 168.07983
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 47.775238
+    EndPosition: 51.71558
+    Name: Timing 10
+    Text: 'These metallic fragments, interspersed throughout the wreckage, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1618.4342
+      y: 21
+      width: 131.00879
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.749184
+    EndPosition: 54.640976
+    Name: Timing 11
+    Text: 'bear the marks of intricate workmanship. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1750.5602
+      y: 21
+      width: 96.14661
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 54.767776
+    EndPosition: 59.180378
+    Name: Timing 12
+    Text: 'Their tarnished surfaces are adorned with patterns and engravings, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1850.9226
+      y: 21
+      width: 146.71045
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.180363
+    EndPosition: 63.38353
+    Name: Timing 13
+    Text: 'suggesting a functionality that is no longer discernible. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1997.6326
+      y: 21
+      width: 139.74707
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 63.476055
+    EndPosition: 71.655334
+    Name: Timing 14
+    Text: 'The metal pieces vary in size and shape; some are small and delicate,
+      resembling the components of a complex mechanism, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2140.456
+      y: 21
+      width: 271.94507
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.65533
+    EndPosition: 78.62839
+    Name: Timing 15
+    Text: while others are larger, with smooth, curved forms that hint at mobility
+      and transport.
+    Rectangle:
+      serializedVersion: 2
+      x: 2412.401
+      y: 21
+      width: 231.84082
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.807076
+    EndPosition: 84.23116
+    Name: Timing 16
+    Text: 'The entire scene paints a picture of a civilization that once thrived, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2650.1829
+      y: 21
+      width: 180.34033
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 84.24055
+    EndPosition: 88.871445
+    Name: Timing 17
+    Text: 'blending stone and metal in ways that now defy clear understanding. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2830.8352
+      y: 21
+      width: 153.9685
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 89.02386
+    EndPosition: 95.26024
+    Name: Timing 18
+    Text: 'You can''t help but feel a sense of mystery and intrigue as you explore
+      this forgotten place, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2989.871
+      y: 21
+      width: 207.34766
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 95.31646
+    EndPosition: 100.23676
+    Name: Timing 19
+    Text: 'where the lines between natural formations and crafted structures are
+      blurred, '
+    Rectangle:
+      serializedVersion: 2
+      x: 3199.088
+      y: 21
+      width: 163.59058
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.33197
+    EndPosition: 105.919426
+    Name: Timing 20
+    Text: and the remnants of a bygone era lay silent, holding their secrets close.
+    Rectangle:
+      serializedVersion: 2
+      x: 3365.844
+      y: 21
+      width: 185.77197
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.95306
+    EndPosition: 109.55095
+    Name: Timing 21
+    Text: You hear a group approaching from behind you.
+    Rectangle:
+      serializedVersion: 2
+      x: 3552.7341
+      y: 21
+      width: 119.62305
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.58458
+    EndPosition: 110.5929
+    Name: Timing 22
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3673.4753
+      y: 21
+      width: 33.52466
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
