@@ -12,6 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE3-1B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: db1349aad09cf43c0ac49f2a6cb37da2, type: 3}
+  Text: 'Outside the Whispering Cavern, you find a spot to sit in meditation, enveloped
+    by the natural sounds of the realm. The distant echo of the cavern''s depths
+    mingles with the ambient noises of the outside world. You attune your breathing
+    to the whispering emotions of the cavern.
+
+
+    For a brief moment, you find
+    peace and emotional stability. Then, like an avalanche of emotions, the voices
+    of the cavern fill you with emotional fervor. It is too much. You hear the cries
+    of the fallen, the struggle of eternal wars, and the plight of unchecked emotions.'
+  Timings:
+  - StartPosition: 0.62693876
+    EndPosition: 18.967978
+    Name: Timing 1
+    Text: Outside the Whispering Cavern, you find a spot to sit in meditation, enveloped
+      by the natural sounds of the realm. The distant echo of the cavern's depths
+      mingles with the ambient noises of the outside world. You attune your breathing
+      to the whispering emotions of the cavern.
+    Rectangle:
+      serializedVersion: 2
+      x: 45.600773
+      y: 21
+      width: 456.39923
+      height: 111.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.040363
+    EndPosition: 40.568165
+    Name: Timing 2
+    Text: For a brief moment, you find peace and emotional stability. Then, like
+      an avalanche of emotions, the voices of the cavern fill you with emotional
+      fervor. It is too much. You hear the cries of the fallen, the struggle of eternal
+      wars, and the plight of unchecked emotions.
+    Rectangle:
+      serializedVersion: 2
+      x: 503.80124
+      y: 21
+      width: 535.6987
+      height: 111.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

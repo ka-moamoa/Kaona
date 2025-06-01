@@ -12,6 +12,121 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE3-1A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 754a9562a7cc149b48e34d3ddc1c3d1d, type: 3}
+  Text: "You cautiously venture into the depths of the Whispering Cavern, your steps
+    echoing softly on the smooth stone floor. The air around you vibrates with a
+    subtle, almost mystical energy, as if the very essence of the cavern is alive
+    with ancient secrets. Guided by your keen senses and an innate curiosity, you
+    navigate through the labyrinthine passages, your ears tuned to the cavern\u2019s
+    unique acoustic phenomena.\n\nAs you delve deeper, the cavern reveals its extraordinary
+    nature. The cavern seems to echo not only voices but your very thoughts. Their
+    emanations resonate and amplify in a way that seems to mirror your emotional
+    state.\n\nYou begin to understand that the cavern not only magnifies sound but
+    also reflects the underlying emotions and truths of those within it.\n\nIn a
+    secluded chamber at the heart of the cavern, you find walls adorned with intricate,
+    ancient carvings illuminated by the frost-blue flames that etch the very landscape
+    of this Moku. The carvings are a tapestry of countless battles against the Sentinels\u2014a
+    story of the futility of unchecked emotions. You also see chipped pieces missing
+    from this mural, as if someone has removed pieces of this diorama.\n\nSuddenly,
+    the cavern begins to hum with a loud sound. A small, hand-sized fragment of the
+    mural breaks away and hovers to your chest. It burns a small hole in whatever
+    you are wearing and attaches itself to the flesh above your heart.\n\nYou are
+    filled with emotion. Fever. You try and claw and remove the stone from your body,
+    but you seem to be missing something required.\n\nYour eyes widen, your breath
+    is labored, and your vision is clear. Destroy the Sentinels."
+  Timings:
+  - StartPosition: 0.44117913
+    EndPosition: 31.045681
+    Name: Timing 1
+    Text: "You cautiously venture into the depths of the Whispering Cavern, your
+      steps echoing softly on the smooth stone floor. The air around you vibrates
+      with a subtle, almost mystical energy, as if the very essence of the cavern
+      is alive with ancient secrets. Guided by your keen senses and an innate curiosity,
+      you navigate through the labyrinthine passages, your ears tuned to the cavern\u2019s
+      unique acoustic phenomena."
+    Rectangle:
+      serializedVersion: 2
+      x: 33.382133
+      y: 21
+      width: 234.61786
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.188322
+    EndPosition: 50.3514
+    Name: Timing 2
+    Text: As you delve deeper, the cavern reveals its extraordinary nature. The cavern
+      seems to echo not only voices but your very thoughts. Their emanations resonate
+      and amplify in a way that seems to mirror your emotional state.
+    Rectangle:
+      serializedVersion: 2
+      x: 269.0935
+      y: 21
+      width: 146.9065
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.45637
+    EndPosition: 61.700027
+    Name: Timing 3
+    Text: You begin to understand that the cavern not only magnifies sound but also
+      reflects the underlying emotions and truths of those within it.
+    Rectangle:
+      serializedVersion: 2
+      x: 416.80472
+      y: 21
+      width: 86.19525
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.97347
+    EndPosition: 94.311035
+    Name: Timing 4
+    Text: "In a secluded chamber at the heart of the cavern, you find walls adorned
+      with intricate, ancient carvings illuminated by the frost-blue flames that
+      etch the very landscape of this Moku. The carvings are a tapestry of countless
+      battles against the Sentinels\u2014a story of the futility of unchecked emotions.
+      You also see chipped pieces missing from this mural, as if someone has removed
+      pieces of this diorama."
+    Rectangle:
+      serializedVersion: 2
+      x: 505.09622
+      y: 21
+      width: 247.90372
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 94.7083
+    EndPosition: 113.09498
+    Name: Timing 5
+    Text: Suddenly, the cavern begins to hum with a loud sound. A small, hand-sized
+      fragment of the mural breaks away and hovers to your chest. It burns a small
+      hole in whatever you are wearing and attaches itself to the flesh above your
+      heart.
+    Rectangle:
+      serializedVersion: 2
+      x: 756.0454
+      y: 21
+      width: 140.95453
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 113.23782
+    EndPosition: 123.400055
+    Name: Timing 6
+    Text: You are filled with emotion. Fever. You try and claw and remove the stone
+      from your body, but you seem to be missing something required.
+    Rectangle:
+      serializedVersion: 2
+      x: 898.09503
+      y: 21
+      width: 77.90491
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 123.400055
+    EndPosition: 131.68326
+    Name: Timing 7
+    Text: Your eyes widen, your breath is labored, and your vision is clear. Destroy
+      the Sentinels.
+    Rectangle:
+      serializedVersion: 2
+      x: 975.99994
+      y: 21
+      width: 63.50006
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

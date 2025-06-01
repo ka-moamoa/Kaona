@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE3-1C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 711feb06b4efa406583f11143d6c138d, type: 3}
+  Text: Ignore the cavern and continue your journey.
+  Timings:
+  - StartPosition: 0.7387257
+    EndPosition: 4.075102
+    Name: Timing 1
+    Text: Ignore the cavern and continue your journey.
+    Rectangle:
+      serializedVersion: 2
+      x: 213
+      y: 21
+      width: 826.5
+      height: 111.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
