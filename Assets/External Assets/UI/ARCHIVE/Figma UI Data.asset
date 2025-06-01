@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21850a35ba1ed4da59948b0a4f681654, type: 3}
+  m_Name: Figma UI Data
+  m_EditorClassIdentifier: 
+  token: figd_U9kdgnj39K2FJ20REgOoBt0LGfNEojebQ-SINeQC
+  figmaLink: https://www.figma.com/file/KU2UNmOcpJcNe02m2UfUYF/Kaona?type=design&node-id=1139%3A16789&mode=design&t=kipiJWiRdSA43Z7C-1
