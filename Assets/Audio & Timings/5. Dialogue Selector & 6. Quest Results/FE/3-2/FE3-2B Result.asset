@@ -12,6 +12,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE3-2B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 60199697a14504d03b5d8cb4a677e09b, type: 3}
+  Text: "Concealed within the ruins, you watch as the group of salvagers busily works
+    among the ancient structures. You observe closely as these individuals, clad
+    in armor resembling the metallic pieces they collect, carefully extract chunks
+    of metal from the surroundings. These metals, bearing a striking similarity to
+    the material of the salvagers' own armor, are methodically assessed and then
+    secured into the large cages on their backs.\n\nThe salvagers move with a sense
+    of purpose, their actions a blend of respect for the materials and the practical
+    task at hand. You notice the familiarity in the salvagers' handling of the metal,
+    suggesting a deep connection and understanding of its properties and potential
+    uses. The sound of metal being gathered and stored echoes softly throughout the
+    ruins, a subtle reminder of the ongoing cycle of use and reuse that has pervaded
+    this realm for generations.\n\nFrom your hidden position, you gain insight into
+    the salvagers' role in the realm's ecosystem\u2014not just as warriors, but as
+    custodians of a legacy embedded in the very metal they harvest and wear. This
+    quiet observation sheds light on the continuity of tradition and the practical
+    realities of survival in a land where the past is intricately woven into the
+    present."
+  Timings:
+  - StartPosition: 0.39473924
+    EndPosition: 30.682272
+    Name: Timing 1
+    Text: Concealed within the ruins, you watch as the group of salvagers busily
+      works among the ancient structures. You observe closely as these individuals,
+      clad in armor resembling the metallic pieces they collect, carefully extract
+      chunks of metal from the surroundings. These metals, bearing a striking similarity
+      to the material of the salvagers' own armor, are methodically assessed and
+      then secured into the large cages on their backs.
+    Rectangle:
+      serializedVersion: 2
+      x: 34.399963
+      y: 21
+      width: 337.60004
+      height: 147.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.771973
+    EndPosition: 64.32511
+    Name: Timing 2
+    Text: The salvagers move with a sense of purpose, their actions a blend of respect
+      for the materials and the practical task at hand. You notice the familiarity
+      in the salvagers' handling of the metal, suggesting a deep connection and understanding
+      of its properties and potential uses. The sound of metal being gathered and
+      stored echoes softly throughout the ruins, a subtle reminder of the ongoing
+      cycle of use and reuse that has pervaded this realm for generations.
+    Rectangle:
+      serializedVersion: 2
+      x: 372.99985
+      y: 21
+      width: 374.00015
+      height: 147.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.497055
+    EndPosition: 89.98338
+    Name: Timing 3
+    Text: "From your hidden position, you gain insight into the salvagers' role in
+      the realm's ecosystem\u2014not just as warriors, but as custodians of a legacy
+      embedded in the very metal they harvest and wear. This quiet observation sheds
+      light on the continuity of tradition and the practical realities of survival
+      in a land where the past is intricately woven into the present."
+    Rectangle:
+      serializedVersion: 2
+      x: 748.91656
+      y: 21
+      width: 284.08344
+      height: 147.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

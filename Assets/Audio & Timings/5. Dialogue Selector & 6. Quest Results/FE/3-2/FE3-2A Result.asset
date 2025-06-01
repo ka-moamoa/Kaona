@@ -12,6 +12,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE3-2A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: c9392d5dea78a47409b2a90fdb240ce7, type: 3}
+  Text: 'As you delve into the mysteries of the ancient ruins, the sound of an approaching
+    group catches your attention. Choosing transparency, you decide to meet these
+    newcomers. To your surprise, the group resembles the warriors you have encountered
+    before, with the same style of rugged, stone and metal-based armor, but with
+    an added feature: large metal cages affixed to their backs, evidently for carrying
+    salvaged items.
+
+
+    These salvagers, their attire blending the warrior''s traditional
+    garb with the practicalities of their trade, have an air of resilience about
+    them. They greet you all with a mix of wariness and intrigue. During your conversation,
+    the salvagers reveal that these ruins, one of three such ancient sites, have
+    been a constant presence in the realm, existing long before their own time. They
+    explain their purpose here: to recover material to be used to craft armaments
+    for their war against the sentinels.
+
+
+    The leader of the salvagers, his armor
+    adorned with subtle markings of his past exploits, extends an offer to you. He
+    suggests that if you help with the salvage operation, you would be rewarded with
+    a share of the findings. You agree and are rewarded.'
+  Timings:
+  - StartPosition: 0
+    EndPosition: 29.404327
+    Name: Timing 1
+    Text: 'As you delve into the mysteries of the ancient ruins, the sound of an
+      approaching group catches your attention. Choosing transparency, you decide
+      to meet these newcomers. To your surprise, the group resembles the warriors
+      you have encountered before, with the same style of rugged, stone and metal-based
+      armor, but with an added feature: large metal cages affixed to their backs,
+      evidently for carrying salvaged items.'
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 339
+      height: 138.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.645012
+    EndPosition: 67.4825
+    Name: Timing 2
+    Text: 'These salvagers, their attire blending the warrior''s traditional garb
+      with the practicalities of their trade, have an air of resilience about them.
+      They greet you all with a mix of wariness and intrigue. During your conversation,
+      the salvagers reveal that these ruins, one of three such ancient sites, have
+      been a constant presence in the realm, existing long before their own time.
+      They explain their purpose here: to recover material to be used to craft armaments
+      for their war against the sentinels.'
+    Rectangle:
+      serializedVersion: 2
+      x: 371.7748
+      y: 21
+      width: 436.2252
+      height: 138.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.56923
+    EndPosition: 87.56245
+    Name: Timing 3
+    Text: The leader of the salvagers, his armor adorned with subtle markings of
+      his past exploits, extends an offer to you. He suggests that if you help with
+      the salvage operation, you would be rewarded with a share of the findings.
+      You agree and are rewarded.
+    Rectangle:
+      serializedVersion: 2
+      x: 808.9999
+      y: 21
+      width: 230.50012
+      height: 138.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
