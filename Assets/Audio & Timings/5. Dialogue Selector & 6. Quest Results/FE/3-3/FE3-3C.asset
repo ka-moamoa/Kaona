@@ -12,6 +12,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: FE3-3C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 71a26c138f8f04603a23a61b0ef43c6d, type: 3}
+  Text: 'From a safe vantage point, you observe the intense battle unfolding before
+    the Sentinel towers. You take meticulous notes, capturing every detail of the
+    emotional assault. The scene is a spectacle of raw power and coordination: rows
+    of chanters intoning sacred hymns, drummers striking their instruments with fierce
+    determination, sending bolts of lightning skyward, and the relentless firing
+    of stone projectiles from handheld cannons.
+
+
+    Despite the awe-inspiring display
+    of aggression and technological prowess, you note a crucial fact: the towers,
+    though slightly chipped and scarred from the barrage, stand almost entirely unharmed.
+    This observation starkly contrasts the emotional fervor driving the warriors,
+    who seem to be caught in a cycle of anger and desperation, their efforts fueled
+    more by emotional instability than strategic planning.
+
+
+    As the battle rages
+    on, you discern the deeper tragedy of the conflict. The towers, silent and inert,
+    do not respond to the assault, symbolizing the futility of the warriors'' actions.
+    This relentless attack, while a testament to the warriors'' resolve and capabilities,
+    highlights the misplaced focus of their emotions and energies.
+
+
+    This event
+    becomes not just a record of a battle, but a profound reflection on the consequences
+    of unaddressed emotional turmoil and the propensity to externalize internal conflicts.'
+  Timings:
+  - StartPosition: 4.8065305
+    EndPosition: 34.96946
+    Name: Timing 1
+    Text: 'From a safe vantage point, you observe the intense battle unfolding before
+      the Sentinel towers. You take meticulous notes, capturing every detail of the
+      emotional assault. The scene is a spectacle of raw power and coordination:
+      rows of chanters intoning sacred hymns, drummers striking their instruments
+      with fierce determination, sending bolts of lightning skyward, and the relentless
+      firing of stone projectiles from handheld cannons.'
+    Rectangle:
+      serializedVersion: 2
+      x: 76.18299
+      y: 21
+      width: 289.81702
+      height: 156.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.073513
+    EndPosition: 65.671814
+    Name: Timing 2
+    Text: 'Despite the awe-inspiring display of aggression and technological prowess,
+      you note a crucial fact: the towers, though slightly chipped and scarred from
+      the barrage, stand almost entirely unharmed. This observation starkly contrasts
+      the emotional fervor driving the warriors, who seem to be caught in a cycle
+      of anger and desperation, their efforts fueled more by emotional instability
+      than strategic planning.'
+    Rectangle:
+      serializedVersion: 2
+      x: 366.9998
+      y: 21
+      width: 294.0002
+      height: 156.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.77587
+    EndPosition: 90.33777
+    Name: Timing 3
+    Text: As the battle rages on, you discern the deeper tragedy of the conflict.
+      The towers, silent and inert, do not respond to the assault, symbolizing the
+      futility of the warriors' actions. This relentless attack, while a testament
+      to the warriors' resolve and capabilities, highlights the misplaced focus of
+      their emotions and energies.
+    Rectangle:
+      serializedVersion: 2
+      x: 661.9998
+      y: 21
+      width: 236.00018
+      height: 156.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.60848
+    EndPosition: 104.59615
+    Name: Timing 4
+    Text: This event becomes not just a record of a battle, but a profound reflection
+      on the consequences of unaddressed emotional turmoil and the propensity to
+      externalize internal conflicts.
+    Rectangle:
+      serializedVersion: 2
+      x: 900.60114
+      y: 21
+      width: 134.39886
+      height: 156.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
