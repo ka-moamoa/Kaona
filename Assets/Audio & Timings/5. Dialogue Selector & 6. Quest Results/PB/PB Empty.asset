@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: PB Empty
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 7d50c9bf6279e479aaf9c21080618289, type: 3}
+  Text: What do you do?
+  Timings:
+  - StartPosition: 0.7266154
+    EndPosition: 4.075102
+    Name: Timing 1
+    Text: What do you do?
+    Rectangle:
+      serializedVersion: 2
+      x: 209.99998
+      y: 21
+      width: 829.5
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

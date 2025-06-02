@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: PB1-1C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 0f4b31f63491d48999707b6bdc3bbb20, type: 3}
+  Text: You run away.
+  Timings:
+  - StartPosition: 1.2412925
+    EndPosition: 3.0563266
+    Name: Timing 1
+    Text: You run away.
+    Rectangle:
+      serializedVersion: 2
+      x: 439.997
+      y: 21
+      width: 599.503
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
