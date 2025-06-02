@@ -281,6 +281,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5. Dialogue Screens/PB/5. PB1-2.unity
     guid: 32503f962389649219310b867745877f
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/PB/6. PB1-2.unity
+    guid: 2368c218cc5e440e8a007ce2409508ed
+  - enabled: 1
+    path: Assets/Scenes/5. Dialogue Screens/PB/5. PB1-3 (INCOMPLETE).unity
+    guid: 726d3b4306b8a4471bc5fccf84de02a4
+  - enabled: 1
+    path: Assets/Scenes/5. Dialogue Screens/PB/5. PB2-1.unity
+    guid: 2253911d77ba44958a7c2d504c1f7dfc
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}

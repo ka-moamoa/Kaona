@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: PB2-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 2b368db83f19542dd8f8f5cd3134f6af, type: 3}
+  Text: "You seem to be lost amongst the dense foliage of this endless forest. The
+    trees, bushes, and weeds seem to be never-ending. Suddenly, a sight like the
+    sun at meridian height appears above you.\n\nYou see a wise old man, meditating
+    with serene tranquility, suspended effortlessly above a branch. The old man hovers
+    in a state of meditative suspension. The branch cradles him, offering stability
+    and support, as if it recognizes the weight of his wisdom. The surrounding foliage
+    sways in harmony with his presence, as if paying homage to the enlightened spirit
+    he embodies. His physique defies his age, his body honed and sculpted to perfection\u2014a
+    testament to his profound mastery of body and mind.\n\nFlowing locks of long,
+    silver-grey hair billow around him, dancing to an ethereal rhythm created by
+    an invisible breeze. The strands, like wisps of wisdom, symbolize the vast knowledge
+    and experience he possesses. Time seems to have woven its graceful touch into
+    his appearance, adding an air of ancient wisdom and profound insight.\n\nHis
+    eyes, hidden behind closed lids, radiate an inner glow\u2014an aura of tranquility
+    and profound understanding. Lines etched upon his face tell the stories of countless
+    journeys, hardships overcome, and enlightenment attained. His countenance carries
+    an air of profound serenity, reflecting the inner peace he has found through
+    years of dedicated practice.\n\nAs you approach, your footsteps hushed in reverence,
+    the old man's eyes gently open, revealing orbs that sparkle with a depth of ancient
+    knowledge. A knowing smile graces his lips, conveying a silent welcome to those
+    who seek wisdom and adventure.\n\nIn the presence of this enigmatic figure, you
+    sense the convergence of power and enlightenment. You stand before a living embodiment
+    of grace, balance, and harmony\u2026\n\nYou stand before the legendary Ola Mau
+    the Long Lived.\n\nHe begins to laugh and presents you a riddle."
+  Timings:
+  - StartPosition: 4.7893195
+    EndPosition: 10.134665
+    Name: Timing 1
+    Text: 'You seem to be lost amongst the dense foliage of this endless forest. '
+    Rectangle:
+      serializedVersion: 2
+      x: 96.15954
+      y: 21
+      width: 73.84046
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.207052
+    EndPosition: 14.550483
+    Name: Timing 2
+    Text: 'The trees, bushes, and weeds seem to be never-ending. '
+    Rectangle:
+      serializedVersion: 2
+      x: 170.99997
+      y: 21
+      width: 60.00003
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.612381
+    EndPosition: 20.196938
+    Name: Timing 3
+    Text: Suddenly, a sight like the sun at meridian height appears above you.
+    Rectangle:
+      serializedVersion: 2
+      x: 231.85506
+      y: 21
+      width: 77.14494
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.29771
+    EndPosition: 28.59423
+    Name: Timing 4
+    Text: 'You see a wise old man, meditating with serene tranquility, suspended
+      effortlessly above a branch. '
+    Rectangle:
+      serializedVersion: 2
+      x: 310.39206
+      y: 21
+      width: 114.60791
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.70304
+    EndPosition: 33.51678
+    Name: Timing 5
+    Text: 'The old man hovers in a state of meditative suspension. '
+    Rectangle:
+      serializedVersion: 2
+      x: 426.50305
+      y: 21
+      width: 66.49692
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.609707
+    EndPosition: 38.584114
+    Name: Timing 6
+    Text: 'The branch cradles him, offering stability and support, '
+    Rectangle:
+      serializedVersion: 2
+      x: 494.28366
+      y: 21
+      width: 68.71634
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.665714
+    EndPosition: 42.058857
+    Name: Timing 7
+    Text: as if it recognizes the weight of his wisdom.
+    Rectangle:
+      serializedVersion: 2
+      x: 564.1272
+      y: 21
+      width: 46.872803
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.13125
+    EndPosition: 46.764236
+    Name: Timing 8
+    Text: 'The surrounding foliage sways in harmony with his presence, '
+    Rectangle:
+      serializedVersion: 2
+      x: 612
+      y: 21
+      width: 64
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.764217
+    EndPosition: 51.180054
+    Name: Timing 9
+    Text: 'as if paying homage to the enlightened spirit he embodies. '
+    Rectangle:
+      serializedVersion: 2
+      x: 675.9997
+      y: 21
+      width: 61.000305
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.137527
+    EndPosition: 57.333244
+    Name: Timing 10
+    Text: "His physique defies his age, his body honed and sculpted to perfection\u2014"
+    Rectangle:
+      serializedVersion: 2
+      x: 736.41254
+      y: 21
+      width: 85.58746
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.441544
+    EndPosition: 63.558823
+    Name: Timing 11
+    Text: a testament to his profound mastery of body and mind.
+    Rectangle:
+      serializedVersion: 2
+      x: 823.49603
+      y: 21
+      width: 84.50397
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 63.68154
+    EndPosition: 69.20528
+    Name: Timing 12
+    Text: 'Flowing locks of long, silver-grey hair billow around him, '
+    Rectangle:
+      serializedVersion: 2
+      x: 909.6952
+      y: 21
+      width: 76.30475
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 69.2602
+    EndPosition: 74.20022
+    Name: Timing 13
+    Text: 'dancing to an ethereal rhythm created by an invisible breeze. '
+    Rectangle:
+      serializedVersion: 2
+      x: 986.75867
+      y: 21
+      width: 68.24133
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 74.272606
+    EndPosition: 82.88708
+    Name: Timing 14
+    Text: 'The strands, like wisps of wisdom, symbolize the vast knowledge and experience
+      he possesses. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1055.9999
+      y: 21
+      width: 119.00012
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.95526
+    EndPosition: 88.24397
+    Name: Timing 15
+    Text: 'Time seems to have woven its graceful touch into his appearance, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1175.9419
+      y: 21
+      width: 73.058105
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 88.31635
+    EndPosition: 93.673256
+    Name: Timing 16
+    Text: adding an air of ancient wisdom and profound insight.
+    Rectangle:
+      serializedVersion: 2
+      x: 1249.9999
+      y: 21
+      width: 74.00012
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 93.831
+    EndPosition: 100.18839
+    Name: Timing 17
+    Text: "His eyes, hidden behind closed lids, radiate an inner glow\u2014"
+    Rectangle:
+      serializedVersion: 2
+      x: 1326.1791
+      y: 21
+      width: 87.8208
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.359
+    EndPosition: 104.96616
+    Name: Timing 18
+    Text: 'an aura of tranquility and profound understanding. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1416.3567
+      y: 21
+      width: 63.64331
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.00966
+    EndPosition: 109.88872
+    Name: Timing 19
+    Text: 'Lines etched upon his face tell the stories of countless journeys, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1480.6008
+      y: 21
+      width: 67.39917
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 110.00819
+    EndPosition: 114.01498
+    Name: Timing 20
+    Text: 'hardships overcome, and enlightenment attained. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1549.6503
+      y: 21
+      width: 55.34973
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 114.08737
+    EndPosition: 118.50318
+    Name: Timing 21
+    Text: 'His countenance carries an air of profound serenity, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1606.0001
+      y: 21
+      width: 60.999878
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 118.578026
+    EndPosition: 124.07725
+    Name: Timing 22
+    Text: reflecting the inner peace he has found through years of dedicated practice.
+    Rectangle:
+      serializedVersion: 2
+      x: 1668.0338
+      y: 21
+      width: 75.96619
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 124.23136
+    EndPosition: 130.37521
+    Name: Timing 23
+    Text: 'As you approach, your footsteps hushed in reverence, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1746.1289
+      y: 21
+      width: 84.87097
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 130.43936
+    EndPosition: 138.62773
+    Name: Timing 24
+    Text: 'the old man''s eyes gently open, revealing orbs that sparkle with a depth
+      of ancient knowledge. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1831.8861
+      y: 21
+      width: 113.11389
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 138.77002
+    EndPosition: 142.53682
+    Name: Timing 25
+    Text: 'A knowing smile graces his lips, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1946.9656
+      y: 21
+      width: 52.034424
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 142.6092
+    EndPosition: 148.11089
+    Name: Timing 26
+    Text: conveying a silent welcome to those who seek wisdom and adventure.
+    Rectangle:
+      serializedVersion: 2
+      x: 2000
+      y: 21
+      width: 76
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 148.17719
+    EndPosition: 155.71188
+    Name: Timing 27
+    Text: 'In the presence of this enigmatic figure, you sense the convergence of
+      power and enlightenment. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2076.916
+      y: 21
+      width: 104.083984
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 155.84653
+    EndPosition: 161.93745
+    Name: Timing 28
+    Text: "You stand before a living embodiment of grace, balance, and harmony\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 2182.86
+      y: 21
+      width: 84.13989
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 161.93745
+    EndPosition: 167.51152
+    Name: Timing 29
+    Text: You stand before the legendary Ola Mau the Long Lived.
+    Rectangle:
+      serializedVersion: 2
+      x: 2267
+      y: 21
+      width: 77
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 167.58391
+    EndPosition: 170.11758
+    Name: Timing 30
+    Text: He begins to laugh and presents you a riddle.
+    Rectangle:
+      serializedVersion: 2
+      x: 2345
+      y: 21
+      width: 35
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 170.11758
+    EndPosition: 172.5649
+    Name: Timing 31
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2380
+      y: 21
+      width: 33.80713
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
