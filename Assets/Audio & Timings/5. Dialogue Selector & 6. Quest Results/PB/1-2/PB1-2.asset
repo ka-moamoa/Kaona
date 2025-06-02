@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: PB1-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: dafcdcdf27ba64e81a9f08dc20125b36, type: 3}
+  Text: "You are venturing through a dense forest. Sunlight filters through the lush
+    foliage, casting dancing shadows on the floor. A distant echo is heard through
+    the forest. Faint but unmistakable, you catch the sound of a battle... It is
+    a symphony of hushed movements, as if the very forest itself is engaged in whispered
+    confrontation. You investigate.\n\nEmerging through a clearing, your eyes lay
+    upon the source of the ethereal battle. There, amidst a natural stage of intertwining
+    trees and sunlight, is 'Eleuloa, her every move a graceful symphony. You are
+    captivated by her nimble figure as she weaves through the air with fluidity and
+    precision. Her wooden daggers create a low humming noise as she adds her final
+    blows to her opponent, who falls before you. You notice that his body is littered
+    with various punctured wounds. His throat has been cut\u2014not as a deathblow,
+    but to prevent him from crying out and alerting anyone to her presence.\n\nShe
+    stands before you, with dark, wavy hair and expressive brown eyes. She is adorned
+    in vibrant, flowing garments reflecting her heritage. In each hand, she wields
+    two wooden daggers adorned with intricate symbols, each etched with ancient wisdom
+    infused with the spirit of her ancestors.\n\nYou feel a gust of wind blow past
+    you. She then moves to strike.\n\nYou face the legendary 'Eleuloa. The song of
+    the wind."
+  Timings:
+  - StartPosition: 4.3210044
+    EndPosition: 6.79015
+    Name: Timing 1
+    Text: 'You are venturing through a dense forest. '
+    Rectangle:
+      serializedVersion: 2
+      x: 152.59549
+      y: 21
+      width: 70.05458
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.837619
+    EndPosition: 11.728441
+    Name: Timing 2
+    Text: 'Sunlight filters through the lush foliage, casting dancing shadows on
+      the floor. '
+    Rectangle:
+      serializedVersion: 2
+      x: 223.99684
+      y: 21
+      width: 138.76237
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.829909
+    EndPosition: 14.814873
+    Name: Timing 3
+    Text: 'A distant echo is heard through the forest. '
+    Rectangle:
+      serializedVersion: 2
+      x: 365.63806
+      y: 21
+      width: 84.68933
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.814873
+    EndPosition: 20.038065
+    Name: Timing 4
+    Text: 'Faint but unmistakable, you catch the sound of a battle... '
+    Rectangle:
+      serializedVersion: 2
+      x: 450.3274
+      y: 21
+      width: 148.19238
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.165873
+    EndPosition: 27.076893
+    Name: Timing 5
+    Text: 'It is a symphony of hushed movements, as if the very forest itself is
+      engaged in whispered confrontation. '
+    Rectangle:
+      serializedVersion: 2
+      x: 602.14594
+      y: 21
+      width: 196.07935
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.113106
+    EndPosition: 30.247032
+    Name: Timing 6
+    Text: You investigate.
+    Rectangle:
+      serializedVersion: 2
+      x: 799.25275
+      y: 21
+      width: 88.91571
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.38712
+    EndPosition: 36.32493
+    Name: Timing 7
+    Text: 'Emerging through a clearing, your eyes lay upon the source of the ethereal
+      battle. '
+    Rectangle:
+      serializedVersion: 2
+      x: 892.143
+      y: 21
+      width: 168.46747
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.338657
+    EndPosition: 41.308346
+    Name: Timing 8
+    Text: 'There, amidst a natural stage of intertwining trees and sunlight, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1061
+      y: 21
+      width: 140.99988
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.343582
+    EndPosition: 46.06656
+    Name: Timing 9
+    Text: 'is ''Eleuloa, her every move a graceful symphony. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1202.9996
+      y: 21
+      width: 134.00024
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.080452
+    EndPosition: 50.225594
+    Name: Timing 10
+    Text: 'You are captivated by her nimble figure '
+    Rectangle:
+      serializedVersion: 2
+      x: 1337.394
+      y: 21
+      width: 117.60596
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.283264
+    EndPosition: 54.525608
+    Name: Timing 11
+    Text: 'as she weaves through the air with fluidity and precision. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1456.6362
+      y: 21
+      width: 120.36377
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 54.602177
+    EndPosition: 58.05021
+    Name: Timing 12
+    Text: 'Her wooden daggers create a low humming noise '
+    Rectangle:
+      serializedVersion: 2
+      x: 1579.1724
+      y: 21
+      width: 97.827515
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.08517
+    EndPosition: 62.632195
+    Name: Timing 13
+    Text: 'as she adds her final blows to her opponent, who falls before you. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1677.9918
+      y: 21
+      width: 129.00806
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.6595
+    EndPosition: 67.67238
+    Name: Timing 14
+    Text: 'You notice that his body is littered with various punctured wounds. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1807.7747
+      y: 21
+      width: 142.22534
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.70762
+    EndPosition: 71.09124
+    Name: Timing 15
+    Text: "His throat has been cut\u2014not as a deathblow, "
+    Rectangle:
+      serializedVersion: 2
+      x: 1950.9998
+      y: 21
+      width: 96.00012
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.16739
+    EndPosition: 76.554375
+    Name: Timing 16
+    Text: but to prevent him from crying out and alerting anyone to her presence.
+    Rectangle:
+      serializedVersion: 2
+      x: 2049.1604
+      y: 21
+      width: 152.8396
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.50798
+    EndPosition: 82.088005
+    Name: Timing 17
+    Text: 'She stands before you, with dark, wavy hair and expressive brown eyes. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2200.6836
+      y: 21
+      width: 158.3164
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.15043
+    EndPosition: 87.19868
+    Name: Timing 18
+    Text: 'he is adorned in vibrant, flowing garments reflecting her heritage. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2360.771
+      y: 21
+      width: 143.229
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 87.233925
+    EndPosition: 92.90853
+    Name: Timing 19
+    Text: 'In each hand, she wields two wooden daggers adorned with intricate symbols, '
+    Rectangle:
+      serializedVersion: 2
+      x: 2505
+      y: 21
+      width: 160.99976
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.94379
+    EndPosition: 98.794624
+    Name: Timing 20
+    Text: each etched with ancient wisdom infused with the spirit of her ancestors.
+    Rectangle:
+      serializedVersion: 2
+      x: 2667
+      y: 21
+      width: 166
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.84165
+    EndPosition: 105.13891
+    Name: Timing 21
+    Text: You feel a gust of wind blow past you. She then moves to strike.
+    Rectangle:
+      serializedVersion: 2
+      x: 2834.3342
+      y: 21
+      width: 178.66577
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.13891
+    EndPosition: 107.8881
+    Name: Timing 22
+    Text: You face the legendary 'Eleuloa. The song of the wind.
+    Rectangle:
+      serializedVersion: 2
+      x: 3013
+      y: 21
+      width: 78
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 107.92334
+    EndPosition: 110.576324
+    Name: Timing 23
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3091.9998
+      y: 21
+      width: 75.27051
+      height: 137.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
