@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: PB1-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 9309e6d8f84754d9cb54973ace61fdfb, type: 3}
+  Text: 'You are lost within the wild growth forest of Moku Kino. You quickly realize
+    that simply powering your way through the dense vegetation is not an option.
+    The forest stands as a formidable barrier, challenging your every step and challenging
+    your attempts to find a straightforward path through it.
+
+
+    Your senses are
+    suddenly overwhelmed by a deep, resonating thud that reverberates through the
+    ancient trees. The ground trembles beneath your feet, announcing the arrival
+    of Ikaika Ho''okalakupua, the massive pugilist.
+
+
+    Breaking through the thick
+    underbrush, Ikaika emerges like a force of nature. A towering figure, he is wearing
+    nothing but a malo, and he is adorned with intricate tattoos which exude an air
+    of untamed power. The forest seems to bend and bow in deference to his presence,
+    as if even nature itself recognizes his dominance.
+
+
+    With each step, Ikaika''s
+    massive form sends shockwaves through the forest floor, shaking loose leaves
+    and disturbing the tranquil stillness. His eyes, filled with determination and
+    a touch of aggression, lock onto you, measuring you as a potential challenger
+    to his reign.
+
+
+    Without hesitation, Ikaika unleashes a thunderous battle
+    cry that echoes through the trees. The ground beneath him quakes as he charges
+    forward, his colossal fists clenched and ready to deliver devastating blows.
+    His every movement exudes unbridled strength and relentless power, as if he were
+    an unstoppable force of nature given physical form.
+
+
+    You face the legendary
+    Ikaika Ho''okalakupua, the pugilist of the woods.'
+  Timings:
+  - StartPosition: 7.5109296
+    EndPosition: 10.833091
+    Name: Timing 1
+    Text: 'You are lost within the wild growth forest of Moku Kino. '
+    Rectangle:
+      serializedVersion: 2
+      x: 87.408875
+      y: 21
+      width: 25.39254
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.881225
+    EndPosition: 17.669975
+    Name: Timing 2
+    Text: 'You quickly realize that simply powering your way through the dense vegetation
+      is not an option. '
+    Rectangle:
+      serializedVersion: 2
+      x: 113.16932
+      y: 21
+      width: 51.888985
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.739887
+    EndPosition: 21.232859
+    Name: Timing 3
+    Text: 'The forest stands as a formidable barrier, '
+    Rectangle:
+      serializedVersion: 2
+      x: 165.59267
+      y: 21
+      width: 26.698105
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.280998
+    EndPosition: 27.684566
+    Name: Timing 4
+    Text: challenging your every step and challenging your attempts to find a straightforward
+      path through it.
+    Rectangle:
+      serializedVersion: 2
+      x: 192.65872
+      y: 21
+      width: 48.9449
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.732698
+    EndPosition: 31.440037
+    Name: Timing 5
+    Text: 'Your senses are suddenly overwhelmed by a deep, '
+    Rectangle:
+      serializedVersion: 2
+      x: 241.97151
+      y: 21
+      width: 28.336594
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 31.508684
+    EndPosition: 36.30289
+    Name: Timing 6
+    Text: 'resonating thud that reverberates through the ancient trees. '
+    Rectangle:
+      serializedVersion: 2
+      x: 270.8328
+      y: 21
+      width: 36.64395
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 36.26601
+    EndPosition: 39.14357
+    Name: Timing 7
+    Text: 'The ground trembles beneath your feet, '
+    Rectangle:
+      serializedVersion: 2
+      x: 307.19485
+      y: 21
+      width: 21.994263
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.19934
+    EndPosition: 44.969364
+    Name: Timing 8
+    Text: announcing the arrival of Ikaika Ho'okalakupua, the massive pugilist.
+    Rectangle:
+      serializedVersion: 2
+      x: 329.6154
+      y: 21
+      width: 44.102478
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.023357
+    EndPosition: 50.602573
+    Name: Timing 9
+    Text: 'Breaking through the thick underbrush, Ikaika emerges like a force of
+      nature. '
+    Rectangle:
+      serializedVersion: 2
+      x: 374.13055
+      y: 21
+      width: 42.644073
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.65535
+    EndPosition: 55.320984
+    Name: Timing 10
+    Text: 'A towering figure, he is wearing nothing but a malo, '
+    Rectangle:
+      serializedVersion: 2
+      x: 417.178
+      y: 21
+      width: 35.661194
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.369114
+    EndPosition: 62.398605
+    Name: Timing 11
+    Text: 'and he is adorned with intricate tattoos which exude an air of untamed
+      power. '
+    Rectangle:
+      serializedVersion: 2
+      x: 453.2071
+      y: 21
+      width: 53.729065
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.446735
+    EndPosition: 68.079956
+    Name: Timing 12
+    Text: 'The forest seems to bend and bow in deference to his presence, '
+    Rectangle:
+      serializedVersion: 2
+      x: 507.30402
+      y: 21
+      width: 43.056824
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.132065
+    EndPosition: 72.84652
+    Name: Timing 13
+    Text: as if even nature itself recognizes his dominance.
+    Rectangle:
+      serializedVersion: 2
+      x: 550.75916
+      y: 21
+      width: 36.034363
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 72.86805
+    EndPosition: 79.53896
+    Name: Timing 14
+    Text: With each step, Ikaika's massive form sends shockwaves through the forest
+      floor,
+    Rectangle:
+      serializedVersion: 2
+      x: 586.95807
+      y: 21
+      width: 50.988342
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 79.64138
+    EndPosition: 84.64255
+    Name: Timing 15
+    Text: 'shaking loose leaves and disturbing the tranquil stillness. '
+    Rectangle:
+      serializedVersion: 2
+      x: 638.7292
+      y: 21
+      width: 38.22583
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 84.74004
+    EndPosition: 90.08317
+    Name: Timing 16
+    Text: 'His eyes, filled with determination and a touch of aggression, '
+    Rectangle:
+      serializedVersion: 2
+      x: 677.7002
+      y: 21
+      width: 40.83954
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.13132
+    EndPosition: 96.58302
+    Name: Timing 17
+    Text: lock onto you, measuring you as a potential challenger to his reign.
+    Rectangle:
+      serializedVersion: 2
+      x: 718.9078
+      y: 21
+      width: 49.312805
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 96.70197
+    EndPosition: 103.17918
+    Name: Timing 18
+    Text: Without hesitation, Ikaika unleashes a thunderous battle cry that echoes
+      through the trees.
+    Rectangle:
+      serializedVersion: 2
+      x: 769.12976
+      y: 21
+      width: 49.50775
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 103.25129
+    EndPosition: 107.560555
+    Name: Timing 19
+    Text: 'The ground beneath him quakes as he charges forward, '
+    Rectangle:
+      serializedVersion: 2
+      x: 819.18866
+      y: 21
+      width: 32.937378
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 107.624626
+    EndPosition: 113.53079
+    Name: Timing 20
+    Text: 'his colossal fists clenched and ready to deliver devastating blows. '
+    Rectangle:
+      serializedVersion: 2
+      x: 852.6157
+      y: 21
+      width: 45.143066
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 113.629974
+    EndPosition: 118.87512
+    Name: Timing 21
+    Text: 'His every movement exudes unbridled strength and relentless power, '
+    Rectangle:
+      serializedVersion: 2
+      x: 898.5169
+      y: 21
+      width: 40.090637
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 118.8993
+    EndPosition: 124.65277
+    Name: Timing 22
+    Text: as if he were an unstoppable force of nature given physical form.
+    Rectangle:
+      serializedVersion: 2
+      x: 938.79236
+      y: 21
+      width: 43.975952
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 124.65277
+    EndPosition: 130.57486
+    Name: Timing 23
+    Text: You face the legendary Ikaika Ho'okalakupua, the pugilist of the woods.
+    Rectangle:
+      serializedVersion: 2
+      x: 982.7683
+      y: 21
+      width: 45.26477
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 130.57486
+    EndPosition: 132.0751
+    Name: Timing 24
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1028.0331
+      y: 21
+      width: 11.466919
+      height: 163.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
