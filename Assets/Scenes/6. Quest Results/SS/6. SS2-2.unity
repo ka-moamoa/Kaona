@@ -155,6 +155,11 @@ PrefabInstance:
     - target: {fileID: 263602750505709539, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345929816469619678, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 390668896194315116, guid: 30677daa3838f4ab997ceb470cb3b56c,
@@ -510,6 +515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 6. Quest Results
       objectReference: {fileID: 0}
+    - target: {fileID: 4328927261317473026, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_text
+      value: 3 Moku 'Uhane Items
+      objectReference: {fileID: 0}
     - target: {fileID: 4348132352359277946, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_audioClip
@@ -580,6 +590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842801729064078959, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_text
+      value: 2 Moku 'Uhane Items
       objectReference: {fileID: 0}
     - target: {fileID: 4868958824897828506, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -897,10 +912,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8975365804029854350, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    - target: {fileID: 8929120455524445875, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8975365804029854350, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8986908717890668087, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
