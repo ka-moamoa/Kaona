@@ -412,4 +412,17 @@ public class GameDataManager : MonoBehaviour
     }
 
 
+    public void UpdateWSTeleport(bool value)
+    {
+        gameData.WSTeleport = value;
+        Debug.Log($"WS Teleport set to {value}");
+        SaveGameData();
+    }
+
+    public bool GetWSTeleport()
+    {
+        return gameData.WSTeleport;
+    }
+
+
 }

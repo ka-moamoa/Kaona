@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using AudioTextSynchronizer;
+using UnityEngine.SceneManagement;
 
 public class PostQuestGameManager : MonoBehaviour
 {
@@ -220,6 +221,24 @@ public class PostQuestGameManager : MonoBehaviour
         }
 
         fadeOutAnim.SetTrigger("Fade Out");
+    }
+
+    public void WSFadeToMokuWheelAndMarkHealed(int scene)
+    {
+        int index = mokuQuestNum - 1;
+        if (index < 0 || index > 8) return;
+
+        switch (mokuName)
+        {
+            case MokuType.FF: GameDataManager.Instance.UpdateFFData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.FE: GameDataManager.Instance.UpdateFEData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.WS: GameDataManager.Instance.UpdateWSData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.PB: GameDataManager.Instance.UpdatePBData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.TM: GameDataManager.Instance.UpdateTMData(index, MokuProgressState.COMPLETE); break;
+            case MokuType.SS: GameDataManager.Instance.UpdateSSData(index, MokuProgressState.COMPLETE); break;
+        }
+
+        SceneManager.LoadScene(scene);
     }
 
     private int GetMokuQuestState()

@@ -67,6 +67,8 @@ public class MokuWheelFadeManager : MonoBehaviour
         if (TMSelected) GameDataManager.Instance.UpdateLastOpenedState(MokuType.TM, true);
         if (SSSelected) GameDataManager.Instance.UpdateLastOpenedState(MokuType.SS, true);
 
+        GameDataManager.Instance.UpdateWSTeleport(false);
+
         fadeAnim.SetTrigger("Fade Out");
         Invoke(nameof(InvokeChangeAfterDelay), 1f);
         changeInvoked = true;

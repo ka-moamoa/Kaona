@@ -27,6 +27,7 @@ public class GameData
     public bool WSTileIntroDone;
     public bool WSHealed;
     public bool WSLastOpened;
+    public bool WSTeleport; // ✅ New line
     public int[] WS;
 
     public bool PBUnlocked;
