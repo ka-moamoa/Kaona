@@ -185,15 +185,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: cca1ef97d5dbb42bb8d30a39d5ea35b6,
         type: 2}
+    - target: {fileID: 1071620776836596282, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071620776836596282, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WSFadeToMokuWheelAndMarkHealed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071620776836596282, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 1136924052062950300, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1502932031399772021, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1552329524561457092, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -227,6 +242,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b6a1ee8c430e64f8982527d4f09a650c,
         type: 3}
+    - target: {fileID: 1934177991562400547, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: scrollRect
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1953909690357581575, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
@@ -378,6 +398,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 5278f3d44efb841b9883fcee23c35746, type: 3}
+    - target: {fileID: 4501136428800507656, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4513317740719270703, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
@@ -501,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 5801608823801756049, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5924449532341913504, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
@@ -534,6 +559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -164
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150429615162714033, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: scrollRect
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6188602993151645785, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}

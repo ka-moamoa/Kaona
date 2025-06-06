@@ -24,10 +24,10 @@ MonoBehaviour:
     Text: 'You look to your companion for aid. '
     Rectangle:
       serializedVersion: 2
-      x: 126.07328
+      x: 166.89043
       y: 21
-      width: 337.1177
-      height: 189.6
+      width: 480.34357
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 7.2693424
     EndPosition: 12.220868
@@ -35,10 +35,10 @@ MonoBehaviour:
     Text: 'Somehow, it smiles without a mouth '
     Rectangle:
       serializedVersion: 2
-      x: 472.31073
+      x: 660.2283
       y: 21
-      width: 301.28076
-      height: 189.6
+      width: 429.28113
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 12.39059
     EndPosition: 14.936617
@@ -46,10 +46,10 @@ MonoBehaviour:
     Text: 'or means to do so. '
     Rectangle:
       serializedVersion: 2
-      x: 783.91833
+      x: 1104.2238
       y: 21
-      width: 154.91571
-      height: 189.6
+      width: 220.73218
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 15.233651
     EndPosition: 19.816477
@@ -57,10 +57,10 @@ MonoBehaviour:
     Text: 'Your companion assembles the wires in such a way '
     Rectangle:
       serializedVersion: 2
-      x: 956.9074
+      x: 1350.7079
       y: 21
-      width: 278.84674
-      height: 189.6
+      width: 397.31604
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 20.029001
     EndPosition: 24.635382
@@ -68,10 +68,10 @@ MonoBehaviour:
     Text: 'that the hologram ceases to flicker. '
     Rectangle:
       serializedVersion: 2
-      x: 1248.6854
+      x: 1766.4491
       y: 21
-      width: 280.28003
-      height: 189.6
+      width: 399.35828
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 24.693674
     EndPosition: 29.033266
@@ -79,10 +79,10 @@ MonoBehaviour:
     Text: 'Its image is now vibrant. '
     Rectangle:
       serializedVersion: 2
-      x: 1532.5123
+      x: 2170.861
       y: 21
-      width: 264.047
-      height: 189.6
+      width: 376.22852
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 29.300068
     EndPosition: 32.536194
@@ -90,30 +90,30 @@ MonoBehaviour:
     Text: 'You step into the hologram, '
     Rectangle:
       serializedVersion: 2
-      x: 1812.7932
+      x: 2570.2205
       y: 21
-      width: 196.9054
-      height: 189.6
+      width: 280.56152
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
   - StartPosition: 32.68195
-    EndPosition: 36.485527
+    EndPosition: 36.44889
     Name: Timing 8
     Text: and a new world awaits you.
     Rectangle:
       serializedVersion: 2
-      x: 2018.5673
+      x: 2863.4185
       y: 21
-      width: 231.43274
-      height: 189.6
+      width: 326.58154
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
-  - StartPosition: 36.57143
+  - StartPosition: 36.47196
     EndPosition: 69.43347
     Name: Timing 9
     Text: 
     Rectangle:
       serializedVersion: 2
-      x: 2255.2268
+      x: 3191.9998
       y: 21
-      width: 1999.5251
-      height: 189.6
+      width: 2857.656
+      height: 163.2
     Color: {r: 1, g: 1, b: 1, a: 0.16078432}
