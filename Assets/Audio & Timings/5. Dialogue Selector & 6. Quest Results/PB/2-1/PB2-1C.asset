@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: PB2-1C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 1ccd9bb89611845b78deb1fc1999c13d, type: 3}
+  Text: You leave the area.
+  Timings:
+  - StartPosition: 0.41626233
+    EndPosition: 2.0636735
+    Name: Timing 1
+    Text: You leave the area.
+    Rectangle:
+      serializedVersion: 2
+      x: 207
+      y: 21
+      width: 700.5
+      height: 120.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
