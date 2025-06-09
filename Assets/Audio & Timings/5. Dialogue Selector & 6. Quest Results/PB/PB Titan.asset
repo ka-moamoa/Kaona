@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: PB Titan
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 26a10001ca43647dbb5f0dddecf08144, type: 3}
+  Text: "From the depths of the wild growth forest, the earth begins to tremble.
+    Trees shudder and birds scatter as a deafening groan rises from the soil itself.
+    Vines snap and ancient roots uncoil, parting the dense foliage to reveal a towering
+    figure wreathed in living armor, bark, moss, and stone fused into a hulking form.
+    The Titan emerges, each step a thunderclap, her green robe flowing like a storm
+    cloud through the canopy. Beside her, the colossal combat thrall, shaped from
+    the forest\u2019s fury, moves in perfect unison, its club dragging deep scars
+    into the earth.\n\nHer gaze locks onto you, ancient and unyielding, as the forest
+    seems to hold its breath. You now face the Titan, ruler of Moku Kino."
+  Timings:
+  - StartPosition: 0.6653538
+    EndPosition: 5.1564918
+    Name: Timing 1
+    Text: 'From the depths of the wild growth forest, the earth begins to tremble. '
+    Rectangle:
+      serializedVersion: 2
+      x: 50
+      y: 21
+      width: 135
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.1897507
+    EndPosition: 11.477352
+    Name: Timing 2
+    Text: 'Trees shudder and birds scatter as a deafening groan rises from the soil
+      itself. '
+    Rectangle:
+      serializedVersion: 2
+      x: 185.99973
+      y: 21
+      width: 189.00024
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.568413
+    EndPosition: 16.766914
+    Name: Timing 3
+    Text: 'Vines snap and ancient roots uncoil, parting the dense foliage '
+    Rectangle:
+      serializedVersion: 2
+      x: 377.73718
+      y: 21
+      width: 156.26276
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.805737
+    EndPosition: 20.725769
+    Name: Timing 4
+    Text: to reveal a towering figure wreathed in living armor
+    Rectangle:
+      serializedVersion: 2
+      x: 535.16693
+      y: 21
+      width: 117.83301
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.759026
+    EndPosition: 25.283443
+    Name: Timing 5
+    Text: ', bark, moss, and stone fused into a hulking form. '
+    Rectangle:
+      serializedVersion: 2
+      x: 653.99963
+      y: 21
+      width: 136.00037
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.313673
+    EndPosition: 28.676746
+    Name: Timing 6
+    Text: 'The Titan emerges, each step a thunderclap, '
+    Rectangle:
+      serializedVersion: 2
+      x: 790.9086
+      y: 21
+      width: 101.09131
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.695011
+    EndPosition: 33.567097
+    Name: Timing 7
+    Text: 'her green robe flowing like a storm cloud through the canopy. '
+    Rectangle:
+      serializedVersion: 2
+      x: 892.54895
+      y: 21
+      width: 146.45093
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 33.601677
+    EndPosition: 39.189335
+    Name: Timing 8
+    Text: "Beside her, the colossal combat thrall, shaped from the forest\u2019s
+      fury, "
+    Rectangle:
+      serializedVersion: 2
+      x: 1040.0394
+      y: 21
+      width: 167.96045
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.212337
+    EndPosition: 45.144253
+    Name: Timing 9
+    Text: moves in perfect unison, its club dragging deep scars into the earth.
+    Rectangle:
+      serializedVersion: 2
+      x: 1208.6913
+      y: 21
+      width: 178.3086
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.19635
+    EndPosition: 48.936768
+    Name: Timing 10
+    Text: 'Her gaze locks onto you, ancient and unyielding, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1388.5659
+      y: 21
+      width: 112.43396
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.929684
+    EndPosition: 51.66472
+    Name: Timing 11
+    Text: 'as the forest seems to hold its breath. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1500.787
+      y: 21
+      width: 82.21289
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.692337
+    EndPosition: 55.85645
+    Name: Timing 12
+    Text: You now face the Titan, ruler of Moku Kino.
+    Rectangle:
+      serializedVersion: 2
+      x: 1583.8301
+      y: 21
+      width: 125.16992
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.85645
+    EndPosition: 57.57388
+    Name: Timing 13
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 1709
+      y: 21
+      width: 51.62451
+      height: 139.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

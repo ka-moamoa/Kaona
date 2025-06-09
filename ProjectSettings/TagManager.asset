@@ -10,6 +10,7 @@ TagManager:
   - CompleteSprite
   - FadeCanvas
   - Pause UI
+  - Game Manager
   layers:
   - Default
   - TransparentFX

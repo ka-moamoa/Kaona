@@ -1591,32 +1591,38 @@ MonoBehaviour:
     FFTileIntroDone: 0
     FFHealed: 0
     FFLastOpened: 0
+    FFRulerPanelOpenOnReturn: 0
     FF: 000000000000000000000000000000000000000000000000000000000000000000000000
     FEUnlocked: 0
     FETileIntroDone: 0
     FEHealed: 0
     FELastOpened: 0
+    FERulerPanelOpenOnReturn: 0
     FE: 000000000000000000000000000000000000000000000000000000000000000000000000
     WSUnlocked: 0
     WSTileIntroDone: 0
     WSHealed: 0
     WSLastOpened: 0
     WSTeleport: 0
+    WSRulerPanelOpenOnReturn: 0
     WS: 000000000000000000000000000000000000000000000000000000000000000000000000
     PBUnlocked: 0
     PBTileIntroDone: 0
     PBHealed: 0
     PBLastOpened: 0
+    PBRulerPanelOpenOnReturn: 0
     PB: 000000000000000000000000000000000000000000000000000000000000000000000000
     TMUnlocked: 0
     TMTileIntroDone: 0
     TMHealed: 0
     TMLastOpened: 0
+    TMRulerPanelOpenOnReturn: 0
     TM: 000000000000000000000000000000000000000000000000000000000000000000000000
     SSUnlocked: 0
     SSTileIntroDone: 0
     SSHealed: 0
     SSLastOpened: 0
+    SSRulerPanelOpenOnReturn: 0
     SS: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &528703549
 Transform:
@@ -4260,6 +4266,7 @@ GameObject:
   - component: {fileID: 837484238}
   - component: {fileID: 837484237}
   - component: {fileID: 837484241}
+  - component: {fileID: 837484242}
   m_Layer: 5
   m_Name: Ruler Window Canvas
   m_TagString: Untagged
@@ -4382,6 +4389,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &837484242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837484236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd8bb2b417ea4a7686d0ed2bea37198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &862063829 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4862522203010502362, guid: 25e5ddb0a6a11421380491160b67c346,
@@ -10222,7 +10241,7 @@ GameObject:
   - component: {fileID: 1812616571}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: Game Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

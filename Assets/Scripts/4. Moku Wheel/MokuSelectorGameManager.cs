@@ -44,7 +44,7 @@ public class MokuSelectorGameManager : MonoBehaviour
 
     private RotateOnDrag rotateOnDrag;
 
-    void Start()
+    void Awake()
     {
         GameObject wheel = GameObject.FindWithTag("Lokahi Wheel");
         if (wheel != null)

@@ -424,5 +424,35 @@ public class GameDataManager : MonoBehaviour
         return gameData.WSTeleport;
     }
 
+    public void UpdateRulerPanelOpenOnReturn(MokuType moku, bool value)
+    {
+        switch (moku)
+        {
+            case MokuType.FF: gameData.FFRulerPanelOpenOnReturn = value; break;
+            case MokuType.FE: gameData.FERulerPanelOpenOnReturn = value; break;
+            case MokuType.WS: gameData.WSRulerPanelOpenOnReturn = value; break;
+            case MokuType.PB: gameData.PBRulerPanelOpenOnReturn = value; break;
+            case MokuType.TM: gameData.TMRulerPanelOpenOnReturn = value; break;
+            case MokuType.SS: gameData.SSRulerPanelOpenOnReturn = value; break;
+        }
+        Debug.Log($"{moku} RulerPanelOpenOnReturn set to {value}");
+        SaveGameData();
+    }
+
+    public bool GetRulerPanelOpenOnReturn(MokuType moku)
+    {
+        return moku switch
+        {
+            MokuType.FF => gameData.FFRulerPanelOpenOnReturn,
+            MokuType.FE => gameData.FERulerPanelOpenOnReturn,
+            MokuType.WS => gameData.WSRulerPanelOpenOnReturn,
+            MokuType.PB => gameData.PBRulerPanelOpenOnReturn,
+            MokuType.TM => gameData.TMRulerPanelOpenOnReturn,
+            MokuType.SS => gameData.SSRulerPanelOpenOnReturn,
+            _ => false
+        };
+    }
+
+
 
 }
