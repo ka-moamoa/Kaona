@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: PB2-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 0427bfa8482f54b35850eef1fe16df2c, type: 3}
+  Text: "As you venture deeper into the forest, you stumble upon a clearing that
+    reveals a macabre yet awe-inspiring sight. Strewn across the open space are the
+    remnants of fallen fighters\u2014bones, treetrunks, and shattered weapons repurposed
+    into a makeshift obstacle course.\n\nNavigating through this formidable course
+    with astonishing grace are two identical twins, their presence captivating and
+    mysterious. Cloaked in prison uniforms, each wears a large iron mask that conceals
+    their faces, lending an air of enigma to their already intriguing form. Cascades
+    of long, untamed hair cascade down their backs, intertwining with the feminine
+    allure that emanates from their figures.\n\nAs they flow through the obstacle
+    course, their movements display an unparalleled mastery of adaptability. Each
+    hurdle is met with calculated precision, their bodies contorting and twisting
+    with effortless ease. Their fluid motions seem to transcend the boundaries of
+    conventional combat, seamlessly adapting to the challenges presented by the ever-changing
+    landscape.\n\nTheir prison uniforms, bearing the marks of confinement, juxtapose
+    against their graceful movements, symbolizing a hidden strength and resilience
+    born out of adversity.\n\nTheir synchronized efforts speak of a deep connection,
+    forged through shared experiences and an unbreakable bond. They move as one,
+    seamlessly complementing each other's actions, their thoughts seemingly intertwined.
+    A dance of perpetual preparation unfolds before your eyes, each obstacle a stepping
+    stone towards honing their skills for an eternal battle.\n\nIn the presence of
+    these enigmatic twins, you witness a harmonious fusion of femininity and indomitable
+    spirit. Their adaptability and mastery over the course foreshadow a formidable
+    challenge that lies ahead. You find yourself drawn into the captivating rhythm
+    of their movements, feeling an irresistible call to prove your own mettle in
+    the perpetual battle that awaits you.\n\nYou face the legendary sisters Ho'oma'a,
+    the two that are one."
+  Timings:
+  - StartPosition: 4.8319955
+    EndPosition: 6.998961
+    Name: Timing 1
+    Text: 'As you venture deeper into the forest, '
+    Rectangle:
+      serializedVersion: 2
+      x: 55.60988
+      y: 21
+      width: 11.485054
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 7.082653
+    EndPosition: 12.695789
+    Name: Timing 2
+    Text: 'you stumble upon a clearing that reveals a macabre yet awe-inspiring sight. '
+    Rectangle:
+      serializedVersion: 2
+      x: 67.538506
+      y: 21
+      width: 29.74997
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 12.682653
+    EndPosition: 16.92772
+    Name: Timing 3
+    Text: "Strewn across the open space are the remnants of fallen fighters\u2014"
+    Rectangle:
+      serializedVersion: 2
+      x: 97.21886
+      y: 21
+      width: 22.499115
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.034649
+    EndPosition: 23.194231
+    Name: Timing 4
+    Text: bones, treetrunks, and shattered weapons repurposed into a makeshift obstacle
+      course.
+    Rectangle:
+      serializedVersion: 2
+      x: 120.284706
+      y: 21
+      width: 32.64617
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.285328
+    EndPosition: 29.297976
+    Name: Timing 5
+    Text: 'Navigating through this formidable course with astonishing grace are two
+      identical twins, '
+    Rectangle:
+      serializedVersion: 2
+      x: 153.4137
+      y: 21
+      width: 31.867401
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.379343
+    EndPosition: 32.797455
+    Name: Timing 6
+    Text: 'their presence captivating and mysterious. '
+    Rectangle:
+      serializedVersion: 2
+      x: 185.71236
+      y: 21
+      width: 18.116196
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.952652
+    EndPosition: 41.017166
+    Name: Timing 7
+    Text: 'Cloaked in prison uniforms, each wears a large iron mask that conceals
+      their faces, '
+    Rectangle:
+      serializedVersion: 2
+      x: 204.65111
+      y: 21
+      width: 42.74243
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.09855
+    EndPosition: 46.062927
+    Name: Timing 8
+    Text: 'lending an air of enigma to their already intriguing form. '
+    Rectangle:
+      serializedVersion: 2
+      x: 247.82487
+      y: 21
+      width: 26.311508
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 46.207867
+    EndPosition: 50.86454
+    Name: Timing 9
+    Text: 'Cascades of long, untamed hair cascade down their backs, '
+    Rectangle:
+      serializedVersion: 2
+      x: 274.90457
+      y: 21
+      width: 24.680664
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.94592
+    EndPosition: 56.8869
+    Name: Timing 10
+    Text: intertwining with the feminine allure that emanates from their figures.
+    Rectangle:
+      serializedVersion: 2
+      x: 300.01654
+      y: 21
+      width: 31.48758
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.95125
+    EndPosition: 61.03745
+    Name: Timing 11
+    Text: 'As they flow through the obstacle course, '
+    Rectangle:
+      serializedVersion: 2
+      x: 331.84518
+      y: 21
+      width: 21.657104
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 61.036575
+    EndPosition: 65.757675
+    Name: Timing 12
+    Text: 'their movements display an unparalleled mastery of adaptability. '
+    Rectangle:
+      serializedVersion: 2
+      x: 353.49765
+      y: 21
+      width: 25.022125
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.83658
+    EndPosition: 73.651855
+    Name: Timing 13
+    Text: 'Each hurdle is met with calculated precision, their bodies contorting
+      and twisting with effortless ease. '
+    Rectangle:
+      serializedVersion: 2
+      x: 378.938
+      y: 21
+      width: 41.421448
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.78324
+    EndPosition: 80.08113
+    Name: Timing 14
+    Text: 'Their fluid motions seem to transcend the boundaries of conventional combat, '
+    Rectangle:
+      serializedVersion: 2
+      x: 421.0558
+      y: 21
+      width: 33.37921
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 80.151245
+    EndPosition: 85.77796
+    Name: Timing 15
+    Text: seamlessly adapting to the challenges presented by the ever-changing landscape.
+    Rectangle:
+      serializedVersion: 2
+      x: 454.8066
+      y: 21
+      width: 29.82193
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.975235
+    EndPosition: 90.09128
+    Name: Timing 16
+    Text: 'Their prison uniforms, bearing the marks of confinement, '
+    Rectangle:
+      serializedVersion: 2
+      x: 485.6741
+      y: 21
+      width: 21.815308
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.17265
+    EndPosition: 98.473755
+    Name: Timing 17
+    Text: juxtapose against their graceful movements, symbolizing a hidden strength
+      and resilience born out of adversity.
+    Rectangle:
+      serializedVersion: 2
+      x: 507.9207
+      y: 21
+      width: 43.99637
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 98.620636
+    EndPosition: 103.03121
+    Name: Timing 18
+    Text: 'Their synchronized efforts speak of a deep connection, '
+    Rectangle:
+      serializedVersion: 2
+      x: 552.69556
+      y: 21
+      width: 23.376282
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 103.15397
+    EndPosition: 108.40251
+    Name: Timing 19
+    Text: 'forged through shared experiences and an unbreakable bond. '
+    Rectangle:
+      serializedVersion: 2
+      x: 576.7225
+      y: 21
+      width: 27.817627
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 108.58331
+    EndPosition: 116.62222
+    Name: Timing 20
+    Text: 'They move as one, seamlessly complementing each other''s actions, their
+      thoughts seemingly intertwined. '
+    Rectangle:
+      serializedVersion: 2
+      x: 605.49835
+      y: 21
+      width: 42.60669
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 116.68998
+    EndPosition: 128.58556
+    Name: Timing 21
+    Text: A dance of perpetual preparation unfolds before your eyes, each obstacle
+      a stepping stone towards honing their skills for an eternal battle.
+    Rectangle:
+      serializedVersion: 2
+      x: 648.4642
+      y: 21
+      width: 63.047302
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 128.66693
+    EndPosition: 137.70049
+    Name: Timing 22
+    Text: 'In the presence of these enigmatic twins, you witness a harmonious fusion
+      of femininity and indomitable spirit. '
+    Rectangle:
+      serializedVersion: 2
+      x: 711.94275
+      y: 21
+      width: 47.878418
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 137.78186
+    EndPosition: 145.75743
+    Name: Timing 23
+    Text: 'Their adaptability and mastery over the course foreshadow a formidable
+      challenge that lies ahead. '
+    Rectangle:
+      serializedVersion: 2
+      x: 760.25244
+      y: 21
+      width: 42.271057
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 145.83882
+    EndPosition: 151.21011
+    Name: Timing 24
+    Text: 'You find yourself drawn into the captivating rhythm of their movements, '
+    Rectangle:
+      serializedVersion: 2
+      x: 802.95483
+      y: 21
+      width: 28.4682
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 151.26814
+    EndPosition: 158.12769
+    Name: Timing 25
+    Text: feeling an irresistible call to prove your own mettle in the perpetual
+      battle that awaits you.
+    Rectangle:
+      serializedVersion: 2
+      x: 831.7306
+      y: 21
+      width: 36.356018
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 158.12769
+    EndPosition: 164.71973
+    Name: Timing 26
+    Text: You face the legendary sisters Ho'oma'a, the two that are one.
+    Rectangle:
+      serializedVersion: 2
+      x: 868.0866
+      y: 21
+      width: 34.938232
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 164.7561
+    EndPosition: 165.56409
+    Name: Timing 27
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 903.21765
+      y: 21
+      width: 4.2823486
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
