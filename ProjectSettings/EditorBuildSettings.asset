@@ -311,6 +311,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5. Dialogue Screens/PB/5. PB3-2.unity
     guid: 394b180cafa0b4ab08a51692acd943ed
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/PB/6. PB3-2.unity
+    guid: 93961e25be43a4b4fb4c9a6cab3fa73d
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}

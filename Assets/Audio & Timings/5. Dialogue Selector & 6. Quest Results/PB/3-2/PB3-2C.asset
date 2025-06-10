@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: PB3-2C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 5d8ebe1bf8d7e4892b99254606698240, type: 3}
+  Text: You gracefully walk away.
+  Timings:
+  - StartPosition: 1.1417073
+    EndPosition: 3.6832652
+    Name: Timing 1
+    Text: You gracefully walk away.
+    Rectangle:
+      serializedVersion: 2
+      x: 302
+      y: 21
+      width: 605.5
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
