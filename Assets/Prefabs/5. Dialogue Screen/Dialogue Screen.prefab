@@ -324,6 +324,7 @@ Transform:
   - {fileID: 2204224821451022317}
   - {fileID: 8159237852685314228}
   - {fileID: 2174532854843416381}
+  - {fileID: 1154542130335956369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1569022914914032439
@@ -602,9 +603,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mokuAudio: {fileID: 0}
-  sceneNum: 7
   changeInvoked: 0
   fadeAnim: {fileID: 6144113317121824055}
+  overrideFF: 0
+  overrideFE: 0
+  overrideWS: 0
+  overridePB: 0
+  overrideTM: 0
+  overrideSS: 0
+  overrideSceneIndex: 0
 --- !u!114 &2129846609946510057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,6 +990,91 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &3316146310081557782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1154542130335956369}
+  - component: {fileID: 5796010518181778757}
+  m_Layer: 0
+  m_Name: Game Data Manager (DO NOT REMOVE)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1154542130335956369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316146310081557782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1145.0442, y: 596.76794, z: -21.346804}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2857540039944819033}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5796010518181778757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316146310081557782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f0edb8f624645c1871373b37cdae56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData:
+    introSequenceDone: 0
+    gameComplete: 0
+    firstMokuIntroDone: 0
+    FFUnlocked: 0
+    FFTileIntroDone: 0
+    FFHealed: 0
+    FFLastOpened: 0
+    FFRulerPanelOpenOnReturn: 0
+    FF: 000000000000000000000000000000000000000000000000000000000000000000000000
+    FEUnlocked: 0
+    FETileIntroDone: 0
+    FEHealed: 0
+    FELastOpened: 0
+    FERulerPanelOpenOnReturn: 0
+    FE: 000000000000000000000000000000000000000000000000000000000000000000000000
+    WSUnlocked: 0
+    WSTileIntroDone: 0
+    WSHealed: 0
+    WSLastOpened: 0
+    WSTeleport: 0
+    WSRulerPanelOpenOnReturn: 0
+    WS: 000000000000000000000000000000000000000000000000000000000000000000000000
+    PBUnlocked: 0
+    PBTileIntroDone: 0
+    PBHealed: 0
+    PBLastOpened: 0
+    PBRulerPanelOpenOnReturn: 0
+    PB: 000000000000000000000000000000000000000000000000000000000000000000000000
+    TMUnlocked: 0
+    TMTileIntroDone: 0
+    TMHealed: 0
+    TMLastOpened: 0
+    TMRulerPanelOpenOnReturn: 0
+    TM: 000000000000000000000000000000000000000000000000000000000000000000000000
+    SSUnlocked: 0
+    SSTileIntroDone: 0
+    SSHealed: 0
+    SSLastOpened: 0
+    SSRulerPanelOpenOnReturn: 0
+    SS: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &4223253537475953170
 GameObject:
   m_ObjectHideFlags: 0

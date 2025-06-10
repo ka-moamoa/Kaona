@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class GoToWS : MonoBehaviour
 {
+    [Header("Auto Start Settings")]
+    public bool autoassignWS = false;
+
     void Start()
     {
-
-    }
-
-    void Update()
-    {
-
+        if (autoassignWS)
+        {
+            GoToWSMokuWheel();
+        }
     }
 
     public void GoToWSMokuWheel()
@@ -24,7 +25,12 @@ public class GoToWS : MonoBehaviour
         GameDataManager.Instance.UpdateLastOpenedState(MokuType.WS, true);
         GameDataManager.Instance.UpdateWSTeleport(true);
 
-        Invoke("LoadWSScene", 1f); // Delay for 1 second before loading
+        if (!autoassignWS)
+        {
+            Invoke("LoadWSScene", 1f); // Delay for 1 second before loading
+        }
+
+        
     }
 
     private void LoadWSScene()
