@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS1-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 58b3171968fd34dc8914d03b5a4b79c6, type: 3}
+  Text: "You are approached by a Hawaiian (native!) guide and a Western missionary.\n\nThe
+    guide\u2019s wide-brimmed hat, a practical accessory for protection against the
+    tropical sun, casts a shadow over his weathered face, highlighting his strong
+    features and thoughtful eyes. A sash or belt made of woven fibers or leather,
+    reflecting traditional Hawaiian craftsmanship, secures his outfit. His attire
+    is functional yet carries a sense of cultural pride, with subtle adornments that
+    hint at his heritage.\n\nThe missionary, in stark contrast, is dressed in formal
+    Western clothing, his demeanor one of impatience and curiosity.\n\n\u201CAh,
+    we have been waiting for you,\u201D the missionary announces, a mix of authority
+    and expectation in his voice. The guide nods in agreement, his eyes reflecting
+    a deep understanding of the land and its secrets. \u201CCome, join us on our
+    horses. We have much to show you.\u201D\n\nYou all mount the horses provided
+    for you and embark on a journey along the coast. As you ride, the Western missionary
+    begins to question the Hawaiian guide with a series of probing and culturally
+    insensitive remarks.\n\n\u201CWhat do you eat other than fish?\u201D he asks,
+    his tone dismissive. \u201CThis place is a wasteland. If there are no icons of
+    religion, why do you call this place sacred?\u201D\nThe guide remains composed,
+    his silence a testament to his resilience and wisdom.\n\nThe ride continues,
+    with the scenic beauty of the Waianae coast juxtaposed against the missionary's
+    relentless questioning.\n\nFinally, as you all near the end of your journey,
+    the missionary asks a final question, his voice tinged with disbelief.\n\n\u201CWhere
+    is your magic here? I have not seen it.\u201D\n\nHow wise a statement!\n\nThe
+    Hawaiian (native!) guide turns to you, his expression one of quiet contemplation.\n\nHe
+    says, \"The roads along the coast have hidden the true majesty of the valley,
+    where the real magic and resources lie.\"\n\nHe continues, \u201CHow should I
+    explain this to the missionary?\u201D"
+  Timings:
+  - StartPosition: 5.526495
+    EndPosition: 13.359818
+    Name: Timing 1
+    Text: You are approached by a Hawaiian (native!) guide and a Western missionary.
+    Rectangle:
+      serializedVersion: 2
+      x: 216
+      y: 21
+      width: 263.63873
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 13.370544
+    EndPosition: 20.263815
+    Name: Timing 2
+    Text: "The guide\u2019s wide-brimmed hat, a practical accessory for protection
+      against the tropical sun, "
+    Rectangle:
+      serializedVersion: 2
+      x: 479.99973
+      y: 21
+      width: 232.00027
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.26381
+    EndPosition: 27.899885
+    Name: Timing 3
+    Text: 'casts a shadow over his weathered face, highlighting his strong features
+      and thoughtful eyes. '
+    Rectangle:
+      serializedVersion: 2
+      x: 711.9998
+      y: 21
+      width: 257.00012
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.899887
+    EndPosition: 37.37812
+    Name: Timing 4
+    Text: 'A sash or belt made of woven fibers or leather, reflecting traditional
+      Hawaiian craftsmanship, secures his outfit. '
+    Rectangle:
+      serializedVersion: 2
+      x: 969.00006
+      y: 21
+      width: 318.99994
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.420067
+    EndPosition: 45.96499
+    Name: Timing 5
+    Text: His attire is functional yet carries a sense of cultural pride, with subtle
+      adornments that hint at his heritage.
+    Rectangle:
+      serializedVersion: 2
+      x: 1289.4117
+      y: 21
+      width: 287.58826
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.994694
+    EndPosition: 55.41351
+    Name: Timing 6
+    Text: The missionary, in stark contrast, is dressed in formal Western clothing,
+      his demeanor one of impatience and curiosity.
+    Rectangle:
+      serializedVersion: 2
+      x: 1577.9998
+      y: 21
+      width: 317.00012
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.561314
+    EndPosition: 64.47578
+    Name: Timing 7
+    Text: "\u201CAh, we have been waiting for you,\u201D the missionary announces,
+      a mix of authority and expectation in his voice. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1899.9744
+      y: 21
+      width: 300.02563
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.501
+    EndPosition: 71.84444
+    Name: Timing 8
+    Text: 'The guide nods in agreement, his eyes reflecting a deep understanding
+      of the land and its secrets. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2200.8489
+      y: 21
+      width: 247.15112
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 71.84442
+    EndPosition: 77.81661
+    Name: Timing 9
+    Text: "\u201CCome, join us on our horses. We have much to show you.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 2447.9995
+      y: 21
+      width: 201.00049
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.83517
+    EndPosition: 82.92713
+    Name: Timing 10
+    Text: 'You all mount the horses provided for you and embark on a journey along
+      the coast. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2649.6243
+      y: 21
+      width: 171.37549
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.92712
+    EndPosition: 92.25681
+    Name: Timing 11
+    Text: As you ride, the Western missionary begins to question the Hawaiian guide
+      with a series of probing and culturally insensitive remarks.
+    Rectangle:
+      serializedVersion: 2
+      x: 2820.9993
+      y: 21
+      width: 314.00073
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.28476
+    EndPosition: 97.81302
+    Name: Timing 12
+    Text: "\u201CWhat do you eat other than fish?\u201D he asks, his tone dismissive. "
+    Rectangle:
+      serializedVersion: 2
+      x: 3135.9407
+      y: 21
+      width: 186.05933
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 97.81111
+    EndPosition: 100.39799
+    Name: Timing 13
+    Text: "\u201CThis place is a wasteland. "
+    Rectangle:
+      serializedVersion: 2
+      x: 3321.9358
+      y: 21
+      width: 87.063965
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 100.39799
+    EndPosition: 105.41937
+    Name: Timing 14
+    Text: "If there are no icons of religion, why do you call this place sacred?\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 3408.9998
+      y: 21
+      width: 169
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.45048
+    EndPosition: 111.95609
+    Name: Timing 15
+    Text: The guide remains composed, his silence a testament to his resilience and
+      wisdom.
+    Rectangle:
+      serializedVersion: 2
+      x: 3579.0466
+      y: 21
+      width: 218.95337
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 111.998505
+    EndPosition: 122.3257
+    Name: Timing 16
+    Text: The ride continues, with the scenic beauty of the Waianae coast juxtaposed
+      against the missionary's relentless questioning.
+    Rectangle:
+      serializedVersion: 2
+      x: 3799.4275
+      y: 21
+      width: 347.5725
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 122.35461
+    EndPosition: 135.8448
+    Name: Timing 17
+    Text: Finally, as you all near the end of your journey, the missionary asks a
+      final question, his voice tinged with disbelief.
+    Rectangle:
+      serializedVersion: 2
+      x: 4147.973
+      y: 21
+      width: 454.02637
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 135.87451
+    EndPosition: 140.95534
+    Name: Timing 18
+    Text: "\u201CWhere is your magic here? I have not seen it.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 4602.9995
+      y: 21
+      width: 171.00049
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 141.099
+    EndPosition: 143.36203
+    Name: Timing 19
+    Text: How wise a statement!
+    Rectangle:
+      serializedVersion: 2
+      x: 4778.835
+      y: 21
+      width: 76.16504
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 143.37456
+    EndPosition: 152.15688
+    Name: Timing 20
+    Text: The Hawaiian (native!) guide turns to you, his expression one of quiet
+      contemplation.
+    Rectangle:
+      serializedVersion: 2
+      x: 4855.4214
+      y: 21
+      width: 295.57812
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 152.29102
+    EndPosition: 162.5859
+    Name: Timing 21
+    Text: He says, "The roads along the coast have hidden the true majesty of the
+      valley, where the real magic and resources lie."
+    Rectangle:
+      serializedVersion: 2
+      x: 5155.514
+      y: 21
+      width: 346.48535
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 162.5859
+    EndPosition: 167.28046
+    Name: Timing 22
+    Text: "He continues, \u201CHow should I explain this to the missionary?\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 5501.9995
+      y: 21
+      width: 158
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 167.28046
+    EndPosition: 168.80327
+    Name: Timing 23
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 5659.9995
+      y: 21
+      width: 51.251953
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
