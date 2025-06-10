@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: PB3-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: a1265b6c55d6c42f8a9b77034e4d8329, type: 3}
+  Text: 'As you venture further into the forest, you stumble upon a serene scene,
+    a figure sitting in a clearing, leisurely enjoying a feast of tropical fruits.
+
+
+    The
+    figure sets aside the half-eaten fruit, his hands calloused and weathered from
+    years of battles fought and won.
+
+
+    The stillness of the forest is momentarily
+    broken by the sound of his deep, steady breaths, as if drawing strength from
+    the very essence of the land. He stands.
+
+
+    The man exudes an aura of quiet
+    strength, his massive muscular form emanating an air of resilience. Standing
+    bare-chested and broad-shouldered, he carries himself with a sense of unwavering
+    confidence.
+
+
+    He picks up a traditional Hawaiian helmet from the ground,
+    its polished surface gleams in the dappled sunlight, symbolizing his connection
+    to his ancestral roots.
+
+
+    His attire consists of sturdy, earth-toned garments
+    that blend harmoniously with the forest surroundings. A woven waistband, intricately
+    adorned with cultural motifs, encircles his waist.
+
+
+    The man extends a hand
+    palm-up and gestures politely for you to make the first blow. His slow and deliberate
+    movements hint at the unyielding stamina that lies within. Though his demeanor
+    appears calm and composed, an undercurrent of untapped power resonates within
+    him, waiting to be unleashed when called upon.
+
+
+    You face the legendary Pa''akiki
+    the unyielding.'
+  Timings:
+  - StartPosition: 5.4719954
+    EndPosition: 10.913555
+    Name: Timing 1
+    Text: 'As you venture further into the forest, you stumble upon a serene scene, '
+    Rectangle:
+      serializedVersion: 2
+      x: 69.018074
+      y: 21
+      width: 38.801056
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.965329
+    EndPosition: 17.4356
+    Name: Timing 2
+    Text: a figure sitting in a clearing, leisurely enjoying a feast of tropical
+      fruits.
+    Rectangle:
+      serializedVersion: 2
+      x: 108.18831
+      y: 21
+      width: 46.136276
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.58932
+    EndPosition: 26.957787
+    Name: Timing 3
+    Text: The figure sets aside the half-eaten fruit, his hands calloused and weathered
+      from years of battles fought and won.
+    Rectangle:
+      serializedVersion: 2
+      x: 155.42068
+      y: 21
+      width: 66.80188
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.10399
+    EndPosition: 34.795418
+    Name: Timing 4
+    Text: 'The stillness of the forest is momentarily broken by the sound of his
+      deep, steady breaths, '
+    Rectangle:
+      serializedVersion: 2
+      x: 223.26506
+      y: 21
+      width: 54.843735
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.751995
+    EndPosition: 38.958347
+    Name: Timing 5
+    Text: 'as if drawing strength from the very essence of the land. '
+    Rectangle:
+      serializedVersion: 2
+      x: 277.7992
+      y: 21
+      width: 29.993378
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.958344
+    EndPosition: 41.91501
+    Name: Timing 6
+    Text: He stands.
+    Rectangle:
+      serializedVersion: 2
+      x: 307.79257
+      y: 21
+      width: 21.082489
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.040997
+    EndPosition: 51.21979
+    Name: Timing 7
+    Text: 'The man exudes an aura of quiet strength, his massive muscular form emanating
+      an air of resilience. '
+    Rectangle:
+      serializedVersion: 2
+      x: 329.77344
+      y: 21
+      width: 65.4494
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.289
+    EndPosition: 60.133255
+    Name: Timing 8
+    Text: Standing bare-chested and broad-shouldered, he carries himself with a sense
+      of unwavering confidence.
+    Rectangle:
+      serializedVersion: 2
+      x: 395.71634
+      y: 21
+      width: 63.063965
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 60.206326
+    EndPosition: 69.046715
+    Name: Timing 9
+    Text: 'He picks up a traditional Hawaiian helmet from the ground, its polished
+      surface gleams in the dappled sunlight, '
+    Rectangle:
+      serializedVersion: 2
+      x: 459.30133
+      y: 21
+      width: 63.036438
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 69.12367
+    EndPosition: 73.655624
+    Name: Timing 10
+    Text: symbolizing his connection to his ancestral roots.
+    Rectangle:
+      serializedVersion: 2
+      x: 522.88654
+      y: 21
+      width: 32.315063
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.71034
+    EndPosition: 82.308205
+    Name: Timing 11
+    Text: 'His attire consists of sturdy, earth-toned garments that blend harmoniously
+      with the forest surroundings. '
+    Rectangle:
+      serializedVersion: 2
+      x: 555.5918
+      y: 21
+      width: 61.307068
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.45701
+    EndPosition: 90.14844
+    Name: Timing 12
+    Text: A woven waistband, intricately adorned with cultural motifs, encircles
+      his waist.
+    Rectangle:
+      serializedVersion: 2
+      x: 617.9599
+      y: 21
+      width: 54.84375
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 90.275665
+    EndPosition: 97.967094
+    Name: Timing 13
+    Text: 'The man extends a hand palm-up and gestures politely for you to make the
+      first blow. '
+    Rectangle:
+      serializedVersion: 2
+      x: 673.7108
+      y: 21
+      width: 54.84375
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 97.96111
+    EndPosition: 105.30929
+    Name: Timing 14
+    Text: His slow and deliberate movements hint at the unyielding stamina that lies
+      within.
+    Rectangle:
+      serializedVersion: 2
+      x: 728.51196
+      y: 21
+      width: 52.39618
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 105.35832
+    EndPosition: 111.0052
+    Name: Timing 15
+    Text: 'Though his demeanor appears calm and composed, an undercurrent of untapped '
+    Rectangle:
+      serializedVersion: 2
+      x: 781.25775
+      y: 21
+      width: 40.265137
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 111.0052
+    EndPosition: 116.61417
+    Name: Timing 16
+    Text: power resonates within him, waiting to be unleashed when called upon.
+    Rectangle:
+      serializedVersion: 2
+      x: 821.5229
+      y: 21
+      width: 39.99469
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 116.61417
+    EndPosition: 120.70131
+    Name: Timing 17
+    Text: You face the legendary Pa'akiki the unyielding.
+    Rectangle:
+      serializedVersion: 2
+      x: 861.5176
+      y: 21
+      width: 29.143372
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 120.70131
+    EndPosition: 123.06286
+    Name: Timing 18
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 890.66095
+      y: 21
+      width: 16.83905
+      height: 141.2
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
