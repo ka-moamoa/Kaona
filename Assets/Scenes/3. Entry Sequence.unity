@@ -3254,7 +3254,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 745, y: 505.0001}
-  m_SizeDelta: {x: 365, y: 47}
+  m_SizeDelta: {x: 322, y: 47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1813454408
 MonoBehaviour:
@@ -3587,27 +3587,40 @@ MonoBehaviour:
     FFUnlocked: 0
     FFTileIntroDone: 0
     FFHealed: 0
-    FF: 000000000000000000
+    FFLastOpened: 0
+    FFRulerPanelOpenOnReturn: 0
+    FF: 0000000000000000
     FEUnlocked: 0
     FETileIntroDone: 0
     FEHealed: 0
-    FE: 000000000000000000
+    FELastOpened: 0
+    FERulerPanelOpenOnReturn: 0
+    FE: 0000000000000000
     WSUnlocked: 0
     WSTileIntroDone: 0
     WSHealed: 0
-    WS: 000000000000000000
+    WSLastOpened: 0
+    WSTeleport: 0
+    WSRulerPanelOpenOnReturn: 0
+    WS: 0000000000000000
     PBUnlocked: 0
     PBTileIntroDone: 0
     PBHealed: 0
-    PB: 000000000000000000
+    PBLastOpened: 0
+    PBRulerPanelOpenOnReturn: 0
+    PB: 0000000000000000
     TMUnlocked: 0
     TMTileIntroDone: 0
     TMHealed: 0
-    TM: 000000000000000000
+    TMLastOpened: 0
+    TMRulerPanelOpenOnReturn: 0
+    TM: 0000000000000000
     SSUnlocked: 0
     SSTileIntroDone: 0
     SSHealed: 0
-    SS: 000000000000000000
+    SSLastOpened: 0
+    SSRulerPanelOpenOnReturn: 0
+    SS: 0000000000000000
 --- !u!4 &1856808143
 Transform:
   m_ObjectHideFlags: 0
