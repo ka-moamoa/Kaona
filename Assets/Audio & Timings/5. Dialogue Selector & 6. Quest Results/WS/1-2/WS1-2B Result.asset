@@ -12,6 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS1-2B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: a35e2d5ba2c254c78a3a4e504b3c93c9, type: 3}
+  Text: Listening to both sides but refraining from direct involvement. This cautious
+    approach allows you to gather more information and understand the complexities
+    of the situation without committing to one side.
+  Timings:
+  - StartPosition: 0.586644
+    EndPosition: 22.93551
+    Name: Timing 1
+    Text: Listening to both sides but refraining from direct involvement. This cautious
+      approach allows you to gather more information and understand the complexities
+      of the situation without committing to one side.
+    Rectangle:
+      serializedVersion: 2
+      x: 52.444675
+      y: 21
+      width: 855.0553
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

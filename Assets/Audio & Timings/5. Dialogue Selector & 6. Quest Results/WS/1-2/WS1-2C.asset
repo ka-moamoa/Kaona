@@ -12,6 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS1-2C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 4d0b75f81ca3c4beba18f06a34632cc8, type: 3}
+  Text: 'Oppose the Revolution.
+
+
+    You decide to oppose the revolution, either
+    out of fear or a belief that it is doomed to fail. This decision is met with
+    disappointment and distrust from the revolutionaries.'
+  Timings:
+  - StartPosition: 1.0133107
+    EndPosition: 4.2704773
+    Name: Timing 1
+    Text: Oppose the Revolution.
+    Rectangle:
+      serializedVersion: 2
+      x: 69.62622
+      y: 21
+      width: 127.37378
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 4.298662
+    EndPosition: 22.439184
+    Name: Timing 2
+    Text: You decide to oppose the revolution, either out of fear or a belief that
+      it is doomed to fail. This decision is met with disappointment and distrust
+      from the revolutionaries.
+    Rectangle:
+      serializedVersion: 2
+      x: 198.10219
+      y: 21
+      width: 709.3978
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

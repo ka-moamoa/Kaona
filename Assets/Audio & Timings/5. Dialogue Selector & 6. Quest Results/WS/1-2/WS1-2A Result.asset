@@ -12,6 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS1-2A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 1bf6e60d36b0e40299a5241cdc5e06ef, type: 3}
+  Text: 'What do you say?
+
+    The result for your efforts are unknown'
+  Timings:
+  - StartPosition: 1.2586621
+    EndPosition: 6.5567346
+    Name: Timing 1
+    Text: 'What do you say?
+
+      The result for your efforts are unknown'
+    Rectangle:
+      serializedVersion: 2
+      x: 198.4491
+      y: 21
+      width: 709.0509
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
