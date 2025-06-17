@@ -12,6 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS1-1A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 1f3aa3c53fc854560b799a20ff8b814a, type: 3}
+  Text: "Your guide takes you and the missionary through a hidden path that leads
+    to the heart of the valley. This path is treacherous and requires everyone to
+    navigate through dense foliage and steep terrain, but it reveals the lush, vibrant
+    beauty of the valley, filled with abundant resources and ancient sacred sites.\n\nThe
+    missionary acknowledges the importance of \u201CUa Mau ke ea o ka 'Aina i ka
+    Pono\u201D \u2014 \u201CThe Freedom of the land is perpetuated in balance\u201D
+    \u2014 and decides to return to his homeland."
+  Timings:
+  - StartPosition: 0.096749805
+    EndPosition: 25.783823
+    Name: Timing 1
+    Text: Your guide takes you and the missionary through a hidden path that leads
+      to the heart of the valley. This path is treacherous and requires everyone
+      to navigate through dense foliage and steep terrain, but it reveals the lush,
+      vibrant beauty of the valley, filled with abundant resources and ancient sacred
+      sites.
+    Rectangle:
+      serializedVersion: 2
+      x: 32
+      y: 21
+      width: 531
+      height: 126.600006
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.8322
+    EndPosition: 42.44898
+    Name: Timing 2
+    Text: "The missionary acknowledges the importance of \u201CUa Mau ke ea o ka
+      'Aina i ka Pono\u201D \u2014 \u201CThe Freedom of the land is perpetuated in
+      balance\u201D \u2014 and decides to return to his homeland."
+    Rectangle:
+      serializedVersion: 2
+      x: 564
+      y: 21
+      width: 343.5
+      height: 126.600006
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

@@ -12,6 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS1-1B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 724e74a4a10cd45ef8aff56f3c1d142b, type: 3}
+  Text: The missionary is moved by the story and begins to understand and respect
+    the cultural significance of the land. He will return to his  missionaries and
+    share the importance of this story.
+  Timings:
+  - StartPosition: 0.45866212
+    EndPosition: 16.404898
+    Name: Timing 1
+    Text: The missionary is moved by the story and begins to understand and respect
+      the cultural significance of the land. He will return to his  missionaries
+      and share the importance of this story.
+    Rectangle:
+      serializedVersion: 2
+      x: 54.533894
+      y: 21
+      width: 852.9661
+      height: 126.600006
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
