@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS1-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 6573cd117101046a5aa0c4fce82518b7, type: 3}
+  Text: "You find yourself riding alongside lesser ali'i (chiefs) of the Waianae
+    Coast on a mission that could change the course of history.\n\nI certainly hope
+    not.\n\nThe recent rain has left the air fresh and filled with the scent of flowers.
+    As you ride, you see Hawaiians working the land with joy, embodying the spirit
+    of 'aina, where work is a form of communion with the land rather than labor.\n\nWhat
+    a waste of time.\n\nUpon arriving at the destination\u2014a simple Western-style
+    house. How quaint, a Western home... funny how the natives love Western niceties.
+    You enter the home.\n\nThe air is filled with the smell of freshly cooked food
+    and the sounds of animated conversations. Inside, a gathering of sea captains,
+    plantation workers, and traders discuss their plans for a revolution against
+    Ka'ahumanu, who has aligned herself with Western advisors pushing Westernization.\n\nA
+    Hawaiian woman seems to be leading the conversation. You learn her name to be
+    Kuini Liliha.\n\nYou have brought me to her... I thank you.\n\nAs you sit on
+    a simple wooden bench, the conversation shifts to the importance of reclaiming
+    their cultural heritage and maintaining the community\u2019s values and skills.
+    Liliha emphasizes that the tools of war they plan to collect will be vital in
+    their fight for independence and cultural preservation. The room falls silent
+    as all eyes turn to you, awaiting their decision on whether to support the revolution.\n\nI
+    must inform the authorities."
+  Timings:
+  - StartPosition: 8.900431
+    EndPosition: 22.448889
+    Name: Timing 1
+    Text: You find yourself riding alongside lesser ali'i (chiefs) of the Waianae
+      Coast on a mission that could change the course of history.
+    Rectangle:
+      serializedVersion: 2
+      x: 81.530754
+      y: 21
+      width: 78.441414
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.560408
+    EndPosition: 26.701323
+    Name: Timing 2
+    Text: I certainly hope not.
+    Rectangle:
+      serializedVersion: 2
+      x: 160.61783
+      y: 21
+      width: 23.974625
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 26.750748
+    EndPosition: 34.761166
+    Name: Timing 3
+    Text: 'The recent rain has left the air fresh and filled with the scent of flowers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 184.8786
+      y: 21
+      width: 46.377853
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.750725
+    EndPosition: 40.497005
+    Name: Timing 4
+    Text: 'As you ride, you see Hawaiians working the land with joy, '
+    Rectangle:
+      serializedVersion: 2
+      x: 231.19601
+      y: 21
+      width: 33.269196
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 40.54644
+    EndPosition: 51.128086
+    Name: Timing 5
+    Text: embodying the spirit of 'aina, where work is a form of communion with the
+      land rather than labor.
+    Rectangle:
+      serializedVersion: 2
+      x: 264.75143
+      y: 21
+      width: 61.264465
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.216415
+    EndPosition: 55.03439
+    Name: Timing 6
+    Text: What a waste of time.
+    Rectangle:
+      serializedVersion: 2
+      x: 326.52728
+      y: 21
+      width: 22.10492
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.056416
+    EndPosition: 60.819675
+    Name: Timing 7
+    Text: "Upon arriving at the destination\u2014a simple Western-style house. "
+    Rectangle:
+      serializedVersion: 2
+      x: 348.7597
+      y: 21
+      width: 33.367523
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 60.91857
+    EndPosition: 64.4293
+    Name: Timing 8
+    Text: How quaint, a Western home... funny
+    Rectangle:
+      serializedVersion: 2
+      x: 382.6998
+      y: 21
+      width: 20.32602
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 64.478546
+    EndPosition: 69.472885
+    Name: Timing 9
+    Text: how the natives love Western niceties. You enter the home.
+    Rectangle:
+      serializedVersion: 2
+      x: 403.31094
+      y: 21
+      width: 28.91571
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 69.522316
+    EndPosition: 76.74158
+    Name: Timing 10
+    Text: 'The air is filled with the smell of freshly cooked food and the sounds
+      of animated conversations. '
+    Rectangle:
+      serializedVersion: 2
+      x: 432.51282
+      y: 21
+      width: 41.797302
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.76229
+    EndPosition: 86.23495
+    Name: Timing 11
+    Text: 'Inside, a gathering of sea captains, plantation workers, and traders discuss
+      their plans for a revolution against '
+    Rectangle:
+      serializedVersion: 2
+      x: 474.43005
+      y: 21
+      width: 54.84375
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 86.30229
+    EndPosition: 92.71292
+    Name: Timing 12
+    Text: Ka'ahumanu, who has aligned herself with Western advisors pushing Westernization.
+    Rectangle:
+      serializedVersion: 2
+      x: 529.66376
+      y: 21
+      width: 37.11554
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.73229
+    EndPosition: 104.1846
+    Name: Timing 13
+    Text: A Hawaiian woman seems to be leading the conversation. You learn her name
+      to be Kuini Liliha.
+    Rectangle:
+      serializedVersion: 2
+      x: 566.8915
+      y: 21
+      width: 66.3053
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 104.25229
+    EndPosition: 109.47542
+    Name: Timing 14
+    Text: You have brought me to her... I thank you.
+    Rectangle:
+      serializedVersion: 2
+      x: 633.5887
+      y: 21
+      width: 30.240295
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 109.55229
+    EndPosition: 116.694664
+    Name: Timing 15
+    Text: 'As you sit on a simple wooden bench, the conversation shifts to the importance '
+    Rectangle:
+      serializedVersion: 2
+      x: 664.2741
+      y: 21
+      width: 41.35211
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 116.75229
+    EndPosition: 123.963356
+    Name: Timing 16
+    Text: "of reclaiming their cultural heritage and maintaining the community\u2019s
+      values and skills. "
+    Rectangle:
+      serializedVersion: 2
+      x: 705.95984
+      y: 21
+      width: 41.749878
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 123.92229
+    EndPosition: 135.33614
+    Name: Timing 17
+    Text: 'Liliha emphasizes that the tools of war they plan to collect will be vital
+      in their fight for independence and cultural preservation. '
+    Rectangle:
+      serializedVersion: 2
+      x: 747.4719
+      y: 21
+      width: 66.0827
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 135.45229
+    EndPosition: 146.90672
+    Name: Timing 18
+    Text: The room falls silent as all eyes turn to you, awaiting their decision
+      on whether to support the revolution.
+    Rectangle:
+      serializedVersion: 2
+      x: 814.22705
+      y: 21
+      width: 66.31769
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 146.90672
+    EndPosition: 150.21965
+    Name: Timing 19
+    Text: I must inform the authorities.
+    Rectangle:
+      serializedVersion: 2
+      x: 880.54474
+      y: 21
+      width: 19.180847
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 150.21965
+    EndPosition: 151.56245
+    Name: Timing 20
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 899.7256
+      y: 21
+      width: 7.774414
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
