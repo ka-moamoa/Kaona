@@ -12,6 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS1-3A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: ab917e412b5a74c34ad791a23021a9ac, type: 3}
+  Text: You successfully unblock the water source and succeed in restoring the flow
+    of water, earning the gratitude and respect of the local community (Oki Kalima).
+  Timings:
+  - StartPosition: 0
+    EndPosition: 15.203265
+    Name: Timing 1
+    Text: You successfully unblock the water source and succeed in restoring the
+      flow of water, earning the gratitude and respect of the local community (Oki
+      Kalima).
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 877.5
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
