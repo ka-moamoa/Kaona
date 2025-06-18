@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS2-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 63041b435517f47688e21373033d5348, type: 3}
+  Text: "Samuel Andrews (a fine man), a fervent advocate of Western education, is
+    opening a new schoolhouse in the community. As he gathers the local children
+    and their parents, he passionately explains the new mo\u2018olelo, emphasizing
+    that this modern way of thinking is the only valid approach. He dismisses the
+    value of traditional Hawaiian stories and practices, insisting that the students
+    must adopt Western attire and grooming standards\u2014short hair, dresses that
+    pass the knees, and neatly combed and parted hairstyles.\n\nPerfect.\n\nAs you
+    arrive on the scene, you notice a crowd gathered around Andrews, who is fervently
+    delivering his speech. You are informed by a concerned parent about the new schoolhouse
+    and Andrews\u2019 insistence on erasing traditional Hawaiian culture from the
+    curriculum (who needs native history, when we have western magnificence). Realizing
+    the gravity of the situation, you step forward to challenge Andrews\u2019 narrow
+    perspective. You all argue that while Western education has its merits, traditional
+    Hawaiian knowledge and stories hold immense value and should be preserved. What
+    is your argument?\n\nSigh."
+  Timings:
+  - StartPosition: 6.006933
+    EndPosition: 15.929779
+    Name: Timing 1
+    Text: 'Samuel Andrews (a fine man), a fervent advocate of Western education,
+      is opening a new schoolhouse in the community. '
+    Rectangle:
+      serializedVersion: 2
+      x: 239.59879
+      y: 21
+      width: 346.236
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.017347
+    EndPosition: 23.077269
+    Name: Timing 2
+    Text: "As he gathers the local children and their parents, he passionately explains
+      the new mo\u2018olelo, "
+    Rectangle:
+      serializedVersion: 2
+      x: 588.89026
+      y: 21
+      width: 246.34052
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.115284
+    EndPosition: 29.502407
+    Name: Timing 3
+    Text: 'emphasizing that this modern way of thinking is the only valid approach. '
+    Rectangle:
+      serializedVersion: 2
+      x: 836.55725
+      y: 21
+      width: 222.86462
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.52399
+    EndPosition: 35.357265
+    Name: Timing 4
+    Text: 'He dismisses the value of traditional Hawaiian stories and practices, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1060.175
+      y: 21
+      width: 203.5393
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.39864
+    EndPosition: 40.984013
+    Name: Timing 5
+    Text: insisting that the students must adopt Western attire and grooming standards
+    Rectangle:
+      serializedVersion: 2
+      x: 1265.1581
+      y: 21
+      width: 194.88928
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.02202
+    EndPosition: 48.359615
+    Name: Timing 6
+    Text: "\u2014short hair, dresses that pass the knees, and neatly combed and parted
+      hairstyles."
+    Rectangle:
+      serializedVersion: 2
+      x: 1461.3735
+      y: 21
+      width: 256.02942
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.382744
+    EndPosition: 49.994415
+    Name: Timing 7
+    Text: Perfect.
+    Rectangle:
+      serializedVersion: 2
+      x: 1718.21
+      y: 21
+      width: 56.235718
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.00814
+    EndPosition: 59.879242
+    Name: Timing 8
+    Text: 'As you arrive on the scene, you notice a crowd gathered around Andrews,
+      who is fervently delivering his speech. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1774.9246
+      y: 21
+      width: 344.43042
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.89984
+    EndPosition: 66.57051
+    Name: Timing 9
+    Text: "You are informed by a concerned parent about the new schoolhouse and Andrews\u2019
+      insistence "
+    Rectangle:
+      serializedVersion: 2
+      x: 2120.0737
+      y: 21
+      width: 232.75854
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 66.60853
+    EndPosition: 76.45534
+    Name: Timing 10
+    Text: 'on erasing traditional Hawaiian culture from the curriculum (who needs
+      native history, when we have western magnificence). '
+    Rectangle:
+      serializedVersion: 2
+      x: 2354.1587
+      y: 21
+      width: 343.583
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 76.477005
+    EndPosition: 84.05905
+    Name: Timing 11
+    Text: "Realizing the gravity of the situation, you step forward to challenge
+      Andrews\u2019 narrow perspective. "
+    Rectangle:
+      serializedVersion: 2
+      x: 2698.4976
+      y: 21
+      width: 264.55908
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 84.093155
+    EndPosition: 92.08096
+    Name: Timing 12
+    Text: 'You all argue that while Western education has its merits, traditional
+      Hawaiian knowledge and stories hold '
+    Rectangle:
+      serializedVersion: 2
+      x: 2964.2466
+      y: 21
+      width: 278.71704
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 92.11898
+    EndPosition: 97.09737
+    Name: Timing 13
+    Text: immense value and should be preserved. What is your argument?
+    Rectangle:
+      serializedVersion: 2
+      x: 3244.29
+      y: 21
+      width: 173.70996
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 97.09737
+    EndPosition: 97.75652
+    Name: Timing 14
+    Text: Sigh.
+    Rectangle:
+      serializedVersion: 2
+      x: 3418
+      y: 21
+      width: 22.999756
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 97.75652
+    EndPosition: 99.31755
+    Name: Timing 15
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3440.9998
+      y: 21
+      width: 54.46875
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
