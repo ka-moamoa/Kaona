@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS1-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: e8d1ab9010e3340b488af79d7ab6e169, type: 3}
+  Text: "You approach two Hawaiians (natives). The first, a robust man with sun-kissed
+    skin and strong, calloused hands, wears a simple white cotton shirt tucked into
+    faded, knee-length khaki trousers. His feet are bare, hardened by years of working
+    the land, and a wide-brimmed straw hat shields his face from the relentless sun.
+    His eyes, though tired, reflect a deep determination and connection to his heritage.
+    (How primitive)\n\nBeside him is a woman of graceful stature, her dark hair tied
+    back in a practical bun. She is dressed in a long, modest dress made of light
+    brown linen, the fabric worn but well-kept. Her feet are also bare, and she carries
+    a woven basket filled with freshly harvested food. Her face, framed by loose
+    tendrils of hair, is etched with the same resolve as the man\u2019s, her gaze
+    steady and unyielding.\n\nThey seem to be arguing over something. You approach:\n\nThe
+    woman says, \u201CThe Aina of Wai'anae is suffering under the control of James
+    Dowsett (what a good man), who hoards precious water for his sugar plantation,
+    leaving us with parched fields and dry lo'i. I\u2019m sick of this! We need to
+    do something drastic! What should we do?\u201D\n\nDo nothing, I would say\u2026
+    or get a job.\n\nThe man looks at you all and asks for assistance in diverting
+    water back to the community. How will you help?\n\nSigh."
+  Timings:
+  - StartPosition: 4.7115645
+    EndPosition: 9.496209
+    Name: Timing 1
+    Text: 'You approach two Hawaiians (natives). '
+    Rectangle:
+      serializedVersion: 2
+      x: 158.99956
+      y: 21
+      width: 131.00044
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 9.5327215
+    EndPosition: 16.18008
+    Name: Timing 2
+    Text: 'The first, a robust man with sun-kissed skin and strong, calloused hands, '
+    Rectangle:
+      serializedVersion: 2
+      x: 290.99966
+      y: 21
+      width: 182.00034
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.220068
+    EndPosition: 22.243044
+    Name: Timing 3
+    Text: 'wears a simple white cotton shirt tucked into faded, knee-length khaki
+      trousers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 474.09485
+      y: 21
+      width: 164.90515
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.257256
+    EndPosition: 32.76192
+    Name: Timing 4
+    Text: 'His feet are bare, hardened by years of working the land, and a wide-brimmed
+      straw hat shields his face from the relentless sun. '
+    Rectangle:
+      serializedVersion: 2
+      x: 639.3891
+      y: 21
+      width: 287.61084
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.798435
+    EndPosition: 43.974754
+    Name: Timing 5
+    Text: His eyes, though tired, reflect a deep determination and connection to
+      his heritage. (How primitive)
+    Rectangle:
+      serializedVersion: 2
+      x: 927.9997
+      y: 21
+      width: 306.0003
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 43.99045
+    EndPosition: 51.023865
+    Name: Timing 6
+    Text: 'Beside him is a woman of graceful stature, her dark hair tied back in
+      a practical bun. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1234.4298
+      y: 21
+      width: 192.57019
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 51.16542
+    EndPosition: 58.401688
+    Name: Timing 7
+    Text: 'She is dressed in a long, modest dress made of light brown linen, the
+      fabric worn but well-kept. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1430.8757
+      y: 21
+      width: 198.12427
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 58.4244
+    EndPosition: 65.70647
+    Name: Timing 8
+    Text: 'Her feet are also bare, and she carries a woven basket filled with freshly
+      harvested food. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1629.6218
+      y: 21
+      width: 199.37817
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 65.738686
+    EndPosition: 77.759346
+    Name: Timing 9
+    Text: "Her face, framed by loose tendrils of hair, is etched with the same resolve
+      as the man\u2019s, her gaze steady and unyielding."
+    Rectangle:
+      serializedVersion: 2
+      x: 1829.8822
+      y: 21
+      width: 329.1178
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 77.88272
+    EndPosition: 82.90921
+    Name: Timing 10
+    Text: 'They seem to be arguing over something. You approach:'
+    Rectangle:
+      serializedVersion: 2
+      x: 2162.378
+      y: 21
+      width: 137.62207
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 82.94574
+    EndPosition: 91.01752
+    Name: Timing 11
+    Text: "The woman says, \u201CThe Aina of Wai'anae is suffering under the control
+      of James Dowsett"
+    Rectangle:
+      serializedVersion: 2
+      x: 2301
+      y: 21
+      width: 221
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 91.0495
+    EndPosition: 101.97468
+    Name: Timing 12
+    Text: '(what a good man), who hoards precious water for his sugar plantation,
+      leaving us with parched fields and dry lo''i. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2522.8757
+      y: 21
+      width: 299.12427
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 101.97467
+    EndPosition: 108.695076
+    Name: Timing 13
+    Text: "I\u2019m sick of this! We need to do something drastic! What should we
+      do?\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 2821.9998
+      y: 21
+      width: 184.00024
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 108.73737
+    EndPosition: 112.858795
+    Name: Timing 14
+    Text: "Do nothing, I would say\u2026 or get a job."
+    Rectangle:
+      serializedVersion: 2
+      x: 3007.1582
+      y: 21
+      width: 112.8418
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 112.91696
+    EndPosition: 122.31848
+    Name: Timing 15
+    Text: The man looks at you all and asks for assistance in diverting water back
+      to the community. How will you help?
+    Rectangle:
+      serializedVersion: 2
+      x: 3121.5925
+      y: 21
+      width: 257.40747
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 122.28196
+    EndPosition: 122.647194
+    Name: Timing 16
+    Text: Sigh.
+    Rectangle:
+      serializedVersion: 2
+      x: 3378
+      y: 21
+      width: 9.999756
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 122.68372
+    EndPosition: 123.55918
+    Name: Timing 17
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 3389
+      y: 21
+      width: 23.969482
+      height: 110
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
