@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-2C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 3f75763b34e5a4a4b8a4f4f342987c97, type: 3}
+  Text: "While questioning the plantation owners, their given statement was: \u201CLyman
+    was murdered!\u201D"
+  Timings:
+  - StartPosition: 3.6467237
+    EndPosition: 13.061225
+    Name: Timing 1
+    Text: "While questioning the plantation owners, their given statement was: \u201CLyman
+      was murdered!\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 275
+      y: 21
+      width: 632.5
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

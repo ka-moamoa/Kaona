@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-2B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 8094dbe7e549d40e6a2d3e02e1f38ea8, type: 3}
+  Text: Spending several days investigating this crime, you discover that there was
+    a curse placed on Julius Lyman Richardson!
+  Timings:
+  - StartPosition: 0.1318594
+    EndPosition: 11.572245
+    Name: Timing 1
+    Text: Spending several days investigating this crime, you discover that there
+      was a curse placed on Julius Lyman Richardson!
+    Rectangle:
+      serializedVersion: 2
+      x: 39.998634
+      y: 21
+      width: 867.50134
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

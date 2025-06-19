@@ -12,6 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-2A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 51a830051681e4b7c915d5c65729b70c, type: 3}
+  Text: "You investigate the crime for several days. In your investigation, you discover
+    from the locals that Julius Lyman Richardson was the first Manager of the Waianae
+    Plantation. He built his home on the site of Hana Heiau, using rocks from the
+    Heiau to build the stone walls of his home. They also informed you that a cursed
+    (Kapu) was placed on him.\n\nWhen you ask plantation owners, they inform you
+    of his excellent management skills and that he was also an excellent rider. There
+    is no way he was thrown off his horse \u201Caccidentally.\u201D"
+  Timings:
+  - StartPosition: 0
+    EndPosition: 28.49688
+    Name: Timing 1
+    Text: You investigate the crime for several days. In your investigation, you
+      discover from the locals that Julius Lyman Richardson was the first Manager
+      of the Waianae Plantation. He built his home on the site of Hana Heiau, using
+      rocks from the Heiau to build the stone walls of his home. They also informed
+      you that a cursed (Kapu) was placed on him.
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 608.4582
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.525805
+    EndPosition: 44.434284
+    Name: Timing 2
+    Text: "When you ask plantation owners, they inform you of his excellent management
+      skills and that he was also an excellent rider. There is no way he was thrown
+      off his horse \u201Caccidentally.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 639.0758
+      y: 21
+      width: 339.67383
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
