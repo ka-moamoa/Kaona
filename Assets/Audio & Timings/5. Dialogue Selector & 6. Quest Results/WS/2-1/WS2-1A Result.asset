@@ -12,6 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-1A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: e018943c8b69b4ac5937db163ed2e5cb, type: 3}
+  Text: You persuade both Andrews and the community, illustrating through heartfelt
+    speeches and stories how both Western and traditional Hawaiian knowledge can
+    coexist and complement each other.
+  Timings:
+  - StartPosition: 0.1854024
+    EndPosition: 18.076735
+    Name: Timing 1
+    Text: You persuade both Andrews and the community, illustrating through heartfelt
+      speeches and stories how both Western and traditional Hawaiian knowledge can
+      coexist and complement each other.
+    Rectangle:
+      serializedVersion: 2
+      x: 39
+      y: 21
+      width: 868.5
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

@@ -12,6 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-1C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 88aeade6c877b4490893c7a2bae94de8, type: 3}
+  Text: "You accept Andrews\u2019 directive and encourage the community to fully
+    adopt Western educational practices. They reluctantly support Andrews\u2019 plan,
+    helping to enforce the new dress code and behavior standards among the community,
+    despite the evident discomfort and resistance.\n\nThe community reluctantly conforms
+    to Western ways, losing touch with their traditional practices and knowledge."
+  Timings:
+  - StartPosition: 3.765329
+    EndPosition: 35.552654
+    Name: Timing 1
+    Text: "You accept Andrews\u2019 directive and encourage the community to fully
+      adopt Western educational practices. They reluctantly support Andrews\u2019
+      plan, helping to enforce the new dress code and behavior standards among the
+      community, despite the evident discomfort and resistance.\n\nThe community
+      reluctantly conforms to Western ways, losing touch with their traditional practices
+      and knowledge."
+    Rectangle:
+      serializedVersion: 2
+      x: 122.93472
+      y: 21
+      width: 784.5653
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

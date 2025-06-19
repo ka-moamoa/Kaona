@@ -12,6 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-1B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 7def4f088579f446699e22b53a56672c, type: 3}
+  Text: You gather the children around and begin to share captivating traditional
+    stories, engaging them with cultural games and songs, instilling pride in their
+    heritage. The children are inspired and committed to preserving their traditions,
+    even if Andrews remains unconvinced.
+  Timings:
+  - StartPosition: 0.10664399
+    EndPosition: 24.058775
+    Name: Timing 1
+    Text: You gather the children around and begin to share captivating traditional
+      stories, engaging them with cultural games and songs, instilling pride in their
+      heritage. The children are inspired and committed to preserving their traditions,
+      even if Andrews remains unconvinced.
+    Rectangle:
+      serializedVersion: 2
+      x: 33.889645
+      y: 21
+      width: 873.61035
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
