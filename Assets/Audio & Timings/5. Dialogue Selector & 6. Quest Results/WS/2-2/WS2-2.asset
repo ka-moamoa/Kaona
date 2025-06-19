@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS2-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 628b571b7b8e443bcbe65d4b1b7c6e8a, type: 3}
+  Text: "Approached by a distressed businessman who informs you of a troubling discovery.
+    Julius Lyman Richardson (Pity Lyman was such a good man, smart, sharp, and knew
+    the value of the dollar. I admire him dearly), a well-known figure and owner
+    of the Big Island Volcano House Hotel, was found dead near the beach, and the
+    community believes his death was caused by a curse.\n\nPreposterous, curse\u2026
+    really\u2026 I would say a cursor holds more power than a curse.\n\nAlthough
+    Richardson\u2019s horse was found nearby and the evidence points to he being
+    thrown off his horse. The businessman is convinced there was foul play involved,
+    and asks for your investigative assistance.\n\nHe was murdered, not cursed!!"
+  Timings:
+  - StartPosition: 3.8182313
+    EndPosition: 9.486201
+    Name: Timing 1
+    Text: 'Approached by a distressed businessman who informs you of a troubling
+      discovery. '
+    Rectangle:
+      serializedVersion: 2
+      x: 207.9959
+      y: 21
+      width: 264.22583
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 9.471542
+    EndPosition: 21.027746
+    Name: Timing 2
+    Text: 'Julius Lyman Richardson (Pity Lyman was such a good man, smart, sharp,
+      and knew the value of the dollar. I admire him dearly), '
+    Rectangle:
+      serializedVersion: 2
+      x: 471.5384
+      y: 21
+      width: 538.71985
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.09821
+    EndPosition: 29.976395
+    Name: Timing 3
+    Text: 'a well-known figure and owner of the Big Island Volcano House Hotel, was
+      found dead near the beach, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1013.543
+      y: 21
+      width: 413.87762
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.031927
+    EndPosition: 34.308426
+    Name: Timing 4
+    Text: and the community believes his death was caused by a curse.
+    Rectangle:
+      serializedVersion: 2
+      x: 1430.0094
+      y: 21
+      width: 199.35913
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.31993
+    EndPosition: 41.676044
+    Name: Timing 5
+    Text: "Preposterous, curse\u2026 really\u2026 I would say a cursor holds more
+      power than a curse."
+    Rectangle:
+      serializedVersion: 2
+      x: 1629.9049
+      y: 21
+      width: 342.9226
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.765263
+    EndPosition: 50.434967
+    Name: Timing 6
+    Text: "Although Richardson\u2019s horse was found nearby and the evidence points
+      to he being thrown off his horse. "
+    Rectangle:
+      serializedVersion: 2
+      x: 1976.9867
+      y: 21
+      width: 404.1588
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 50.466576
+    EndPosition: 60.268997
+    Name: Timing 7
+    Text: The businessman is convinced there was foul play involved, and asks for
+      your investigative assistance.
+    Rectangle:
+      serializedVersion: 2
+      x: 2382.619
+      y: 21
+      width: 456.96313
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 60.26898
+    EndPosition: 62.637596
+    Name: Timing 8
+    Text: He was murdered, not cursed!!
+    Rectangle:
+      serializedVersion: 2
+      x: 2839.5813
+      y: 21
+      width: 110.4187
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.637596
+    EndPosition: 64.31347
+    Name: Timing 9
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2950
+      y: 21
+      width: 78.124756
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
