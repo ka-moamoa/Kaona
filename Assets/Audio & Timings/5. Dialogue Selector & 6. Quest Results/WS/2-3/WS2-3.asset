@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS2-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: aa52335904f5e454b9c227d2235141c1, type: 3}
+  Text: "Sitting under a tree and enjoying the shade in the noon day sun, you see
+    a Kanaka wearing a Malo and walking wearily while holding his stomach nearby.
+    You decide to investigate.\n\nYawn.\n\nThe man looks up as you approach, shocked
+    at the way you are dressed. Barely standing, he struggles to speak as if suffering
+    from a tremendous fatigue.\nHow sad\u2026.. maybe he should've educated himself
+    and got a job.\n\nYou ask him what\u2019s wrong, and how you may help him.\n\nYou
+    won\u2019t be able to help him.\n\nHe says... \"there is not much ferns left
+    to eat. \u2026 Governor Boki\u2026 His greed shall be our downfall\u2026 Sandalwood\u2026\"\n\nBuy
+    food from a store like a civilized man!\n\nHe falls while the sun is at meridian
+    height.\n\nOther Kanaka and Wahine\u2019s rush and approach, although they seem
+    to be in a similar state of fatigue.\n\nO Dear, the natives are restless.\n\nThey
+    say another dies because of Boki\u2019s greed of sandalwood. He has forced us
+    to focus on love for working the land to harvesting and transporting sandalwood
+    to pay off debts to westerners\u2026"
+  Timings:
+  - StartPosition: 6.6960316
+    EndPosition: 11.826334
+    Name: Timing 1
+    Text: 'Sitting under a tree and enjoying the shade in the noon day sun, '
+    Rectangle:
+      serializedVersion: 2
+      x: 341.7522
+      y: 21
+      width: 238.85535
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 11.837347
+    EndPosition: 18.235416
+    Name: Timing 2
+    Text: 'you see a Kanaka wearing a Malo and walking wearily while holding his
+      stomach nearby. '
+    Rectangle:
+      serializedVersion: 2
+      x: 581.1203
+      y: 21
+      width: 297.8797
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.256893
+    EndPosition: 21.13504
+    Name: Timing 3
+    Text: You decide to investigate.
+    Rectangle:
+      serializedVersion: 2
+      x: 879.99994
+      y: 21
+      width: 134.00006
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 21.158209
+    EndPosition: 22.574114
+    Name: Timing 4
+    Text: Yawn.
+    Rectangle:
+      serializedVersion: 2
+      x: 1015.0787
+      y: 21
+      width: 65.921326
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 22.587551
+    EndPosition: 26.998726
+    Name: Timing 5
+    Text: 'The man looks up as you approach, shocked at the way you are dressed. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1081.6256
+      y: 21
+      width: 205.37439
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 27.003538
+    EndPosition: 34.065216
+    Name: Timing 6
+    Text: Barely standing, he struggles to speak as if suffering from a tremendous
+      fatigue.
+    Rectangle:
+      serializedVersion: 2
+      x: 1287.2241
+      y: 21
+      width: 328.77576
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.065216
+    EndPosition: 38.66166
+    Name: Timing 7
+    Text: "How sad\u2026.. maybe he should've educated himself and got a job."
+    Rectangle:
+      serializedVersion: 2
+      x: 1615.9999
+      y: 21
+      width: 214.00012
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 38.6732
+    EndPosition: 42.57078
+    Name: Timing 8
+    Text: "You ask him what\u2019s wrong, and how you may help him."
+    Rectangle:
+      serializedVersion: 2
+      x: 1830.5372
+      y: 21
+      width: 181.46277
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 42.592243
+    EndPosition: 44.954918
+    Name: Timing 9
+    Text: "You won\u2019t be able to help him."
+    Rectangle:
+      serializedVersion: 2
+      x: 2012.9991
+      y: 21
+      width: 110.000854
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 44.970905
+    EndPosition: 57.670307
+    Name: Timing 10
+    Text: "He says... \"there is not much ferns left to eat. \u2026 Governor Boki\u2026
+      His greed shall be our downfall\u2026 Sandalwood\u2026\""
+    Rectangle:
+      serializedVersion: 2
+      x: 2123.7444
+      y: 21
+      width: 591.2556
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.670296
+    EndPosition: 63.03998
+    Name: Timing 11
+    Text: Buy food from a store like a civilized man!
+    Rectangle:
+      serializedVersion: 2
+      x: 2714.9995
+      y: 21
+      width: 250.00049
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 63.04628
+    EndPosition: 67.0565
+    Name: Timing 12
+    Text: He falls while the sun is at meridian height.
+    Rectangle:
+      serializedVersion: 2
+      x: 2965.2932
+      y: 21
+      width: 186.70703
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 67.07828
+    EndPosition: 75.26136
+    Name: Timing 13
+    Text: "Other Kanaka and Wahine\u2019s rush and approach, although they seem to
+      be in a similar state of fatigue."
+    Rectangle:
+      serializedVersion: 2
+      x: 3153.014
+      y: 21
+      width: 380.98584
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 75.29161
+    EndPosition: 78.13951
+    Name: Timing 14
+    Text: O Dear, the natives are restless.
+    Rectangle:
+      serializedVersion: 2
+      x: 3535.4082
+      y: 21
+      width: 132.5918
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 78.16095
+    EndPosition: 83.40179
+    Name: Timing 15
+    Text: "They say another dies because of Boki\u2019s greed of sandalwood. "
+    Rectangle:
+      serializedVersion: 2
+      x: 3668.9983
+      y: 21
+      width: 244.00146
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 83.41962
+    EndPosition: 94.16262
+    Name: Timing 16
+    Text: "He has forced us to focus on love for working the land to harvesting and
+      transporting sandalwood to pay off debts to westerners\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 3913.8298
+      y: 21
+      width: 500.17017
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 94.16262
+    EndPosition: 96.130615
+    Name: Timing 17
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 4414
+      y: 21
+      width: 91.62549
+      height: 139
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
