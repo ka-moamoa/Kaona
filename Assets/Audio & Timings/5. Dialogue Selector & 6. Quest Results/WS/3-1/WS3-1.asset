@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS3-1
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 4976491a527ca486eab68360b7b06d6c, type: 3}
+  Text: "Welcome Detective,\n\nYou find yourself riding through the verdant expanse
+    of the Waianae Valley, the scent of fresh rain lingering in the air and the vibrant
+    colors of the landscape reflecting the island\u2019s natural beauty.\n\nAs you
+    approach a small encampment, you notice a group of German homesteaders engaged
+    in earnest discussion. Drawn by curiosity, you introduce yourself, and they eagerly
+    share their plight: they are in search of land to settle, but their contract
+    states that the land they desire belongs to me.\n\nIt is of their belief that
+    the land belongs to the people.\n\nHow foolish of them.\n\nWill you guide them
+    to a resolution?"
+  Timings:
+  - StartPosition: 2.007755
+    EndPosition: 3.795499
+    Name: Timing 1
+    Text: Welcome Detective,
+    Rectangle:
+      serializedVersion: 2
+      x: 102.99967
+      y: 21
+      width: 65.00033
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 3.8229933
+    EndPosition: 10.176338
+    Name: Timing 2
+    Text: 'You find yourself riding through the verdant expanse of the Waianae Valley, '
+    Rectangle:
+      serializedVersion: 2
+      x: 168.99966
+      y: 21
+      width: 231.00034
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.203833
+    EndPosition: 20.270166
+    Name: Timing 3
+    Text: "the scent of fresh rain lingering in the air and the vibrant colors of
+      the landscape reflecting the island\u2019s natural beauty."
+    Rectangle:
+      serializedVersion: 2
+      x: 400.99966
+      y: 21
+      width: 366.0004
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 20.297665
+    EndPosition: 30.253979
+    Name: Timing 4
+    Text: 'As you approach a small encampment, you notice a group of German homesteaders
+      engaged in earnest discussion. '
+    Rectangle:
+      serializedVersion: 2
+      x: 767.9998
+      y: 21
+      width: 362.00018
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 30.31365
+    EndPosition: 39.41268
+    Name: Timing 5
+    Text: 'Drawn by curiosity, you introduce yourself, and they eagerly share their
+      plight: '
+    Rectangle:
+      serializedVersion: 2
+      x: 1132.1696
+      y: 21
+      width: 330.83044
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.44431
+    EndPosition: 48.791416
+    Name: Timing 6
+    Text: they are in search of land to settle, but their contract states that the
+      land they desire belongs to me.
+    Rectangle:
+      serializedVersion: 2
+      x: 1464.1499
+      y: 21
+      width: 339.8501
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 48.788322
+    EndPosition: 53.247
+    Name: Timing 7
+    Text: It is of their belief that the land belongs to the people.
+    Rectangle:
+      serializedVersion: 2
+      x: 1803.8876
+      y: 21
+      width: 162.11243
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.27449
+    EndPosition: 57.075306
+    Name: Timing 8
+    Text: How foolish of them.
+    Rectangle:
+      serializedVersion: 2
+      x: 1966.9995
+      y: 21
+      width: 138.19336
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 57.097507
+    EndPosition: 59.2978
+    Name: Timing 9
+    Text: Will you guide them to a resolution?
+    Rectangle:
+      serializedVersion: 2
+      x: 2106
+      y: 21
+      width: 80
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 59.2978
+    EndPosition: 60.81306
+    Name: Timing 10
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2186
+      y: 21
+      width: 55.09326
+      height: 157.5
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
