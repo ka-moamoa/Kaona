@@ -12,6 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-3B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 88179c04c7f834122ae59547fde2a658, type: 3}
+  Text: 'Extreme measures call for extreme means.
+
+
+    You decide to persuade the
+    kanaka to kill sandalwood saplings to prevent future growth.'
+  Timings:
+  - StartPosition: 0.4906576
+    EndPosition: 5.145066
+    Name: Timing 1
+    Text: Extreme measures call for extreme means.
+    Rectangle:
+      serializedVersion: 2
+      x: 63.56837
+      y: 21
+      width: 318.43164
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 5.15966
+    EndPosition: 12.826122
+    Name: Timing 2
+    Text: You decide to persuade the kanaka to kill sandalwood saplings to prevent
+      future growth.
+    Rectangle:
+      serializedVersion: 2
+      x: 382.99847
+      y: 21
+      width: 524.5015
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

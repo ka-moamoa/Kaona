@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-3C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: d439530d00ee94b18a6d4df74ef781ef, type: 3}
+  Text: Your investigation fails and you see no other way to save the community.
+  Timings:
+  - StartPosition: 0.56111914
+    EndPosition: 8.071836
+    Name: Timing 1
+    Text: Your investigation fails and you see no other way to save the community.
+    Rectangle:
+      serializedVersion: 2
+      x: 91
+      y: 21
+      width: 816.5
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

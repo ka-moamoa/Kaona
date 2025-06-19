@@ -12,6 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS2-3A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 93f843f48e7f048ca923653bcd6f3053, type: 3}
+  Text: "You investigate the motivations of Boki, you discover that it is indeed
+    true, Boki was in debt because of his love of western niceties. Because of the
+    lapse of the sandalwood restrictions by Kamehameha the 1st, Boki had directed
+    all efforts to the Waianae mountain range to cut down and export all sandalwood
+    to the \u201CYankees.\u201D You decide to start a rumor that a group of islands
+    called the Hebrides Isles had an overabundance of Sandalwood.\n\nYou later find
+    out that Boki himself followed the rumors to the Hebrides Isles and never returned\u2026"
+  Timings:
+  - StartPosition: 0.35
+    EndPosition: 37.043545
+    Name: Timing 1
+    Text: "You investigate the motivations of Boki, you discover that it is indeed
+      true, Boki was in debt because of his love of western niceties. Because of
+      the lapse of the sandalwood restrictions by Kamehameha the 1st, Boki had directed
+      all efforts to the Waianae mountain range to cut down and export all sandalwood
+      to the \u201CYankees.\u201D You decide to start a rumor that a group of islands
+      called the Hebrides Isles had an overabundance of Sandalwood."
+    Rectangle:
+      serializedVersion: 2
+      x: 47.99909
+      y: 21
+      width: 1887.001
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 37.043537
+    EndPosition: 47.516735
+    Name: Timing 2
+    Text: "You later find out that Boki himself followed the rumors to the Hebrides
+      Isles and never returned\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 1934.9996
+      y: 21
+      width: 538.59436
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
