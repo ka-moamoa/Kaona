@@ -12,6 +12,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS3-2C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 4a6b2b2686e39470a8e31add44e03565, type: 3}
+  Text: "Strolling around the plantation camp, you catch snippets of conversations.
+    The workers are discussing the acquisition of tools of war, strategies for uniting
+    different factions, and plans to assist and start a revolution. The tension in
+    the air is palpable, and you realize you have stumbled upon a valuable piece
+    of intelligence.\n\nYou decide to keep the information. You know that by doing
+    so, you are aligning yourself with the local resistance\u2014a choice fraught
+    with danger but also with the promise of greater respect and trust among the
+    people.\n\nJust as you are about to leave, you hear the sound of approaching
+    horses and the clatter of boots. Local authorities, alerted by someone\u2026,
+    arrive to investigate any potential threats. You make a hasty exit, slipping
+    into the shadows to avoid confrontation.\n\nAs you are about to leave the camp
+    in a hurry, the weight of your decision heavy on your shoulders, you all have
+    gained the trust and respect of the local community, but they must now prepare
+    for the inevitable consequences of defying my authority.\n\nNaughty, naughty."
+  Timings:
+  - StartPosition: 4.8106575
+    EndPosition: 35.08264
+    Name: Timing 1
+    Text: Strolling around the plantation camp, you catch snippets of conversations.
+      The workers are discussing the acquisition of tools of war, strategies for
+      uniting different factions, and plans to assist and start a revolution. The
+      tension in the air is palpable, and you realize you have stumbled upon a valuable
+      piece of intelligence.
+    Rectangle:
+      serializedVersion: 2
+      x: 143.81258
+      y: 21
+      width: 716.18744
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.131836
+    EndPosition: 49.58065
+    Name: Timing 2
+    Text: "You decide to keep the information. You know that by doing so, you are
+      aligning yourself with the local resistance\u2014a choice fraught with danger
+      but also with the promise of greater respect and trust among the people."
+    Rectangle:
+      serializedVersion: 2
+      x: 861.1639
+      y: 21
+      width: 341.83624
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.622902
+    EndPosition: 68.474556
+    Name: Timing 3
+    Text: "Just as you are about to leave, you hear the sound of approaching horses
+      and the clatter of boots. Local authorities, alerted by someone\u2026, arrive
+      to investigate any potential threats. You make a hasty exit, slipping into
+      the shadows to avoid confrontation."
+    Rectangle:
+      serializedVersion: 2
+      x: 1203.9996
+      y: 21
+      width: 446.0005
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 68.51682
+    EndPosition: 85.50865
+    Name: Timing 4
+    Text: As you are about to leave the camp in a hurry, the weight of your decision
+      heavy on your shoulders, you all have gained the trust and respect of the local
+      community, but they must now prepare for the inevitable consequences of defying
+      my authority.
+    Rectangle:
+      serializedVersion: 2
+      x: 1651.0001
+      y: 21
+      width: 401.99988
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 85.50865
+    EndPosition: 89.417145
+    Name: Timing 5
+    Text: Naughty, naughty.
+    Rectangle:
+      serializedVersion: 2
+      x: 2053
+      y: 21
+      width: 92.46875
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
