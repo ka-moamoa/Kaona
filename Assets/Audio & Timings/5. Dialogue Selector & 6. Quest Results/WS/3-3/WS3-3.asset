@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS3-3
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: 71552f48760b74c48997ca07c0b4cf61, type: 3}
+  Text: "Greetings, Detective.\n\nYou arrive at a coastal village, where the atmosphere
+    is heavy with sorrow and anxiety. The news of the overthrow has just reached
+    the Waianae Coast, and the sense of loss is palpable. The people gather in small
+    groups, whispering about the uncertain future. You are faced with a choice that
+    will determine the course of the community\u2019s response to the recent events.\n\nIt
+    is almost time for my reboot of the system. The revolution always is the endpoint
+    of this simulation\u2026 This means I must remake this reality again, and the
+    cycle continues\u2026\n\nWhat a bother\u2026\n\nPerhaps there is a way you can
+    settle the natives\u2026"
+  Timings:
+  - StartPosition: 9.397325
+    EndPosition: 10.885303
+    Name: Timing 1
+    Text: Greetings, Detective.
+    Rectangle:
+      serializedVersion: 2
+      x: 729.2762
+      y: 21
+      width: 110.723816
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.89873
+    EndPosition: 17.080517
+    Name: Timing 2
+    Text: 'You arrive at a coastal village, where the atmosphere is heavy with sorrow
+      and anxiety. '
+    Rectangle:
+      serializedVersion: 2
+      x: 840.9992
+      y: 21
+      width: 460.00067
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 17.096054
+    EndPosition: 23.557945
+    Name: Timing 3
+    Text: 'The news of the overthrow has just reached the Waianae Coast, and the
+      sense of loss is palpable. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1302.1561
+      y: 21
+      width: 480.84387
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.557945
+    EndPosition: 28.597437
+    Name: Timing 4
+    Text: 'The people gather in small groups, whispering about the uncertain future. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1783
+      y: 21
+      width: 375
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 28.597437
+    EndPosition: 35.961815
+    Name: Timing 5
+    Text: "You are faced with a choice that will determine the course of the community\u2019s
+      response to the recent events."
+    Rectangle:
+      serializedVersion: 2
+      x: 2158
+      y: 21
+      width: 548
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 35.965374
+    EndPosition: 39.321476
+    Name: Timing 6
+    Text: 'It is almost time for my reboot of the system. '
+    Rectangle:
+      serializedVersion: 2
+      x: 2706.265
+      y: 21
+      width: 249.7351
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 39.334896
+    EndPosition: 45.261356
+    Name: Timing 7
+    Text: "The revolution always is the endpoint of this simulation\u2026 "
+    Rectangle:
+      serializedVersion: 2
+      x: 2956.9985
+      y: 21
+      width: 441.00146
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 45.265556
+    EndPosition: 52.07475
+    Name: Timing 8
+    Text: "This means I must remake this reality again, and the cycle continues\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 3398.3125
+      y: 21
+      width: 506.6875
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 52.088184
+    EndPosition: 53.983036
+    Name: Timing 9
+    Text: "What a bother\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 3905.9998
+      y: 21
+      width: 141.00024
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 53.996464
+    EndPosition: 56.832027
+    Name: Timing 10
+    Text: "Perhaps there is a way you can settle the natives\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 4047.999
+      y: 21
+      width: 211.00098
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 56.832027
+    EndPosition: 59.06286
+    Name: Timing 11
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 4259
+      y: 21
+      width: 166.00098
+      height: 155.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
