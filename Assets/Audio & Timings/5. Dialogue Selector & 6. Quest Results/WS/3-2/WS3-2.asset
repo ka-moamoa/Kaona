@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
+  m_Name: WS3-2
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: fc9b339b93f43405cb5b973be7a7c573, type: 3}
+  Text: "Welcome, detective. The overthrow has just taken place, and the stability
+    of this realm is paramount to the prosperity of the plantations and the new order.
+    I have a task for you: travel to the different plantation camps and interview
+    the inhabitants to uncover any plans for revolution or hidden caches of weapons.
+    The annexation must support the economic goals we have set. Be vigilant, for
+    whispers of rebellion must be silenced.\nYou agree and are transported into the
+    camp via a neon wormhole.\n\nYou all find yourselves standing at the edge of
+    a sprawling plantation camp. The camp is a hive of activity, with workers tending
+    to the sugar cane fields under the watchful eyes of overseers. The air is thick
+    with the scent of freshly cut cane and the faint hum of machinery. The workers,
+    dressed in simple, worn plantation clothes, move with a sense of purpose and
+    resilience, their faces etched with the hardships they endure daily.\n\nAs you
+    walk through the camp, you catch glimpses of conversations and uneasy glances
+    exchanged between the workers. It\u2019s clear that the recent overthrow has
+    stirred unrest among the inhabitants."
+  Timings:
+  - StartPosition: 5.365628
+    EndPosition: 7.8420715
+    Name: Timing 1
+    Text: 'Welcome, detective. '
+    Rectangle:
+      serializedVersion: 2
+      x: 160
+      y: 21
+      width: 60.000015
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 7.8899546
+    EndPosition: 17.954216
+    Name: Timing 2
+    Text: 'The overthrow has just taken place, and the stability of this realm is
+      paramount to the prosperity of the plantations and the new order. '
+    Rectangle:
+      serializedVersion: 2
+      x: 221.16013
+      y: 21
+      width: 243.83987
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 18.00195
+    EndPosition: 25.135902
+    Name: Timing 3
+    Text: 'I have a task for you: travel to the different plantation camps and interview
+      the inhabitants '
+    Rectangle:
+      serializedVersion: 2
+      x: 466.1565
+      y: 21
+      width: 172.8435
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 25.135895
+    EndPosition: 29.88242
+    Name: Timing 4
+    Text: 'to uncover any plans for revolution or hidden caches of weapons. '
+    Rectangle:
+      serializedVersion: 2
+      x: 638.9998
+      y: 21
+      width: 115.00018
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 29.925215
+    EndPosition: 34.58766
+    Name: Timing 5
+    Text: 'The annexation must support the economic goals we have set. '
+    Rectangle:
+      serializedVersion: 2
+      x: 755.03687
+      y: 21
+      width: 112.963135
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 34.59721
+    EndPosition: 40.98514
+    Name: Timing 6
+    Text: Be vigilant, for whispers of rebellion must be silenced.
+    Rectangle:
+      serializedVersion: 2
+      x: 868.2313
+      y: 21
+      width: 154.76868
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 41.026394
+    EndPosition: 49.322502
+    Name: Timing 7
+    Text: You agree and are transported into the camp via a neon wormhole.
+    Rectangle:
+      serializedVersion: 2
+      x: 1023.9995
+      y: 21
+      width: 201.00049
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 49.389046
+    EndPosition: 55.36129
+    Name: Timing 8
+    Text: 'You all find yourselves standing at the edge of a sprawling plantation
+      camp. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1226.6123
+      y: 21
+      width: 144.69727
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 55.389774
+    EndPosition: 62.777843
+    Name: Timing 9
+    Text: 'The camp is a hive of activity, with workers tending to the sugar cane
+      fields under the watchful eyes of overseers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1371.9996
+      y: 21
+      width: 179.00037
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 62.819115
+    EndPosition: 69.54679
+    Name: Timing 10
+    Text: 'The air is thick with the scent of freshly cut cane and the faint hum
+      of machinery. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1551.9999
+      y: 21
+      width: 163.00012
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 69.59243
+    EndPosition: 72.972534
+    Name: Timing 11
+    Text: 'The workers, dressed in simple, worn plantation clothes, '
+    Rectangle:
+      serializedVersion: 2
+      x: 1716.1058
+      y: 21
+      width: 81.894165
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 73.01381
+    EndPosition: 80.52569
+    Name: Timing 12
+    Text: move with a sense of purpose and resilience, their faces etched with the
+      hardships they endure daily.
+    Rectangle:
+      serializedVersion: 2
+      x: 1799
+      y: 21
+      width: 182
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 80.57646
+    EndPosition: 88.6154
+    Name: Timing 13
+    Text: 'As you walk through the camp, you catch glimpses of conversations and
+      uneasy glances exchanged between the workers. '
+    Rectangle:
+      serializedVersion: 2
+      x: 1982.2301
+      y: 21
+      width: 194.7699
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 88.65667
+    EndPosition: 94.26995
+    Name: Timing 14
+    Text: "It\u2019s clear that the recent overthrow has stirred unrest among the
+      inhabitants."
+    Rectangle:
+      serializedVersion: 2
+      x: 2177.9998
+      y: 21
+      width: 136.00024
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 94.26995
+    EndPosition: 95.555916
+    Name: Timing 15
+    Text: 
+    Rectangle:
+      serializedVersion: 2
+      x: 2314
+      y: 21
+      width: 31.156738
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
