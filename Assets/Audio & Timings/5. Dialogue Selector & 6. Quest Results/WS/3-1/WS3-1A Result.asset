@@ -12,6 +12,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS3-1A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 3ec8c798323704c1f91cb113728cdc66, type: 3}
+  Text: 'The homesteaders, clad in simple yet sturdy attire, express their doubts
+    and fears.
+
+
+    They believe the land should belong to the natives. They also
+    speak of meeting me and admiring my intellect and commanding presence.
+
+
+    You
+    speak to their hopes and dreams, and assure them of the stability and prosperity
+    that await in ownership.
+
+
+    You convince them. They will sign the contract
+    of ownership created by yours truly.
+
+
+    I thank you for your assistance.'
+  Timings:
+  - StartPosition: 0.2107483
+    EndPosition: 6.7866573
+    Name: Timing 1
+    Text: The homesteaders, clad in simple yet sturdy attire, express their doubts
+      and fears.
+    Rectangle:
+      serializedVersion: 2
+      x: 34.999588
+      y: 21
+      width: 156.00043
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 6.8287983
+    EndPosition: 16.313269
+    Name: Timing 2
+    Text: They believe the land should belong to the natives. They also speak of
+      meeting me and admiring my intellect and commanding presence.
+    Rectangle:
+      serializedVersion: 2
+      x: 191.99973
+      y: 21
+      width: 225.00027
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 16.35542
+    EndPosition: 23.56361
+    Name: Timing 3
+    Text: You speak to their hopes and dreams, and assure them of the stability and
+      prosperity that await in ownership.
+    Rectangle:
+      serializedVersion: 2
+      x: 417.99994
+      y: 21
+      width: 171.00006
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 23.56361
+    EndPosition: 32.584385
+    Name: Timing 4
+    Text: You convince them. They will sign the contract of ownership created by
+      yours truly.
+    Rectangle:
+      serializedVersion: 2
+      x: 589
+      y: 21
+      width: 214.00006
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 32.584377
+    EndPosition: 36.989388
+    Name: Timing 5
+    Text: I thank you for your assistance.
+    Rectangle:
+      serializedVersion: 2
+      x: 802.9999
+      y: 21
+      width: 104.50012
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

@@ -12,6 +12,115 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS3-1C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: a3a1d19670ccb4dd79f4972d51d06726, type: 3}
+  Text: "Agreeing with the homesteaders strengthens your bond with the local community,
+    but it incurs the Draftsman\u2019s wrath. You must prepare for the repercussions
+    of your decision, knowing that you have chosen the path of righteousness.\n\nThe
+    world around you begins to shimmer and warp. You suddenly find yourselves standing
+    in a glitching office building from 1985. The room is a blend of outdated technology
+    and flickering fluorescent lights casting an eerie shadow. Old computer terminals
+    with bulky monitors hum softly on metal desks, their screens displaying lines
+    of green code interspersed with static. Fax machines whir intermittently, and
+    rotary dial phones rest on the desks. The air is filled with the faint scent
+    of musty paper and overheated electronics.\n\nAmidst this surreal environment,
+    I appear. I am formerly Native Hawaiian with a commanding presence, embodying
+    the Western influences I have embraced. My attire is reminiscent of late 19th-century
+    Western fashion: a dark suit with a high-collared white shirt, and a neatly tied
+    cravat. My well-groomed mustache and hair reflect my meticulous nature. My eyes,
+    though still holding a trace of my unfortunate Hawaiian heritage, are hardened
+    and cold, indicative of my shift in values.\n\nI gesture around the glitching
+    office. \u201CThis is my domain. Everything you see, everything you experience,
+    is under my control. You and the natives here are trapped, bound by limitations
+    of your outdated ways. Until you embrace the Western way of thinking, abandoning
+    your insufficient native traditions, you will remain imprisoned in this existence.
+    Land is meant to be owned, controlled, and utilized for progress and profit.\u201D\n\nI
+    lean closer, my voice lowering and maintaining its intensity. \u201CYour attempts
+    to challenge my authority is futile. But I admire your persistence.\n\nYou attack!
+    Summon the Draftsman"
+  Timings:
+  - StartPosition: 3.7399547
+    EndPosition: 19.374235
+    Name: Timing 1
+    Text: "Agreeing with the homesteaders strengthens your bond with the local community,
+      but it incurs the Draftsman\u2019s wrath. You must prepare for the repercussions
+      of your decision, knowing that you have chosen the path of righteousness."
+    Rectangle:
+      serializedVersion: 2
+      x: 90.99987
+      y: 21
+      width: 255.00015
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 19.470226
+    EndPosition: 63.7633
+    Name: Timing 2
+    Text: The world around you begins to shimmer and warp. You suddenly find yourselves
+      standing in a glitching office building from 1985. The room is a blend of outdated
+      technology and flickering fluorescent lights casting an eerie shadow. Old computer
+      terminals with bulky monitors hum softly on metal desks, their screens displaying
+      lines of green code interspersed with static. Fax machines whir intermittently,
+      and rotary dial phones rest on the desks. The air is filled with the faint
+      scent of musty paper and overheated electronics.
+    Rectangle:
+      serializedVersion: 2
+      x: 347.56567
+      y: 21
+      width: 722.4343
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 63.813038
+    EndPosition: 106.37436
+    Name: Timing 3
+    Text: 'Amidst this surreal environment, I appear. I am formerly Native Hawaiian
+      with a commanding presence, embodying the Western influences I have embraced.
+      My attire is reminiscent of late 19th-century Western fashion: a dark suit
+      with a high-collared white shirt, and a neatly tied cravat. My well-groomed
+      mustache and hair reflect my meticulous nature. My eyes, though still holding
+      a trace of my unfortunate Hawaiian heritage, are hardened and cold, indicative
+      of my shift in values.'
+    Rectangle:
+      serializedVersion: 2
+      x: 1070.8112
+      y: 21
+      width: 694.18896
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 106.43567
+    EndPosition: 137.27504
+    Name: Timing 4
+    Text: "I gesture around the glitching office. \u201CThis is my domain. Everything
+      you see, everything you experience, is under my control. You and the natives
+      here are trapped, bound by limitations of your outdated ways. Until you embrace
+      the Western way of thinking, abandoning your insufficient native traditions,
+      you will remain imprisoned in this existence. Land is meant to be owned, controlled,
+      and utilized for progress and profit.\u201D"
+    Rectangle:
+      serializedVersion: 2
+      x: 1766.0001
+      y: 21
+      width: 503.00012
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 137.33635
+    EndPosition: 152.60275
+    Name: Timing 5
+    Text: "I lean closer, my voice lowering and maintaining its intensity. \u201CYour
+      attempts to challenge my authority is futile. But I admire your persistence."
+    Rectangle:
+      serializedVersion: 2
+      x: 2270
+      y: 21
+      width: 249
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 152.60275
+    EndPosition: 157.2049
+    Name: Timing 6
+    Text: You attack! Summon the Draftsman
+    Rectangle:
+      serializedVersion: 2
+      x: 2519
+      y: 21
+      width: 75.0625
+      height: 144.8
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
