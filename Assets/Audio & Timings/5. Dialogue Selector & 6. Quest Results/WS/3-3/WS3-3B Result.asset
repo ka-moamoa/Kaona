@@ -12,6 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS3-3B Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 9b1b20572f8d04c9bbb5cc7c7d3d98fc, type: 3}
+  Text: "You decide to join the militia, training them to prepare for the coming
+    struggles. Your result inspires confidence and resolve among the Kanaka.\n\nI
+    am very displeased by this\u2026"
+  Timings:
+  - StartPosition: 0
+    EndPosition: 14.299623
+    Name: Timing 1
+    Text: You decide to join the militia, training them to prepare for the coming
+      struggles. Your result inspires confidence and resolve among the Kanaka.
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 650.00006
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 14.32161
+    EndPosition: 19.30449
+    Name: Timing 2
+    Text: "I am very displeased by this\u2026"
+    Rectangle:
+      serializedVersion: 2
+      x: 680.9995
+      y: 21
+      width: 226.50049
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

@@ -12,6 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS3-3A Result
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: 0321700a1dbbe49c7b43d65461667580, type: 3}
+  Text: How do you do this? (See song in quest book)
+  Timings:
+  - StartPosition: 0.34977323
+    EndPosition: 2.6085238
+    Name: Timing 1
+    Text: How do you do this?
+    Rectangle:
+      serializedVersion: 2
+      x: 123.996086
+      y: 21
+      width: 607.0039
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 2.6122448
+    EndPosition: 3.2653062
+    Name: Timing 2
+    Text: ' (See song in quest book)'
+    Rectangle:
+      serializedVersion: 2
+      x: 731.99994
+      y: 21
+      width: 175.50006
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}

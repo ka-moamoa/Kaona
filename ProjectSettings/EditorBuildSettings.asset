@@ -368,6 +368,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5. Dialogue Screens/WS/5. WS3-3.unity
     guid: d1762622707f44156a0390a2aecaa577
+  - enabled: 1
+    path: Assets/Scenes/6. Quest Results/WS/6. WS3-3.unity
+    guid: d0e5d5e5574ab4e7089c92340dc07dba
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 44eeaccee8ce742b6a7ee24bb78fff62,
       type: 2}

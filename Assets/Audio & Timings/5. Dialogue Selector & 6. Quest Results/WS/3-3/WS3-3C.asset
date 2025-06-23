@@ -12,6 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748de4471f0464f0bb7f596c821ee567, type: 3}
   m_Name: WS3-3C
   m_EditorClassIdentifier: 
-  Clip: {fileID: 0}
-  Text: 
-  Timings: []
+  Clip: {fileID: 8300000, guid: e130d78f521ed4011be1a8147fcc0a95, type: 3}
+  Text: 'Overwhelmed with grief and trauma: The weight of the news is too much to
+    bear, and you find yourself unable to act.
+
+
+    I put too much faith in you...'
+  Timings:
+  - StartPosition: 0
+    EndPosition: 10.959134
+    Name: Timing 1
+    Text: 'Overwhelmed with grief and trauma: The weight of the news is too much
+      to bear, and you find yourself unable to act.'
+    Rectangle:
+      serializedVersion: 2
+      x: 30
+      y: 21
+      width: 539
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  - StartPosition: 10.979456
+    EndPosition: 17.841633
+    Name: Timing 2
+    Text: I put too much faith in you...
+    Rectangle:
+      serializedVersion: 2
+      x: 569.9995
+      y: 21
+      width: 337.5005
+      height: 155.6
+    Color: {r: 1, g: 1, b: 1, a: 0.16078432}
