@@ -141,6 +141,12 @@ PrefabInstance:
       propertyPath: m_text
       value: ReGex 202
       objectReference: {fileID: 0}
+    - target: {fileID: 698640031884961434, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d50512fe25ab49768807696e9c0afd3,
+        type: 3}
     - target: {fileID: 1043471503303665617, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: timings
@@ -430,6 +436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: scrollRect
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162882129054491380, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6188602993151645785, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
