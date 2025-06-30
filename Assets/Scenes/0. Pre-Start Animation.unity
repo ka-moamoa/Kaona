@@ -758,6 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1769007335}
   - component: {fileID: 1769007334}
+  - component: {fileID: 1769007336}
   m_Layer: 0
   m_Name: Game Data Manager (DO NOT REMOVE)
   m_TagString: Untagged
@@ -785,31 +786,38 @@ MonoBehaviour:
     FFTileIntroDone: 0
     FFHealed: 0
     FFLastOpened: 0
+    FFRulerPanelOpenOnReturn: 0
     FF: 0000000000000000
     FEUnlocked: 0
     FETileIntroDone: 0
     FEHealed: 0
     FELastOpened: 0
+    FERulerPanelOpenOnReturn: 0
     FE: 0000000000000000
     WSUnlocked: 0
     WSTileIntroDone: 0
     WSHealed: 0
     WSLastOpened: 0
+    WSTeleport: 0
+    WSRulerPanelOpenOnReturn: 0
     WS: 0000000000000000
     PBUnlocked: 0
     PBTileIntroDone: 0
     PBHealed: 0
     PBLastOpened: 0
+    PBRulerPanelOpenOnReturn: 0
     PB: 0000000000000000
     TMUnlocked: 0
     TMTileIntroDone: 0
     TMHealed: 0
     TMLastOpened: 0
+    TMRulerPanelOpenOnReturn: 0
     TM: 0000000000000000
     SSUnlocked: 0
     SSTileIntroDone: 0
     SSHealed: 0
     SSLastOpened: 0
+    SSRulerPanelOpenOnReturn: 0
     SS: 0000000000000000
 --- !u!4 &1769007335
 Transform:
@@ -826,6 +834,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1769007336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769007333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce9841187b094ea88d8b70b83814067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1779713707
 GameObject:
   m_ObjectHideFlags: 0
