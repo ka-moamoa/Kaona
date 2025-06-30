@@ -10787,6 +10787,7 @@ GameObject:
   - component: {fileID: 1962594964}
   - component: {fileID: 1962594963}
   - component: {fileID: 1962594962}
+  - component: {fileID: 1962594965}
   m_Layer: 5
   m_Name: Heal Button
   m_TagString: Untagged
@@ -10871,6 +10872,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1962594965}
+        m_TargetAssemblyTypeName: MokuUnlocker, Assembly-CSharp
+        m_MethodName: UnlockAllMokuExceptFFandWS
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1962594963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10909,6 +10922,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962594959}
   m_CullTransparentMesh: 1
+--- !u!114 &1962594965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962594959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3d84bbc13c847048f9f8d2b671e0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mokuSelectorGameManager: {fileID: 1812616570}
 --- !u!1 &1981163983
 GameObject:
   m_ObjectHideFlags: 0

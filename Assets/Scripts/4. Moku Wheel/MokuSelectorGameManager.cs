@@ -312,4 +312,78 @@ public class MokuSelectorGameManager : MonoBehaviour
     public void ActivateSSButton() => ActivateMoku(MokuType.SS);
     public void PlaySSIntroTileLoop() => PlayIntroTileLoop(MokuType.SS);
     public void PlaySSIntroTileFinished() => PlayIntroTileFinished(MokuType.SS);
+
+
+    public void RefreshState()
+    {
+        foreach (MokuType moku in System.Enum.GetValues(typeof(MokuType)))
+        {
+            int index = (int)moku;
+
+            if (index >= mokus.Length || index >= lokahiWheelRenderers.Length || index >= lokahiWheelMaterials.Length)
+                continue;
+
+            var mokuState = mokus[index];
+            var wheelRenderer = lokahiWheelRenderers[index];
+            var materials = lokahiWheelMaterials[index]?.materials;
+
+            if (mokuState == null)
+                continue;
+
+            bool isUnlocked = GameDataManager.Instance.GetUnlockedState(moku);
+            bool isActivated = GameDataManager.Instance.GetTileIntroDoneState(moku);
+            bool isHealed = GameDataManager.Instance.GetHealedState(moku);
+
+            if (!isUnlocked)
+            {
+                mokuState.introTileDone?.SetActive(false);
+                mokuState.unhealed?.SetActive(false);
+                mokuState.healed?.SetActive(false);
+
+                if (wheelRenderer != null && materials != null && materials.Length > 0)
+                    wheelRenderer.material = materials[0]; // Deactivated
+
+                continue;
+            }
+
+            if (!isHealed && wheelRenderer != null && materials != null && materials.Length > 1)
+                wheelRenderer.material = materials[1]; // Unhealed
+
+            if (!isActivated)
+            {
+                mokuState.introTileDone?.SetActive(true);
+                mokuState.unhealed?.SetActive(true);
+                mokuState.healed?.SetActive(false);
+
+                Animator mokuAnimator = GetAnimatorForMoku(moku);
+                if (mokuAnimator != null)
+                {
+                    mokuAnimator.enabled = true;
+
+                    if (moku == MokuType.FF && !GameDataManager.Instance.GetFirstMokuIntroDone())
+                    {
+                        mokuAnimator.Play("IntroTilePlaying");
+
+                        if (rotateOnDrag != null)
+                        {
+                            rotateOnDrag.enabled = false;
+                        }
+                    }
+                    else
+                    {
+                        mokuAnimator.Play("IntroTileStart");
+                    }
+                }
+            }
+            else
+            {
+                SetMokuVisual(moku, isHealed);
+                if (isHealed)
+                    SetHealedMaterial(moku);
+            }
+        }
+    }
+
 }
+
+

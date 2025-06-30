@@ -699,6 +699,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e600fd97276f147f4a729566ff1a12e1,
         type: 3}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 59338470}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UnlockWS
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MokuUnlocker, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046550714809352757, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8288236871910295280, guid: 30677daa3838f4ab997ceb470cb3b56c,
         type: 3}
       propertyPath: m_IsActive
@@ -766,8 +801,30 @@ PrefabInstance:
         type: 3}
       insertIndex: 0
       addedObject: {fileID: 1224945576}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4694228526033138531, guid: 30677daa3838f4ab997ceb470cb3b56c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 59338470}
   m_SourcePrefab: {fileID: 100100000, guid: 30677daa3838f4ab997ceb470cb3b56c, type: 3}
+--- !u!1 &59338469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4694228526033138531, guid: 30677daa3838f4ab997ceb470cb3b56c,
+    type: 3}
+  m_PrefabInstance: {fileID: 59338468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &59338470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59338469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3d84bbc13c847048f9f8d2b671e0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &978826503 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5369245595612093048, guid: 30677daa3838f4ab997ceb470cb3b56c,
