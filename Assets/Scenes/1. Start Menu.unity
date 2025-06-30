@@ -2155,7 +2155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &293940991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2494,8 +2494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.19133, y: -2052.768}
-  m_SizeDelta: {x: 2212.1716, y: 2746.9233}
+  m_AnchoredPosition: {x: -43.19133, y: -1633.0675}
+  m_SizeDelta: {x: 2212.1716, y: 1907.522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &310689405
 MonoBehaviour:
@@ -9402,31 +9402,38 @@ MonoBehaviour:
     FFTileIntroDone: 0
     FFHealed: 0
     FFLastOpened: 0
+    FFRulerPanelOpenOnReturn: 0
     FF: 0000000000000000
     FEUnlocked: 0
     FETileIntroDone: 0
     FEHealed: 0
     FELastOpened: 0
+    FERulerPanelOpenOnReturn: 0
     FE: 0000000000000000
     WSUnlocked: 0
     WSTileIntroDone: 0
     WSHealed: 0
     WSLastOpened: 0
+    WSTeleport: 0
+    WSRulerPanelOpenOnReturn: 0
     WS: 0000000000000000
     PBUnlocked: 0
     PBTileIntroDone: 0
     PBHealed: 0
     PBLastOpened: 0
+    PBRulerPanelOpenOnReturn: 0
     PB: 0000000000000000
     TMUnlocked: 0
     TMTileIntroDone: 0
     TMHealed: 0
     TMLastOpened: 0
+    TMRulerPanelOpenOnReturn: 0
     TM: 0000000000000000
     SSUnlocked: 0
     SSTileIntroDone: 0
     SSHealed: 0
     SSLastOpened: 0
+    SSRulerPanelOpenOnReturn: 0
     SS: 0000000000000000
 --- !u!4 &1531312202
 Transform:
