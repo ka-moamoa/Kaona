@@ -10860,9 +10860,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1812616570}
-        m_TargetAssemblyTypeName: MokuSelectorGameManager, Assembly-CSharp
-        m_MethodName: HealFFButton
+      - m_Target: {fileID: 1962594965}
+        m_TargetAssemblyTypeName: MokuUnlocker, Assembly-CSharp
+        m_MethodName: UnlockAllMokuExceptFFandWS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10872,9 +10872,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1962594965}
-        m_TargetAssemblyTypeName: MokuUnlocker, Assembly-CSharp
-        m_MethodName: UnlockAllMokuExceptFFandWS
+      - m_Target: {fileID: 1812616570}
+        m_TargetAssemblyTypeName: MokuSelectorGameManager, Assembly-CSharp
+        m_MethodName: HealFFButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
