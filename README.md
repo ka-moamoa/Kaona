@@ -1,2 +1,137 @@
-# Kaona
- 
+# 🌺 Kaona
+
+**Kaona** is a four-player tabletop RPG and mobile “storyteller” app, designed to foster wellbeing from a Kānaka Maoli (Native Hawaiian) perspective by introducing the values of **lōkahi** (harmony).
+
+---
+
+## 📁 Project Overview
+
+- **Engine:** Unity 2022.3.11f1  
+- **Target Platform:** Android & iOS  
+- **Original Repository Maintainer:** Michael Parkin
+
+---
+
+## 🧱 Project Structure
+
+Kaona uses a **scene-centric architecture**, where each Unity scene is mirrored by a consistent folder structure across assets such as audio, timings, scripts, and prefabs. This modular setup allows for organized development and facilitates easier debugging and iteration.
+
+Because the project is heavily UI-based, it employs the **uGUI** UI system, with scenes and components prefabbed for streamlined editing.
+
+Most files in each of the main folders follow the same numbered layout as the corresponding Unity scenes.
+
+---
+
+## 🗂️ File Structure (`Assets/`)
+
+```plaintext
+Assets/
+├── Animations/              # Animator controllers and animation clips
+├── Audio & Timings/         # SFX and audio timing data (for playback sync)
+├── AudioTextSynchronizer/   # ATS v2.0 plugin files and extensions (external audio syncing package)
+├── Editor/                  # Custom Unity Editor scripts and tools
+├── External Assets/         # Fonts, models, or assets from external sources
+├── Materials/               # All materials used for 3D objects and UI
+├── Plugins/                 # Platform-specific plugins and code injectors
+├── Prefabs/                 # Reusable object prefabs (UI, props, interactive items)
+├── Rendering/               # Post-processing, lighting configs, or render profiles
+├── Resources/               # Dynamically loaded assets (mostly deprecated)
+├── Scenes/                  # All Unity scenes
+├── Scripts/                 # Core game scripts (UI, systems, gameplay logic)
+├── Shaders/                 # Custom or third-party shader files
+├── StreamingAssets/         # ATS-generated auto-translate + sync files
+├── Unity Files/             # Miscellaneous Unity-related files (templates, tools)
+Packages/                    # Unity-managed package dependencies (do not modify manually)
+```
+
+### 📂 Example Sub-Folder Layout: `Audio & Timings`
+
+Some folders, like `Audio & Timings/`, are further divided into Moku-based subfolders. These correspond to the initials of the six featured Moku in the experience:
+
+```plaintext
+Audio & Timings/
+└── 5. Dialogue Selector & 6. Quest Results/
+    ├── FE/   # Files and timing for Moku FE
+    ├── FF/   # Files and timing for Moku FF
+    ├── PB/   # Moku PB voice and timing data
+    ├── SS/   # Moku SS
+    ├── TM/   # Moku TM
+    └── WS/   # Moku WS
+```
+
+This structure supports cleaner asset management, easier iteration, and reuse across Moku-specific scenes.
+
+---
+
+## 🎮 Major Scenes
+
+| Scene Path                         | Function / Purpose                                               |
+|-----------------------------------|------------------------------------------------------------------|
+| Scenes/0. Pre-Start Animation     | Intro animation before the main menu loads                       |
+| Scenes/1. Start Menu              | Main UI for starting the game and enabling Storyteller Mode      |
+| Scenes/2. Ancestor Intro          | Narrative introduction that sets tone and context                |
+| Scenes/3. Entry Sequence          | First guided interactive sequence with narration and movement    |
+| Scenes/4. Moku Selector           | Core Moku selection hub – player chooses where to go next        |
+| Scenes/5. Dialogue Screen (TEMPLATE) | Template for all Moku-specific dialogue sequences               |
+| Scenes/6. Quest Results (TEMPLATE) | Template for Moku-specific completion results                    |
+
+🔁 **Note:** Scenes 5 and 6 serve as template-based frameworks. Each Moku has its own dedicated scene that uses this shared prefab system. This makes the logic scalable while keeping flow and visuals consistent.
+
+---
+
+## 🔧 Core Systems
+
+### 📦 `GameData.cs` & `GameDataManager.cs`
+
+- Handles creation, loading, saving, and backup of `gameData.json`  
+- Tracks all game data, including Moku completion, narration progress, and intro states
+
+### 🗣 Audio Text Synchronizer (ATS)
+
+- ATS v2.0 is used to synchronize subtitles and animate mesh text  
+- Custom `MeshAnimation` scripts enable scrolling captions and effects  
+- Text and audio data reside in `StreamingAssets/ATS`
+
+🧩 **Third-party package used:**  
+[Audio Text Synchronizer (GitHub)] — This tool powers the subtitle and audio-sync animation system used throughout all dialogue and narration scenes.
+
+---
+
+## 🚀 Build Instructions
+
+1. **Open the project** in Unity 2022.3.11f1  
+2. Go to `File > Build Settings`  
+3. Set platform to **Android/iOS**  
+4. Ensure all scenes are enabled in the build settings  
+5. Click **Build and Run**  
+6. For iOS, you will need a Mac with Xcode installed. The build will output an Xcode project. Ensure your team and provisioning info is set correctly before bundling.  
+7. For Android, you will receive a `.APK` file
+
+---
+
+## 👥 Contributors
+
+| Name                   | Role                                       |
+|------------------------|--------------------------------------------|
+| Michael Parkin         | Lead Developer & Interaction Designer      |
+| Rachel Baker-Ramos     | Lab Research Scientist & Lead UX Designer |
+
+---
+
+## 💡 Known Issues
+
+_This section is currently a placeholder._
+
+---
+
+## 📌 Additional Notes
+
+_This section is currently a placeholder._
+
+---
+
+## 📄 License
+
+This project was developed under educational, research, and community-based agreements.
+
+---
