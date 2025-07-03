@@ -22,6 +22,8 @@ public class StartMenuSceneChanger : MonoBehaviour
 
     public GameObject resetJourneyOverlay;
 
+    public GameObject storytellerOverlay;
+
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
@@ -45,6 +47,15 @@ public class StartMenuSceneChanger : MonoBehaviour
             }else{
                 startButton.GetComponent<Image>().sprite = MainNewGameSprite;
             }
+        }
+
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentSceneIndex == 1 && GameDataManager.Instance.IsStorytellerModeActive())
+        {
+            Debug.Log("Scene 1 detected — disabling Storyteller Mode.");
+            GameDataManager.Instance.DisableStorytellerMode();
         }
     }
 
@@ -98,6 +109,22 @@ public class StartMenuSceneChanger : MonoBehaviour
     public void ResetDataFadeMoveToScene(){
         GameDataManager.Instance.ResetGameData();
         anim.Play ("Fade Out");
+    }
+
+    public void OpenStorytellerOverlay()
+    {
+        storytellerOverlay.SetActive(true);
+    }
+
+    public void CloseStorytellerOverlay()
+    {
+        storytellerOverlay.SetActive(false);
+    }
+
+    public void ContinueInStorytellerMode()
+    {
+        GameDataManager.Instance.EnableStorytellerMode();
+        anim.Play("Fade Out");
     }
 
     public void AssignMoku(string mokuID){

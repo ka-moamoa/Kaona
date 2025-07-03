@@ -18,13 +18,6 @@ public class GameDataManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             LoadGameData();
-
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            if (currentSceneIndex == 1 && storytellerMode)
-            {
-                Debug.Log("Scene 1 detected — disabling Storyteller Mode.");
-                DisableStorytellerMode();
-            }
         }
         else
         {
