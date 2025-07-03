@@ -131,7 +131,37 @@ _This section is currently a placeholder._
 
 ---
 
-## 🔮 Potential Next Steps
+## 📘 How to Create a Quest
+
+To add a new quest to the game, follow these steps:
+
+1. **Duplicate a Template Scene:**
+   - Navigate to the `Scenes/` folder.
+   - Duplicate the appropriate template scene:
+     - Use `Dialogue Screen (TEMPLATE)` for dialogue-based quests.
+     - Use `Quest Results (TEMPLATE)` for result/end-of-quest scenes.
+
+2. **Update the Game Manager:**
+   - Open the duplicated scene and locate the `GameManager` object.
+   - Set the correct `Quest Moku` and `Quest Number` values.
+   - Assign appropriate visualizer assets (e.g. animations, images, or 3D models specific to the quest).
+
+3. **Add Audio Sources:**
+   - In the scene, go to the `AudioManager` or equivalent component managing playback.
+   - Add or update audio sources to include narration, SFX, or environmental sounds specific to the new quest.
+   - Make sure audio timings are synced using ATS (Audio Text Synchronizer) if captions are needed.
+
+4. **Organize Assets:**
+   - Place related timing and audio files in the correct Moku folder under:
+     - `Assets/Audio & Timings/`
+     - `Assets/StreamingAssets/ATS/`
+
+5. **Test the Scene:**
+   - Play the scene in Unity and verify dialogue flows, visuals display correctly, and audio is synced.
+
+---
+
+## 🔮 Next Steps
 
 - Implement quest audio skipping options:
   - Skip Option A and B voice readouts
