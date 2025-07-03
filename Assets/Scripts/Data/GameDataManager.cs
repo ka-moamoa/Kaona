@@ -1,14 +1,15 @@
 using System.IO;
 using UnityEngine;
-
-using System.IO;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameDataManager : MonoBehaviour
 {
     public static GameDataManager Instance { get; private set; }
     private const string FileName = "gameData.json";
+    private const string BackupFileName = "gameData_backup.json";
     public GameData gameData;
+
+    private bool storytellerMode = false;
 
     void Awake()
     {
@@ -17,7 +18,13 @@ public class GameDataManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             LoadGameData();
-            
+
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            if (currentSceneIndex == 1 && storytellerMode)
+            {
+                Debug.Log("Scene 1 detected — disabling Storyteller Mode.");
+                DisableStorytellerMode();
+            }
         }
         else
         {
@@ -40,13 +47,20 @@ public class GameDataManager : MonoBehaviour
         }
     }
 
-    public void SaveGameData()
+    public void SaveGameData(bool forceSave = false)
     {
+        if (storytellerMode && !forceSave)
+        {
+            Debug.Log("Save prevented in Storyteller Mode.");
+            return;
+        }
+
         string json = JsonUtility.ToJson(gameData, true);
         string path = Path.Combine(Application.persistentDataPath, FileName);
         File.WriteAllText(path, json);
         Debug.Log($"Game data saved to {path}");
     }
+
 
     public void ResetGameData()
     {
@@ -62,6 +76,83 @@ public class GameDataManager : MonoBehaviour
         SaveGameData();
 
         Debug.Log("Game data has been reset and saved as new.");
+    }
+
+    // === Storyteller Mode ===
+
+    public void EnableStorytellerMode()
+    {
+        if (storytellerMode)
+        {
+            Debug.Log("Storyteller mode already enabled.");
+            return;
+        }
+
+        string sourcePath = Path.Combine(Application.persistentDataPath, FileName);
+        string backupPath = Path.Combine(Application.persistentDataPath, BackupFileName);
+
+        if (File.Exists(sourcePath))
+        {
+            File.Copy(sourcePath, backupPath, true);
+            File.Delete(sourcePath);
+            Debug.Log("Backup created and original game data deleted for Storyteller Mode.");
+        }
+
+        gameData = new GameData();
+
+        // Unlock all Moku tiles
+        gameData.FFUnlocked = true;
+        gameData.FEUnlocked = true;
+        gameData.WSUnlocked = true;
+        gameData.PBUnlocked = true;
+        gameData.TMUnlocked = true;
+        gameData.SSUnlocked = true;
+
+        storytellerMode = true;
+        SaveGameData();
+
+        Debug.Log("Storyteller mode enabled with all Moku tiles unlocked.");
+    }
+
+
+    public void DisableStorytellerMode()
+    {
+        if (!storytellerMode)
+        {
+            Debug.Log("Storyteller mode already disabled.");
+            return;
+        }
+
+        string backupPath = Path.Combine(Application.persistentDataPath, BackupFileName);
+        string originalPath = Path.Combine(Application.persistentDataPath, FileName);
+
+        if (File.Exists(backupPath))
+        {
+            File.Copy(backupPath, originalPath, true);
+            File.Delete(backupPath);
+            Debug.Log("Storyteller mode disabled and backup restored.");
+        }
+        else
+        {
+            Debug.LogWarning("No backup found to restore when disabling storyteller mode.");
+        }
+
+        LoadGameData(); // Reload the now-restored original data
+        storytellerMode = false;
+    }
+
+
+    public bool IsStorytellerModeActive()
+    {
+        return storytellerMode;
+    }
+
+    private void OnApplicationQuit()
+    {
+        if (storytellerMode)
+        {
+            DisableStorytellerMode();
+        }
     }
 
     // === Generic Methods ===
@@ -92,7 +183,7 @@ public class GameDataManager : MonoBehaviour
     {
         gameData.FFTileIntroDone = value;
         Debug.Log($"FF TileIntroDone set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public void UpdateFFHealed(bool value)
@@ -104,6 +195,12 @@ public class GameDataManager : MonoBehaviour
 
     public void UpdateFFData(int index, int value)
     {
+        if (storytellerMode)
+        {
+            Debug.Log($"[Storyteller Mode] FFData update blocked: index {index}, value {value}");
+            return;
+        }
+
         if (index >= 0 && index < gameData.FF.Length)
         {
             gameData.FF[index] = value;
@@ -128,7 +225,7 @@ public class GameDataManager : MonoBehaviour
     {
         gameData.FETileIntroDone = value;
         Debug.Log($"FE TileIntroDone set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public void UpdateFEHealed(bool value)
@@ -140,6 +237,12 @@ public class GameDataManager : MonoBehaviour
 
     public void UpdateFEData(int index, int value)
     {
+        if (storytellerMode)
+        {
+            Debug.Log($"[Storyteller Mode] FEData update blocked: index {index}, value {value}");
+            return;
+        }
+
         if (index >= 0 && index < gameData.FE.Length)
         {
             gameData.FE[index] = value;
@@ -164,7 +267,7 @@ public class GameDataManager : MonoBehaviour
     {
         gameData.WSTileIntroDone = value;
         Debug.Log($"WS TileIntroDone set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public void UpdateWSHealed(bool value)
@@ -176,6 +279,12 @@ public class GameDataManager : MonoBehaviour
 
     public void UpdateWSData(int index, int value)
     {
+        if (storytellerMode)
+        {
+            Debug.Log($"[Storyteller Mode] WSData update blocked: index {index}, value {value}");
+            return;
+        }
+
         if (index >= 0 && index < gameData.WS.Length)
         {
             gameData.WS[index] = value;
@@ -200,7 +309,7 @@ public class GameDataManager : MonoBehaviour
     {
         gameData.PBTileIntroDone = value;
         Debug.Log($"PB TileIntroDone set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public void UpdatePBHealed(bool value)
@@ -212,6 +321,12 @@ public class GameDataManager : MonoBehaviour
 
     public void UpdatePBData(int index, int value)
     {
+        if (storytellerMode)
+        {
+            Debug.Log($"[Storyteller Mode] PBData update blocked: index {index}, value {value}");
+            return;
+        }
+
         if (index >= 0 && index < gameData.PB.Length)
         {
             gameData.PB[index] = value;
@@ -236,7 +351,7 @@ public class GameDataManager : MonoBehaviour
     {
         gameData.TMTileIntroDone = value;
         Debug.Log($"TM TileIntroDone set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public void UpdateTMHealed(bool value)
@@ -248,6 +363,12 @@ public class GameDataManager : MonoBehaviour
 
     public void UpdateTMData(int index, int value)
     {
+        if (storytellerMode)
+        {
+            Debug.Log($"[Storyteller Mode] TMData update blocked: index {index}, value {value}");
+            return;
+        }
+
         if (index >= 0 && index < gameData.TM.Length)
         {
             gameData.TM[index] = value;
@@ -272,7 +393,7 @@ public class GameDataManager : MonoBehaviour
     {
         gameData.SSTileIntroDone = value;
         Debug.Log($"SS TileIntroDone set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public void UpdateSSHealed(bool value)
@@ -284,6 +405,12 @@ public class GameDataManager : MonoBehaviour
 
     public void UpdateSSData(int index, int value)
     {
+        if (storytellerMode)
+        {
+            Debug.Log($"[Storyteller Mode] SSData update blocked: index {index}, value {value}");
+            return;
+        }
+
         if (index >= 0 && index < gameData.SS.Length)
         {
             gameData.SS[index] = value;
@@ -394,7 +521,7 @@ public class GameDataManager : MonoBehaviour
             case MokuType.SS: gameData.SSLastOpened = value; break;
         }
         Debug.Log($"{moku} LastOpened set to {value}");
-        SaveGameData();
+        SaveGameData(true);
     }
 
     public bool GetLastOpenedState(MokuType moku)
@@ -410,7 +537,6 @@ public class GameDataManager : MonoBehaviour
             _ => false
         };
     }
-
 
     public void UpdateWSTeleport(bool value)
     {
@@ -452,7 +578,4 @@ public class GameDataManager : MonoBehaviour
             _ => false
         };
     }
-
-
-
 }
