@@ -8,7 +8,7 @@
 
 - **Engine:** Unity 2022.3.11f1  
 - **Target Platform:** Android & iOS  
-- **Original Creator:** Michael Parkin
+- **Original Creator:** Michael Parkin  
 - **Lab Contact:** Rachel Baker-Ramos
 
 ---
@@ -68,13 +68,13 @@ This structure supports cleaner asset management, easier iteration, and reuse ac
 
 | Scene Path                         | Function / Purpose                                               |
 |-----------------------------------|------------------------------------------------------------------|
-| 0. Pre-Start Animation     | Intro animation before the main menu loads                       |
-| 1. Start Menu              | Main UI for starting the game and enabling Storyteller Mode      |
-| 2. Ancestor Intro          | Narrative introduction that sets tone and context                |
-| 3. Entry Sequence          | First guided interactive sequence with narration and movement    |
-| 4. Moku Selector           | Core Moku selection hub – player chooses where to go next        |
-| 5. Dialogue Screen (TEMPLATE) | Template for all Moku-specific dialogue sequences               |
-| 6. Quest Results (TEMPLATE) | Template for Moku-specific completion results                    |
+| 0. Pre-Start Animation            | Intro animation before the main menu loads                       |
+| 1. Start Menu                     | Main UI for starting the game and enabling Storyteller Mode      |
+| 2. Ancestor Intro                 | Narrative introduction that sets tone and context                |
+| 3. Entry Sequence                 | First guided interactive sequence with narration and movement    |
+| 4. Moku Selector                  | Core Moku selection hub – player chooses where to go next        |
+| 5. Dialogue Screen (TEMPLATE)    | Template for all Moku-specific dialogue sequences                |
+| 6. Quest Results (TEMPLATE)      | Template for Moku-specific completion results                    |
 
 🔁 **Note:** Scenes 5 and 6 serve as template-based frameworks. Each Moku has its own dedicated scene that uses this shared prefab system. This makes the logic scalable while keeping flow and visuals consistent.
 
@@ -95,7 +95,6 @@ This structure supports cleaner asset management, easier iteration, and reuse ac
 
 🧩 **Third-party package used:**  
 [Audio Text Synchronizer Documentation](https://unitymedved.bitbucket.io/ATS/2.1/Docs/index.html) — This tool powers the subtitle and audio-sync animation system used throughout all dialogue and narration scenes.
- — This tool powers the subtitle and audio-sync animation system used throughout all dialogue and narration scenes.
 
 ---
 
@@ -129,6 +128,16 @@ _This section is currently a placeholder._
 ## 📌 Additional Notes
 
 _This section is currently a placeholder._
+
+---
+
+## 🔮 Potential Next Steps
+
+- Implement quest audio skipping options:
+  - Skip Option A and B voice readouts
+  - Skip initial narration when replaying a quest
+- Add a help button on the Quest Results screen:
+  - Offers UI explanation for players who are confused or need a reminder
 
 ---
 
