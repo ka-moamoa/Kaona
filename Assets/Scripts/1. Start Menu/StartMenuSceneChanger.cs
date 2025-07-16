@@ -134,4 +134,16 @@ public class StartMenuSceneChanger : MonoBehaviour
     public void AssignAudioID(int audioID){
         PlayerPrefs.SetInt("audioID", audioID);
     }
+
+    public void OpenWebsite(string url)
+{
+    if (!string.IsNullOrEmpty(url))
+    {
+        Application.OpenURL(url);
+    }
+    else
+    {
+        Debug.LogWarning("URL is null or empty.");
+    }
+}
 }
