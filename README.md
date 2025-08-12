@@ -105,7 +105,11 @@ This structure supports cleaner asset management, easier iteration, and reuse ac
 3. Set platform to **Android/iOS**  
 4. Ensure all scenes are enabled in the build settings  
 5. Click **Build and Run**  
-6. For iOS, you will need a Mac with Xcode installed. The build will output an Xcode project. Ensure your team and provisioning info is set correctly before bundling.  
+6. Open the Xcode project and make any necessary signing and capabilities adjustments.  
+   - You must add the `PrivacyInfo.xcprivacy` file (found in `Assets > External Assets > Publishing`) to the `UnityFramework` folder in Xcode. In the side panel, make sure its Target Membership is set to **UnityFramework**.  
+     ⚠️ Note: The build will fail App Store review if this file is missing. Unity did not automatically generate it in older Unity versions.  
+
+     ![Adding PrivacyInfo.xcprivacy in Xcode](images/privacyinfo-xcprivacy-placement.png) 
 7. For Android, you will receive a `.APK` file
 
 ---
