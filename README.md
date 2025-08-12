@@ -109,7 +109,7 @@ This structure supports cleaner asset management, easier iteration, and reuse ac
    - You must add the `PrivacyInfo.xcprivacy` file (found in `Assets > External Assets > Publishing`) to the `UnityFramework` folder in Xcode. In the side panel, make sure its Target Membership is set to **UnityFramework**.  
      ⚠️ Note: The build will fail App Store review if this file is missing. Unity did not automatically generate it in older Unity versions.  
 
-     ![Adding PrivacyInfo.xcprivacy in Xcode](images/privacyinfo-xcprivacy-placement.png) 
+     ![Adding PrivacyInfo.xcprivacy in Xcode](privacyinfo-xcprivacy-placement.png) 
 7. For Android, you will receive a `.APK` file
 
 ---
