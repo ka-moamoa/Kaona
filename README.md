@@ -101,16 +101,18 @@ This structure supports cleaner asset management, easier iteration, and reuse ac
 ## 🚀 Build Instructions
 
 1. **Open the project** in Unity 2022.3.11f1  
-2. Go to `File > Build Settings`  
-3. Set platform to **Android/iOS**  
-4. Ensure all scenes are enabled in the build settings  
-5. Click **Build and Run**  
-6. Open the Xcode project and make any necessary signing and capabilities adjustments.  
+2. Go to Player Settings and incriment version
+3. Go to `File > Build Settings`  
+4. Set platform to **Android/iOS**  
+5. Ensure all scenes are enabled in the build settings  
+6. Click **Build and Run**  
+7. Open the Xcode project and make any necessary signing and capabilities adjustments.  
+   - Bundle Identifier **must** be com.theorycraftist-games.kaona (case-sensitive)
    - You must add the `PrivacyInfo.xcprivacy` file (found in `Assets > External Assets > Publishing`) to the `UnityFramework` folder in Xcode. In the side panel, make sure its Target Membership is set to **UnityFramework**.  
      ⚠️ Note: The build will fail App Store review if this file is missing. Unity did not automatically generate it in older Unity versions.  
 
      ![Adding PrivacyInfo.xcprivacy in Xcode](images/privacyinfo-xcprivacy-placement.png) 
-7. For Android, you will receive a `.APK` file
+8. For Android, you will receive a `.APK` file
 
 ---
 
